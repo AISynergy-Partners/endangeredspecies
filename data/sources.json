@@ -1,0 +1,430 @@
+{
+ "_about": "Bibliography. Every species record cites the sources it draws on by id; this file resolves those ids to full references.",
+ "_rights": "This archive reproduces no text, photographs, illustrations or database extracts from any source listed here. Species names, IUCN Red List categories, assessment years and published population estimates are statements of fact, which are not subject to copyright. All descriptive writing on this site is original, and all artwork — the species plates, the world map and the flags — is drawn from scratch for this archive. Sources are credited on every page where their data appears, in line with the IUCN Red List Terms of Use and the attribution requirements of the other bodies listed.",
+ "sources": [
+  {
+   "id": "iucn-redlist",
+   "title": "The IUCN Red List of Threatened Species",
+   "publisher": "International Union for Conservation of Nature",
+   "url": "https://www.iucnredlist.org",
+   "type": "primary-assessment",
+   "note": "The backbone of this archive. Every species record here takes its category (CR, EN, VU, NT, EW), assessment year, population trend and range countries from its Red List assessment."
+  },
+  {
+   "id": "birdlife-datazone",
+   "title": "BirdLife Data Zone",
+   "publisher": "BirdLife International",
+   "url": "https://datazone.birdlife.org",
+   "type": "primary-assessment",
+   "note": "BirdLife is the Red List Authority for birds. Population estimates for every bird here — usually expressed as mature individuals or breeding pairs — come from its species factsheets."
+  },
+  {
+   "id": "natureserve-explorer",
+   "title": "NatureServe Explorer",
+   "publisher": "NatureServe",
+   "url": "https://explorer.natureserve.org",
+   "type": "national-listing",
+   "note": "Source of the G1-G5 global conservation ranks shown for North American species. G1 means critically imperilled; G5 means demonstrably secure. Sub-ranks such as G5T1 apply the scale to a subspecies."
+  },
+  {
+   "id": "usfws-ecos",
+   "title": "Environmental Conservation Online System (ECOS)",
+   "publisher": "U.S. Fish and Wildlife Service",
+   "url": "https://ecos.fws.gov/ecp/",
+   "type": "national-listing",
+   "note": "Authoritative source for United States Endangered Species Act listing status, critical habitat designations and the annual species status reports quoted for condors, ferrets and red wolves."
+  },
+  {
+   "id": "noaa-esa",
+   "title": "Threatened and Endangered Species Directory",
+   "publisher": "NOAA Fisheries",
+   "url": "https://www.fisheries.noaa.gov/species-directory/threatened-endangered",
+   "type": "national-listing",
+   "note": "ESA listings and stock assessments for marine species in United States waters, including the North Atlantic right whale, Rice's whale and smalltooth sawfish counts."
+  },
+  {
+   "id": "cosewic",
+   "title": "COSEWIC Wildlife Species Assessments",
+   "publisher": "Committee on the Status of Endangered Wildlife in Canada",
+   "url": "https://cosewic.ca",
+   "type": "national-listing",
+   "note": "Canadian national assessments underlying the Species at Risk Act (SARA) statuses shown for Canadian species."
+  },
+  {
+   "id": "sanbi",
+   "title": "Red List of South African Species",
+   "publisher": "South African National Biodiversity Institute",
+   "url": "https://www.sanbi.org",
+   "type": "national-listing",
+   "note": "National assessments for South African species, used alongside the global Red List for the African penguin, riverine rabbit, Cape parrot and geometric tortoise."
+  },
+  {
+   "id": "icmbio",
+   "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção",
+   "publisher": "ICMBio / Ministério do Meio Ambiente, Brazil",
+   "url": "https://www.gov.br/icmbio/pt-br",
+   "type": "national-listing",
+   "note": "Brazil's national red book. Provides the Portuguese-language national categories shown for Brazilian species, which sometimes differ from the global Red List."
+  },
+  {
+   "id": "epbc-act",
+   "title": "Threatened Species and Ecological Communities",
+   "publisher": "Australian Department of Climate Change, Energy, the Environment and Water",
+   "url": "https://www.dcceew.gov.au/environment/biodiversity/threatened",
+   "type": "national-listing",
+   "note": "Listings under the Environment Protection and Biodiversity Conservation Act 1999. Shown where the Australian national category differs from the global one, as it does for the koala."
+  },
+  {
+   "id": "doc-nz",
+   "title": "New Zealand Threat Classification System",
+   "publisher": "New Zealand Department of Conservation",
+   "url": "https://www.doc.govt.nz/nature/conservation-status/",
+   "type": "national-listing",
+   "note": "The national classification (Nationally Critical, Nationally Endangered, and so on) and the recovery programme counts for kākāpō, takahē and Māui dolphin."
+  },
+  {
+   "id": "eu-red-list",
+   "title": "European Red List of Species",
+   "publisher": "IUCN and the European Commission",
+   "url": "https://ec.europa.eu/environment/nature/conservation/species/redlist/",
+   "type": "national-listing",
+   "note": "Regional assessments for Europe. A species can be Least Concern globally and Endangered in Europe; where that is so, both are shown."
+  },
+  {
+   "id": "habitats-directive",
+   "title": "Council Directive 92/43/EEC on the conservation of natural habitats and of wild fauna and flora",
+   "publisher": "European Union",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31992L0043",
+   "type": "treaty",
+   "note": "The legal instrument behind European species protection. Referenced where Annex II or IV listing is the operative protection for a species."
+  },
+  {
+   "id": "cites-appendices",
+   "title": "CITES Appendices I, II and III",
+   "publisher": "Convention on International Trade in Endangered Species of Wild Fauna and Flora",
+   "url": "https://cites.org/eng/app/appendices.php",
+   "type": "treaty",
+   "note": "Governs international trade. Appendix I effectively bans commercial trade. Cited for every species whose principal threat is trafficking."
+  },
+  {
+   "id": "cms",
+   "title": "Appendices of the Convention on Migratory Species",
+   "publisher": "UNEP / CMS Secretariat",
+   "url": "https://www.cms.int/en/species",
+   "type": "treaty",
+   "note": "The Bonn Convention. Cited for migratory species — sharks, albatrosses, the Siberian crane — whose protection requires agreement between range states."
+  },
+  {
+   "id": "ccamlr",
+   "title": "Conservation Measures and Fishery Reports",
+   "publisher": "Commission for the Conservation of Antarctic Marine Living Resources",
+   "url": "https://www.ccamlr.org",
+   "type": "treaty",
+   "note": "The body that manages the Southern Ocean krill and toothfish fisheries. Source for the fishery context around emperor penguins and Antarctic whales."
+  },
+  {
+   "id": "ccsbt",
+   "title": "Stock Assessment and Management Procedure Reports",
+   "publisher": "Commission for the Conservation of Southern Bluefin Tuna",
+   "url": "https://www.ccsbt.org",
+   "type": "survey",
+   "note": "Provides the spawning stock biomass estimates behind the southern bluefin tuna's rebuilding trajectory."
+  },
+  {
+   "id": "acap",
+   "title": "Species Assessments",
+   "publisher": "Agreement on the Conservation of Albatrosses and Petrels",
+   "url": "https://www.acap.aq",
+   "type": "treaty",
+   "note": "Population and bycatch data for albatrosses and large petrels across the Southern Ocean."
+  },
+  {
+   "id": "eaaf",
+   "title": "Flyway Site Network and Waterbird Population Estimates",
+   "publisher": "East Asian-Australasian Flyway Partnership",
+   "url": "https://eaaflyway.net",
+   "type": "survey",
+   "note": "Source for intertidal habitat loss along the Yellow Sea and the counts behind the spoon-billed sandpiper's decline."
+  },
+  {
+   "id": "iucn-ssc-cat",
+   "title": "IUCN SSC Cat Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.catsg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for wild cats. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-canid",
+   "title": "IUCN SSC Canid Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.canids.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for wild dogs, wolves and foxes. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-primate",
+   "title": "IUCN SSC Primate Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for primates. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans. The group's own site at primate-sg.org currently serves a certificate that does not match its hostname, so this entry points at the parent commission instead."
+  },
+  {
+   "id": "iucn-ssc-cetacean",
+   "title": "IUCN SSC Cetacean Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://iucn-csg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for whales, dolphins and porpoises. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-tortoise",
+   "title": "IUCN SSC Tortoise and Freshwater Turtle Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://iucn-tftsg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for tortoises and freshwater turtles. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-turtle",
+   "title": "IUCN SSC Marine Turtle Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for marine turtles. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-crocodile",
+   "title": "IUCN SSC Crocodile Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucncsg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for crocodilians. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-pangolin",
+   "title": "IUCN SSC Pangolin Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.pangolinsg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for pangolins. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-shark",
+   "title": "IUCN SSC Shark Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucnssg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for sharks, rays and chimaeras. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-iguana",
+   "title": "IUCN SSC Iguana Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn-isg.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for iguanas. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-asian-wild-cattle",
+   "title": "IUCN SSC Asian Wild Cattle Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.asianwildcattle.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for wild cattle, buffalo and the saola. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-bear",
+   "title": "IUCN SSC Bear Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://bearbiology.org",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for bears. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-antelope",
+   "title": "IUCN SSC Antelope Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for antelope and gazelle. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-caprinae",
+   "title": "IUCN SSC Caprinae Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for wild goats, sheep and ibex. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-deer",
+   "title": "IUCN SSC Deer Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for deer. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-equid",
+   "title": "IUCN SSC Equid Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for wild horses, asses and zebras. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-pinniped",
+   "title": "IUCN SSC Pinniped Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for seals, sea lions and walruses. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-sirenian",
+   "title": "IUCN SSC Sirenia Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for dugongs and manatees. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-bat",
+   "title": "IUCN SSC Bat Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for bats. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-camel",
+   "title": "IUCN SSC Wild Camel Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for the wild Bactrian camel. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "iucn-ssc-small-carnivore",
+   "title": "IUCN SSC Small Carnivore Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "specialist-group",
+   "note": "The volunteer expert network that produces the Red List assessments for civets, mongooses, the fossa and related carnivores. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+  },
+  {
+   "id": "afrsg",
+   "title": "African Rhino Specialist Group continental estimates",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "survey",
+   "note": "The body that compiles the official continental black and white rhino totals reported to CITES. Source for both rhino counts here."
+  },
+  {
+   "id": "arsg",
+   "title": "Asian Rhino Specialist Group assessments",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "survey",
+   "note": "Compiles the Javan, Sumatran and greater one-horned rhino figures with the Indonesian, Indian and Nepali governments."
+  },
+  {
+   "id": "aesr",
+   "title": "African Elephant Status Report and African Elephant Database",
+   "publisher": "IUCN SSC African Elephant Specialist Group",
+   "url": "https://africanelephantdatabase.org",
+   "type": "survey",
+   "note": "The continental elephant database, incorporating the Great Elephant Census aerial survey of 18 countries."
+  },
+  {
+   "id": "aesg",
+   "title": "IUCN SSC Asian Elephant Specialist Group",
+   "publisher": "IUCN Species Survival Commission",
+   "url": "https://www.asesg.org",
+   "type": "specialist-group",
+   "note": "Range-state population synthesis for the Asian elephant and its subspecies."
+  },
+  {
+   "id": "gcf-report",
+   "title": "Africa's Giraffe: A Conservation Guide and country assessments",
+   "publisher": "Giraffe Conservation Foundation",
+   "url": "https://giraffeconservation.org",
+   "type": "survey",
+   "note": "The only organisation producing range-wide giraffe numbers by subspecies; source for the Nubian and reticulated giraffe figures."
+  },
+  {
+   "id": "gtf",
+   "title": "Global Tiger Forum national estimate compilation",
+   "publisher": "Global Tiger Forum",
+   "url": "https://globaltigerforum.org",
+   "type": "survey",
+   "note": "Aggregates national tiger census results from the thirteen range states into the global wild tiger figure."
+  },
+  {
+   "id": "cirva",
+   "title": "Reports of the International Committee for the Recovery of the Vaquita (CIRVA)",
+   "publisher": "IUCN SSC Cetacean Specialist Group",
+   "url": "https://iucn-csg.org",
+   "type": "survey",
+   "note": "The acoustic and visual survey series that produces the vaquita count each year — the reason the figure can be stated to single digits."
+  },
+  {
+   "id": "sahara-report",
+   "title": "Sahara Conservation field survey reports",
+   "publisher": "Sahara Conservation",
+   "url": "https://www.saharaconservation.org",
+   "type": "survey",
+   "note": "Aerial and ground surveys for addax, dama gazelle, scimitar-horned oryx and Saharan cheetah in Niger and Chad."
+  },
+  {
+   "id": "save-vultures",
+   "title": "SAVE — Saving Asia's Vultures from Extinction",
+   "publisher": "SAVE consortium",
+   "url": "https://save-vultures.org",
+   "type": "survey",
+   "note": "Coordinates the road-transect monitoring and the vulture safe zone programme behind the South Asian vulture figures."
+  },
+  {
+   "id": "lemur-sap",
+   "title": "Lemur Conservation Strategy and Action Plan",
+   "publisher": "IUCN SSC Primate Specialist Group and partners",
+   "url": "https://www.lemurconservationnetwork.org",
+   "type": "survey",
+   "note": "The costed action plan for all lemur species, and the reference for site-level lemur population estimates."
+  },
+  {
+   "id": "primates-in-peril",
+   "title": "Primates in Peril: The World's 25 Most Endangered Primates",
+   "publisher": "IUCN SSC Primate Specialist Group, IPS and Re:wild",
+   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
+   "type": "survey",
+   "note": "The biennial listing that flags the primates closest to extinction. Species carrying this citation have appeared on a recent edition. The group's own site at primate-sg.org currently serves a certificate that does not match its hostname, so this entry points at the parent commission instead."
+  },
+  {
+   "id": "amphibiaweb",
+   "title": "AmphibiaWeb",
+   "publisher": "University of California, Berkeley",
+   "url": "https://amphibiaweb.org",
+   "type": "primary-assessment",
+   "note": "Species accounts, chytrid fungus distribution and decline records for every amphibian in this archive."
+  },
+  {
+   "id": "bgci-globaltree",
+   "title": "GlobalTree Portal and ThreatSearch",
+   "publisher": "Botanic Gardens Conservation International",
+   "url": "https://www.bgci.org",
+   "type": "primary-assessment",
+   "note": "The conservation status of the world's tree species, used for the baobab, monkey puzzle, Wollemi pine and Lebanon cedar."
+  },
+  {
+   "id": "edge-list",
+   "title": "EDGE of Existence species list",
+   "publisher": "Zoological Society of London",
+   "url": "https://www.edgeofexistence.org",
+   "type": "primary-assessment",
+   "note": "Ranks species by Evolutionary Distinctiveness combined with Global Endangerment. Cited for species with no close living relatives, such as the kagu, aye-aye and Amami rabbit."
+  }
+ ]
+}

@@ -1,0 +1,2231 @@
+{
+ "_about": "Verified conservation organisation registry. Only homepage URLs are stored: deep 'donate' paths change often and rot, whereas homepages are stable and every one of these organisations carries a visible giving link. Liveness of every URL is re-checked weekly by scripts/verify.py.",
+ "organizations": [
+  {
+   "id": "rewild",
+   "name": "Re:wild",
+   "url": "https://www.rewild.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Successor to Global Wildlife Conservation; funds field partners protecting the most irreplaceable species and places, and runs the Search for Lost Species."
+  },
+  {
+   "id": "fauna-flora",
+   "name": "Fauna & Flora",
+   "url": "https://www.fauna-flora.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The world's oldest international conservation organisation (founded 1903). Works almost entirely through local partners rather than its own field staff."
+  },
+  {
+   "id": "wcs",
+   "name": "Wildlife Conservation Society",
+   "url": "https://www.wcs.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Runs long-term field programmes in nearly 60 countries, with particular strength in landscape-scale protected-area management and wildlife health."
+  },
+  {
+   "id": "wwf",
+   "name": "WWF",
+   "url": "https://www.worldwildlife.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The largest conservation NGO by budget; works on policy, protected areas and species recovery, and co-manages several national census programmes."
+  },
+  {
+   "id": "zsl",
+   "name": "Zoological Society of London",
+   "url": "https://www.zsl.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Scientific society running the EDGE of Existence programme, which prioritises species that are both Evolutionarily Distinct and Globally Endangered."
+  },
+  {
+   "id": "durrell",
+   "name": "Durrell Wildlife Conservation Trust",
+   "url": "https://www.durrell.org",
+   "hq": "JE",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Specialises in the rescue of species reduced to very small populations, particularly island endemics; pioneered captive breeding for release."
+  },
+  {
+   "id": "conservation-international",
+   "name": "Conservation International",
+   "url": "https://www.conservation.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Works on biodiversity hotspots and ecosystem finance, with a strong science programme on irreplaceable sites."
+  },
+  {
+   "id": "african-parks",
+   "name": "African Parks",
+   "url": "https://www.africanparks.org",
+   "hq": "ZA",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Assumes full management responsibility for national parks under long-term agreements with African governments — currently 20-plus parks."
+  },
+  {
+   "id": "wildlife-conservation-network",
+   "name": "Wildlife Conservation Network",
+   "url": "https://wildnet.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Passes ~100% of designated donations through to vetted field conservationists; hosts the Elephant, Lion, Pangolin and Rhino Crisis Funds."
+  },
+  {
+   "id": "mbz-fund",
+   "name": "Mohamed bin Zayed Species Conservation Fund",
+   "url": "https://www.speciesconservation.org",
+   "hq": "AE",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Small-grant fund aimed squarely at species-level conservation, including many taxa too obscure to attract large donors."
+  },
+  {
+   "id": "iucn-sos",
+   "name": "IUCN Save Our Species",
+   "url": "https://www.saveourspecies.org",
+   "hq": "CH",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "IUCN's own grant mechanism, funding civil-society projects for threatened species listed on the Red List."
+  },
+  {
+   "id": "synchronicity-earth",
+   "name": "Synchronicity Earth",
+   "url": "https://www.synchronicityearth.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "amphibian",
+    "freshwater",
+    "invertebrate"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Deliberately funds the neglected: amphibians, freshwater species and Congo Basin work that mainstream donors overlook."
+  },
+  {
+   "id": "whitley-fund",
+   "name": "Whitley Fund for Nature",
+   "url": "https://whitleyaward.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Funds and profiles conservation leaders based in the countries where they work."
+  },
+  {
+   "id": "rufford",
+   "name": "The Rufford Foundation",
+   "url": "https://www.rufford.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Small grants for nature conservation projects in developing countries; often the first funder a young field biologist gets."
+  },
+  {
+   "id": "world-land-trust",
+   "name": "World Land Trust",
+   "url": "https://www.worldlandtrust.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Buys and protects threatened habitat through in-country partner organisations that hold the land title."
+  },
+  {
+   "id": "rainforest-trust",
+   "name": "Rainforest Trust",
+   "url": "https://www.rainforesttrust.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "tropics"
+   ],
+   "role": "Funds the creation and expansion of protected areas in the tropics, working through local partners."
+  },
+  {
+   "id": "nature-conservancy",
+   "name": "The Nature Conservancy",
+   "url": "https://www.nature.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Large land and water protection organisation; substantial marine protection and freshwater work alongside terrestrial holdings."
+  },
+  {
+   "id": "traffic",
+   "name": "TRAFFIC",
+   "url": "https://www.traffic.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The wildlife trade monitoring network; supplies the trade data that underpins CITES listings and enforcement."
+  },
+  {
+   "id": "wildaid",
+   "name": "WildAid",
+   "url": "https://wildaid.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Works on the demand side of wildlife trafficking, plus marine protected-area enforcement."
+  },
+  {
+   "id": "ifaw",
+   "name": "IFAW",
+   "url": "https://www.ifaw.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Combines rescue and rehabilitation with landscape work and anti-trafficking enforcement support."
+  },
+  {
+   "id": "born-free",
+   "name": "Born Free Foundation",
+   "url": "https://www.bornfree.org.uk",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Wild animal welfare and conservation, with long-running programmes on big cats, elephants and primates."
+  },
+  {
+   "id": "panthera",
+   "name": "Panthera",
+   "url": "https://panthera.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The only organisation devoted exclusively to the world's wild cat species; runs anti-poaching, corridor and monitoring programmes."
+  },
+  {
+   "id": "birdlife",
+   "name": "BirdLife International",
+   "url": "https://www.birdlife.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "A partnership of national bird conservation organisations; compiles the bird assessments for the IUCN Red List."
+  },
+  {
+   "id": "abc-birds",
+   "name": "American Bird Conservancy",
+   "url": "https://abcbirds.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "north-america",
+    "south-america"
+   ],
+   "role": "Habitat protection, invasive predator control and collision reduction across the Americas."
+  },
+  {
+   "id": "peregrine-fund",
+   "name": "The Peregrine Fund",
+   "url": "https://peregrinefund.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Birds of prey worldwide: captive breeding, release and the vulture crisis response in Africa and Asia."
+  },
+  {
+   "id": "vulture-conservation-foundation",
+   "name": "Vulture Conservation Foundation",
+   "url": "https://www.4vultures.org",
+   "hq": "CH",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Coordinates the European bearded vulture and cinereous vulture reintroductions and campaigns against veterinary diclofenac."
+  },
+  {
+   "id": "amphibian-survival-alliance",
+   "name": "Amphibian Survival Alliance",
+   "url": "https://www.amphibians.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "amphibian"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The coordinating body for global amphibian conservation, responding to chytrid fungus and habitat loss."
+  },
+  {
+   "id": "amphibian-ark",
+   "name": "Amphibian Ark",
+   "url": "https://www.amphibianark.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "amphibian"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Establishes rescue populations for amphibians that cannot currently be saved in the wild."
+  },
+  {
+   "id": "turtle-survival-alliance",
+   "name": "Turtle Survival Alliance",
+   "url": "https://turtlesurvival.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "reptile"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Explicit mission of zero turtle extinctions; runs assurance colonies and confiscation response for trafficked tortoises."
+  },
+  {
+   "id": "turtle-conservancy",
+   "name": "Turtle Conservancy",
+   "url": "https://www.turtleconservancy.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "reptile"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Protects the most threatened tortoises and freshwater turtles, including by buying their habitat outright."
+  },
+  {
+   "id": "sea-turtle-conservancy",
+   "name": "Sea Turtle Conservancy",
+   "url": "https://conserveturtles.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "reptile"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The oldest sea turtle research and conservation group; nesting beach protection and satellite tracking."
+  },
+  {
+   "id": "oceana",
+   "name": "Oceana",
+   "url": "https://oceana.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Campaigns for national-level fishery policy change, on the argument that a few big policy wins outperform many small projects."
+  },
+  {
+   "id": "whale-dolphin-conservation",
+   "name": "Whale and Dolphin Conservation",
+   "url": "https://us.whales.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Dedicated cetacean charity; entanglement, bycatch and captivity work."
+  },
+  {
+   "id": "marine-megafauna",
+   "name": "Marine Megafauna Foundation",
+   "url": "https://marinemegafauna.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Research and protection for sharks, rays and other large marine species, especially in the Indian Ocean."
+  },
+  {
+   "id": "manta-trust",
+   "name": "The Manta Trust",
+   "url": "https://www.mantatrust.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Global coordination of manta and devil ray research and the fight against the gill-plate trade."
+  },
+  {
+   "id": "shark-trust",
+   "name": "The Shark Trust",
+   "url": "https://www.sharktrust.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Science-led advocacy for shark and ray fishing limits and trade controls."
+  },
+  {
+   "id": "sea-shepherd",
+   "name": "Sea Shepherd",
+   "url": "https://seashepherd.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Direct-action marine patrols; runs net-removal operations in the upper Gulf of California and partners with coastguards on IUU fishing."
+  },
+  {
+   "id": "coral-reef-alliance",
+   "name": "Coral Reef Alliance",
+   "url": "https://coral.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Works on reef resilience — water quality, fisheries management and adaptation — rather than on transplanting alone."
+  },
+  {
+   "id": "xerces",
+   "name": "Xerces Society",
+   "url": "https://www.xerces.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "invertebrate"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The leading invertebrate conservation organisation: pollinators, freshwater mussels and other overlooked taxa."
+  },
+  {
+   "id": "bat-conservation-international",
+   "name": "Bat Conservation International",
+   "url": "https://www.batcon.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Bat roost protection, white-nose syndrome response and island fruit bat recovery."
+  },
+  {
+   "id": "bgci",
+   "name": "Botanic Gardens Conservation International",
+   "url": "https://www.bgci.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "plant"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Coordinates the world's botanic gardens on ex-situ plant conservation and maintains the GlobalTree Portal."
+  },
+  {
+   "id": "shoal",
+   "name": "SHOAL",
+   "url": "https://shoalconservation.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "fish",
+    "freshwater"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Focused entirely on freshwater species, the most threatened and least funded major group."
+  },
+  {
+   "id": "edge",
+   "name": "EDGE of Existence",
+   "url": "https://www.edgeofexistence.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "ZSL programme supporting early-career conservationists working on evolutionarily distinct species with no one else advocating for them."
+  },
+  {
+   "id": "save-the-elephants",
+   "name": "Save the Elephants",
+   "url": "https://www.savetheelephants.org",
+   "hq": "KE",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Long-term elephant research in Samburu plus the tracking data behind much of Africa's anti-poaching work."
+  },
+  {
+   "id": "elephant-crisis-fund",
+   "name": "Elephant Crisis Fund",
+   "url": "https://elephantcrisisfund.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Joint Save the Elephants / WCN fund; 100% of donations reach field projects stopping poaching and ivory trafficking."
+  },
+  {
+   "id": "big-life",
+   "name": "Big Life Foundation",
+   "url": "https://biglife.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Community ranger units across the Amboseli-Tsavo-Kilimanjaro ecosystem in Kenya and Tanzania."
+  },
+  {
+   "id": "international-rhino-foundation",
+   "name": "International Rhino Foundation",
+   "url": "https://rhinos.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "Funds rhino protection across all five species, including the Sumatran Rhino Rescue programme."
+  },
+  {
+   "id": "save-the-rhino",
+   "name": "Save the Rhino International",
+   "url": "https://www.savetherhino.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "Grants to rhino field programmes in Africa and Asia, with detailed public reporting on where money lands."
+  },
+  {
+   "id": "rhino-recovery-fund",
+   "name": "Rhino Recovery Fund",
+   "url": "https://rhinorecoveryfund.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "WCN fund targeting the poaching economy and rhino population recovery."
+  },
+  {
+   "id": "lion-recovery-fund",
+   "name": "Lion Recovery Fund",
+   "url": "https://lionrecoveryfund.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Aims to double Africa's lion numbers by funding whatever works, from ranger salaries to livestock compensation."
+  },
+  {
+   "id": "cheetah-conservation-fund",
+   "name": "Cheetah Conservation Fund",
+   "url": "https://cheetah.org",
+   "hq": "NA",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "Namibia-based; livestock guarding dogs, habitat restoration and interception of the Horn of Africa cub trade."
+  },
+  {
+   "id": "painted-dog-conservation",
+   "name": "Painted Dog Conservation",
+   "url": "https://painteddog.org",
+   "hq": "ZW",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Anti-snaring patrols and rehabilitation for African wild dogs around Hwange, Zimbabwe."
+  },
+  {
+   "id": "ewt",
+   "name": "Endangered Wildlife Trust",
+   "url": "https://ewt.org.za",
+   "hq": "ZA",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "South Africa's main species-focused NGO, running programmes from vultures and cranes to wild dogs and riverine rabbits."
+  },
+  {
+   "id": "awf",
+   "name": "African Wildlife Foundation",
+   "url": "https://www.awf.org",
+   "hq": "KE",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Pan-African organisation combining land protection with community enterprise and government capacity work."
+  },
+  {
+   "id": "dian-fossey",
+   "name": "Dian Fossey Gorilla Fund",
+   "url": "https://gorillafund.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Daily protection and monitoring of mountain gorillas in Rwanda and Grauer's gorillas in DR Congo — the longest-running great ape study anywhere."
+  },
+  {
+   "id": "gorilla-doctors",
+   "name": "Gorilla Doctors",
+   "url": "https://www.gorilladoctors.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "The only group providing veterinary care to wild mountain and Grauer's gorillas; credited with a measurable share of population growth."
+  },
+  {
+   "id": "igcp",
+   "name": "International Gorilla Conservation Programme",
+   "url": "https://igcp.org",
+   "hq": "RW",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Coordinates transboundary gorilla protection across Rwanda, Uganda and DR Congo."
+  },
+  {
+   "id": "jane-goodall",
+   "name": "Jane Goodall Institute",
+   "url": "https://janegoodall.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Chimpanzee research and community-centred conservation in Tanzania and across the chimp range."
+  },
+  {
+   "id": "wild-chimp-foundation",
+   "name": "Wild Chimpanzee Foundation",
+   "url": "https://www.wildchimps.org",
+   "hq": "CI",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Protects West African chimpanzees in Taï, Sapo and Grebo-Krahn, a subspecies down to a fraction of its former range."
+  },
+  {
+   "id": "save-pangolins",
+   "name": "Save Pangolins",
+   "url": "https://www.savepangolins.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "Coordinates and funds pangolin conservation across both African and Asian species."
+  },
+  {
+   "id": "pangolin-crisis-fund",
+   "name": "Pangolin Crisis Fund",
+   "url": "https://pangolincrisisfund.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "WCN fund directing 100% of donations to stopping pangolin poaching and trafficking."
+  },
+  {
+   "id": "madagascar-fauna-flora",
+   "name": "Madagascar Fauna and Flora Group",
+   "url": "https://www.madagascarfaunaflora.org",
+   "hq": "MG",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Consortium managing Betampona reserve and lemur breeding-for-release programmes in eastern Madagascar."
+  },
+  {
+   "id": "lemur-conservation-network",
+   "name": "Lemur Conservation Network",
+   "url": "https://www.lemurconservationnetwork.org",
+   "hq": "MG",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Directory and coordinating body for the many small organisations working on the world's most threatened primate group."
+  },
+  {
+   "id": "aspinall",
+   "name": "The Aspinall Foundation",
+   "url": "https://www.aspinallfoundation.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa",
+    "asia"
+   ],
+   "role": "Reintroduces captive-bred gorillas and other primates to protected habitat in Congo and Gabon, and runs lemur projects in Madagascar."
+  },
+  {
+   "id": "mom-monk-seal",
+   "name": "MOm / Hellenic Society for the Study and Protection of the Monk Seal",
+   "url": "https://www.mom.gr",
+   "hq": "GR",
+   "scope": "regional",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "europe",
+    "africa"
+   ],
+   "role": "Rescue, rehabilitation and habitat protection for the Mediterranean monk seal in Greek waters."
+  },
+  {
+   "id": "sahara-conservation",
+   "name": "Sahara Conservation",
+   "url": "https://www.saharaconservation.org",
+   "hq": "FR",
+   "scope": "regional",
+   "focus": [
+    "mammal",
+    "bird"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "The only organisation dedicated to Saharan and Sahelian wildlife — addax, dama gazelle, scimitar-horned oryx and North African ostrich."
+  },
+  {
+   "id": "hirola-conservation",
+   "name": "Hirola Conservation Programme",
+   "url": "https://www.hirolaconservation.org",
+   "hq": "KE",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Community-run conservancies in eastern Kenya for the hirola, the most threatened antelope on Earth."
+  },
+  {
+   "id": "grevys-zebra-trust",
+   "name": "Grevy's Zebra Trust",
+   "url": "https://www.grevyszebratrust.org",
+   "hq": "KE",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Community scouts and grassland restoration across the Grevy's zebra's last northern Kenyan range."
+  },
+  {
+   "id": "giraffe-conservation-foundation",
+   "name": "Giraffe Conservation Foundation",
+   "url": "https://giraffeconservation.org",
+   "hq": "NA",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "The only organisation devoted solely to giraffe, which quietly lost most of their numbers while attention was elsewhere."
+  },
+  {
+   "id": "okapi-conservation",
+   "name": "Okapi Conservation Project",
+   "url": "https://www.okapiconservation.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Supports rangers and communities in the Okapi Wildlife Reserve, Ituri Forest, DR Congo."
+  },
+  {
+   "id": "ethiopian-wolf",
+   "name": "Ethiopian Wolf Conservation Programme",
+   "url": "https://www.ethiopianwolf.org",
+   "hq": "ET",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Rabies and canine distemper vaccination plus monitoring for the world's rarest canid."
+  },
+  {
+   "id": "seychelles-islands-foundation",
+   "name": "Seychelles Islands Foundation",
+   "url": "https://www.sif.sc",
+   "hq": "SC",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Manages Aldabra Atoll and the Vallée de Mai, two of the Indian Ocean's most intact endemic systems."
+  },
+  {
+   "id": "mauritian-wildlife",
+   "name": "Mauritian Wildlife Foundation",
+   "url": "https://www.mauritian-wildlife.org",
+   "hq": "MU",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Brought the Mauritius kestrel and pink pigeon back from single-digit and double-digit populations; still the island's main field body."
+  },
+  {
+   "id": "snow-leopard-trust",
+   "name": "Snow Leopard Trust",
+   "url": "https://www.snowleopard.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "The largest snow leopard organisation; community livestock insurance and long-term collaring studies across five range states."
+  },
+  {
+   "id": "snow-leopard-conservancy",
+   "name": "Snow Leopard Conservancy",
+   "url": "https://snowleopardconservancy.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Predator-proof corrals and Himalayan homestay programmes that make live snow leopards worth more than dead ones."
+  },
+  {
+   "id": "wti",
+   "name": "Wildlife Trust of India",
+   "url": "https://www.wti.org.in",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Elephant corridor purchases, rapid-response veterinary units and anti-trafficking work across India."
+  },
+  {
+   "id": "wpsi",
+   "name": "Wildlife Protection Society of India",
+   "url": "https://www.wpsi-india.org",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Maintains India's independent wildlife crime database and supports enforcement against tiger and leopard poaching."
+  },
+  {
+   "id": "bnhs",
+   "name": "Bombay Natural History Society",
+   "url": "https://www.bnhs.org",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "bird",
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "India's oldest natural history institution; runs the vulture breeding centres and the Great Indian Bustard recovery science."
+  },
+  {
+   "id": "ncf-india",
+   "name": "Nature Conservation Foundation",
+   "url": "https://www.ncf-india.org",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Research-led conservation from the high Himalaya to the Lakshadweep reefs, with strong community programmes."
+  },
+  {
+   "id": "wildlife-sos",
+   "name": "Wildlife SOS",
+   "url": "https://wildlifesos.org",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "mammal",
+    "reptile"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Rescue and rehabilitation across India, plus habitat and anti-poaching work for sloth bears, elephants and leopards."
+  },
+  {
+   "id": "aaranyak",
+   "name": "Aaranyak",
+   "url": "https://www.aaranyak.org",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Assam-based; rhino protection in Kaziranga, and river dolphin and elephant work across the Brahmaputra basin."
+  },
+  {
+   "id": "save-vietnams-wildlife",
+   "name": "Save Vietnam's Wildlife",
+   "url": "https://www.svw.vn",
+   "hq": "VN",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Runs the world's most successful pangolin rescue and release programme, plus carnivore recovery in Vietnamese parks."
+  },
+  {
+   "id": "wildlife-alliance",
+   "name": "Wildlife Alliance",
+   "url": "https://www.wildlifealliance.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Direct forest protection and ranger patrols in Cambodia's Cardamom Rainforest."
+  },
+  {
+   "id": "free-the-bears",
+   "name": "Free the Bears",
+   "url": "https://freethebears.org",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Sanctuaries and bile-farm rescue for sun bears and Asiatic black bears across Southeast Asia."
+  },
+  {
+   "id": "orangutan-foundation-international",
+   "name": "Orangutan Foundation International",
+   "url": "https://orangutan.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Founded by Biruté Galdikas; rehabilitation and release plus habitat protection in Kalimantan."
+  },
+  {
+   "id": "bosf",
+   "name": "Borneo Orangutan Survival Foundation",
+   "url": "https://orangutan.or.id",
+   "hq": "ID",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Indonesian foundation caring for several hundred rescued orangutans and running release forests."
+  },
+  {
+   "id": "sos-orangutan",
+   "name": "Sumatran Orangutan Society",
+   "url": "https://www.orangutans-sos.org",
+   "hq": "GB",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Restores degraded rainforest on the edge of the Leuser Ecosystem, the only place tigers, rhinos, elephants and orangutans still coexist."
+  },
+  {
+   "id": "kfbg",
+   "name": "Kadoorie Farm and Botanic Garden",
+   "url": "https://www.kfbg.org",
+   "hq": "HK",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Hong Kong-based; South China rapid biodiversity surveys and rescue of confiscated trafficked animals."
+  },
+  {
+   "id": "philippine-eagle-foundation",
+   "name": "Philippine Eagle Foundation",
+   "url": "https://www.philippineeaglefoundation.org",
+   "hq": "PH",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Sole organisation for the Philippine eagle: captive breeding, forest guard networks and nest monitoring."
+  },
+  {
+   "id": "haribon",
+   "name": "Haribon Foundation",
+   "url": "https://haribon.org.ph",
+   "hq": "PH",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "The Philippines' oldest environmental organisation; forest restoration and Important Bird Area protection."
+  },
+  {
+   "id": "gharial-ecology",
+   "name": "Gharial Ecology Project",
+   "url": "https://www.gharialconservationalliance.org",
+   "hq": "IN",
+   "scope": "regional",
+   "focus": [
+    "reptile"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Gharial Conservation Alliance: nest protection and monitoring on the Chambal and other north Indian rivers."
+  },
+  {
+   "id": "turtle-island-restoration",
+   "name": "Turtle Island Restoration Network",
+   "url": "https://seaturtles.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine",
+    "reptile"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Sea turtle and shark protection through litigation, bycatch reduction and beach programmes."
+  },
+  {
+   "id": "wcs-mongolia",
+   "name": "Wildlife Conservation Society Mongolia",
+   "url": "https://mongolia.wcs.org",
+   "hq": "MN",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Steppe and Gobi programmes covering saiga, argali and Gobi bear."
+  },
+  {
+   "id": "przewalski-itg",
+   "name": "International Takhi Group",
+   "url": "https://www.savethewildhorse.org",
+   "hq": "CH",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "asia"
+   ],
+   "role": "Manages the reintroduction of Przewalski's horse to Mongolia's Dzungarian Gobi."
+  },
+  {
+   "id": "bustard-eu",
+   "name": "Great Bustard Group",
+   "url": "https://greatbustard.org",
+   "hq": "GB",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Reintroduced the great bustard to Britain after a 150-year absence."
+  },
+  {
+   "id": "rewilding-europe",
+   "name": "Rewilding Europe",
+   "url": "https://rewildingeurope.com",
+   "hq": "NL",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Landscape-scale restoration across ten European regions, including bison, vulture and large-herbivore returns."
+  },
+  {
+   "id": "lynx-ex-situ",
+   "name": "Iberian Lynx Ex-situ Conservation Programme",
+   "url": "https://www.lynxexsitu.es",
+   "hq": "ES",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "The captive breeding and release programme behind the Iberian lynx's recovery from under 100 animals."
+  },
+  {
+   "id": "seo-birdlife",
+   "name": "SEO/BirdLife",
+   "url": "https://seo.org",
+   "hq": "ES",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Spain's BirdLife partner; imperial eagle, bustard and steppe bird programmes."
+  },
+  {
+   "id": "cbd-habitat",
+   "name": "Fundación CBD-Hábitat",
+   "url": "https://www.cbd-habitat.com",
+   "hq": "ES",
+   "scope": "regional",
+   "focus": [
+    "mammal",
+    "bird"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Works with private landowners on Iberian lynx, imperial eagle and Mediterranean monk seal habitat."
+  },
+  {
+   "id": "lpo",
+   "name": "LPO — Ligue pour la Protection des Oiseaux",
+   "url": "https://www.lpo.fr",
+   "hq": "FR",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "France's BirdLife partner; bearded vulture and bustard recovery, and seabird bycatch work."
+  },
+  {
+   "id": "frankfurt-zoological",
+   "name": "Frankfurt Zoological Society",
+   "url": "https://fzs.org",
+   "hq": "DE",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Long-term support for wilderness areas in Europe, Africa and South America, including the Serengeti and Carpathian programmes."
+  },
+  {
+   "id": "noe-conservation",
+   "name": "Noé",
+   "url": "https://noe.org",
+   "hq": "FR",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "africa",
+    "europe"
+   ],
+   "role": "French organisation managing protected areas in the Sahel and running species programmes in Europe."
+  },
+  {
+   "id": "rspb",
+   "name": "RSPB",
+   "url": "https://www.rspb.org.uk",
+   "hq": "GB",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Europe's largest wildlife conservation charity by membership; reserve management and species recovery in the UK and overseas territories."
+  },
+  {
+   "id": "froglife",
+   "name": "Froglife",
+   "url": "https://www.froglife.org",
+   "hq": "GB",
+   "scope": "regional",
+   "focus": [
+    "amphibian",
+    "reptile"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "UK amphibian and reptile conservation, habitat creation and monitoring."
+  },
+  {
+   "id": "bumblebee-trust",
+   "name": "Bumblebee Conservation Trust",
+   "url": "https://www.bumblebeeconservation.org",
+   "hq": "GB",
+   "scope": "regional",
+   "focus": [
+    "invertebrate"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Habitat work and monitoring for Europe's declining bumblebee species."
+  },
+  {
+   "id": "butterfly-conservation",
+   "name": "Butterfly Conservation",
+   "url": "https://butterfly-conservation.org",
+   "hq": "GB",
+   "scope": "regional",
+   "focus": [
+    "invertebrate"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Runs the long-running butterfly and moth monitoring schemes that make UK insect decline measurable."
+  },
+  {
+   "id": "eaza",
+   "name": "European Association of Zoos and Aquaria",
+   "url": "https://www.eaza.net",
+   "hq": "NL",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "europe"
+   ],
+   "role": "Coordinates the European Ex-situ Programmes (EEPs) that maintain insurance populations for species extinct or near-extinct in the wild."
+  },
+  {
+   "id": "defenders-of-wildlife",
+   "name": "Defenders of Wildlife",
+   "url": "https://defenders.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Legal and policy defence of Endangered Species Act listings, plus coexistence work with ranchers."
+  },
+  {
+   "id": "center-for-biological-diversity",
+   "name": "Center for Biological Diversity",
+   "url": "https://www.biologicaldiversity.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Uses petitions and litigation to secure ESA listings and critical habitat designations."
+  },
+  {
+   "id": "natureserve",
+   "name": "NatureServe",
+   "url": "https://www.natureserve.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Maintains the G1–G5 conservation status ranks and the network of natural heritage programmes behind them."
+  },
+  {
+   "id": "audubon",
+   "name": "National Audubon Society",
+   "url": "https://www.audubon.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Bird conservation across the Americas flyways, with a large volunteer monitoring base."
+  },
+  {
+   "id": "ventana",
+   "name": "Ventana Wildlife Society",
+   "url": "https://www.ventanaws.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Releases and tracks California condors in central California and runs the lead-ammunition replacement programme."
+  },
+  {
+   "id": "black-footed-ferret",
+   "name": "Black-Footed Ferret Conservation",
+   "url": "https://www.blackfootedferret.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Breeding and reintroduction for a species twice believed extinct, alongside prairie dog and plague management."
+  },
+  {
+   "id": "red-wolf-coalition",
+   "name": "Red Wolf Coalition",
+   "url": "https://www.redwolves.com",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Advocacy and public education for the only wild red wolf population, in eastern North Carolina."
+  },
+  {
+   "id": "new-england-aquarium",
+   "name": "Anderson Cabot Center, New England Aquarium",
+   "url": "https://www.neaq.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Holds the North Atlantic right whale photo-identification catalogue used for the official population count."
+  },
+  {
+   "id": "marine-mammal-center",
+   "name": "The Marine Mammal Center",
+   "url": "https://www.marinemammalcenter.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "north-america",
+    "oceania"
+   ],
+   "role": "Rescue and veterinary care, including the Hawaiian monk seal hospital at Kailua-Kona."
+  },
+  {
+   "id": "porpoise-conservation-society",
+   "name": "Porpoise Conservation Society",
+   "url": "https://porpoise.org",
+   "hq": "CA",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "The only organisation dedicated to porpoises, including vaquita advocacy and research funding."
+  },
+  {
+   "id": "pronatura",
+   "name": "Pronatura México",
+   "url": "https://www.pronatura.org.mx",
+   "hq": "MX",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Mexico's largest conservation NGO; land protection, wetland restoration and species recovery."
+  },
+  {
+   "id": "naturalia",
+   "name": "Naturalia",
+   "url": "https://www.naturalia.org.mx",
+   "hq": "MX",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Land acquisition and jaguar, wolf and pronghorn recovery in northern Mexico."
+  },
+  {
+   "id": "kauai-forest-birds",
+   "name": "Kauaʻi Forest Bird Recovery Project",
+   "url": "https://kauaiforestbirds.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "oceania",
+    "north-america"
+   ],
+   "role": "Last-ditch rescue of Kauaʻi's honeycreepers as avian malaria moves up the mountain."
+  },
+  {
+   "id": "maui-forest-birds",
+   "name": "Maui Forest Bird Recovery Project",
+   "url": "https://mauiforestbirds.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "oceania",
+    "north-america"
+   ],
+   "role": "Kiwikiu and ʻākohekohe monitoring, translocation and mosquito suppression on Haleakalā."
+  },
+  {
+   "id": "bahamas-national-trust",
+   "name": "Bahamas National Trust",
+   "url": "https://bnt.bs",
+   "hq": "BS",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Manages the Bahamian national park system, including the last Bahama oriole and Andros rock iguana habitat."
+  },
+  {
+   "id": "island-conservation",
+   "name": "Island Conservation",
+   "url": "https://www.islandconservation.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Removes invasive vertebrates from islands — the single most cost-effective extinction-prevention method on record."
+  },
+  {
+   "id": "jocotoco",
+   "name": "Fundación Jocotoco",
+   "url": "https://www.jocotoco.org",
+   "hq": "EC",
+   "scope": "regional",
+   "focus": [
+    "bird",
+    "all"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Buys and manages reserves for Ecuador's most range-restricted birds and amphibians."
+  },
+  {
+   "id": "charles-darwin-foundation",
+   "name": "Charles Darwin Foundation",
+   "url": "https://www.darwinfoundation.org",
+   "hq": "EC",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "The permanent science organisation in Galápagos, providing the research behind park management decisions."
+  },
+  {
+   "id": "galapagos-conservancy",
+   "name": "Galápagos Conservancy",
+   "url": "https://www.galapagos.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Funds giant tortoise restoration, invasive species removal and the Galápagos ranger corps."
+  },
+  {
+   "id": "rewilding-argentina",
+   "name": "Fundación Rewilding Argentina",
+   "url": "https://rewildingargentina.org",
+   "hq": "AR",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Reintroduced jaguars, giant otters and macaws to Iberá, and donates restored land to the national park system."
+  },
+  {
+   "id": "aves-argentinas",
+   "name": "Aves Argentinas",
+   "url": "https://www.avesargentinas.org.ar",
+   "hq": "AR",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Argentina's BirdLife partner; grassland bird and macaw recovery."
+  },
+  {
+   "id": "armonia",
+   "name": "Asociación Armonía",
+   "url": "https://armoniabolivia.org",
+   "hq": "BO",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Bolivia's BirdLife partner; blue-throated macaw and Beni savanna reserves."
+  },
+  {
+   "id": "proyecto-titi",
+   "name": "Proyecto Tití",
+   "url": "https://www.proyectotiti.com",
+   "hq": "CO",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Cotton-top tamarin protection through forest restoration and community enterprise in northern Colombia."
+  },
+  {
+   "id": "pro-delphinus",
+   "name": "ProDelphinus",
+   "url": "https://prodelphinus.org",
+   "hq": "PE",
+   "scope": "regional",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Works with Peruvian small-scale fishers to cut bycatch of turtles, dolphins and seabirds."
+  },
+  {
+   "id": "instituto-tamar",
+   "name": "Projeto TAMAR",
+   "url": "https://www.tamar.org.br",
+   "hq": "BR",
+   "scope": "regional",
+   "focus": [
+    "reptile",
+    "marine"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Brazil's national sea turtle programme, protecting more than 1,000 km of nesting coast."
+  },
+  {
+   "id": "instituto-arara-azul",
+   "name": "Instituto Arara Azul",
+   "url": "https://institutoararaazul.org.br",
+   "hq": "BR",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Nest boxes and monitoring that brought the hyacinth macaw back in the Pantanal."
+  },
+  {
+   "id": "ipe",
+   "name": "IPÊ — Instituto de Pesquisas Ecológicas",
+   "url": "https://www.ipe.org.br",
+   "hq": "BR",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Atlantic Forest corridor restoration and black lion tamarin recovery."
+  },
+  {
+   "id": "oncafari",
+   "name": "Onçafari",
+   "url": "https://oncafari.org",
+   "hq": "BR",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Jaguar habituation for ecotourism plus reintroduction of maned wolves and other Cerrado species."
+  },
+  {
+   "id": "saving-nature",
+   "name": "Saving Nature",
+   "url": "https://savingnature.com",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "south-america",
+    "asia"
+   ],
+   "role": "Buys land specifically to reconnect fragmented forest, targeting corridors between existing reserves."
+  },
+  {
+   "id": "ecoan",
+   "name": "ECOAN",
+   "url": "https://ecoanperu.org",
+   "hq": "PE",
+   "scope": "regional",
+   "focus": [
+    "bird",
+    "plant"
+   ],
+   "regions": [
+    "south-america"
+   ],
+   "role": "Andean community reserves and Polylepis forest restoration for high-altitude endemic birds."
+  },
+  {
+   "id": "forest-and-bird",
+   "name": "Forest & Bird",
+   "url": "https://www.forestandbird.org.nz",
+   "hq": "NZ",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "New Zealand's largest independent conservation organisation; advocacy plus predator control on its own reserves."
+  },
+  {
+   "id": "kakapo-recovery",
+   "name": "Kākāpō Recovery",
+   "url": "https://www.doc.govt.nz/kakapo-recovery",
+   "hq": "NZ",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "The Department of Conservation programme managing every living kākāpō as a named individual."
+  },
+  {
+   "id": "predator-free-nz",
+   "name": "Predator Free NZ Trust",
+   "url": "https://predatorfreenz.org",
+   "hq": "NZ",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Supports the community trapping networks behind New Zealand's 2050 predator eradication goal."
+  },
+  {
+   "id": "zealandia",
+   "name": "Zealandia Te Māra a Tāne",
+   "url": "https://www.visitzealandia.com",
+   "hq": "NZ",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Fenced urban sanctuary in Wellington that has returned takahē, tīeke and kākā to a capital city."
+  },
+  {
+   "id": "awc",
+   "name": "Australian Wildlife Conservancy",
+   "url": "https://www.australianwildlife.org",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Owns and manages more than 12 million hectares, with large feral-predator-free fenced areas holding reintroduced mammals."
+  },
+  {
+   "id": "bush-heritage",
+   "name": "Bush Heritage Australia",
+   "url": "https://www.bushheritage.org.au",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Private land conservation and partnerships with Aboriginal ranger groups across Australia."
+  },
+  {
+   "id": "birdlife-australia",
+   "name": "BirdLife Australia",
+   "url": "https://birdlife.org.au",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Threatened bird recovery teams for the orange-bellied parrot, regent honeyeater and swift parrot."
+  },
+  {
+   "id": "aussie-ark",
+   "name": "Aussie Ark",
+   "url": "https://www.aussieark.org.au",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Insurance populations of Tasmanian devils and other marsupials, and rewilding into fenced sanctuaries."
+  },
+  {
+   "id": "koala-foundation",
+   "name": "Australian Koala Foundation",
+   "url": "https://www.savethekoala.com",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Habitat mapping and campaigning for a Koala Protection Act."
+  },
+  {
+   "id": "wwf-australia",
+   "name": "WWF-Australia",
+   "url": "https://www.wwf.org.au",
+   "hq": "AU",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Post-bushfire recovery, koala habitat restoration and Great Barrier Reef water quality work."
+  },
+  {
+   "id": "tenkile",
+   "name": "Tenkile Conservation Alliance",
+   "url": "https://www.tenkile.com",
+   "hq": "PG",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Village-led hunting moratoria that brought the tenkile tree kangaroo back from around 100 animals."
+  },
+  {
+   "id": "tree-kangaroo-conservation",
+   "name": "Tree Kangaroo Conservation Program",
+   "url": "https://www.zoo.org/tkcp",
+   "hq": "PG",
+   "scope": "regional",
+   "focus": [
+    "mammal"
+   ],
+   "regions": [
+    "oceania"
+   ],
+   "role": "Woodland Park Zoo programme supporting Papua New Guinea's YUS Conservation Area."
+  },
+  {
+   "id": "asoc",
+   "name": "Antarctic and Southern Ocean Coalition",
+   "url": "https://www.asoc.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "all"
+   ],
+   "regions": [
+    "antarctica"
+   ],
+   "role": "The only NGO coalition with observer status at Antarctic Treaty meetings and CCAMLR; campaigns for marine protected areas."
+  },
+  {
+   "id": "oceanites",
+   "name": "Oceanites",
+   "url": "https://oceanites.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "antarctica"
+   ],
+   "role": "Runs the Antarctic Site Inventory, the continent-wide penguin population census used by CCAMLR."
+  },
+  {
+   "id": "pew-antarctic",
+   "name": "The Pew Charitable Trusts — Antarctic",
+   "url": "https://www.pewtrusts.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "marine"
+   ],
+   "regions": [
+    "antarctica"
+   ],
+   "role": "Policy campaigns for Southern Ocean marine reserves and krill fishery limits."
+  },
+  {
+   "id": "save-albatross",
+   "name": "BirdLife Albatross Task Force",
+   "url": "https://www.birdlife.org",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "antarctica",
+    "global"
+   ],
+   "role": "Places bycatch mitigation instructors aboard fishing fleets; has cut albatross deaths by over 90% in some fisheries."
+  },
+  {
+   "id": "wildfowl-wetlands",
+   "name": "Wildfowl & Wetlands Trust",
+   "url": "https://www.wwt.org.uk",
+   "hq": "GB",
+   "scope": "global",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Wetland reserves and captive-rearing expertise; ran the rescue rearing programme for the Madagascar pochard and the spoon-billed sandpiper."
+  },
+  {
+   "id": "icf-cranes",
+   "name": "International Crane Foundation",
+   "url": "https://savingcranes.org",
+   "hq": "US",
+   "scope": "global",
+   "focus": [
+    "bird"
+   ],
+   "regions": [
+    "global"
+   ],
+   "role": "Works on all fifteen crane species worldwide, combining captive breeding with wetland protection and flyway diplomacy."
+  },
+  {
+   "id": "nature-kenya",
+   "name": "Nature Kenya",
+   "url": "https://naturekenya.org",
+   "hq": "KE",
+   "scope": "regional",
+   "focus": [
+    "bird",
+    "all"
+   ],
+   "regions": [
+    "africa"
+   ],
+   "role": "Africa's oldest natural history society and Kenya's BirdLife partner; site support groups at Important Bird Areas."
+  },
+  {
+   "id": "monarch-joint-venture",
+   "name": "Monarch Joint Venture",
+   "url": "https://monarchjointventure.org",
+   "hq": "US",
+   "scope": "regional",
+   "focus": [
+    "invertebrate"
+   ],
+   "regions": [
+    "north-america"
+   ],
+   "role": "Partnership coordinating milkweed and nectar habitat restoration along the monarch's North American migration corridor."
+  }
+ ]
+}

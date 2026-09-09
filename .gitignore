@@ -1,0 +1,6 @@
+# Working cache of candidate plates harvested from Wikimedia Commons.
+# Regenerate with: python3 scripts/plates.py harvest
+data/plate-pool.json
+
+# Contact sheets written by: python3 scripts/plates.py sheet
+scripts/_plate-review-*.html
