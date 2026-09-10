@@ -43,7 +43,7 @@ scripts/serve.py      local static server
 ## How the figures work
 
 **Historical plates** (`scripts/plates.py`, `data/plates.json`,
-`assets/plates/`). 121 of the 280 species carry a natural-history plate whose
+`assets/plates/`). 170 of the 280 species carry a natural-history plate whose
 copyright has expired — Brehm's *Tierleben*, Lydekker's handbooks, Gould's
 monographs, and illustrators such as Joseph Wolf, Joseph Smit and John Gerrard
 Keulemans. Sourcing is a pipeline, not a manual hunt:
@@ -67,7 +67,8 @@ it is gone.
 
 Four hard gates are applied to every candidate: a public-domain licence, a
 recorded date at or before 1928, no usage restrictions, and enough resolution
-to be a plate. Every accepted plate is then reviewed by eye on a contact sheet
+to be a plate. Where a source gives a range ("between 1700 and 1880") the later
+bound is used, because the claim has to hold at the worst case. Every accepted plate is then reviewed by eye on a contact sheet
 before it ships. `scripts/verify.py` re-checks the provenance weekly.
 
 **Drawn studies** (`assets/sketches.js`) are the fallback, and the only figure

@@ -415,7 +415,7 @@
   function figureFor(s, plateNo) {
     var pl = PLATES[s.id];
     if (pl && pl.file) {
-      var who = [pl.artist, pl.year].filter(Boolean).join(", ");
+      var who = [pl.artist, pl.dateLabel || pl.year].filter(Boolean).join(", ");
       return '<figure class="plate__figure">' +
         '<div class="plate__frame plate__frame--photo">' +
           '<img class="plate__img" src="' + esc(pl.file) + '" alt="' + esc(pl.for || s.common) +
@@ -845,7 +845,8 @@
         esc(shortWork(pl.work, pl.title)) + "</a>" +
         (pl.depicts ? '<span class="frow__sub"><strong>' + esc(pl.depicts) + "</strong></span>" : "") +
         (pl.pdBasis ? '<span class="frow__sub">' + esc(pl.pdBasis) + "</span>" : "") + "</td>" +
-        '<td style="text-align:right;font-variant-numeric:lining-nums">' + esc(pl.year) + "</td></tr>";
+        '<td style="text-align:right;font-variant-numeric:lining-nums;white-space:nowrap">' +
+        esc(pl.dateLabel || pl.year) + "</td></tr>";
     });
 
     var html =

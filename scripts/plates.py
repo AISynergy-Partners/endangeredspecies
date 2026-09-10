@@ -98,10 +98,34 @@ def meta(em, key):
     return strip_html(em.get(key, {}).get("value", ""))
 
 
+def _human_date(text):
+    """The readable part of a Commons date field.
+
+    Commons appends a machine-readable Wikidata qualifier, e.g.
+      "between 1700 and 1880 date QS:P571,+1500-00-00T00:00:00Z/6,..."
+    The +1500 in there is a precision marker, not a year, and reading it as one
+    dates an Iconographia Zoologica print to the age of Columbus. Everything
+    from " date QS:" onward is therefore discarded.
+    """
+    t = str(text or "")
+    return re.split(r"\s*date QS:", t)[0].strip()
+
+
 def year_of(text):
-    """Earliest plausible four-digit year in a metadata date field."""
-    years = [int(y) for y in re.findall(r"\b(1[5-9]\d{2}|20[0-2]\d)\b", str(text or ""))]
-    return min(years) if years else None
+    """A conservative publication year for the copyright test.
+
+    Where the source gives a range ("between 1700 and 1880") the LATER bound is
+    taken, because the work could be that recent and the claim has to hold at
+    the worst case.
+    """
+    years = [int(y) for y in re.findall(r"\b(1[4-9]\d{2}|20[0-2]\d)\b", _human_date(text))]
+    return max(years) if years else None
+
+
+def date_label(text):
+    """How the date should be shown to a reader, ranges included."""
+    t = _human_date(text)
+    return t if t else None
 
 
 def load_registry():
@@ -239,6 +263,9 @@ def cmd_harvest(args):
         out = json.load(open(POOL, encoding="utf-8")).get("files", {})
     seen = set()
     cats = args.only or SEED_CATEGORIES
+    if args.cats_file:
+        with open(args.cats_file, encoding="utf-8") as fh:
+            cats = [ln.strip() for ln in fh if ln.strip() and not ln.startswith("#")]
     for cat in cats:
         print("  %s" % cat)
         try:
@@ -349,7 +376,8 @@ def cmd_match(args):
             plates[s["id"]] = {
                 "speciesId": s["id"], "for": "%s (%s)" % (s["common"], s["sci"]),
                 "title": e["title"], "artist": e["artist"], "work": e["work"][:220],
-                "year": yr, "licence": e["licence"] or "Public domain",
+                "year": yr, "dateLabel": date_label(e.get("date")) or str(yr),
+            "licence": e["licence"] or "Public domain",
                 "source": "https://commons.wikimedia.org/wiki/" +
                           urllib.parse.quote(e["title"].replace(" ", "_")),
                 "sourceFile": e["url"], "width": e["width"], "height": e["height"],
@@ -366,58 +394,79 @@ def cmd_match(args):
 
 # ----------------------------------------------------------------- download
 def autocrop(im):
-    """Trim a scanned book page down to the illustration.
+    """Trim a scanned page down to the illustration.
 
-    Many plates arrive as a full page: wide paper margins, a framed engraving,
-    a caption and a page number. At the size a plate is shown on the site the
-    animal would be a smudge, so the illustration block is found and cropped to.
+    Two shapes of source have to be handled. A book plate fills its page and
+    needs only its margins and caption trimmed. An album sheet — the
+    Iconographia Zoologica scans are all like this — is a small clipped print
+    pasted onto a large blank leaf, with a scan border and handwritten notes,
+    and the picture may be a fifth of the area.
 
-    The method is deliberately conservative. Ink density is measured per row and
-    per column; the densest contiguous band is taken as the picture; and the
-    crop is only accepted if it removes a worthwhile amount without swallowing
-    most of the page. Anything ambiguous is left alone.
+    So interest is measured on a coarse grid rather than by contiguous runs, and
+    a cell counts as interesting if it is either markedly darker than the paper
+    or noticeably coloured. Colour is the giveaway on album sheets: the print is
+    tinted, the leaf and the handwriting are not. The crop is the bounding box
+    of the interesting cells, and anything implausible is refused.
     """
     from PIL import Image
-    g = im.convert("L")
-    w, h = g.size
-    small = g.resize((min(w, 400), min(h, 560)), Image.BILINEAR)
-    sw, sh = small.size
+    w, h = im.size
+    GW, GH = 44, 58
+    small = im.convert("RGB").resize((GW * 4, GH * 4), Image.BILINEAR)
     px = small.load()
+    sw, sh = small.size
 
-    # paper tone: the most common bright value, sampled from the border
-    border = [px[x, y] for x in range(0, sw, 4) for y in (0, sh - 1)] + \
-             [px[x, y] for y in range(0, sh, 4) for x in (0, sw - 1)]
-    paper = sorted(border)[len(border) // 2] if border else 240
-    thresh = max(60, paper - 42)
+    # Ignore a thin frame: scans usually carry a dark edge that would otherwise
+    # anchor the bounding box to the whole sheet.
+    m = 3
+    def cell_score(gx, gy):
+        dark = chroma = n = 0
+        for y in range(gy * 4, gy * 4 + 4):
+            for x in range(gx * 4, gx * 4 + 4):
+                r, g, b = px[x, y]
+                lo, hi = min(r, g, b), max(r, g, b)
+                dark += (lo + hi) / 2
+                chroma += hi - lo
+                n += 1
+        return dark / n, chroma / n
 
-    rows = [sum(1 for x in range(sw) if px[x, y] < thresh) / sw for y in range(sh)]
-    cols = [sum(1 for y in range(sh) if px[x, y] < thresh) / sh for x in range(sw)]
+    scores = [[cell_score(gx, gy) for gx in range(GW)] for gy in range(GH)]
+    edge = [scores[gy][gx][0] for gy in (0, GH - 1) for gx in range(GW)] + \
+           [scores[gy][gx][0] for gx in (0, GW - 1) for gy in range(GH)]
+    paper = sorted(edge)[len(edge) // 2] if edge else 240
 
-    def densest_run(vals, floor):
-        best = (0, 0, 0)
-        start = None
-        for i, v in enumerate(vals + [0.0]):
-            if v >= floor and start is None:
-                start = i
-            elif v < floor and start is not None:
-                if i - start > best[0]:
-                    best = (i - start, start, i)
-                start = None
-        return best
+    interest = [[0.0] * GW for _ in range(GH)]
+    for gy in range(GH):
+        for gx in range(GW):
+            d, c = scores[gy][gx]
+            interest[gy][gx] = max(max(0.0, paper - d) / 255.0, (c - 10) / 120.0)
+    peak = max(max(row) for row in interest) or 1.0
+    if peak < 0.05:
+        return im                                   # a blank or near-blank scan
 
-    rl, r0, r1 = densest_run(rows, 0.12)
-    cl, c0, c1 = densest_run(cols, 0.10)
-    if rl < sh * 0.25 or cl < sw * 0.3:
-        return im                                   # nothing convincing found
-
-    pad_y, pad_x = sh * 0.012, sw * 0.012
-    box = (max(0, (c0 - pad_x) / sw), max(0, (r0 - pad_y) / sh),
-           min(1, (c1 + pad_x) / sw), min(1, (r1 + pad_y) / sh))
-    area = (box[2] - box[0]) * (box[3] - box[1])
-    if area > 0.88 or area < 0.12:
-        return im                                   # not worth it, or too greedy
-    return im.crop((int(box[0] * w), int(box[1] * h),
-                    int(box[2] * w), int(box[3] * h)))
+    # Try a range of thresholds and keep the TIGHTEST box that still looks like
+    # a picture. Taking the first acceptable box instead leaves an album sheet
+    # mostly blank, because a low threshold happily includes the paper tone.
+    best = None
+    for frac in (0.62, 0.52, 0.42, 0.34, 0.26, 0.19, 0.13):
+        cells = [(gx, gy) for gy in range(m, GH - m) for gx in range(m, GW - m)
+                 if interest[gy][gx] >= peak * frac]
+        if len(cells) < 8:
+            continue
+        x0 = min(c[0] for c in cells); x1 = max(c[0] for c in cells) + 1
+        y0 = min(c[1] for c in cells); y1 = max(c[1] for c in cells) + 1
+        bw, bh = (x1 - x0) / GW, (y1 - y0) / GH
+        area = bw * bh
+        if area > 0.9 or area < 0.045 or bw < 0.14 or bh < 0.10:
+            continue
+        if best is None or area < best[0]:
+            best = (area, x0, x1, y0, y1)
+    if best is None:
+        return im
+    _, x0, x1, y0, y1 = best
+    pad = 0.02
+    L = max(0.0, x0 / GW - pad); R = min(1.0, x1 / GW + pad)
+    T = max(0.0, y0 / GH - pad); B = min(1.0, y1 / GH + pad)
+    return im.crop((int(L * w), int(T * h), int(R * w), int(B * h)))
 
 
 def cmd_download(args):
@@ -567,7 +616,8 @@ def cmd_assign(args):
     reg["plates"][args.species] = {
         "speciesId": s["id"], "for": "%s (%s)" % (s["common"], s["sci"]),
         "title": e["title"], "artist": e["artist"], "work": e["work"][:220],
-        "year": yr, "licence": e["licence"] or "Public domain",
+        "year": yr, "dateLabel": date_label(e.get("date")) or str(yr),
+        "licence": e["licence"] or "Public domain",
         "source": "https://commons.wikimedia.org/wiki/" +
                   urllib.parse.quote(e["title"].replace(" ", "_")),
         "sourceFile": e["url"], "width": e["width"], "height": e["height"],
@@ -604,6 +654,8 @@ def main():
     hv = sub.add_parser("harvest"); hv.set_defaults(fn=cmd_harvest)
     hv.add_argument("--only", nargs="*"); hv.add_argument("--depth", type=int, default=1)
     hv.add_argument("--fresh", action="store_true"); hv.add_argument("--verbose", action="store_true")
+    hv.add_argument("--cats-file", help="newline-delimited category names, so titles with "
+                                        "spaces and brackets survive the shell")
 
     m = sub.add_parser("match"); m.set_defaults(fn=cmd_match)
     m.add_argument("--only", nargs="*"); m.add_argument("--force", action="store_true")

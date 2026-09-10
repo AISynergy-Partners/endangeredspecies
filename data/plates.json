@@ -15,13 +15,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/black-rhinoceros.jpg",
-   "bytes": 443886,
+   "bytes": 565932,
    "stored": [
-    876,
+    1071,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "african-forest-elephant": {
    "speciesId": "african-forest-elephant",
@@ -37,13 +38,14 @@
    "height": 936,
    "score": 169,
    "file": "assets/plates/african-forest-elephant.jpg",
-   "bytes": 266728,
+   "bytes": 258559,
    "stored": [
-    1100,
-    873
+    1067,
+    877
    ],
-   "cropped": false,
-   "pdBasis": "Published 1908, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1908, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1908"
   },
   "african-savanna-elephant": {
    "speciesId": "african-savanna-elephant",
@@ -59,13 +61,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/african-savanna-elephant.jpg",
-   "bytes": 421378,
+   "bytes": 376956,
    "stored": [
-    858,
+    873,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "giraffe-nubian": {
    "speciesId": "giraffe-nubian",
@@ -73,7 +76,7 @@
    "title": "File:Brehms thierleben, allgemeine kunde des thierreichs (5913743062).jpg",
    "artist": "Alfred Brehm    /    Ernst Ludwig Taschenberg    /    Eduard Oscar Schmidt",
    "work": "https://www.flickr.com/photos/biodivlibrary/5913743062",
-   "year": 1876,
+   "year": 1879,
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File%3ABrehms_thierleben%2C_allgemeine_kunde_des_thierreichs_%285913743062%29.jpg",
    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/76/Brehms_thierleben%2C_allgemeine_kunde_des_thierreichs_%285913743062%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -81,13 +84,14 @@
    "height": 3682,
    "score": 184,
    "file": "assets/plates/giraffe-nubian.jpg",
-   "bytes": 332359,
+   "bytes": 332522,
    "stored": [
-    733,
+    728,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1876, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated between 1876 and 1879, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "between 1876 and 1879"
   },
   "reticulated-giraffe": {
    "speciesId": "reticulated-giraffe",
@@ -103,13 +107,14 @@
    "height": 1285,
    "score": 110,
    "file": "assets/plates/reticulated-giraffe.jpg",
-   "bytes": 145967,
+   "bytes": 202699,
    "stored": [
     1100,
-    449
+    726
    ],
    "cropped": true,
-   "pdBasis": "Published 1908, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "pdBasis": "Dated 1908, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1908"
   },
   "hirola": {
    "speciesId": "hirola",
@@ -125,13 +130,14 @@
    "height": 1882,
    "score": 184,
    "file": "assets/plates/hirola.jpg",
-   "bytes": 89727,
+   "bytes": 93117,
    "stored": [
-    1052,
-    500
+    924,
+    640
    ],
    "cropped": true,
-   "pdBasis": "Published 1889, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1889, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1889"
   },
   "addax": {
    "speciesId": "addax",
@@ -147,13 +153,14 @@
    "height": 966,
    "score": 149,
    "file": "assets/plates/addax.jpg",
-   "bytes": 148719,
+   "bytes": 139123,
    "stored": [
-    598,
-    966
+    541,
+    905
    ],
-   "cropped": false,
-   "pdBasis": "Published 1908, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1908, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1908"
   },
   "dama-gazelle": {
    "speciesId": "dama-gazelle",
@@ -169,13 +176,14 @@
    "height": 427,
    "score": 144,
    "file": "assets/plates/dama-gazelle.jpg",
-   "bytes": 18116,
+   "bytes": 17771,
    "stored": [
-    356,
-    268
+    348,
+    297
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1894"
   },
   "scimitar-horned-oryx": {
    "speciesId": "scimitar-horned-oryx",
@@ -183,7 +191,7 @@
    "title": "File:The book of antelopes (1894) Oryx leucoryx.png",
    "artist": "Joseph Wolf",
    "work": "Sclatter, P. L., Thomas, O.  The Book of Antelopes , vol. 4. – London: 1899–1900. Pl. LXXXI.  Reprint  in the Biodiversity Heritage Library.",
-   "year": 1500,
+   "year": 1900,
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File%3AThe_book_of_antelopes_%281894%29_Oryx_leucoryx.png",
    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/c/cc/The_book_of_antelopes_%281894%29_Oryx_leucoryx.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -191,13 +199,14 @@
    "height": 2679,
    "score": 184,
    "file": "assets/plates/scimitar-horned-oryx.jpg",
-   "bytes": 92773,
+   "bytes": 105127,
    "stored": [
-    821,
-    370
+    836,
+    464
    ],
    "cropped": true,
-   "pdBasis": "Published 1500, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated between 1899 and 1900, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "between 1899 and 1900"
   },
   "mountain-bongo": {
    "speciesId": "mountain-bongo",
@@ -213,13 +222,14 @@
    "height": 480,
    "score": 144,
    "file": "assets/plates/mountain-bongo.jpg",
-   "bytes": 39370,
+   "bytes": 28407,
    "stored": [
-    431,
-    378
+    371,
+    284
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1894"
   },
   "ethiopian-wolf": {
    "speciesId": "ethiopian-wolf",
@@ -235,13 +245,14 @@
    "height": 789,
    "score": 175,
    "file": "assets/plates/ethiopian-wolf.jpg",
-   "bytes": 129026,
+   "bytes": 122144,
    "stored": [
     1100,
-    614
+    548
    ],
    "cropped": true,
-   "pdBasis": "Published 1872, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1872, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1872"
   },
   "african-wild-dog": {
    "speciesId": "african-wild-dog",
@@ -257,13 +268,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/african-wild-dog.jpg",
-   "bytes": 403682,
+   "bytes": 428832,
    "stored": [
-    812,
+    832,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "cheetah": {
    "speciesId": "cheetah",
@@ -279,13 +291,14 @@
    "height": 2006,
    "score": 184,
    "file": "assets/plates/cheetah.jpg",
-   "bytes": 279370,
+   "bytes": 188140,
    "stored": [
-    997,
-    583
+    807,
+    488
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "northwest-african-cheetah": {
    "speciesId": "northwest-african-cheetah",
@@ -301,13 +314,14 @@
    "height": 1745,
    "score": 184,
    "file": "assets/plates/northwest-african-cheetah.jpg",
-   "bytes": 235115,
+   "bytes": 209278,
    "stored": [
-    1065,
-    748
+    1100,
+    683
    ],
    "cropped": true,
-   "pdBasis": "Published 1877, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1877, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1877"
   },
   "west-african-lion": {
    "speciesId": "west-african-lion",
@@ -323,13 +337,14 @@
    "height": 2268,
    "score": 184,
    "file": "assets/plates/west-african-lion.jpg",
-   "bytes": 271578,
+   "bytes": 273145,
    "stored": [
-    1045,
-    717
+    1070,
+    715
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "african-leopard": {
    "speciesId": "african-leopard",
@@ -345,13 +360,14 @@
    "height": 1856,
    "score": 184,
    "file": "assets/plates/african-leopard.jpg",
-   "bytes": 272779,
+   "bytes": 271481,
    "stored": [
-    1013,
-    733
+    1012,
+    738
    ],
    "cropped": true,
-   "pdBasis": "Published 1899, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1899, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1899"
   },
   "cross-river-gorilla": {
    "speciesId": "cross-river-gorilla",
@@ -367,13 +383,14 @@
    "height": 2919,
    "score": 158,
    "file": "assets/plates/cross-river-gorilla.jpg",
-   "bytes": 264466,
+   "bytes": 271885,
    "stored": [
-    681,
+    734,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1897, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1897, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1897"
   },
   "western-lowland-gorilla": {
    "speciesId": "western-lowland-gorilla",
@@ -389,13 +406,14 @@
    "height": 2919,
    "score": 113,
    "file": "assets/plates/western-lowland-gorilla.jpg",
-   "bytes": 264466,
+   "bytes": 271885,
    "stored": [
-    681,
+    734,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1897, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1897, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1897"
   },
   "western-chimpanzee": {
    "speciesId": "western-chimpanzee",
@@ -411,13 +429,14 @@
    "height": 1749,
    "score": 184,
    "file": "assets/plates/western-chimpanzee.jpg",
-   "bytes": 140225,
+   "bytes": 133905,
    "stored": [
-    952,
+    865,
     657
    ],
    "cropped": true,
-   "pdBasis": "Published 1899, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1899, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1899"
   },
   "chimpanzee": {
    "speciesId": "chimpanzee",
@@ -433,13 +452,14 @@
    "height": 3720,
    "score": 184,
    "file": "assets/plates/chimpanzee.jpg",
-   "bytes": 77994,
+   "bytes": 75162,
    "stored": [
-    766,
-    591
+    633,
+    619
    ],
    "cropped": true,
-   "pdBasis": "Published 1854, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "pdBasis": "Dated 1854, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1854"
   },
   "drill": {
    "speciesId": "drill",
@@ -455,13 +475,14 @@
    "height": 2342,
    "score": 154,
    "file": "assets/plates/drill.jpg",
-   "bytes": 278225,
+   "bytes": 312642,
    "stored": [
-    746,
+    840,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1894"
   },
   "zanzibar-red-colobus": {
    "speciesId": "zanzibar-red-colobus",
@@ -477,13 +498,14 @@
    "height": 2326,
    "score": 180,
    "file": "assets/plates/zanzibar-red-colobus.jpg",
-   "bytes": 258600,
+   "bytes": 218176,
    "stored": [
-    1012,
+    924,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1868, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1868, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1868"
   },
   "barbary-macaque": {
    "speciesId": "barbary-macaque",
@@ -499,13 +521,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/barbary-macaque.jpg",
-   "bytes": 462368,
+   "bytes": 475111,
    "stored": [
-    859,
+    868,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "indri": {
    "speciesId": "indri",
@@ -521,13 +544,14 @@
    "height": 2184,
    "score": 154,
    "file": "assets/plates/indri.jpg",
-   "bytes": 249969,
+   "bytes": 235083,
    "stored": [
-    900,
+    858,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1894"
   },
   "greater-bamboo-lemur": {
    "speciesId": "greater-bamboo-lemur",
@@ -543,13 +567,14 @@
    "height": 2584,
    "score": 180,
    "file": "assets/plates/greater-bamboo-lemur.jpg",
-   "bytes": 256221,
+   "bytes": 230792,
    "stored": [
-    973,
+    832,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1870, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1870, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1870"
   },
   "ring-tailed-lemur": {
    "speciesId": "ring-tailed-lemur",
@@ -565,13 +590,14 @@
    "height": 3110,
    "score": 176,
    "file": "assets/plates/ring-tailed-lemur.jpg",
-   "bytes": 322581,
+   "bytes": 316918,
    "stored": [
-    724,
+    712,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1916, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1916, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1916"
   },
   "aye-aye": {
    "speciesId": "aye-aye",
@@ -587,13 +613,14 @@
    "height": 695,
    "score": 169,
    "file": "assets/plates/aye-aye.jpg",
-   "bytes": 50135,
+   "bytes": 40215,
    "stored": [
-    440,
-    549
+    360,
+    484
    ],
    "cropped": true,
-   "pdBasis": "Published 1863, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1863, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1863"
   },
   "fossa": {
    "speciesId": "fossa",
@@ -609,13 +636,14 @@
    "height": 508,
    "score": 172,
    "file": "assets/plates/fossa.jpg",
-   "bytes": 83626,
+   "bytes": 84498,
    "stored": [
-    681,
-    359
+    687,
+    371
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "hooded-vulture": {
    "speciesId": "hooded-vulture",
@@ -631,13 +659,14 @@
    "height": 2024,
    "score": 178,
    "file": "assets/plates/hooded-vulture.jpg",
-   "bytes": 364288,
+   "bytes": 338495,
    "stored": [
-    861,
+    754,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1893, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1893, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1893"
   },
   "ruppells-vulture": {
    "speciesId": "ruppells-vulture",
@@ -653,13 +682,14 @@
    "height": 2100,
    "score": 181,
    "file": "assets/plates/ruppells-vulture.jpg",
-   "bytes": 467033,
+   "bytes": 480806,
    "stored": [
-    1064,
+    1020,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1893, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1893, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1893"
   },
   "grey-crowned-crane": {
    "speciesId": "grey-crowned-crane",
@@ -675,13 +705,14 @@
    "height": 3110,
    "score": 176,
    "file": "assets/plates/grey-crowned-crane.jpg",
-   "bytes": 249421,
+   "bytes": 266069,
    "stored": [
-    726,
+    757,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1916, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1916, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1916"
   },
   "shoebill": {
    "speciesId": "shoebill",
@@ -697,13 +728,14 @@
    "height": 3015,
    "score": 181,
    "file": "assets/plates/shoebill.jpg",
-   "bytes": 246442,
+   "bytes": 237605,
    "stored": [
-    825,
+    757,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1850, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1850, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1850"
   },
   "cuviers-gazelle": {
    "speciesId": "cuviers-gazelle",
@@ -719,13 +751,14 @@
    "height": 1558,
    "score": 180,
    "file": "assets/plates/cuviers-gazelle.jpg",
-   "bytes": 293808,
+   "bytes": 256681,
    "stored": [
-    1100,
-    724
+    836,
+    815
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1894"
   },
   "giant-pangolin": {
    "speciesId": "giant-pangolin",
@@ -741,13 +774,14 @@
    "height": 1897,
    "score": 184,
    "file": "assets/plates/giant-pangolin.jpg",
-   "bytes": 160529,
+   "bytes": 161678,
    "stored": [
-    926,
-    522
+    953,
+    525
    ],
    "cropped": true,
-   "pdBasis": "Published 1865, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1865, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1865"
   },
   "greater-one-horned-rhinoceros": {
    "speciesId": "greater-one-horned-rhinoceros",
@@ -763,13 +797,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/greater-one-horned-rhinoceros.jpg",
-   "bytes": 409939,
+   "bytes": 335152,
    "stored": [
-    863,
+    817,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "asian-elephant": {
    "speciesId": "asian-elephant",
@@ -785,13 +820,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/asian-elephant.jpg",
-   "bytes": 397520,
+   "bytes": 411316,
    "stored": [
-    783,
+    800,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "sumatran-elephant": {
    "speciesId": "sumatran-elephant",
@@ -807,13 +843,14 @@
    "height": 3381,
    "score": 138,
    "file": "assets/plates/sumatran-elephant.jpg",
-   "bytes": 397520,
+   "bytes": 411316,
    "stored": [
-    783,
+    800,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "tiger": {
    "speciesId": "tiger",
@@ -829,13 +866,14 @@
    "height": 2268,
    "score": 184,
    "file": "assets/plates/tiger.jpg",
-   "bytes": 409477,
+   "bytes": 415609,
    "stored": [
     1100,
-    735
+    764
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "sumatran-tiger": {
    "speciesId": "sumatran-tiger",
@@ -851,13 +889,14 @@
    "height": 508,
    "score": 172,
    "file": "assets/plates/sumatran-tiger.jpg",
-   "bytes": 94091,
+   "bytes": 90823,
    "stored": [
-    632,
-    390
+    623,
+    406
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "malayan-tiger": {
    "speciesId": "malayan-tiger",
@@ -873,13 +912,14 @@
    "height": 525,
    "score": 172,
    "file": "assets/plates/malayan-tiger.jpg",
-   "bytes": 91439,
+   "bytes": 76009,
    "stored": [
-    603,
-    382
+    517,
+    374
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "amur-tiger": {
    "speciesId": "amur-tiger",
@@ -895,13 +935,14 @@
    "height": 1816,
    "score": 160,
    "file": "assets/plates/amur-tiger.jpg",
-   "bytes": 262654,
+   "bytes": 260443,
    "stored": [
     1100,
-    1004
+    1039
    ],
-   "cropped": false,
-   "pdBasis": "Published 1908, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1908, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1908"
   },
   "south-china-tiger": {
    "speciesId": "south-china-tiger",
@@ -917,13 +958,14 @@
    "height": 1456,
    "score": 158,
    "file": "assets/plates/south-china-tiger.jpg",
-   "bytes": 226218,
+   "bytes": 230319,
    "stored": [
     1100,
-    714
+    705
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "amur-leopard": {
    "speciesId": "amur-leopard",
@@ -939,13 +981,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/amur-leopard.jpg",
-   "bytes": 377657,
+   "bytes": 380098,
    "stored": [
-    769,
+    754,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "javan-leopard": {
    "speciesId": "javan-leopard",
@@ -961,13 +1004,14 @@
    "height": 2520,
    "score": 181,
    "file": "assets/plates/javan-leopard.jpg",
-   "bytes": 258632,
+   "bytes": 265346,
    "stored": [
-    880,
+    886,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1862, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1862, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1862"
   },
   "arabian-leopard": {
    "speciesId": "arabian-leopard",
@@ -983,13 +1027,14 @@
    "height": 1247,
    "score": 180,
    "file": "assets/plates/arabian-leopard.jpg",
-   "bytes": 289621,
+   "bytes": 297891,
    "stored": [
     1100,
-    702
+    714
    ],
    "cropped": true,
-   "pdBasis": "Published 1876, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1876, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1876"
   },
   "asiatic-lion": {
    "speciesId": "asiatic-lion",
@@ -1005,13 +1050,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/asiatic-lion.jpg",
-   "bytes": 359657,
+   "bytes": 390971,
    "stored": [
-    782,
+    818,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "asiatic-cheetah": {
    "speciesId": "asiatic-cheetah",
@@ -1027,13 +1073,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/asiatic-cheetah.jpg",
-   "bytes": 379023,
+   "bytes": 398993,
    "stored": [
-    814,
+    835,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "fishing-cat": {
    "speciesId": "fishing-cat",
@@ -1049,13 +1096,14 @@
    "height": 514,
    "score": 172,
    "file": "assets/plates/fishing-cat.jpg",
-   "bytes": 57306,
+   "bytes": 58233,
    "stored": [
-    551,
-    298
+    570,
+    383
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "sumatran-orangutan": {
    "speciesId": "sumatran-orangutan",
@@ -1071,13 +1119,14 @@
    "height": 2925,
    "score": 158,
    "file": "assets/plates/sumatran-orangutan.jpg",
-   "bytes": 339826,
+   "bytes": 348832,
    "stored": [
-    874,
+    849,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1897, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1897, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1897"
   },
   "bornean-orangutan": {
    "speciesId": "bornean-orangutan",
@@ -1093,13 +1142,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/bornean-orangutan.jpg",
-   "bytes": 420369,
+   "bytes": 428285,
    "stored": [
-    824,
+    818,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "javan-slow-loris": {
    "speciesId": "javan-slow-loris",
@@ -1115,13 +1165,14 @@
    "height": 2190,
    "score": 154,
    "file": "assets/plates/javan-slow-loris.jpg",
-   "bytes": 267089,
+   "bytes": 298791,
    "stored": [
-    877,
-    1100
+    1070,
+    1011
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1894"
   },
   "przewalskis-horse": {
    "speciesId": "przewalskis-horse",
@@ -1137,13 +1188,14 @@
    "height": 1434,
    "score": 183,
    "file": "assets/plates/przewalskis-horse.jpg",
-   "bytes": 346178,
+   "bytes": 364672,
    "stored": [
     1100,
-    714
+    745
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged CC0 on Wikimedia Commons."
+   "cropped": true,
+   "pdBasis": "Dated 1896-01-01 00:00, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged CC0 on Wikimedia Commons.",
+   "dateLabel": "1896-01-01 00:00"
   },
   "saiga-antelope": {
    "speciesId": "saiga-antelope",
@@ -1159,13 +1211,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/saiga-antelope.jpg",
-   "bytes": 381785,
+   "bytes": 490174,
    "stored": [
-    841,
+    985,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "hangul": {
    "speciesId": "hangul",
@@ -1181,13 +1234,14 @@
    "height": 829,
    "score": 171,
    "file": "assets/plates/hangul.jpg",
-   "bytes": 56453,
+   "bytes": 63300,
    "stored": [
-    590,
-    497
+    574,
+    633
    ],
    "cropped": true,
-   "pdBasis": "Published 1898, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1898, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1898"
   },
   "tamaraw": {
    "speciesId": "tamaraw",
@@ -1203,13 +1257,14 @@
    "height": 3094,
    "score": 182,
    "file": "assets/plates/tamaraw.jpg",
-   "bytes": 225921,
+   "bytes": 158854,
    "stored": [
-    860,
-    843
+    888,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1898, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1898, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1898"
   },
   "wild-water-buffalo": {
    "speciesId": "wild-water-buffalo",
@@ -1225,13 +1280,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/wild-water-buffalo.jpg",
-   "bytes": 449726,
+   "bytes": 371329,
    "stored": [
-    809,
+    712,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "banteng": {
    "speciesId": "banteng",
@@ -1247,13 +1303,14 @@
    "height": 3094,
    "score": 182,
    "file": "assets/plates/banteng.jpg",
-   "bytes": 333324,
+   "bytes": 305207,
    "stored": [
-    1013,
-    873
+    1041,
+    800
    ],
    "cropped": true,
-   "pdBasis": "Published 1898, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1898, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1898"
   },
   "malayan-tapir": {
    "speciesId": "malayan-tapir",
@@ -1269,13 +1326,14 @@
    "height": 1500,
    "score": 183,
    "file": "assets/plates/malayan-tapir.jpg",
-   "bytes": 296465,
+   "bytes": 271271,
    "stored": [
     1100,
-    712
+    669
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "dhole": {
    "speciesId": "dhole",
@@ -1291,13 +1349,14 @@
    "height": 645,
    "score": 170,
    "file": "assets/plates/dhole.jpg",
-   "bytes": 91144,
+   "bytes": 91208,
    "stored": [
-    602,
-    504
+    569,
+    538
    ],
    "cropped": true,
-   "pdBasis": "Published 1872, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1872, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1872"
   },
   "red-panda": {
    "speciesId": "red-panda",
@@ -1313,13 +1372,14 @@
    "height": 3350,
    "score": 184,
    "file": "assets/plates/red-panda.jpg",
-   "bytes": 379191,
+   "bytes": 323987,
    "stored": [
-    792,
+    687,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "giant-panda": {
    "speciesId": "giant-panda",
@@ -1338,10 +1398,11 @@
    "bytes": 332261,
    "stored": [
     1100,
-    663
+    674
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "gobi-bear": {
    "speciesId": "gobi-bear",
@@ -1357,13 +1418,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/gobi-bear.jpg",
-   "bytes": 409425,
+   "bytes": 398187,
    "stored": [
-    796,
+    769,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "ganges-river-dolphin": {
    "speciesId": "ganges-river-dolphin",
@@ -1379,13 +1441,14 @@
    "height": 557,
    "score": 173,
    "file": "assets/plates/ganges-river-dolphin.jpg",
-   "bytes": 53270,
+   "bytes": 56184,
    "stored": [
-    870,
-    257
+    790,
+    301
    ],
    "cropped": true,
-   "pdBasis": "Published 1894, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1894, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1894"
   },
   "philippine-eagle": {
    "speciesId": "philippine-eagle",
@@ -1401,13 +1464,14 @@
    "height": 2149,
    "score": 178,
    "file": "assets/plates/philippine-eagle.jpg",
-   "bytes": 219638,
+   "bytes": 223471,
    "stored": [
     1100,
-    728
+    754
    ],
    "cropped": true,
-   "pdBasis": "Published 1910, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1910, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1910"
   },
   "great-indian-bustard": {
    "speciesId": "great-indian-bustard",
@@ -1423,13 +1487,14 @@
    "height": 1710,
    "score": 178,
    "file": "assets/plates/great-indian-bustard.jpg",
-   "bytes": 148769,
+   "bytes": 164875,
    "stored": [
     1100,
-    613
+    697
    ],
    "cropped": true,
-   "pdBasis": "Published 1921, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1921, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1921"
   },
   "bengal-florican": {
    "speciesId": "bengal-florican",
@@ -1445,13 +1510,14 @@
    "height": 1180,
    "score": 180,
    "file": "assets/plates/bengal-florican.jpg",
-   "bytes": 281939,
+   "bytes": 273622,
    "stored": [
     1100,
-    757
+    744
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "helmeted-hornbill": {
    "speciesId": "helmeted-hornbill",
@@ -1467,13 +1533,14 @@
    "height": 7292,
    "score": 184,
    "file": "assets/plates/helmeted-hornbill.jpg",
-   "bytes": 138043,
+   "bytes": 82916,
    "stored": [
-    817,
-    1100
+    313,
+    1020
    ],
-   "cropped": false,
-   "pdBasis": "Published 1882, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "cropped": true,
+   "pdBasis": "Dated 1882, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1882"
   },
   "baers-pochard": {
    "speciesId": "baers-pochard",
@@ -1489,13 +1556,14 @@
    "height": 1724,
    "score": 169,
    "file": "assets/plates/baers-pochard.jpg",
-   "bytes": 209138,
+   "bytes": 165205,
    "stored": [
-    938,
-    1100
+    806,
+    990
    ],
    "cropped": true,
-   "pdBasis": "Published 1908, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1908, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1908"
   },
   "chinese-alligator": {
    "speciesId": "chinese-alligator",
@@ -1511,13 +1579,14 @@
    "height": 1882,
    "score": 169,
    "file": "assets/plates/chinese-alligator.jpg",
-   "bytes": 137865,
+   "bytes": 179790,
    "stored": [
-    978,
-    536
+    687,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1920, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1920, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1920"
   },
   "chinese-giant-salamander": {
    "speciesId": "chinese-giant-salamander",
@@ -1533,13 +1602,14 @@
    "height": 1882,
    "score": 169,
    "file": "assets/plates/chinese-giant-salamander.jpg",
-   "bytes": 118543,
+   "bytes": 154023,
    "stored": [
-    1002,
-    543
+    751,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1920, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1920, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1920"
   },
   "european-mink": {
    "speciesId": "european-mink",
@@ -1555,13 +1625,14 @@
    "height": 361,
    "score": 165,
    "file": "assets/plates/european-mink.jpg",
-   "bytes": 29774,
+   "bytes": 31084,
    "stored": [
-    472,
-    259
+    527,
+    263
    ],
    "cropped": true,
-   "pdBasis": "Published 1916, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1916, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1916"
   },
   "european-bison": {
    "speciesId": "european-bison",
@@ -1577,13 +1648,14 @@
    "height": 3040,
    "score": 184,
    "file": "assets/plates/european-bison.jpg",
-   "bytes": 404473,
+   "bytes": 431703,
    "stored": [
-    855,
+    909,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "balkan-lynx": {
    "speciesId": "balkan-lynx",
@@ -1599,13 +1671,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/balkan-lynx.jpg",
-   "bytes": 414724,
+   "bytes": 424282,
    "stored": [
-    768,
+    769,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "marsican-brown-bear": {
    "speciesId": "marsican-brown-bear",
@@ -1621,13 +1694,14 @@
    "height": 3381,
    "score": 183,
    "file": "assets/plates/marsican-brown-bear.jpg",
-   "bytes": 508412,
+   "bytes": 562007,
    "stored": [
-    1023,
+    1095,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "bearded-vulture": {
    "speciesId": "bearded-vulture",
@@ -1643,13 +1717,14 @@
    "height": 1704,
    "score": 174,
    "file": "assets/plates/bearded-vulture.jpg",
-   "bytes": 265021,
+   "bytes": 298861,
    "stored": [
-    697,
+    740,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1879, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "cropped": true,
+   "pdBasis": "Dated 1879, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1879"
   },
   "great-bustard": {
    "speciesId": "great-bustard",
@@ -1665,13 +1740,14 @@
    "height": 1697,
    "score": 178,
    "file": "assets/plates/great-bustard.jpg",
-   "bytes": 244976,
+   "bytes": 246907,
    "stored": [
-    1100,
-    694
+    982,
+    706
    ],
    "cropped": true,
-   "pdBasis": "Published 1921, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1921, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1921"
   },
   "aquatic-warbler": {
    "speciesId": "aquatic-warbler",
@@ -1687,13 +1763,14 @@
    "height": 1868,
    "score": 175,
    "file": "assets/plates/aquatic-warbler.jpg",
-   "bytes": 276616,
+   "bytes": 203788,
    "stored": [
-    1051,
-    1071
+    802,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1897, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1897, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1897"
   },
   "olm": {
    "speciesId": "olm",
@@ -1709,13 +1786,14 @@
    "height": 1882,
    "score": 169,
    "file": "assets/plates/olm.jpg",
-   "bytes": 105605,
+   "bytes": 170191,
    "stored": [
-    983,
-    573
+    719,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1920, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1920, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1920"
   },
   "mexican-wolf": {
    "speciesId": "mexican-wolf",
@@ -1731,13 +1809,14 @@
    "height": 713,
    "score": 163,
    "file": "assets/plates/mexican-wolf.jpg",
-   "bytes": 84895,
+   "bytes": 54406,
    "stored": [
-    465,
-    713
+    356,
+    570
    ],
-   "cropped": false,
-   "pdBasis": "Published 1916, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "cropped": true,
+   "pdBasis": "Dated 1916, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1916"
   },
   "florida-panther": {
    "speciesId": "florida-panther",
@@ -1753,13 +1832,14 @@
    "height": 3338,
    "score": 184,
    "file": "assets/plates/florida-panther.jpg",
-   "bytes": 356658,
+   "bytes": 386388,
    "stored": [
-    801,
+    888,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "sea-otter": {
    "speciesId": "sea-otter",
@@ -1775,13 +1855,14 @@
    "height": 1762,
    "score": 184,
    "file": "assets/plates/sea-otter.jpg",
-   "bytes": 160460,
+   "bytes": 156474,
    "stored": [
-    843,
-    694
+    865,
+    678
    ],
    "cropped": true,
-   "pdBasis": "Published 1864, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1864, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1864"
   },
   "polar-bear": {
    "speciesId": "polar-bear",
@@ -1797,13 +1878,14 @@
    "height": 3334,
    "score": 184,
    "file": "assets/plates/polar-bear.jpg",
-   "bytes": 464993,
+   "bytes": 417379,
    "stored": [
-    1088,
-    1100
+    1100,
+    964
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "bairds-tapir": {
    "speciesId": "bairds-tapir",
@@ -1819,13 +1901,14 @@
    "height": 2080,
    "score": 184,
    "file": "assets/plates/bairds-tapir.jpg",
-   "bytes": 228705,
+   "bytes": 221335,
    "stored": [
     1099,
-    732
+    701
    ],
    "cropped": true,
-   "pdBasis": "Published 1867, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1867, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1867"
   },
   "spixs-macaw": {
    "speciesId": "spixs-macaw",
@@ -1841,13 +1924,14 @@
    "height": 2739,
    "score": 178,
    "file": "assets/plates/spixs-macaw.jpg",
-   "bytes": 189772,
+   "bytes": 155482,
    "stored": [
-    746,
+    667,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1878, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1878, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1878"
   },
   "hyacinth-macaw": {
    "speciesId": "hyacinth-macaw",
@@ -1863,13 +1947,14 @@
    "height": 3216,
    "score": 182,
    "file": "assets/plates/hyacinth-macaw.jpg",
-   "bytes": 256034,
+   "bytes": 152005,
    "stored": [
-    735,
+    413,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1893, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1893, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1893"
   },
   "andean-condor": {
    "speciesId": "andean-condor",
@@ -1885,13 +1970,14 @@
    "height": 2563,
    "score": 180,
    "file": "assets/plates/andean-condor.jpg",
-   "bytes": 186830,
+   "bytes": 170243,
    "stored": [
-    639,
+    579,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1883, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1883, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1883"
   },
   "giant-otter": {
    "speciesId": "giant-otter",
@@ -1907,13 +1993,14 @@
    "height": 1892,
    "score": 184,
    "file": "assets/plates/giant-otter.jpg",
-   "bytes": 150857,
+   "bytes": 148180,
    "stored": [
-    987,
-    512
+    953,
+    517
    ],
    "cropped": true,
-   "pdBasis": "Published 1868, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1868, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1868"
   },
   "andean-bear": {
    "speciesId": "andean-bear",
@@ -1929,13 +2016,14 @@
    "height": 877,
    "score": 177,
    "file": "assets/plates/andean-bear.jpg",
-   "bytes": 67452,
+   "bytes": 64087,
    "stored": [
     1100,
-    584
+    568
    ],
    "cropped": true,
-   "pdBasis": "Published 1824, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1824-05, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1824-05"
   },
   "huemul": {
    "speciesId": "huemul",
@@ -1951,13 +2039,14 @@
    "height": 2012,
    "score": 179,
    "file": "assets/plates/huemul.jpg",
-   "bytes": 214265,
+   "bytes": 188854,
    "stored": [
-    920,
+    921,
     1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1899, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1899, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1899"
   },
   "jaguar": {
    "speciesId": "jaguar",
@@ -1973,13 +2062,14 @@
    "height": 1748,
    "score": 184,
    "file": "assets/plates/jaguar.jpg",
-   "bytes": 311583,
+   "bytes": 320521,
    "stored": [
     1100,
-    718
+    739
    ],
    "cropped": true,
-   "pdBasis": "Published 1895, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1895"
   },
   "takahe": {
    "speciesId": "takahe",
@@ -1995,13 +2085,14 @@
    "height": 2442,
    "score": 184,
    "file": "assets/plates/takahe.jpg",
-   "bytes": 270386,
+   "bytes": 323058,
    "stored": [
-    1100,
-    713
+    1070,
+    809
    ],
    "cropped": true,
-   "pdBasis": "Published 1879, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1879, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1879"
   },
   "yellow-eyed-penguin": {
    "speciesId": "yellow-eyed-penguin",
@@ -2017,13 +2108,14 @@
    "height": 2277,
    "score": 180,
    "file": "assets/plates/yellow-eyed-penguin.jpg",
-   "bytes": 247134,
+   "bytes": 219233,
    "stored": [
-    1067,
-    940
+    921,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1844, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1844, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1844"
   },
   "numbat": {
    "speciesId": "numbat",
@@ -2039,13 +2131,14 @@
    "height": 2112,
    "score": 159,
    "file": "assets/plates/numbat.jpg",
-   "bytes": 164682,
+   "bytes": 194105,
    "stored": [
-    779,
-    483
+    1100,
+    631
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "tasmanian-devil": {
    "speciesId": "tasmanian-devil",
@@ -2061,13 +2154,14 @@
    "height": 504,
    "score": 171,
    "file": "assets/plates/tasmanian-devil.jpg",
-   "bytes": 53385,
+   "bytes": 54234,
    "stored": [
-    632,
-    306
+    676,
+    307
    ],
    "cropped": true,
-   "pdBasis": "Published 1837, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1837, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1837"
   },
   "koala": {
    "speciesId": "koala",
@@ -2083,13 +2177,14 @@
    "height": 2640,
    "score": 181,
    "file": "assets/plates/koala.jpg",
-   "bytes": 335548,
+   "bytes": 343689,
    "stored": [
-    852,
+    822,
     1100
    ],
-   "cropped": false,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the publication date is the basis for the claim."
+   "cropped": true,
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "dateLabel": "1896"
   },
   "green-turtle": {
    "speciesId": "green-turtle",
@@ -2105,13 +2200,14 @@
    "height": 988,
    "score": 156,
    "file": "assets/plates/green-turtle.jpg",
-   "bytes": 258249,
+   "bytes": 248017,
    "stored": [
-    615,
-    897
+    599,
+    857
    ],
    "cropped": true,
-   "pdBasis": "Published 1888, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1888, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1888"
   },
   "sperm-whale": {
    "speciesId": "sperm-whale",
@@ -2127,13 +2223,14 @@
    "height": 400,
    "score": 169,
    "file": "assets/plates/sperm-whale.jpg",
-   "bytes": 59838,
+   "bytes": 46630,
    "stored": [
-    491,
-    400
+    444,
+    313
    ],
-   "cropped": false,
-   "pdBasis": "Published 1883, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "cropped": true,
+   "pdBasis": "Dated 1883, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1883"
   },
   "arabian-oryx": {
    "speciesId": "arabian-oryx",
@@ -2149,13 +2246,14 @@
    "height": 2995,
    "score": 180,
    "file": "assets/plates/arabian-oryx.jpg",
-   "bytes": 245309,
+   "bytes": 186804,
    "stored": [
-    1100,
-    730
+    750,
+    1100
    ],
    "cropped": true,
-   "pdBasis": "Published 1857, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1857, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1857"
   },
   "african-lion": {
    "speciesId": "african-lion",
@@ -2171,13 +2269,14 @@
    "height": 409,
    "assignedByHand": true,
    "file": "assets/plates/african-lion.jpg",
-   "bytes": 48366,
+   "bytes": 46494,
    "stored": [
-    581,
-    367
+    580,
+    348
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "snow-leopard": {
    "speciesId": "snow-leopard",
@@ -2193,13 +2292,14 @@
    "height": 469,
    "assignedByHand": true,
    "file": "assets/plates/snow-leopard.jpg",
-   "bytes": 78592,
+   "bytes": 90702,
    "stored": [
-    601,
-    328
+    658,
+    440
    ],
    "cropped": true,
-   "pdBasis": "Published 1896, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1896, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1896"
   },
   "aldabra-giant-tortoise": {
    "speciesId": "aldabra-giant-tortoise",
@@ -2215,13 +2315,14 @@
    "height": 785,
    "assignedByHand": true,
    "file": "assets/plates/aldabra-giant-tortoise.jpg",
-   "bytes": 55055,
+   "bytes": 71569,
    "stored": [
-    614,
-    352
+    555,
+    506
    ],
    "cropped": true,
-   "pdBasis": "Published 1903, so US copyright (95 years from publication) has expired; the file is additionally tagged Public domain on Wikimedia Commons."
+   "pdBasis": "Dated 1903, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "dateLabel": "1903"
   },
   "crested-ibis": {
    "speciesId": "crested-ibis",
@@ -2237,12 +2338,14 @@
    "height": 1221,
    "score": 172,
    "file": "assets/plates/crested-ibis.jpg",
-   "bytes": 134934,
+   "bytes": 38222,
    "stored": [
-    764,
-    1100
+    207,
+    806
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1842",
+   "pdBasis": "Dated 1842, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "siberian-crane": {
    "speciesId": "siberian-crane",
@@ -2258,12 +2361,14 @@
    "height": 1209,
    "score": 172,
    "file": "assets/plates/siberian-crane.jpg",
-   "bytes": 96106,
+   "bytes": 70054,
    "stored": [
-    758,
-    1100
+    564,
+    945
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1842",
+   "pdBasis": "Dated 1842, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "leatherback-turtle": {
    "speciesId": "leatherback-turtle",
@@ -2271,7 +2376,7 @@
    "title": "File:Sphargis coriacea - 1833-1850 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZA1000760.tif",
    "artist": "Creator:De Villeneuve",
    "work": "De Villeneuve ad vivium del.ex Auct. Bibl. Prof. H. Schlegel, 1884. Fauna Japonica II. (Chelonii) Tab.1.",
-   "year": 1833,
+   "year": 1850,
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File%3ASphargis_coriacea_-_1833-1850_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZA1000760.tif",
    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sphargis_coriacea_-_1833-1850_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZA1000760.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2279,12 +2384,14 @@
    "height": 3510,
    "assignedByHand": true,
    "file": "assets/plates/leatherback-turtle.jpg",
-   "bytes": 67964,
+   "bytes": 51787,
    "stored": [
-    1100,
-    750
+    953,
+    576
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "between 1833 and 1850",
+   "pdBasis": "Dated between 1833 and 1850, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "silky-sifaka": {
    "speciesId": "silky-sifaka",
@@ -2300,12 +2407,14 @@
    "height": 2118,
    "score": 177,
    "file": "assets/plates/silky-sifaka.jpg",
-   "bytes": 195768,
+   "bytes": 192161,
    "stored": [
-    822,
+    796,
     1100
    ],
-   "cropped": true
+   "cropped": true,
+   "dateLabel": "1892",
+   "pdBasis": "Dated 1892, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "yangtze-finless-porpoise": {
    "speciesId": "yangtze-finless-porpoise",
@@ -2321,12 +2430,14 @@
    "height": 283,
    "score": 171,
    "file": "assets/plates/yangtze-finless-porpoise.jpg",
-   "bytes": 15206,
+   "bytes": 23021,
    "stored": [
-    520,
-    120
+    590,
+    266
    ],
-   "cropped": true
+   "cropped": true,
+   "dateLabel": "1883",
+   "pdBasis": "Dated 1883, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "irrawaddy-dolphin": {
    "speciesId": "irrawaddy-dolphin",
@@ -2342,12 +2453,14 @@
    "height": 1232,
    "score": 178,
    "file": "assets/plates/irrawaddy-dolphin.jpg",
-   "bytes": 145769,
+   "bytes": 165576,
    "stored": [
-    1100,
-    856
+    1041,
+    676
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1878",
+   "pdBasis": "Dated 1878, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "indus-river-dolphin": {
    "speciesId": "indus-river-dolphin",
@@ -2363,12 +2476,14 @@
    "height": 920,
    "score": 171,
    "file": "assets/plates/indus-river-dolphin.jpg",
-   "bytes": 299809,
+   "bytes": 294002,
    "stored": [
     1100,
-    659
+    645
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1927",
+   "pdBasis": "Dated 1927, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "dugong": {
    "speciesId": "dugong",
@@ -2384,12 +2499,14 @@
    "height": 2021,
    "score": 144,
    "file": "assets/plates/dugong.jpg",
-   "bytes": 133194,
+   "bytes": 153257,
    "stored": [
-    1066,
-    659
+    685,
+    1100
    ],
-   "cropped": true
+   "cropped": true,
+   "dateLabel": "1910",
+   "pdBasis": "Dated 1910, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "beluga-sturgeon": {
    "speciesId": "beluga-sturgeon",
@@ -2405,12 +2522,14 @@
    "height": 3291,
    "score": 184,
    "file": "assets/plates/beluga-sturgeon.jpg",
-   "bytes": 75654,
+   "bytes": 13574,
    "stored": [
-    1100,
-    603
+    371,
+    209
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1785",
+   "pdBasis": "Dated 1785, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "angelshark": {
    "speciesId": "angelshark",
@@ -2418,7 +2537,7 @@
    "title": "File:The fishes of Great Britain and Ireland (Plate CLXIII) (6935025283).jpg",
    "artist": "Achilles, C.; Day, Francis; Mintern Bros.",
    "work": "https://www.flickr.com/photos/biodivlibrary/6935025283",
-   "year": 1880,
+   "year": 1884,
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File%3AThe_fishes_of_Great_Britain_and_Ireland_%28Plate_CLXIII%29_%286935025283%29.jpg",
    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/6/64/The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLXIII%29_%286935025283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2426,12 +2545,14 @@
    "height": 1196,
    "score": 155,
    "file": "assets/plates/angelshark.jpg",
-   "bytes": 100403,
+   "bytes": 130465,
    "stored": [
-    619,
-    381
+    983,
+    485
    ],
-   "cropped": true
+   "cropped": true,
+   "dateLabel": "between 1880 and 1884",
+   "pdBasis": "Dated between 1880 and 1884, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "antarctic-blue-whale": {
    "speciesId": "antarctic-blue-whale",
@@ -2447,12 +2568,14 @@
    "height": 1980,
    "score": 159,
    "file": "assets/plates/antarctic-blue-whale.jpg",
-   "bytes": 125710,
+   "bytes": 99367,
    "stored": [
-    1100,
-    740
+    865,
+    465
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1900",
+   "pdBasis": "Dated 1900, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "sei-whale": {
    "speciesId": "sei-whale",
@@ -2468,12 +2591,14 @@
    "height": 1840,
    "score": 159,
    "file": "assets/plates/sei-whale.jpg",
-   "bytes": 76214,
+   "bytes": 51165,
    "stored": [
-    1100,
-    688
+    1099,
+    184
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1900",
+   "pdBasis": "Dated 1900, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "fin-whale": {
    "speciesId": "fin-whale",
@@ -2489,12 +2614,14 @@
    "height": 673,
    "score": 140,
    "file": "assets/plates/fin-whale.jpg",
-   "bytes": 104623,
+   "bytes": 54753,
    "stored": [
-    769,
-    673
+    537,
+    434
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1916",
+   "pdBasis": "Dated 1916, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "north-atlantic-right-whale": {
    "speciesId": "north-atlantic-right-whale",
@@ -2510,12 +2637,14 @@
    "height": 1840,
    "score": 159,
    "file": "assets/plates/north-atlantic-right-whale.jpg",
-   "bytes": 58623,
+   "bytes": 74968,
    "stored": [
-    863,
-    268
+    1099,
+    391
    ],
-   "cropped": true
+   "cropped": true,
+   "dateLabel": "1900",
+   "pdBasis": "Dated 1900, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "amazon-river-dolphin": {
    "speciesId": "amazon-river-dolphin",
@@ -2531,12 +2660,14 @@
    "height": 370,
    "score": 171,
    "file": "assets/plates/amazon-river-dolphin.jpg",
-   "bytes": 28881,
+   "bytes": 31129,
    "stored": [
-    716,
-    370
+    647,
+    347
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "1883",
+   "pdBasis": "Dated 1883, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "giant-armadillo": {
    "speciesId": "giant-armadillo",
@@ -2552,12 +2683,14 @@
    "height": 928,
    "score": 144,
    "file": "assets/plates/giant-armadillo.jpg",
-   "bytes": 174164,
+   "bytes": 119542,
    "stored": [
-    1100,
-    703
+    970,
+    533
    ],
-   "cropped": true
+   "cropped": true,
+   "dateLabel": "1902",
+   "pdBasis": "Dated 1902, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "scalloped-hammerhead": {
    "speciesId": "scalloped-hammerhead",
@@ -2565,7 +2698,7 @@
    "title": "File:The fishes of Great Britain and Ireland (Plate CLIV) (6935022249).jpg",
    "artist": "Achilles, C.; Day, Francis; Mintern Bros.",
    "work": "https://www.flickr.com/photos/biodivlibrary/6935022249",
-   "year": 1880,
+   "year": 1884,
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File%3AThe_fishes_of_Great_Britain_and_Ireland_%28Plate_CLIV%29_%286935022249%29.jpg",
    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLIV%29_%286935022249%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2573,13 +2706,15 @@
    "height": 1196,
    "score": 155,
    "file": "assets/plates/scalloped-hammerhead.jpg",
-   "bytes": 89031,
+   "bytes": 63774,
    "stored": [
-    1100,
-    705
+    779,
+    358
    ],
-   "cropped": false,
-   "depicts": "Plate depicts the smooth hammerhead (Zygaena maleus), a close relative; the two are near-identical but for the notch in the head."
+   "cropped": true,
+   "depicts": "Plate depicts the smooth hammerhead (Zygaena maleus), a close relative; the two are near-identical but for the notch in the head.",
+   "dateLabel": "between 1880 and 1884",
+   "pdBasis": "Dated between 1880 and 1884, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "basking-shark": {
    "speciesId": "basking-shark",
@@ -2587,7 +2722,7 @@
    "title": "File:The fishes of Great Britain and Ireland (Plate CLVIII) (6935023523).jpg",
    "artist": "Achilles, C.; Day, Francis; Mintern Bros.",
    "work": "https://www.flickr.com/photos/biodivlibrary/6935023523",
-   "year": 1880,
+   "year": 1884,
    "licence": "Public domain",
    "source": "https://commons.wikimedia.org/wiki/File%3AThe_fishes_of_Great_Britain_and_Ireland_%28Plate_CLVIII%29_%286935023523%29.jpg",
    "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/2/26/The_fishes_of_Great_Britain_and_Ireland_%28Plate_CLVIII%29_%286935023523%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2595,12 +2730,14 @@
    "height": 1196,
    "score": 155,
    "file": "assets/plates/basking-shark.jpg",
-   "bytes": 122929,
+   "bytes": 140611,
    "stored": [
-    1100,
-    705
+    953,
+    683
    ],
-   "cropped": false
+   "cropped": true,
+   "dateLabel": "between 1880 and 1884",
+   "pdBasis": "Dated between 1880 and 1884, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "humphead-wrasse": {
    "speciesId": "humphead-wrasse",
@@ -2616,13 +2753,15 @@
    "height": 1314,
    "score": 183,
    "file": "assets/plates/humphead-wrasse.jpg",
-   "bytes": 169107,
+   "bytes": 152016,
    "stored": [
-    1077,
-    461
+    1100,
+    394
    ],
    "cropped": true,
-   "depicts": "Plate depicts Cheilinus godeffroyi, a close relative in the same genus."
+   "depicts": "Plate depicts Cheilinus godeffroyi, a close relative in the same genus.",
+   "dateLabel": "1871",
+   "pdBasis": "Dated 1871, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
   },
   "nassau-grouper": {
    "speciesId": "nassau-grouper",
@@ -2638,12 +2777,1138 @@
    "height": 3194,
    "score": 184,
    "file": "assets/plates/nassau-grouper.jpg",
-   "bytes": 75940,
+   "bytes": 45445,
+   "stored": [
+    749,
+    262
+   ],
+   "cropped": true,
+   "dateLabel": "1785",
+   "pdBasis": "Dated 1785, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons."
+  },
+  "northern-white-rhinoceros": {
+   "speciesId": "northern-white-rhinoceros",
+   "for": "Northern White Rhinoceros (Ceratotherium simum cottoni)",
+   "title": "File:The animal kingdom; based upon the writings of the eminent naturalists, Audubon, Wallace, Brehm, Wood and others (1897) (18196955405).jpg",
+   "artist": "Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/18196955405/",
+   "year": 1897,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3AThe_animal_kingdom%3B_based_upon_the_writings_of_the_eminent_naturalists%2C_Audubon%2C_Wallace%2C_Brehm%2C_Wood_and_others_%281897%29_%2818196955405%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_animal_kingdom%3B_based_upon_the_writings_of_the_eminent_naturalists%2C_Audubon%2C_Wallace%2C_Brehm%2C_Wood_and_others_%281897%29_%2818196955405%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1940,
+   "height": 2774,
+   "score": 180,
+   "dateLabel": "1897",
+   "pdBasis": "Dated 1897, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/northern-white-rhinoceros.jpg",
+   "bytes": 180823,
+   "stored": [
+    771,
+    1100
+   ],
+   "cropped": true
+  },
+  "grevys-zebra": {
+   "speciesId": "grevys-zebra",
+   "for": "Grévy's Zebra (Equus grevyi)",
+   "title": "File:Points of the horse; a treatise on the conformation, movements, breeds and evolution of the horse (1897) (20624033319).jpg",
+   "artist": "Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/20624033319/ \n \n  Source book page:  https://archive.org/stream/CUbiodiversity1171989/#page/n377/mode/1up",
+   "year": 1897,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3APoints_of_the_horse%3B_a_treatise_on_the_conformation%2C_movements%2C_breeds_and_evolution_of_the_horse_%281897%29_%2820624033319%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Points_of_the_horse%3B_a_treatise_on_the_conformation%2C_movements%2C_breeds_and_evolution_of_the_horse_%281897%29_%2820624033319%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2120,
+   "height": 1680,
+   "score": 157,
+   "dateLabel": "1897",
+   "pdBasis": "Dated 1897, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/grevys-zebra.jpg",
+   "bytes": 374716,
    "stored": [
     1100,
-    585
+    886
    ],
-   "cropped": false
+   "cropped": true
+  },
+  "somali-wild-ass": {
+   "speciesId": "somali-wild-ass",
+   "for": "Somali Wild Ass (Equus africanus somaliensis)",
+   "title": "File:Asinus africanus - 1863 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZA1000552.tif",
+   "artist": "Heinrich Leutemann",
+   "work": "H.Leutemann. n.d. Natur Hamburg Sept. 1863. No 2. Asinus africanus im Hamburger Zoologischen Garten bezeichnet.",
+   "year": 1863,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AAsinus_africanus_-_1863_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZA1000552.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/00/Asinus_africanus_-_1863_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZA1000552.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2550,
+   "height": 2028,
+   "score": 184,
+   "dateLabel": "1863",
+   "pdBasis": "Dated 1863, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/somali-wild-ass.jpg",
+   "bytes": 120075,
+   "stored": [
+    924,
+    743
+   ],
+   "cropped": true
+  },
+  "madagascar-pochard": {
+   "speciesId": "madagascar-pochard",
+   "for": "Madagascar Pochard (Aythya innotata)",
+   "title": "File:NyrocaInnotataKeulemans.jpg",
+   "artist": "John Gerrard Keulemans",
+   "work": "Catalogue of the Birds in the British Museum. Volume 27",
+   "year": 1895,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ANyrocaInnotataKeulemans.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/0f/NyrocaInnotataKeulemans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1720,
+   "height": 2800,
+   "score": 179,
+   "dateLabel": "1895",
+   "pdBasis": "Dated 1895, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/madagascar-pochard.jpg",
+   "bytes": 283057,
+   "stored": [
+    1069,
+    1100
+   ],
+   "cropped": true
+  },
+  "madagascar-fish-eagle": {
+   "speciesId": "madagascar-fish-eagle",
+   "for": "Madagascar Fish Eagle (Icthyophaga vociferoides)",
+   "title": "File:Haliaeetus vociferoides 1849.jpg",
+   "artist": "Marc Athanase Parfait Oeillet Des Murs",
+   "work": "Iconographie ornithologique",
+   "year": 1849,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AHaliaeetus_vociferoides_1849.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/1/18/Haliaeetus_vociferoides_1849.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3654,
+   "height": 4543,
+   "score": 159,
+   "dateLabel": "1849",
+   "pdBasis": "Dated 1849, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/madagascar-fish-eagle.jpg",
+   "bytes": 156395,
+   "stored": [
+    639,
+    1100
+   ],
+   "cropped": true
+  },
+  "pink-pigeon": {
+   "speciesId": "pink-pigeon",
+   "for": "Pink Pigeon (Nesoenas mayeri)",
+   "title": "File:Columba meyeri - 1868 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ15600185.tif",
+   "artist": "Unknown",
+   "work": "Schlegel & Pollen, Recherches sur la faune de Madagascar, pl. 36",
+   "year": 1868,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AColumba_meyeri_-_1868_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ15600185.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/3/33/Columba_meyeri_-_1868_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ15600185.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2965,
+   "height": 3930,
+   "score": 184,
+   "dateLabel": "1868",
+   "pdBasis": "Dated 1868, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/pink-pigeon.jpg",
+   "bytes": 93342,
+   "stored": [
+    575,
+    741
+   ],
+   "cropped": true
+  },
+  "african-penguin": {
+   "speciesId": "african-penguin",
+   "for": "African Penguin (Spheniscus demersus)",
+   "title": "File:Spheniscus demersus - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ17800203.tif",
+   "artist": "Unknown",
+   "work": "Buffon X p. 219 pl. 382",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ASpheniscus_demersus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800203.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Spheniscus_demersus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800203.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2908,
+   "height": 3910,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/african-penguin.jpg",
+   "bytes": 217872,
+   "stored": [
+    903,
+    1100
+   ],
+   "cropped": true
+  },
+  "northern-bald-ibis": {
+   "speciesId": "northern-bald-ibis",
+   "for": "Northern Bald Ibis (Geronticus eremita)",
+   "title": "File:Gemeinnüzzige Naturgeschichte des Thierreichs (Plate 71) (6009082116).jpg",
+   "artist": "Borowski, Georg Heinrich; Herbst, Johann Friedrich Wilhelm; Sotzmann, D. F.",
+   "work": "https://www.flickr.com/photos/biodivlibrary/6009082116",
+   "year": 1780,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AGemeinn%C3%BCzzige_Naturgeschichte_des_Thierreichs_%28Plate_71%29_%286009082116%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Gemeinn%C3%BCzzige_Naturgeschichte_des_Thierreichs_%28Plate_71%29_%286009082116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1716,
+   "height": 3048,
+   "score": 179,
+   "dateLabel": "1780",
+   "pdBasis": "Dated 1780, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/northern-bald-ibis.jpg",
+   "bytes": 191708,
+   "stored": [
+    647,
+    1100
+   ],
+   "cropped": true
+  },
+  "white-backed-vulture": {
+   "speciesId": "white-backed-vulture",
+   "for": "White-backed Vulture (Gyps africanus)",
+   "title": "File:Carl Georg Schillings Geier.jpg",
+   "artist": "Carl Georg Schillings",
+   "work": "Carl Georg Schillings:  Mit Blitzlicht und Büchse . Leipzig: R. Voigtländer, 1905, S. 205",
+   "year": 1905,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ACarl_Georg_Schillings_Geier.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Carl_Georg_Schillings_Geier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3940,
+   "height": 2944,
+   "score": 153,
+   "dateLabel": "1905",
+   "pdBasis": "Dated 1905, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/white-backed-vulture.jpg",
+   "bytes": 222095,
+   "stored": [
+    1100,
+    663
+   ],
+   "cropped": true
+  },
+  "temmincks-pangolin": {
+   "speciesId": "temmincks-pangolin",
+   "for": "Temminck's Pangolin (Smutsia temminckii)",
+   "title": "File:Brockhaus and Efron Encyclopedic Dictionary b40 888-3.jpg",
+   "artist": "painter from Brockhaus and Efron Encyclopedic Dictionary",
+   "work": "reproduction from DVD  http://www.iddk.ru/ru/cdrom/73147.html",
+   "year": 1907,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ABrockhaus_and_Efron_Encyclopedic_Dictionary_b40_888-3.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Brockhaus_and_Efron_Encyclopedic_Dictionary_b40_888-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2654,
+   "height": 1703,
+   "score": 184,
+   "dateLabel": "between 1890 and 1907",
+   "pdBasis": "Dated between 1890 and 1907, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/temmincks-pangolin.jpg",
+   "bytes": 410294,
+   "stored": [
+    1100,
+    730
+   ],
+   "cropped": true
+  },
+  "white-bellied-pangolin": {
+   "speciesId": "white-bellied-pangolin",
+   "for": "White-bellied Pangolin (Phataginus tricuspis)",
+   "title": "File:Anatomische Untersuchungen über die Edentaten (1852) (18194819341).jpg",
+   "artist": "Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/18194819341/",
+   "year": 1852,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3AAnatomische_Untersuchungen_%C3%BCber_die_Edentaten_%281852%29_%2818194819341%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Anatomische_Untersuchungen_%C3%BCber_die_Edentaten_%281852%29_%2818194819341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3600,
+   "height": 2547,
+   "score": 184,
+   "dateLabel": "1852",
+   "pdBasis": "Dated 1852, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/white-bellied-pangolin.jpg",
+   "bytes": 160049,
+   "stored": [
+    837,
+    630
+   ],
+   "cropped": true
+  },
+  "okapi": {
+   "speciesId": "okapi",
+   "for": "Okapi (Okapia johnstoni)",
+   "title": "File:Annales des sciences naturelles (1909) (18380870936).jpg",
+   "artist": "Terrier del. \nA Millot lith. \n \n Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/18380870936/",
+   "year": 1909,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3AAnnales_des_sciences_naturelles_%281909%29_%2818380870936%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/5/52/Annales_des_sciences_naturelles_%281909%29_%2818380870936%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2800,
+   "height": 1990,
+   "score": 178,
+   "dateLabel": "1909",
+   "pdBasis": "Dated 1909, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/okapi.jpg",
+   "bytes": 312853,
+   "stored": [
+    1100,
+    796
+   ],
+   "cropped": true
+  },
+  "sumatran-rhinoceros": {
+   "speciesId": "sumatran-rhinoceros",
+   "for": "Sumatran Rhinoceros (Dicerorhinus sumatrensis)",
+   "title": "File:Proceedings of the Zoological Society of London (9467886950).jpg",
+   "artist": "Zoological Society of London.; Zoological Society of London.",
+   "work": "https://www.flickr.com/photos/biodivlibrary/9467886950",
+   "year": 1872,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AProceedings_of_the_Zoological_Society_of_London_%289467886950%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Proceedings_of_the_Zoological_Society_of_London_%289467886950%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2880,
+   "height": 1863,
+   "score": 184,
+   "dateLabel": "1872",
+   "pdBasis": "Dated 1872, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/sumatran-rhinoceros.jpg",
+   "bytes": 157039,
+   "stored": [
+    1100,
+    658
+   ],
+   "cropped": true
+  },
+  "wild-bactrian-camel": {
+   "speciesId": "wild-bactrian-camel",
+   "for": "Wild Bactrian Camel (Camelus ferus)",
+   "title": "File:Brockhaus and Efron Encyclopedic Dictionary b11 007-0.jpg",
+   "artist": "painter from Brockhaus and Efron Encyclopedic Dictionary",
+   "work": "reproduction from DVD  http://www.iddk.ru/ru/cdrom/73147.html",
+   "year": 1907,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ABrockhaus_and_Efron_Encyclopedic_Dictionary_b11_007-0.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Brockhaus_and_Efron_Encyclopedic_Dictionary_b11_007-0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2498,
+   "height": 1670,
+   "score": 184,
+   "dateLabel": "between 1890 and 1907",
+   "pdBasis": "Dated between 1890 and 1907, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/wild-bactrian-camel.jpg",
+   "bytes": 225139,
+   "stored": [
+    1100,
+    762
+   ],
+   "cropped": true
+  },
+  "chinese-pangolin": {
+   "speciesId": "chinese-pangolin",
+   "for": "Chinese Pangolin (Manis pentadactyla)",
+   "title": "File:Manis pentadactyla - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ21000001.tif",
+   "artist": "Unknown",
+   "work": "Iconographia Zoologica",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AManis_pentadactyla_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ21000001.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Manis_pentadactyla_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ21000001.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3452,
+   "height": 4462,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/chinese-pangolin.jpg",
+   "bytes": 117002,
+   "stored": [
+    778,
+    438
+   ],
+   "cropped": true
+  },
+  "indian-pangolin": {
+   "speciesId": "indian-pangolin",
+   "for": "Indian Pangolin (Manis crassicaudata)",
+   "title": "File:Manis brachyura - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ21000021.tif",
+   "artist": "Unknown",
+   "work": "Iconographia Zoologica",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AManis_brachyura_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ21000021.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/02/Manis_brachyura_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ21000021.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 4511,
+   "height": 6192,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/indian-pangolin.jpg",
+   "bytes": 152891,
+   "stored": [
+    838,
+    1100
+   ],
+   "cropped": true
+  },
+  "spoon-billed-sandpiper": {
+   "speciesId": "spoon-billed-sandpiper",
+   "for": "Spoon-billed Sandpiper (Calidris pygmaea)",
+   "title": "File:Eurinorhynchus pygmaeus - 1820-1860 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ17400275.tif",
+   "artist": "Unknown",
+   "work": "[Reichenbach, Iconographia], 653-654",
+   "year": 1860,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AEurinorhynchus_pygmaeus_-_1820-1860_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17400275.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eurinorhynchus_pygmaeus_-_1820-1860_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17400275.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2951,
+   "height": 3926,
+   "score": 184,
+   "dateLabel": "between 1820 and 1860",
+   "pdBasis": "Dated between 1820 and 1860, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/spoon-billed-sandpiper.jpg",
+   "bytes": 37486,
+   "stored": [
+    807,
+    332
+   ],
+   "cropped": true
+  },
+  "white-rumped-vulture": {
+   "speciesId": "white-rumped-vulture",
+   "for": "White-rumped Vulture (Gyps bengalensis)",
+   "title": "File:BirdsAsiaJohnGoIGoul 0032.jpg",
+   "artist": "John Gould    /    Henry Constantine Richter",
+   "work": "Gould, John, 1804-1881; Sharpe, Richard Bowdler, 1847-1909:  Birds of Asia. ,  Volume 1 , London,  [1]",
+   "year": 1883,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ABirdsAsiaJohnGoIGoul_0032.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/2/27/BirdsAsiaJohnGoIGoul_0032.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 4277,
+   "height": 6292,
+   "score": 184,
+   "dateLabel": "between 1850 and 1883",
+   "pdBasis": "Dated between 1850 and 1883, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/white-rumped-vulture.jpg",
+   "bytes": 106342,
+   "stored": [
+    895,
+    367
+   ],
+   "cropped": true
+  },
+  "indian-vulture": {
+   "speciesId": "indian-vulture",
+   "for": "Indian Vulture (Gyps indicus)",
+   "title": "File:Edinburgh journal of natural history and of the physical sciences (1835) (21173398821).jpg",
+   "artist": "Macgillivray, William, 1796-1852, ed;\n \nCuvier, Georges, baron, 1769-1832. Animal kingdom of the Baron Cuvier adapted to the present state of zoological science",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/21173398821/ \n \n  Source book page:  https://archive.org/stream/edinburghjournal01macg/#page/n464/mode/1up",
+   "year": 1835,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3AEdinburgh_journal_of_natural_history_and_of_the_physical_sciences_%281835%29_%2821173398821%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Edinburgh_journal_of_natural_history_and_of_the_physical_sciences_%281835%29_%2821173398821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2557,
+   "height": 3780,
+   "score": 184,
+   "dateLabel": "1835",
+   "pdBasis": "Dated 1835, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/indian-vulture.jpg",
+   "bytes": 309813,
+   "stored": [
+    722,
+    1100
+   ],
+   "cropped": true
+  },
+  "red-crowned-crane": {
+   "speciesId": "red-crowned-crane",
+   "for": "Red-crowned Crane (Grus japonensis)",
+   "title": "File:The Avicultural magazine (1912) (20358198811).jpg",
+   "artist": "Hubert D. Astley\n \n Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/20358198811/ \n \n  Source book page:  https://archive.org/stream/avicultural4319121913avic/#page/n482/mode/1up",
+   "year": 1912,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3AThe_Avicultural_magazine_%281912%29_%2820358198811%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/04/The_Avicultural_magazine_%281912%29_%2820358198811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1778,
+   "height": 1914,
+   "score": 173,
+   "dateLabel": "1912",
+   "pdBasis": "Dated 1912, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/red-crowned-crane.jpg",
+   "bytes": 317585,
+   "stored": [
+    840,
+    1100
+   ],
+   "cropped": true
+  },
+  "bali-myna": {
+   "speciesId": "bali-myna",
+   "for": "Bali Myna (Leucopsar rothschildi)",
+   "title": "File:Leucopsar rothschildi & Acridotheres melanopterus tertius 1912.jpg",
+   "artist": "Henrik Grønvold",
+   "work": "Novitates Zoologicae, vol. 19",
+   "year": 1912,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ALeucopsar_rothschildi_%26_Acridotheres_melanopterus_tertius_1912.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Leucopsar_rothschildi_%26_Acridotheres_melanopterus_tertius_1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 866,
+   "height": 1339,
+   "score": 166,
+   "dateLabel": "1912",
+   "pdBasis": "Dated 1912, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/bali-myna.jpg",
+   "bytes": 121112,
+   "stored": [
+    704,
+    1047
+   ],
+   "cropped": true
+  },
+  "gharial": {
+   "speciesId": "gharial",
+   "for": "Gharial (Gavialis gangeticus)",
+   "title": "File:Crocodilus gangeticus - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ12200103.tif",
+   "artist": "Unknown",
+   "work": "Iconographia Zoologica",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ACrocodilus_gangeticus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12200103.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Crocodilus_gangeticus_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ12200103.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2512,
+   "height": 3169,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/gharial.jpg",
+   "bytes": 171309,
+   "stored": [
+    1012,
+    650
+   ],
+   "cropped": true
+  },
+  "yangtze-giant-softshell-turtle": {
+   "speciesId": "yangtze-giant-softshell-turtle",
+   "for": "Yangtze Giant Softshell Turtle (Rafetus swinhoei)",
+   "title": "File:Oscaria swinhoei - s4annalsmagazine12londuoft 0529.jpg",
+   "artist": "en:John Edward Gray  and/or G.H. Ford",
+   "work": "Gray, J. E.  \"Notes on Chinese Mud-Tortoises....\", Annals Mag of Nat Hist, ser 4, vol. XII, 1873. Plate V:  https://archive.org/stream/s4annalsmagazine12londuoft#page/n527/mode/2up",
+   "year": 1873,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AOscaria_swinhoei_-_s4annalsmagazine12londuoft_0529.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Oscaria_swinhoei_-_s4annalsmagazine12londuoft_0529.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 831,
+   "height": 503,
+   "score": 147,
+   "dateLabel": "1873",
+   "pdBasis": "Dated 1873, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/yangtze-giant-softshell-turtle.jpg",
+   "bytes": 60516,
+   "stored": [
+    638,
+    280
+   ],
+   "cropped": true
+  },
+  "iberian-lynx": {
+   "speciesId": "iberian-lynx",
+   "for": "Iberian Lynx (Lynx pardinus)",
+   "title": "File:Felis pardina - 1834 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ22100348.tif",
+   "artist": "Creator:Schnorr",
+   "work": "Reichenbach, Der Naturfreund, 40, 40b",
+   "year": 1834,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AFelis_pardina_-_1834_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ22100348.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Felis_pardina_-_1834_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ22100348.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2535,
+   "height": 3202,
+   "score": 184,
+   "dateLabel": "1834",
+   "pdBasis": "Dated 1834, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/iberian-lynx.jpg",
+   "bytes": 60771,
+   "stored": [
+    633,
+    400
+   ],
+   "cropped": true
+  },
+  "saimaa-ringed-seal": {
+   "speciesId": "saimaa-ringed-seal",
+   "for": "Saimaa Ringed Seal (Pusa hispida saimensis)",
+   "title": "File:Phoca annellata - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ21100199.tif",
+   "artist": "Unknown",
+   "work": "Iconographia Zoologica",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3APhoca_annellata_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ21100199.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Phoca_annellata_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ21100199.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3472,
+   "height": 4542,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/saimaa-ringed-seal.jpg",
+   "bytes": 184426,
+   "stored": [
+    875,
+    1100
+   ],
+   "cropped": true
+  },
+  "european-hamster": {
+   "speciesId": "european-hamster",
+   "for": "European Hamster (Cricetus cricetus)",
+   "title": "File:Cricetus frumentarius - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ20500031.tif",
+   "artist": "Unknown",
+   "work": "Iconographia Zoologica",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ACricetus_frumentarius_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ20500031.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Cricetus_frumentarius_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ20500031.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3499,
+   "height": 4462,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/european-hamster.jpg",
+   "bytes": 251563,
+   "stored": [
+    847,
+    1100
+   ],
+   "cropped": true
+  },
+  "balearic-shearwater": {
+   "speciesId": "balearic-shearwater",
+   "for": "Balearic Shearwater (Puffinus mauretanicus)",
+   "title": "File:OrnithologiaNeerlandica01Pl87.png",
+   "artist": "Marinus Adrianus Koekkoek II",
+   "work": "Internet Archive identifier : Ornithologianee00Oort",
+   "year": 1922,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AOrnithologiaNeerlandica01Pl87.png",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/e/ea/OrnithologiaNeerlandica01Pl87.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 7174,
+   "height": 5122,
+   "score": 153,
+   "dateLabel": "1922",
+   "pdBasis": "Dated 1922, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/balearic-shearwater.jpg",
+   "bytes": 145988,
+   "stored": [
+    1100,
+    815
+   ],
+   "cropped": true
+  },
+  "emperor-penguin": {
+   "speciesId": "emperor-penguin",
+   "for": "Emperor Penguin (Aptenodytes forsteri)",
+   "title": "File:Aptenodytes forsteri - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ17800259.tif",
+   "artist": "Robert Kretschmer",
+   "work": "Brehm, Thierleben",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AAptenodytes_forsteri_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800259.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/8/85/Aptenodytes_forsteri_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800259.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2957,
+   "height": 3906,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/emperor-penguin.jpg",
+   "bytes": 217897,
+   "stored": [
+    776,
+    1100
+   ],
+   "cropped": true
+  },
+  "macaroni-penguin": {
+   "speciesId": "macaroni-penguin",
+   "for": "Macaroni Penguin (Eudyptes chrysolophus)",
+   "title": "File:Eudyptes chrysolopha - 1845-1863 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ17800223.tif",
+   "artist": "Unknown",
+   "work": "[Reichenbach, Vollständigste Naturgeschichte], 12-14",
+   "year": 1863,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AEudyptes_chrysolopha_-_1845-1863_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800223.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/6/61/Eudyptes_chrysolopha_-_1845-1863_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800223.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2923,
+   "height": 3895,
+   "score": 184,
+   "dateLabel": "between 1845 and 1863",
+   "pdBasis": "Dated between 1845 and 1863, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/macaroni-penguin.jpg",
+   "bytes": 47527,
+   "stored": [
+    604,
+    362
+   ],
+   "cropped": true
+  },
+  "southern-rockhopper-penguin": {
+   "speciesId": "southern-rockhopper-penguin",
+   "for": "Southern Rockhopper Penguin (Eudyptes chrysocome)",
+   "title": "File:Eudyptes catarractes - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ17800213.tif",
+   "artist": "Unknown",
+   "work": "Buffon X p. 224 pl. 984",
+   "year": 1880,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AEudyptes_catarractes_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800213.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Eudyptes_catarractes_-_1700-1880_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17800213.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2888,
+   "height": 3902,
+   "score": 184,
+   "dateLabel": "between 1700 and 1880",
+   "pdBasis": "Dated between 1700 and 1880, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/southern-rockhopper-penguin.jpg",
+   "bytes": 207558,
+   "stored": [
+    904,
+    1100
+   ],
+   "cropped": true
+  },
+  "california-condor": {
+   "speciesId": "california-condor",
+   "for": "California Condor (Gymnogyps californianus)",
+   "title": "File:426 Californian Vulture.jpg",
+   "artist": "John James Audubon",
+   "work": "University of Pittsburgh",
+   "year": 1838,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3A426_Californian_Vulture.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/f/f5/426_Californian_Vulture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 11176,
+   "height": 15992,
+   "score": 184,
+   "dateLabel": "between 1827 and 1838",
+   "pdBasis": "Dated between 1827 and 1838, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/california-condor.jpg",
+   "bytes": 132830,
+   "stored": [
+    765,
+    1100
+   ],
+   "cropped": true
+  },
+  "whooping-crane": {
+   "speciesId": "whooping-crane",
+   "for": "Whooping Crane (Grus americana)",
+   "title": "File:226 Hooping Crane.jpg",
+   "artist": "John James Audubon",
+   "work": "University of Pittsburgh",
+   "year": 1838,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3A226_Hooping_Crane.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/b/b1/226_Hooping_Crane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 11208,
+   "height": 16024,
+   "score": 184,
+   "dateLabel": "1827-1838 (publication)",
+   "pdBasis": "Dated 1827-1838 (publication), so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/whooping-crane.jpg",
+   "bytes": 189244,
+   "stored": [
+    738,
+    1100
+   ],
+   "cropped": true
+  },
+  "red-wolf": {
+   "speciesId": "red-wolf",
+   "for": "Red Wolf (Canis rufus)",
+   "title": "File:John Woodhouse Audubon - Red Texas Wolf (Canis Lupus) - Google Art Project.jpg",
+   "artist": "John Woodhouse Audubon",
+   "work": "lAH_OXQY3zAA8Q at Google Cultural Institute , zoom level maximum",
+   "year": 1845,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AJohn_Woodhouse_Audubon_-_Red_Texas_Wolf_%28Canis_Lupus%29_-_Google_Art_Project.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/b/bd/John_Woodhouse_Audubon_-_Red_Texas_Wolf_%28Canis_Lupus%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2401,
+   "height": 1866,
+   "score": 184,
+   "dateLabel": "1845",
+   "pdBasis": "Dated 1845, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/red-wolf.jpg",
+   "bytes": 193127,
+   "stored": [
+    1100,
+    576
+   ],
+   "cropped": true
+  },
+  "palila": {
+   "speciesId": "palila",
+   "for": "Palila (Loxioides bailleui)",
+   "title": "File:LoxioidesBailleuiKeulemans.jpg",
+   "artist": "John Gerrard Keulemans",
+   "work": "The Ibis, ser. 4, vol. 3",
+   "year": 1879,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ALoxioidesBailleuiKeulemans.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/8/84/LoxioidesBailleuiKeulemans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1865,
+   "height": 2970,
+   "score": 180,
+   "dateLabel": "1879",
+   "pdBasis": "Dated 1879, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/palila.jpg",
+   "bytes": 73845,
+   "stored": [
+    546,
+    539
+   ],
+   "cropped": true
+  },
+  "monarch-butterfly": {
+   "speciesId": "monarch-butterfly",
+   "for": "Monarch Butterfly (migratory) (Danaus plexippus plexippus)",
+   "title": "File:Birds and nature (1903) (14755300155).jpg",
+   "artist": "Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/14755300155/ \n \n  Source book page:  https://archive.org/stream/birdsnature141903chic/birdsnature141903chic#page/n43/mode/1up",
+   "year": 1903,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3ABirds_and_nature_%281903%29_%2814755300155%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Birds_and_nature_%281903%29_%2814755300155%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3072,
+   "height": 4140,
+   "score": 178,
+   "dateLabel": "1903",
+   "pdBasis": "Dated 1903, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/monarch-butterfly.jpg",
+   "bytes": 199467,
+   "stored": [
+    575,
+    1081
+   ],
+   "cropped": true
+  },
+  "lears-macaw": {
+   "speciesId": "lears-macaw",
+   "for": "Lear's Macaw (Anodorhynchus leari)",
+   "title": "File:Anodorhynchus leari by Edward Lear.jpg",
+   "artist": "Edward Lear",
+   "work": "Originally a painting by Edward Lear posted to flickr at  Macrocercus hyacinthinus. Hyacinthine maccaw",
+   "year": 1870,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AAnodorhynchus_leari_by_Edward_Lear.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/5/52/Anodorhynchus_leari_by_Edward_Lear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2645,
+   "height": 4213,
+   "score": 159,
+   "dateLabel": "1870s",
+   "pdBasis": "Dated 1870s, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/lears-macaw.jpg",
+   "bytes": 116591,
+   "stored": [
+    697,
+    1100
+   ],
+   "cropped": true
+  },
+  "brazilian-merganser": {
+   "speciesId": "brazilian-merganser",
+   "for": "Brazilian Merganser (Mergus octosetaceus)",
+   "title": "File:Mergus brasiliensis - 1825-1834 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ17700211.tif",
+   "artist": "Paul Louis Oudart    /    Charles Étienne Pierre Motte",
+   "work": "Vieillot, La galerie des oiseaux, pl. 283",
+   "year": 1834,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AMergus_brasiliensis_-_1825-1834_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17700211.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mergus_brasiliensis_-_1825-1834_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ17700211.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2924,
+   "height": 3894,
+   "score": 184,
+   "dateLabel": "between 1825 and 1834",
+   "pdBasis": "Dated between 1825 and 1834, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/brazilian-merganser.jpg",
+   "bytes": 149684,
+   "stored": [
+    869,
+    1100
+   ],
+   "cropped": true
+  },
+  "floreana-mockingbird": {
+   "speciesId": "floreana-mockingbird",
+   "for": "Floreana Mockingbird (Mimus trifasciatus)",
+   "title": "File:Mimus trifasciatus.jpg",
+   "artist": "John Gould",
+   "work": "Darwin, C. R. ed. 1839. Birds Part 3 No. 2 of The zoology of the voyage of H.M.S. Beagle. by John Gould. Edited and superintended by Charles Darwin. London: Smith Elder and Co.",
+   "year": 1839,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AMimus_trifasciatus.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mimus_trifasciatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1672,
+   "height": 2156,
+   "score": 178,
+   "dateLabel": "1839",
+   "pdBasis": "Dated 1839, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/floreana-mockingbird.jpg",
+   "bytes": 93260,
+   "stored": [
+    803,
+    1100
+   ],
+   "cropped": true
+  },
+  "maned-wolf": {
+   "speciesId": "maned-wolf",
+   "for": "Maned Wolf (Chrysocyon brachyurus)",
+   "title": "File:Canis jubatus - 1833-1866 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ22200427.tif",
+   "artist": "William Home Lizars",
+   "work": "Smith, The naturalist's library, IX pl. 21",
+   "year": 1866,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ACanis_jubatus_-_1833-1866_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ22200427.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Canis_jubatus_-_1833-1866_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ22200427.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2523,
+   "height": 3267,
+   "score": 184,
+   "dateLabel": "between 1833 and 1866",
+   "pdBasis": "Dated between 1833 and 1866, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/maned-wolf.jpg",
+   "bytes": 102393,
+   "stored": [
+    779,
+    437
+   ],
+   "cropped": true
+  },
+  "orange-bellied-parrot": {
+   "speciesId": "orange-bellied-parrot",
+   "for": "Orange-bellied Parrot (Neophema chrysogaster)",
+   "title": "File:The birds of Australia (16242832244).jpg",
+   "artist": "Broinowski, Gracius J.",
+   "work": "https://www.flickr.com/photos/biodivlibrary/16242832244",
+   "year": 1890,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AThe_birds_of_Australia_%2816242832244%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/74/The_birds_of_Australia_%2816242832244%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 2352,
+   "height": 1639,
+   "score": 184,
+   "dateLabel": "1890",
+   "pdBasis": "Dated 1890, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/orange-bellied-parrot.jpg",
+   "bytes": 110790,
+   "stored": [
+    633,
+    451
+   ],
+   "cropped": true
+  },
+  "regent-honeyeater": {
+   "speciesId": "regent-honeyeater",
+   "for": "Regent Honeyeater (Anthochaera phrygia)",
+   "title": "File:John Lewin - Warty face honeysucker.Lewin, John. Birds of New South Wales with their natural history. Sydney- G. ... - Google Art Project.jpg",
+   "artist": "John LEWIN (1770 - August 1819)    Born in England. Died in Sydney, New South Wales, Australia.   Details on Google Art Project",
+   "work": "CwHwQVkli1CCuQ at Google Cultural Institute  maximum zoom level",
+   "year": 1805,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AJohn_Lewin_-_Warty_face_honeysucker.Lewin%2C_John._Birds_of_New_South_Wales_with_their_natural_history._Sydney-_G._..._-_Google_Art_Project.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/9/96/John_Lewin_-_Warty_face_honeysucker.Lewin%2C_John._Birds_of_New_South_Wales_with_their_natural_history._Sydney-_G._..._-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3673,
+   "height": 4617,
+   "score": 184,
+   "dateLabel": "from 1803 until 1805",
+   "pdBasis": "Dated from 1803 until 1805, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/regent-honeyeater.jpg",
+   "bytes": 218634,
+   "stored": [
+    924,
+    786
+   ],
+   "cropped": true
+  },
+  "swift-parrot": {
+   "speciesId": "swift-parrot",
+   "for": "Swift Parrot (Lathamus discolor)",
+   "title": "File:Companion to Gould's Handbook; or, Synopsis of the birds of Australia. Containing nearly one-third of the whole, or about 220 examples, for the most part from the original drawings (1877) (14564806659).jpg",
+   "artist": "Internet Archive Book Images",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/14564806659/ \n \n  Source book page:  https://archive.org/stream/CompanionGoulds00Digg/CompanionGoulds00Digg#page/n301/mode/1up",
+   "year": 1877,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3ACompanion_to_Gould%27s_Handbook%3B_or%2C_Synopsis_of_the_birds_of_Australia._Containing_nearly_one-third_of_the_whole%2C_or_about_220_examples%2C_for_the_most_part_from_the_original_drawings_%281877%29_%2814564806659%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Companion_to_Gould%27s_Handbook%3B_or%2C_Synopsis_of_the_birds_of_Australia._Containing_nearly_one-third_of_the_whole%2C_or_about_220_examples%2C_for_the_most_part_from_the_original_drawings_%281877%29_%2814564806659%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3616,
+   "height": 4978,
+   "score": 184,
+   "dateLabel": "1877",
+   "pdBasis": "Dated 1877, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/swift-parrot.jpg",
+   "bytes": 233618,
+   "stored": [
+    786,
+    1100
+   ],
+   "cropped": true
+  },
+  "night-parrot": {
+   "speciesId": "night-parrot",
+   "for": "Night Parrot (Pezoporus occidentalis)",
+   "title": "File:The birds of Australia (1890) (20196261990).jpg",
+   "artist": "Broinowski, Gracius J. (Gracius Joseph), 1837-1913",
+   "work": "https://www.flickr.com/photos/internetarchivebookimages/20196261990/ \n \n  Source book page:  https://archive.org/stream/birdsofaustralia03broi/#page/n210/mode/1up",
+   "year": 1890,
+   "licence": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File%3AThe_birds_of_Australia_%281890%29_%2820196261990%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_birds_of_Australia_%281890%29_%2820196261990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3076,
+   "height": 2154,
+   "score": 184,
+   "dateLabel": "1890",
+   "pdBasis": "Dated 1890, so US copyright (95 years from publication) has expired even at the latest possible date. The file carries the institutional 'no known copyright restrictions' tag rather than an affirmative public-domain declaration; the date is the basis for the claim.",
+   "file": "assets/plates/night-parrot.jpg",
+   "bytes": 335559,
+   "stored": [
+    1040,
+    839
+   ],
+   "cropped": true
+  },
+  "whale-shark": {
+   "speciesId": "whale-shark",
+   "for": "Whale Shark (Rhincodon typus)",
+   "title": "File:Rhinodon typicus (white background).jpg",
+   "artist": "Andrew Smith",
+   "work": "Drawing from \"Illustrations of the zoology of South Africa, consisting chiefly of figures and descriptions of the objects of natural history collected during an expedition into the interior of South Africa, in the years ",
+   "year": 1845,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ARhinodon_typicus_%28white_background%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Rhinodon_typicus_%28white_background%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 3298,
+   "height": 1396,
+   "score": 184,
+   "dateLabel": "1845",
+   "pdBasis": "Dated 1845, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/whale-shark.jpg",
+   "bytes": 77447,
+   "stored": [
+    1040,
+    480
+   ],
+   "cropped": true
+  },
+  "euphrates-softshell-turtle": {
+   "speciesId": "euphrates-softshell-turtle",
+   "for": "Euphrates Softshell Turtle (Rafetus euphraticus)",
+   "title": "File:Rafetus euphraticus by Guillaume-Antoine Olivier (100824509).jpg",
+   "artist": "Guillaume-Antoine Olivier",
+   "work": "National Library of Poland",
+   "year": 1807,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ARafetus_euphraticus_by_Guillaume-Antoine_Olivier_%28100824509%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rafetus_euphraticus_by_Guillaume-Antoine_Olivier_%28100824509%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 5508,
+   "height": 3884,
+   "score": 159,
+   "dateLabel": "between 1801 and 1807",
+   "pdBasis": "Dated between 1801 and 1807, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/euphrates-softshell-turtle.jpg",
+   "bytes": 135633,
+   "stored": [
+    953,
+    565
+   ],
+   "cropped": true
+  },
+  "cedar-of-lebanon": {
+   "speciesId": "cedar-of-lebanon",
+   "for": "Cedar of Lebanon (Cedrus libani)",
+   "title": "File:Dictionnaire de la Bible - F. Vigouroux - Tome II - Fruit Cedre.jpg",
+   "artist": "Louis Thuillier",
+   "work": "https://fr.wikisource.org/wiki/Page:Dictionnaire_de_la_Bible_-_F._Vigouroux_-_Tome_II.djvu/197",
+   "year": 1910,
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ADictionnaire_de_la_Bible_-_F._Vigouroux_-_Tome_II_-_Fruit_Cedre.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Dictionnaire_de_la_Bible_-_F._Vigouroux_-_Tome_II_-_Fruit_Cedre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 499,
+   "height": 313,
+   "score": 163,
+   "dateLabel": "1910",
+   "pdBasis": "Dated 1910, so US copyright (95 years from publication) has expired even at the latest possible date; the file is additionally tagged Public domain on Wikimedia Commons.",
+   "file": "assets/plates/cedar-of-lebanon.jpg",
+   "bytes": 38287,
+   "stored": [
+    383,
+    282
+   ],
+   "cropped": true
+  },
+  "javan-rhinoceros": {
+   "speciesId": "javan-rhinoceros",
+   "for": "Javan Rhinoceros (Rhinoceros sondaicus)",
+   "title": "File:Engraving of Java Rhinoceros (Hermann Schlegel, 1872).jpg",
+   "artist": "w:Hermann Schlegel",
+   "work": "Rhino Resource Center",
+   "year": 1872,
+   "dateLabel": "1872",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AEngraving_of_Java_Rhinoceros_%28Hermann_Schlegel%2C_1872%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/8/88/Engraving_of_Java_Rhinoceros_%28Hermann_Schlegel%2C_1872%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 550,
+   "height": 406,
+   "assignedByHand": true,
+   "file": "assets/plates/javan-rhinoceros.jpg",
+   "bytes": 79253,
+   "stored": [
+    497,
+    374
+   ],
+   "cropped": true
+  },
+  "white-rhinoceros": {
+   "speciesId": "white-rhinoceros",
+   "for": "Southern White Rhinoceros (Ceratotherium simum simum)",
+   "title": "File:Die Säugthiere in Abbildungen nach der Natur, mit Beschreibungen (Suppl., Plate CCCXVII.K) (7257714250).jpg",
+   "artist": "Goldfuss, Georg August; Schreber, Johann Christian Daniel; Wagner, Andreas Johann",
+   "work": "https://www.flickr.com/photos/biodivlibrary/7257714250",
+   "year": 1846,
+   "dateLabel": "between 1774 and 1846",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3ADie_S%C3%A4ugthiere_in_Abbildungen_nach_der_Natur%2C_mit_Beschreibungen_%28Suppl.%2C_Plate_CCCXVII.K%29_%287257714250%29.jpg",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/8/88/Die_S%C3%A4ugthiere_in_Abbildungen_nach_der_Natur%2C_mit_Beschreibungen_%28Suppl.%2C_Plate_CCCXVII.K%29_%287257714250%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 1169,
+   "height": 1522,
+   "assignedByHand": true,
+   "file": "assets/plates/white-rhinoceros.jpg",
+   "bytes": 183100,
+   "stored": [
+    977,
+    769
+   ],
+   "cropped": true
+  },
+  "flat-headed-cat": {
+   "speciesId": "flat-headed-cat",
+   "for": "Flat-headed Cat (Prionailurus planiceps)",
+   "title": "File:Felis planiceps - 1834 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ22100260 (cropped).tif",
+   "artist": "Unknown",
+   "work": "Reichenbach, Der Naturfreund, 47",
+   "year": 1834,
+   "dateLabel": "1834",
+   "licence": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File%3AFelis_planiceps_-_1834_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ22100260_%28cropped%29.tif",
+   "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/0/01/Felis_planiceps_-_1834_-_Print_-_Iconographia_Zoologica_-_Special_Collections_University_of_Amsterdam_-_UBA01_IZ22100260_%28cropped%29.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "width": 681,
+   "height": 508,
+   "assignedByHand": true,
+   "file": "assets/plates/flat-headed-cat.jpg",
+   "bytes": 20758,
+   "stored": [
+    417,
+    208
+   ],
+   "cropped": true
   }
  },
  "rejected": {
@@ -2670,6 +3935,34 @@
   "loggerhead-turtle": {
    "title": "File:The Philippine journal of science (1917) (14788970923).jpg",
    "why": "comparative plate of three species' shells and heads, not a portrait of the animal"
+  },
+  "kea": {
+   "title": "File:History of the birds of NZ 1st ed p038-2.jpg",
+   "why": "source is a photograph of an open book, not a plate"
+  },
+  "lion-tailed-macaque": {
+   "title": "File:Macacus silenus - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ20000037.tif",
+   "why": "source is a photograph of an open book, not a plate"
+  },
+  "kagu": {
+   "title": "File:TinamouJennens.jpg",
+   "why": "filename identifies the subject as a tinamou; cannot confirm it is a kagu"
+  },
+  "mauritius-kestrel": {
+   "title": "File:Blad met zes roofvogels Verscheijde grijp voghelen. avium voracium genera varia différentes Espèces d'oiseaux de proije (titel op object), RP-T-BR-2017-1-3-29.jpg",
+   "why": "page of small unlabelled figures, none legible at plate size"
+  },
+  "monkey-puzzle": {
+   "title": "File:Chozas de Pehuenches.jpg",
+   "why": "landscape engraving of Pehuenche dwellings; the trees are incidental"
+  },
+  "mediterranean-monk-seal": {
+   "title": "File:Phoca monachus - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ21100179.tif",
+   "why": "plate shows skull diagrams, not the animal"
+  },
+  "sunda-pangolin": {
+   "title": "File:Manis javanica - 1700-1880 - Print - Iconographia Zoologica - Special Collections University of Amsterdam - UBA01 IZ21000013.tif",
+   "why": "faint outline sketch, illegible at plate size"
   }
  },
  "_cutoff": 1928

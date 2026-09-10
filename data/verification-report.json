@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-09T06:38:20Z",
+ "generatedAt": "2026-09-10T16:05:40Z",
  "status": "warn",
- "mode": "structural checks plus 210 live link checks",
+ "mode": "structural checks only (--offline)",
  "iucnTokenPresent": false,
  "totals": {
   "species": 280,
@@ -63,15 +63,8 @@
   },
   {
    "name": "Plate provenance",
-   "description": "Historical plates carry artist, work, year, licence and source; 121 species use a plate, 159 the drawn study",
-   "checked": 121,
-   "warned": 0,
-   "failed": 0
-  },
-  {
-   "name": "Link liveness",
-   "description": "Every organisation and source URL still answers",
-   "checked": 210,
+   "description": "Historical plates carry artist, work, year, licence and source; 170 species use a plate, 110 the drawn study",
+   "checked": 170,
    "warned": 0,
    "failed": 0
   }

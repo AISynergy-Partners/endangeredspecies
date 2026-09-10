@@ -312,7 +312,9 @@ def check_plates(species, f):
         if not isinstance(yr, int):
             f.error(name, sid, "no publication year recorded, so the copyright claim cannot be checked")
         elif yr > cutoff:
-            f.error(name, sid, "plate dated %d, after the %d public-domain cutoff" % (yr, cutoff))
+            f.error(name, sid, "plate dated %s, whose latest possible year (%d) is after the "
+                               "%d public-domain cutoff"
+                    % (pl.get("dateLabel") or yr, yr, cutoff))
         # The operative fact is the publication date: US copyright in a
         # published work runs 95 years, so anything at or before the cutoff is
         # free whatever the file is tagged. An affirmative "public domain" tag
