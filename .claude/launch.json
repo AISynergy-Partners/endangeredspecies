@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "field-notes",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["scripts/serve.py", "8651", "."],
+      "port": 8651
+    }
+  ]
+}
