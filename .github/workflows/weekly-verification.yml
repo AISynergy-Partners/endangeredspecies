@@ -1,0 +1,122 @@
+# Weekly compliance and monitoring check for the endangered species archive.
+#
+# Re-checks every species record, population figure, range, citation and
+# organisation link once a week, commits the resulting report so the site can
+# render it, and opens an issue if anything is actually broken.
+name: Weekly species data verification
+
+on:
+  schedule:
+    # 06:15 UTC every Monday. Off the hour, because everything on Earth is
+    # scheduled on the hour and the runners queue.
+    - cron: "15 6 * * 1"
+  workflow_dispatch: # so a human can run it on demand
+  push:
+    paths:
+      - "data/**"
+      - "scripts/verify.py"
+      - ".github/workflows/weekly-verification.yml"
+
+permissions:
+  contents: write # to commit the refreshed report
+  issues: write # to raise one when a check fails
+
+concurrency:
+  group: species-verification
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run verification
+        env:
+          # Optional, and free for non-commercial use from api.iucnredlist.org.
+          # With it the check re-reads every category and published year from the
+          # Red List API; without it those stay a human job and the script says so.
+          IUCN_API_TOKEN: ${{ secrets.IUCN_API_TOKEN }}
+        run: |
+          set -o pipefail
+          python3 scripts/verify.py | tee verification.log || echo "VERIFY_FAILED=1" >> "$GITHUB_ENV"
+
+      - name: Re-check plate provenance
+        run: python3 scripts/plates.py audit
+
+      - name: Rebuild the browser bundle
+        run: python3 scripts/build.py
+
+      - name: Summarise on the run page
+        if: always()
+        run: |
+          {
+            echo '## Species data verification'
+            echo
+            echo '```'
+            cat verification.log 2>/dev/null || echo 'no log produced'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the refreshed report
+        if: always()
+        run: |
+          rm -f verification.log
+          if git diff --quiet -- data/verification-report.json assets/data.js; then
+            echo "No change to the report."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/verification-report.json assets/data.js
+          git commit -m "Weekly verification: refresh species data report"
+          git push
+
+      - name: Raise an issue if a check failed
+        if: always() && env.VERIFY_FAILED == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(
+              fs.readFileSync('data/verification-report.json', 'utf8'));
+            const errors = (report.issues || []).filter(i => i.level === 'error');
+            const lines = errors.slice(0, 40).map(
+              i => `- **${i.check}** — \`${i.record}\`: ${i.message}`);
+            const body = [
+              `The weekly check run at ${report.generatedAt} finished with status ` +
+                `**${report.status}**: ${report.totals.errors} error(s), ` +
+                `${report.totals.warnings} warning(s).`,
+              '',
+              '### Errors',
+              lines.length ? lines.join('\n') : '_none_',
+              errors.length > 40 ? `\n…and ${errors.length - 40} more.` : '',
+              '',
+              'Full detail is in `data/verification-report.json`, ' +
+                'and the site renders it at `/verification.html`.',
+            ].join('\n');
+            const title = `Species data verification failed (${report.generatedAt.slice(0, 10)})`;
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'data-verification',
+            });
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.data[0].number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['data-verification'],
+              });
+            }
+
+      - name: Fail the run if a check failed
+        if: always() && env.VERIFY_FAILED == '1'
+        run: exit 1
