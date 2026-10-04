@@ -139,9 +139,9 @@ def save_registry(reg):
         "Historical natural-history plates used as the figure for a species, in "
         "place of the drawn study. Every entry records the artist, the work, the "
         "year of publication, the licence and the source file, so the public-domain "
-        "claim can be checked. Only works published in %d or earlier are used. "
-        "Species with no entry here fall back to the drawn plate in "
-        "assets/sketches.js." % PD_CUTOFF)
+        "claim can be checked. Only works published in %d or earlier, or works of the US federal government (public domain by statute), are used. "
+        "Species with no entry here show a plain note that no public-domain "
+        "portrait has been located." % PD_CUTOFF)
     reg["_cutoff"] = PD_CUTOFF
     with open(REGISTRY, "w", encoding="utf-8") as f:
         json.dump(reg, f, ensure_ascii=False, indent=1, sort_keys=False)
@@ -182,6 +182,19 @@ SEED_CATEGORIES = [
     "Category:Richard Lydekker",
 ]
 POOL = os.path.join(DATA, "plate-pool.json")
+SEEK = os.path.join(DATA, "plate-seek.json")
+
+
+def load_pool():
+    """The harvested pool plus anything found by targeted search."""
+    files = {}
+    for path in (POOL, SEEK):
+        if os.path.exists(path):
+            try:
+                files.update(json.load(open(path, encoding="utf-8")).get("files", {}))
+            except ValueError:
+                pass                      # caught mid-write; the next run will see it
+    return files
 SLEEP = 1.4                     # Commons asks for restraint; this obliges
 
 
@@ -282,25 +295,123 @@ def cmd_harvest(args):
 
 
 # -------------------------------------------------------------------- match
-def usable(e):
-    """Hard public-domain gate, applied identically to every candidate."""
-    lic = (e.get("licence") or "").lower()
-    if any(b in lic for b in BAD_MARKERS) and "public domain" not in lic:
-        return None, "licence: %s" % lic[:38]
-    if not any(m in lic for m in PD_MARKERS):
-        return None, "licence not public domain: %s" % lic[:38]
-    if e.get("restrictions"):
-        return None, "restrictions recorded"
-    yr = year_of(e.get("date")) or year_of(e.get("work")) or year_of(e.get("title"))
-    if yr is None:
-        return None, "no date"
-    if yr > PD_CUTOFF:
-        return None, "dated %d" % yr
+USGOV_LICENCE = re.compile(
+    r"pd[- ]usgov|pd us (?:government|noaa|fish|fws|nps|usgs|interior|federal)|"
+    r"pd-usgov-(?:fws|noaa|interior|nps|usgs)", re.I)
+USGOV_ILLUS = ("raver", "knepp", "hines", "illustration", "drawing", "painting",
+               "artwork", "art by", "illustrated by")
+# Hints must begin at a word boundary. As plain substrings, "plate" matched the
+# Commons licence-template category "Template Unknown (author)", which let a
+# federal file through on the name of its licence template alone.
+_ILLUS_RE = re.compile(r"(?<![a-z])(?:%s)(?:e?s)?(?![a-z])" % "|".join(
+    re.escape(k) for k in ILLUS_HINTS + USGOV_ILLUS), re.I)
+
+
+def _illus_hint(blob):
+    return bool(_ILLUS_RE.search(blob or ""))
+
+
+def gate(e):
+    """The public-domain gate. Two routes qualify, and nothing else does.
+
+    By age: marked public domain (or carrying the institutional no-known-
+    restrictions tag), dated, and published PD_CUTOFF or earlier -- US copyright
+    in a published work runs 95 years.
+
+    By statute: a work of the United States federal government, which 17 U.S.C.
+    section 105 places in the public domain whatever its date. That admits the
+    modern field-guide illustration published by the US Fish and Wildlife
+    Service and NOAA. Most federal imagery is photography, so a statutory file
+    must also read as illustration, and the licence evidence is taken only from
+    the file's licence tags and licence categories, never from its description.
+    """
+    title = e.get("title", "")
     if (e.get("width") or 0) < MIN_WIDTH:
-        return None, "too small"
-    if not e["title"].lower().endswith((".jpg", ".jpeg", ".png", ".tif", ".tiff")):
-        return None, "not a raster image"
-    return yr, None
+        return {"ok": False, "why": "too small"}
+    if not title.lower().endswith((".jpg", ".jpeg", ".png", ".tif", ".tiff")):
+        return {"ok": False, "why": "not a raster image"}
+    if e.get("restrictions"):
+        return {"ok": False, "why": "restrictions recorded"}
+    lic = (e.get("licence") or "").lower()
+    yr = year_of(e.get("date")) or year_of(e.get("work")) or year_of(title)
+
+    age_ok = (not (any(b in lic for b in BAD_MARKERS) and "public domain" not in lic)
+              and any(m in lic for m in PD_MARKERS) and yr is not None and yr <= PD_CUTOFF)
+    if age_ok:
+        return {"ok": True, "basis": "age", "year": yr}
+
+    if USGOV_LICENCE.search(lic + " " + (e.get("cats") or "").lower()):
+        blob = " ".join([title, e.get("desc", ""), e.get("cats", ""), e.get("work", ""),
+                         e.get("artist", "")]).lower()
+        if any(k in blob for k in PHOTO_HINTS):
+            return {"ok": False, "why": "federal work, but a photograph"}
+        if not _illus_hint(blob):
+            return {"ok": False, "why": "federal work with no sign of being an illustration"}
+        return {"ok": True, "basis": "usgov", "year": yr}
+
+    if any(b in lic for b in BAD_MARKERS) and "public domain" not in lic:
+        return {"ok": False, "why": "licence: %s" % lic[:38]}
+    if not any(m in lic for m in PD_MARKERS):
+        return {"ok": False, "why": "licence not public domain: %s" % lic[:38]}
+    if yr is None:
+        return {"ok": False, "why": "no date"}
+    return {"ok": False, "why": "dated %d" % yr}
+
+
+def usable(e):
+    """Compatibility wrapper around gate(): (year or 1950, None) or (None, reason)."""
+    g = gate(e)
+    return ((g.get("year") or 1950), None) if g["ok"] else (None, g["why"])
+
+
+def pd_basis(g, e):
+    """The public-domain claim for one plate, in words a reader can check."""
+    if g["basis"] == "usgov":
+        return ("A work of the United States federal government, which 17 U.S.C. section 105 "
+                "places in the public domain regardless of date; tagged %s on Wikimedia Commons."
+                % (e.get("licence") or "public domain"))
+    shown = date_label(e.get("date")) or str(g.get("year"))
+    lic = (e.get("licence") or "").lower()
+    if any(m in lic for m in ("public domain", "pd-", "cc0")):
+        return ("Dated %s, so US copyright (95 years from publication) has expired even at the "
+                "latest possible date; the file is additionally tagged %s on Wikimedia Commons."
+                % (shown, e.get("licence")))
+    return ("Dated %s, so US copyright (95 years from publication) has expired even at the latest "
+            "possible date. The file carries the institutional 'no known copyright restrictions' "
+            "tag rather than an affirmative public-domain declaration; the date is the basis for "
+            "the claim." % shown)
+
+
+def registry_entry(s, e, g):
+    return {
+        "speciesId": s["id"], "for": "%s (%s)" % (s["common"], s["sci"]),
+        "title": e["title"], "artist": e["artist"], "work": e["work"][:220],
+        "basis": g["basis"], "year": g.get("year"),
+        "dateLabel": date_label(e.get("date")) or (str(g["year"]) if g.get("year") else None),
+        "licence": e["licence"] or "Public domain", "pdBasis": pd_basis(g, e),
+        "source": "https://commons.wikimedia.org/wiki/" +
+                  urllib.parse.quote(e["title"].replace(" ", "_")),
+        "sourceFile": e["url"], "width": e["width"], "height": e["height"],
+    }
+
+
+def rejected_titles(reg):
+    """Every file that has failed review. A rejection bans the FILE, not the
+    species: the species must stay eligible for a better plate."""
+    out = set()
+    for v in (reg.get("rejected") or {}).values():
+        for it in (v if isinstance(v, list) else [v]):
+            if isinstance(it, dict) and it.get("title"):
+                out.add(it["title"])
+    return out
+
+
+def record_rejection(reg, sid, title, why):
+    rej = reg.setdefault("rejected", {})
+    cur = rej.get(sid)
+    items = cur if isinstance(cur, list) else ([cur] if cur else [])
+    items.append({"title": title, "why": why})
+    rej[sid] = items
 
 
 def score_for(e, sp, yr):
@@ -326,7 +437,7 @@ def score_for(e, sp, yr):
     score = 40 * match
     if any(k in blob for k in WORKS):
         score += 25
-    if any(k in blob for k in ILLUS_HINTS):
+    if _illus_hint(blob):
         score += 15
     if any(k in blob for k in PHOTO_HINTS):
         score -= 50
@@ -337,58 +448,236 @@ def score_for(e, sp, yr):
 
 
 def cmd_match(args):
-    """Assign at most one pooled plate to each species, preferring unused ones."""
+    """Assign at most one pooled plate to each species, preferring unused files
+    and never offering a file that has already failed review."""
     if not os.path.exists(POOL):
         print("no pool yet — run: python3 scripts/plates.py harvest")
         return 1
-    pool = json.load(open(POOL, encoding="utf-8"))["files"]
+    pool = load_pool()
     sp = species()
     if args.only:
         sp = [s for s in sp if s["id"] in set(args.only)]
     reg = load_registry()
-    plates, rejected = reg["plates"], reg.setdefault("rejected", {})
+    plates = reg["plates"]
 
     ok_pool = []
     for e in pool.values():
-        yr, why = usable(e)
-        if yr:
-            ok_pool.append((e, yr))
-    print("  %d of %d pooled files pass the public-domain gate" % (len(ok_pool), len(pool)))
+        g = gate(e)
+        if g["ok"]:
+            ok_pool.append((e, g))
+    print("  %d of %d pooled files pass the public-domain gate (%d as federal works)" % (
+        len(ok_pool), len(pool), sum(1 for _, g in ok_pool if g["basis"] == "usgov")))
 
     used = {v.get("title") for v in plates.values()}
+    banned = rejected_titles(reg)
     found = 0
     for s in sp:
-        if s["id"] in rejected and not args.force:
-            continue
         if s["id"] in plates and not args.force:
             continue
         best = None
-        for e, yr in ok_pool:
-            sc = score_for(e, s, yr)
+        for e, g in ok_pool:
+            if e["title"] in banned:
+                continue
+            sc = score_for(e, s, g.get("year") or 1950)
             if sc < args.threshold:
                 continue
-            if e["title"] in used:          # a plate already given to another species
+            if e["title"] in used:
                 sc -= 45
             if best is None or sc > best[0]:
-                best = (sc, e, yr)
+                best = (sc, e, g)
         if best:
-            sc, e, yr = best
-            plates[s["id"]] = {
-                "speciesId": s["id"], "for": "%s (%s)" % (s["common"], s["sci"]),
-                "title": e["title"], "artist": e["artist"], "work": e["work"][:220],
-                "year": yr, "dateLabel": date_label(e.get("date")) or str(yr),
-            "licence": e["licence"] or "Public domain",
-                "source": "https://commons.wikimedia.org/wiki/" +
-                          urllib.parse.quote(e["title"].replace(" ", "_")),
-                "sourceFile": e["url"], "width": e["width"], "height": e["height"],
-                "score": sc,
-            }
+            sc, e, g = best
+            entry = registry_entry(s, e, g)
+            entry["score"] = sc
+            plates[s["id"]] = entry
             used.add(e["title"])
             found += 1
-            print("  %-30s %-42s %s" % (s["id"][:30], e["title"][5:47], yr))
+            print("  %-30s %-42s %s" % (s["id"][:30], e["title"][5:47], g.get("year") or g["basis"]))
     save_registry(reg)
     print("\nmatched %d new plate(s); %d species now have one of %d" %
           (found, len(plates), len(species())))
+    return 0
+
+
+def cmd_candidates(args):
+    """Show the strongest public-domain candidates for chosen species side by side.
+
+    Writes review sheets in which every candidate sits next to the plate
+    currently in use, so a person can choose the best portrait before anything
+    is registered. Nothing is written to the registry; choices are made with
+    `assign`. With --local, thumbnails are fetched once into scripts/_thumbs so
+    the sheets render instantly: Commons generates thumbnails for large scans on
+    demand, and a sheet of remote images is still blank several seconds after
+    it loads.
+    """
+    import html as _h
+    import hashlib
+    pool = load_pool()
+    reg = load_registry()
+    banned = rejected_titles(reg)
+    current = {k: v.get("title") for k, v in reg["plates"].items()}
+    used = set(current.values())
+    sp = species()
+    if args.only:
+        order = {sid: i for i, sid in enumerate(args.only)}
+        sp = sorted((x for x in sp if x["id"] in order), key=lambda x: order[x["id"]])
+    elif args.missing:
+        sp = [x for x in sp if x["id"] not in reg["plates"]]
+    ok = [(e, g) for e, g in ((e, gate(e)) for e in pool.values())
+          if g["ok"] and e["title"] not in banned]
+
+    rows = []
+    for s in sp:
+        scored = []
+        for e, g in ok:
+            sc = score_for(e, s, g.get("year") or 1950)
+            if sc < args.threshold or e["title"] == current.get(s["id"]):
+                continue
+            if e["title"] in used:
+                sc -= 45
+            scored.append((sc, e, g))
+        scored.sort(key=lambda x: -x[0])
+        rows.append((s, scored[:args.top]))
+
+    thumbs = {}
+    if args.local:
+        tdir = os.path.join(ROOT, "scripts", "_thumbs")
+        os.makedirs(tdir, exist_ok=True)
+        titles = sorted({e["title"] for _, top in rows for _, e, _ in top})
+        turls = {}
+        for i in range(0, len(titles), 50):
+            d = api_backoff({"action": "query", "titles": "|".join(titles[i:i + 50]),
+                             "prop": "imageinfo", "iiprop": "url", "iiurlwidth": 420})
+            q = d.get("query", {})
+            back = {n["to"]: n["from"] for n in q.get("normalized", [])}
+            for pg in (q.get("pages", {}) or {}).values():
+                ii = (pg.get("imageinfo") or [{}])[0]
+                if ii.get("thumburl"):
+                    turls[back.get(pg["title"], pg["title"])] = ii["thumburl"]
+            time.sleep(SLEEP)
+        got = 0
+        for t in titles:
+            u = turls.get(t)
+            if not u:
+                continue
+            name = hashlib.sha1(t.encode("utf-8")).hexdigest()[:16] + ".img"
+            path = os.path.join(tdir, name)
+            if not os.path.exists(path):
+                try:
+                    req = urllib.request.Request(u, headers={"User-Agent": UA})
+                    with urllib.request.urlopen(req, timeout=40) as r:
+                        data = r.read()
+                    with open(path, "wb") as fh:
+                        fh.write(data)
+                    got += 1
+                    time.sleep(0.2)
+                except Exception:
+                    continue
+            thumbs[t] = "_thumbs/" + name
+        print("  thumbnails: %d cached locally (%d newly fetched)" % (len(thumbs), got))
+
+    def remote(title):
+        name = title[5:] if title.startswith("File:") else title
+        return ("https://commons.wikimedia.org/wiki/Special:FilePath/" +
+                urllib.parse.quote(name.replace(" ", "_")) + "?width=360")
+
+    sections, summary = [], []
+    for s, top in rows:
+        summary.append("  %-30s %d candidate(s)%s" % (s["id"][:30], len(top),
+                       ("  top: " + top[0][1]["title"][5:60]) if top else ""))
+        if args.skip_empty and not top:
+            continue
+        cells = []
+        pl = reg["plates"].get(s["id"])
+        if pl and pl.get("file"):
+            cells.append('<figure class="cur"><img src="../%s"><figcaption><b>CURRENT</b><br>%s</figcaption></figure>'
+                         % (pl["file"], _h.escape(pl.get("title", "")[5:70])))
+        for i, (sc, e, g) in enumerate(top, 1):
+            cells.append('<figure><img src="%s"><figcaption><b>#%d</b> %s<br>%s, %s &middot; %s &middot; %d</figcaption></figure>'
+                         % (thumbs.get(e["title"]) or remote(e["title"]), i, _h.escape(e["title"][5:80]),
+                            _h.escape((e["artist"] or "?")[:28]),
+                            _h.escape(str(date_label(e.get("date")) or g.get("year"))), g["basis"], sc))
+        sections.append('<section><h3>%s <small>%s &mdash; <i>%s</i></small></h3><div class="row">%s</div></section>'
+                        % (s["id"], _h.escape(s["common"]), _h.escape(s["sci"]),
+                           "".join(cells) or "<p>no candidates in the pool</p>"))
+    css = ("body{background:#f7f2e6;font:12px Georgia;margin:8px}h3{margin:12px 0 4px;font-size:14px}"
+           "small{font-weight:normal;color:#666}.row{display:flex;gap:6px;flex-wrap:wrap}"
+           "figure{margin:0;width:290px;background:#fff;border:1px solid #bbb;padding:3px}"
+           "figure.cur{border:2px solid #8d3a2c}img{width:100%;height:255px;object-fit:contain;background:#fbf7ee}"
+           "figcaption{font-size:9.5px;line-height:1.25;margin-top:2px}")
+    per = args.per_sheet or len(sections) or 1
+    stem, ext = os.path.splitext(args.sheet)
+    written = []
+    for n, i in enumerate(range(0, max(1, len(sections)), per), 1):
+        path = args.sheet if not args.per_sheet else "%s-%d%s" % (stem, n, ext)
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write("<!doctype html><meta charset=utf-8><title>Candidates</title><style>%s</style>%s"
+                     % (css, "".join(sections[i:i + per])))
+        written.append(os.path.relpath(path, ROOT))
+    print("\n".join(summary))
+    print("\nwrote %d sheet(s) covering %d species with candidates:" % (len(written), len(sections)))
+    for w in written:
+        print("  " + w)
+    return 0
+
+
+def cmd_seek(args):
+    """Targeted Commons search for species the harvested works do not cover.
+
+    Harvesting whole works is efficient but only ever finds the species those
+    works happen to include. For the rest, this searches Commons file pages by
+    binomial, by each recorded historical synonym and by common name, and keeps
+    every result that passes the public-domain gate and names the species.
+    Results go to their own file, so a harvest running at the same moment
+    cannot overwrite them when it saves.
+    """
+    sp = species()
+    reg = load_registry()
+    if args.only:
+        order = {sid: i for i, sid in enumerate(args.only)}
+        sp = sorted((x for x in sp if x["id"] in order), key=lambda x: order[x["id"]])
+    else:
+        sp = [x for x in sp if x["id"] not in reg["plates"]]
+    found = {}
+    if os.path.exists(SEEK):
+        found = json.load(open(SEEK, encoding="utf-8")).get("files", {})
+
+    def save():
+        tmp = SEEK + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump({"_about": "Candidates found by targeted Commons search (plates.py seek), "
+                                 "kept apart from the harvested pool.", "files": found},
+                      fh, ensure_ascii=False, indent=0)
+        os.replace(tmp, SEEK)
+
+    for i, s in enumerate(sp, 1):
+        binomial = " ".join(re.sub(r"[()]", "", s["sci"]).split()[:2])
+        queries = ['"%s"' % binomial]
+        queries += ['"%s"' % a for a in (s.get("plateAliases") or [])][:4]
+        queries += ['"%s" illustration' % s["common"],
+                    "%s lithograph OR engraving OR plate OR painting" % binomial]
+        hits = 0
+        for q in queries:
+            d = api_backoff({"action": "query", "generator": "search", "gsrsearch": q,
+                             "gsrnamespace": 6, "gsrlimit": args.limit, "prop": "imageinfo",
+                             "iiprop": "url|size|extmetadata",
+                             "iiextmetadatafilter": "Artist|Credit|DateTimeOriginal|DateTime|"
+                                                    "LicenseShortName|UsageTerms|Restrictions|"
+                                                    "ImageDescription|Categories"})
+            for pg in (d.get("query", {}).get("pages", {}) or {}).values():
+                e = pool_entry(pg)
+                if not e["title"] or e["title"] in found:
+                    continue
+                g = gate(e)
+                if g["ok"] and score_for(e, s, g.get("year") or 1950) >= args.threshold:
+                    found[e["title"]] = e
+                    hits += 1
+            time.sleep(SLEEP)
+        print("%3d/%d  %-32s +%d" % (i, len(sp), s["id"][:32], hits), flush=True)
+        if i % 5 == 0:
+            save()
+    save()
+    print("\nseek pool holds %d files" % len(found))
     return 0
 
 
@@ -458,6 +747,9 @@ def autocrop(im):
         area = bw * bh
         if area > 0.9 or area < 0.045 or bw < 0.14 or bh < 0.10:
             continue
+        aspect = (bw * w) / max(1.0, bh * h)
+        if aspect < 0.45 or aspect > 4.6:   # a sliver, not a picture
+            continue
         if best is None or area < best[0]:
             best = (area, x0, x1, y0, y1)
     if best is None:
@@ -503,10 +795,25 @@ def cmd_download(args):
             if raw is None:
                 raise RuntimeError("could not fetch after 4 attempts")
             im = Image.open(io.BytesIO(raw))
-            im = im.convert("RGB")
+            if im.mode in ("RGBA", "LA", "PA") or "transparency" in im.info:
+                # A transparent PNG flattened straight to RGB turns its clear
+                # background black; lay it on white paper instead.
+                im = im.convert("RGBA")
+                paper = Image.new("RGB", im.size, (255, 255, 255))
+                paper.paste(im, mask=im.getchannel("A"))
+                im = paper
+            else:
+                im = im.convert("RGB")
             before = im.size
             if not args.no_crop:
-                im = autocrop(im)
+                box = info.get("crop")
+                if box == "none":
+                    pass                                   # reviewed: show the whole plate
+                elif isinstance(box, list) and len(box) == 4:
+                    W, H = im.size
+                    im = im.crop((int(box[0] * W), int(box[1] * H), int(box[2] * W), int(box[3] * H)))
+                else:
+                    im = autocrop(im)
             cropped = im.size != before
             im.thumbnail((MAX_PX, MAX_PX), Image.LANCZOS)
             im.save(out, "JPEG", quality=82, optimize=True, progressive=True)
@@ -565,14 +872,16 @@ def cmd_audit(args):
     bad = 0
     for sid, info in sorted(reg["plates"].items()):
         problems = []
-        if info.get("year", 9999) > PD_CUTOFF:
+        if (info.get("basis") != "usgov" and (info.get("year") or 9999) > PD_CUTOFF):
             problems.append("dated %s, after the %d cutoff" % (info.get("year"), PD_CUTOFF))
         if not any(m in (info.get("licence", "") or "").lower() for m in PD_MARKERS):
             problems.append("licence %r is not a public-domain marker" % info.get("licence"))
         if not info.get("source"):
             problems.append("no source URL")
-        if not info.get("artist"):
-            problems.append("no artist recorded")
+        # The standard is a credit, not a name: where the illustrator is not
+        # documented the publication carries the credit instead.
+        if not info.get("artist") and not info.get("work"):
+            problems.append("no artist or publication credited")
         f = info.get("file")
         if not f:
             problems.append("not downloaded")
@@ -592,7 +901,7 @@ def cmd_assign(args):
     where the right plate exists in the pool and the scorer picked a different
     one. This is how a human overrules it. The public-domain gate still applies.
     """
-    pool = json.load(open(POOL, encoding="utf-8"))["files"]
+    pool = load_pool()
     reg = load_registry()
     sp = {s["id"]: s for s in species()}
     if args.species not in sp:
@@ -608,24 +917,22 @@ def cmd_assign(args):
             print("     " + e["title"])
         return 1
     e = hits[0]
-    yr, why = usable(e)
-    if not yr:
-        print("  %s fails the public-domain gate: %s" % (e["title"], why))
+    g = gate(e)
+    if not g["ok"]:
+        print("  %s fails the public-domain gate: %s" % (e["title"], g["why"]))
         return 1
-    s = sp[args.species]
-    reg["plates"][args.species] = {
-        "speciesId": s["id"], "for": "%s (%s)" % (s["common"], s["sci"]),
-        "title": e["title"], "artist": e["artist"], "work": e["work"][:220],
-        "year": yr, "dateLabel": date_label(e.get("date")) or str(yr),
-        "licence": e["licence"] or "Public domain",
-        "source": "https://commons.wikimedia.org/wiki/" +
-                  urllib.parse.quote(e["title"].replace(" ", "_")),
-        "sourceFile": e["url"], "width": e["width"], "height": e["height"],
-        "assignedByHand": True,
-    }
-    reg.get("rejected", {}).pop(args.species, None)
+    entry = registry_entry(sp[args.species], e, g)
+    entry["assignedByHand"] = True
+    reg["plates"][args.species] = entry
+    cur = reg.get("rejected", {}).get(args.species)
+    if cur:                       # un-ban only this file; other rejections stand
+        items = [it for it in (cur if isinstance(cur, list) else [cur]) if it.get("title") != e["title"]]
+        if items:
+            reg["rejected"][args.species] = items
+        else:
+            reg["rejected"].pop(args.species, None)
     save_registry(reg)
-    print("  %s -> %s (%s)" % (args.species, e["title"], yr))
+    print("  %s -> %s (%s)" % (args.species, e["title"], g.get("year") or g["basis"]))
     return 0
 
 
@@ -634,8 +941,7 @@ def cmd_reject(args):
     for sid in args.ids:
         info = reg["plates"].pop(sid, None)
         if info:
-            reg.setdefault("rejected", {})[sid] = {
-                "title": info.get("title"), "why": args.why or "failed visual review"}
+            record_rejection(reg, sid, info.get("title"), args.why or "failed visual review")
             f = os.path.join(ROOT, info.get("file") or "")
             if info.get("file") and os.path.exists(f):
                 os.remove(f)
@@ -660,6 +966,17 @@ def main():
     m = sub.add_parser("match"); m.set_defaults(fn=cmd_match)
     m.add_argument("--only", nargs="*"); m.add_argument("--force", action="store_true")
     m.add_argument("--threshold", type=int, default=110)
+
+    c = sub.add_parser("candidates"); c.set_defaults(fn=cmd_candidates)
+    c.add_argument("--only", nargs="*"); c.add_argument("--missing", action="store_true")
+    c.add_argument("--top", type=int, default=4); c.add_argument("--threshold", type=int, default=100)
+    c.add_argument("--sheet", default=os.path.join(ROOT, "scripts", "_candidates.html"))
+    c.add_argument("--local", action="store_true"); c.add_argument("--skip-empty", action="store_true")
+    c.add_argument("--per-sheet", type=int, default=0)
+
+    sk = sub.add_parser("seek"); sk.set_defaults(fn=cmd_seek)
+    sk.add_argument("--only", nargs="*"); sk.add_argument("--limit", type=int, default=15)
+    sk.add_argument("--threshold", type=int, default=100)
 
     d = sub.add_parser("download"); d.set_defaults(fn=cmd_download)
     d.add_argument("--only", nargs="*"); d.add_argument("--force", action="store_true")

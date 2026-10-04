@@ -2,5 +2,9 @@
 # Regenerate with: python3 scripts/plates.py harvest
 data/plate-pool.json
 
-# Contact sheets written by: python3 scripts/plates.py sheet
-scripts/_plate-review-*.html
+# Contact and candidate sheets written by: python3 scripts/plates.py sheet / candidates
+scripts/_*.html
+data/plate-seek.json
+
+# Candidate thumbnails cached by: python3 scripts/plates.py candidates --local
+scripts/_thumbs/

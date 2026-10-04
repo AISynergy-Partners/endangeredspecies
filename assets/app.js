@@ -185,21 +185,21 @@
           '<li><a href="references.html#method">How a species is ranked</a></li>' +
           '<li><a href="references.html#plates">About the plates</a></li>' +
           '<li><a href="references.html#rights">Rights &amp; reuse</a></li>' +
-          '<li><a href="verification.html">Weekly verification log</a></li>' +
+          '<li><a href="verification.html">Verification log</a></li>' +
         "</ul></div>" +
         '<div><h4>On giving</h4><ul>' +
           '<li><a href="references.html#giving">How organisations are chosen</a></li>' +
           '<li><a href="references.html#giving">Checking a charity yourself</a></li>' +
         "</ul></div>" +
         '<div class="stack"><h4>Verification</h4>' +
-          '<p style="font-size:.93rem;color:var(--ink-soft)">Every record — category, count, range and named organisation — is re-checked automatically once a week.' +
+          '<p style="font-size:.93rem;color:var(--ink-soft)">Every record — category, count, range and named organisation — is checked each time the verification script runs.' +
           (d ? " Last run <strong>" + esc(d) + "</strong>." : " The first run has not yet been recorded.") +
           "</p>" +
           '<a class="cite-link" href="references.html">Citations &amp; references &rarr;</a>' +
         "</div>" +
       "</div>" +
       '<div class="colophon__fine">' +
-        "<span>Text and drawings &copy; 2026 AISynergy Partners. Underlying facts are cited, not owned.</span>" +
+        "<span>A non-commercial archive. Text, map and flags &copy; 2026 AISynergy Partners. Portraits are public domain; facts are cited, not owned.</span>" +
         '<a class="to-top" href="#top">Back to top &uarr;</a>' +
       "</div></div></footer>";
   }
@@ -408,33 +408,41 @@
   }
 
   /* ---------------------------------------------------------- plate render */
-  /* The figure is a historical plate where one exists in the public domain,
-     and the drawn study otherwise. Species described after the plate era --
-     the saola, the Tapanuli orangutan, Rice's whale -- were never engraved by
-     anybody, so they keep the drawing. Attribution sits under every plate. */
+  /* The figure is a finished natural-history portrait in the public domain: a
+     historical plate, or illustration made by the US federal government. Where
+     no such portrait of a species has been located, the plate says so plainly
+     rather than showing a stand-in drawing. Attribution sits under every plate. */
   function figureFor(s, plateNo) {
     var pl = PLATES[s.id];
     if (pl && pl.file) {
-      var who = [pl.artist, pl.dateLabel || pl.year].filter(Boolean).join(", ");
+      var who = pl.artist || "Illustrator not recorded";
+      var when = pl.dateLabel || pl.year;
       return '<figure class="plate__figure">' +
         '<div class="plate__frame plate__frame--photo">' +
           '<img class="plate__img" src="' + esc(pl.file) + '" alt="' + esc(pl.for || s.common) +
-          ', historical plate" loading="lazy" decoding="async">' +
+          (pl.basis === "usgov" ? ", field-guide illustration" : ", historical plate") +
+          '" loading="lazy" decoding="async">' +
         "</div>" +
         '<figcaption class="plate__caption">fig. ' + plateNo + " &mdash; " + esc(s.common) +
           '<span class="plate__prov">' + esc(who) +
-          (pl.work ? '<span class="plate__work">' + esc(shortWork(pl.work, pl.title)) + "</span>" : "") +
+          '<span class="plate__work">' + esc(pl.work ? shortWork(pl.work, pl.title) : "Source file on Wikimedia Commons") +
+            (when ? ", " + esc(when) : "") + "</span>" +
           (pl.depicts ? '<span class="plate__depicts">' + esc(pl.depicts) + "</span>" : "") +
           '<a href="' + esc(pl.source) + '" target="_blank" rel="noopener noreferrer">' +
           esc(pl.licence || "Public domain") + " &middot; Wikimedia Commons</a></span>" +
         "</figcaption></figure>";
     }
     return '<figure class="plate__figure">' +
-      '<div class="plate__frame">' +
-        FNSketch.svg(s.sketch, { seed: (s.id.length * 13) % 97, label: s.common }) +
+      '<div class="plate__frame plate__frame--empty" role="img" aria-label="' + esc(s.common) +
+        ': no public-domain portrait located">' +
+        '<span class="plate__empty-name">' + esc(s.common) + "</span>" +
+        '<span class="plate__empty-sci">' + esc(s.sci) + "</span>" +
+        '<span class="plate__empty-rule" aria-hidden="true"></span>' +
+        '<span class="plate__empty-note">No public-domain portrait of this species has been located.</span>' +
       "</div>" +
       '<figcaption class="plate__caption">fig. ' + plateNo + " &mdash; " + esc(s.common) +
-        '<span class="plate__prov">Drawn for this register</span></figcaption></figure>';
+        '<span class="plate__prov"><a href="references.html#plates">How portraits are chosen</a></span>' +
+      "</figcaption></figure>";
   }
   /* Commons credit fields are inconsistent: some are a clean citation, some run
      to paragraphs, and the Internet Archive uploads give only a Flickr URL. Pull
@@ -467,8 +475,12 @@
     var nat = s.popNational && cc && s.popNational[cc];
     var value, sub = "";
 
-    if (pop.est === null || pop.est === undefined) {
-      value = '<span class="frow__none">Never counted</span>';
+    if ((pop.est === null || pop.est === undefined) && pop.low != null && pop.high != null) {
+      value = '<span class="popnum">' + num(pop.low) + "&ndash;" + num(pop.high) + "</span>" +
+              '<span class="popunit">' + esc(pop.unit || "mature individuals") + "</span>";
+      sub = esc(pop.label || "");
+    } else if (pop.est === null || pop.est === undefined) {
+      value = '<span class="frow__none">No published estimate</span>';
       sub = esc(pop.label || "");
     } else {
       var cls = pop.est === 0 ? " is-zero" : "";
@@ -488,6 +500,30 @@
              esc(nat.basis) + ", " + esc(nat.asOf) + ").";
     }
     return fieldRow("Population", value, sub);
+  }
+
+  /* Where the category comes from: the taxon's own IUCN assessment, or a
+     national or regional list when the IUCN has not assessed it separately. */
+  function statusNote(s) {
+    var ss = s.statusSource;
+    if (ss) {
+      return "Not assessed separately on the IUCN Red List" +
+        (ss.iucnNote ? " (" + esc(ss.iucnNote) + ")" : "") + ". " + esc(ss.text) +
+        (ss.url ? ' <a class="cite-link" href="' + esc(ss.url) +
+          '" target="_blank" rel="noopener noreferrer">Read the listing &rarr;</a>' : "");
+    }
+    var ar = s.iucnArchived;
+    if (ar) {
+      return "The Red List&rsquo;s last separate assessment of <em>" + esc(ar.taxon) +
+        "</em>, published " + esc(ar.year) + ". It is no longer assessed on its own: the Red List " +
+        "now assesses <em>" + esc(ar.currentTaxon) + "</em> as a whole, " +
+        esc(CAT_NAME[ar.currentStatus] || ar.currentStatus) + " (" + esc(ar.currentYear) + ").";
+    }
+    return "IUCN Red List assessment" +
+      (s.iucnTaxon ? " of <em>" + esc(s.iucnTaxon) + "</em>," : "") +
+      " published " + esc(s.iucnYear) +
+      (s.possiblyExtinct ? ". Tagged <em>Possibly Extinct" +
+        (s.possiblyExtinct === "wild" ? " in the Wild" : "") + "</em>." : ".");
   }
 
   function plate(s, i, cc) {
@@ -512,9 +548,7 @@
 
     var rows = [
       fieldRow("Status", '<span class="statusword">' + esc(cat) + "</span>" +
-        '<span class="statuscode">' + esc(s.iucn) + "</span>",
-        "IUCN Red List, assessed " + esc(s.iucnYear) +
-        (s.possiblyExtinct ? ". Tagged <em>Possibly Extinct</em>." : ".")),
+        '<span class="statuscode">' + esc(s.iucn) + "</span>", statusNote(s)),
       popRow(s, cc, country),
       fieldRow("Trend", esc(cap(TREND[s.trend] || s.trend))),
       fieldRow("Range", range, esc(s.habitat)),
@@ -648,8 +682,8 @@
         '<div class="note-margin">Where a count is missing, that absence is itself a finding. Nobody has ever ' +
         "counted the world&rsquo;s pangolins. We only know how many were seized.</div>" +
         "<p>Every organisation named under a species is a real, working body with a public giving page, chosen " +
-        "because it does documented work on that particular animal or its habitat. Their links are re-checked every " +
-        'week; so are the categories, counts and ranges. The <a href="verification.html">verification log</a> ' +
+        "because it does documented work on that particular animal or its habitat. Their links are re-checked each time the " +
+        'verification script runs, and so are the categories, counts and ranges. The <a href="verification.html">verification log</a> ' +
         "records what the last run found, including anything that failed.</p>" +
         '<p style="margin-top:1.8rem"><a class="cite-link" href="references.html">Citations &amp; references &rarr;</a></p>' +
       "</section>";
@@ -743,8 +777,9 @@
       body = '<div class="empty"><p class="hand" style="font-size:1.6rem">The page for this country is ' +
         "genuinely empty &mdash; and that is the honest answer.</p>" +
         '<p style="max-width:34rem;margin:1.2rem auto 0;color:var(--ink-soft)">No species in this archive has ' +
-        esc(c.name) + " within its range. For very small states this is usually true rather than an omission: " +
-        "the global Red List records no threatened species whose range lies here. Regional registers such as the " +
+        esc(c.name) + " within its range. This archive holds a selection of the Red List rather than all of it, " +
+        "so for a very small state that usually means no species of the kind recorded here lives inside its " +
+        "borders. Regional registers such as the " +
         '<a href="references.html#src-eu-red-list">European Red List</a> assess many species at a finer grain ' +
         "than the global list, and are the right place to look next.</p>" +
         '<p style="margin-top:1.5rem"><a class="cite-link" href="continent.html?c=' + esc(c.continent) +
@@ -833,6 +868,8 @@
 
     var rights = (D.sources && D.sources._rights) || "";
     var PLATE_CUTOFF = (D.plates && D.plates._cutoff) || 1928;
+    var FED = Object.keys(PLATES).filter(function (k) { return PLATES[k].basis === "usgov"; }).length;
+    var NOPORTRAIT = SPECIES.filter(function (x) { return !(PLATES[x.id] && PLATES[x.id].file); }).length;
     var PLATE_ROWS = Object.keys(PLATES).sort(function (a, b) {
       return (PLATES[a]["for"] || a).localeCompare(PLATES[b]["for"] || b);
     }).map(function (sid) {
@@ -840,7 +877,7 @@
       return "<tr><td><strong>" + esc((pl["for"] || sid).replace(/\s*\(.*\)$/, "")) + "</strong><br>" +
         '<span style="color:var(--ink-faint);font-size:.88rem;font-style:italic">' +
         esc(((pl["for"] || "").match(/\(([^)]+)\)$/) || [])[1] || "") + "</span></td>" +
-        "<td>" + esc(pl.artist || "Unknown") + "</td>" +
+        "<td>" + esc(pl.artist || "Not recorded") + "</td>" +
         '<td><a href="' + esc(pl.source) + '" target="_blank" rel="noopener noreferrer">' +
         esc(shortWork(pl.work, pl.title)) + "</a>" +
         (pl.depicts ? '<span class="frow__sub"><strong>' + esc(pl.depicts) + "</strong></span>" : "") +
@@ -864,10 +901,12 @@
       '<section class="section--tight wrap wrap--narrow" id="method">' +
         "<h2>How a species is ranked</h2>" +
         '<p class="dropcap" style="margin-top:1.2rem">Each country page lists its twenty most endangered species. ' +
-        "Rank is decided first by IUCN Red List category, which dominates everything else: Extinct in the Wild, then " +
+        "Rank is decided first by Red List category, which dominates everything else: Extinct in the Wild, then " +
         "Critically Endangered, Endangered, Vulnerable, Near Threatened. Within a category, four things break the tie " +
         "&mdash; how few individuals remain, whether the species is found in that country and nowhere else, whether " +
-        "its population is still falling, and whether it carries the Red List&rsquo;s <em>Possibly Extinct</em> tag.</p>" +
+        "its population is still falling, and whether it carries the Red List&rsquo;s <em>Possibly Extinct</em> tag. " +
+        "The category is the IUCN&rsquo;s wherever the IUCN has assessed that animal; for the few it has not, the " +
+        "species record names the national or regional list the category comes from.</p>" +
         "<p>Species with no published count are ranked as though scarce rather than as though abundant, because an " +
         "uncounted species is almost never an abundant one. A species appears on the page of every country its range " +
         "touches, so a snow leopard is listed by all twelve of its range states &mdash; the global population is shown, " +
@@ -884,7 +923,7 @@
         "country, then to species-specific funds, then to the large international bodies.</p>" +
         "<p>Only homepages are stored, never deep &lsquo;donate&rsquo; links: those change constantly and rot " +
         "quietly, whereas a homepage is stable and every organisation here carries a visible giving link. " +
-        "All " + ORGS.length + " links are re-checked once a week and any failure is published in the " +
+        "All " + ORGS.length + " links are re-checked whenever the verification script runs, and any failure is published in the " +
         '<a href="verification.html">verification log</a>.</p>' +
         "<p>This archive takes no commission, holds no affiliate arrangement with any organisation listed, and " +
         "receives nothing if you give. Before giving to any charity, you can check it yourself: in the United " +
@@ -896,38 +935,47 @@
       '<section class="section--tight wrap wrap--narrow" id="rights">' +
         "<h2>Rights &amp; reuse</h2>" +
         "<p>" + esc(rights) + "</p>" +
-        "<p>The plates are generated as original vector studies for this archive &mdash; 55 hand-authored base " +
-        "forms built on measured proportion grids, with the view chosen the way a field guide chooses it: the face " +
-        "for a cat, the horns for an antelope, the bill for a bird, the whole outline for a whale. Nothing is " +
-        "traced, photographed or adapted from another artist&rsquo;s work.</p>" +
-        "<p>The world map is drawn from hand-entered coastline coordinates and projected equirectangularly; it is " +
-        "not derived from any commercial or open geodata product. The flags are drawn from compact geometric " +
-        "specifications written for this project &mdash; flags of state are not copyrightable subject matter, and " +
-        "in any case none of this artwork is traced or copied. No flag image is bundled or hot-linked. Where a flag " +
-        "carries an intricate coat of arms, the device is drawn as a simplified emblem rather than reproduced.</p>" +
-        "<p>Facts &mdash; that a species is Critically Endangered, that a survey counted 244 birds &mdash; are not " +
-        "copyrightable, and are reproduced here as facts with their sources named. No descriptive text, photograph, " +
-        "illustration or bulk database extract has been copied from any source listed below.</p>" +
+        "<p>The portraits come from Wikimedia Commons scans of published natural-history works. The grounds for " +
+        'each public-domain claim are given in the <a href="#plate-list">list of plates</a> below.</p>' +
+        "<p>The world map is drawn in the browser from coastline coordinates stored with the site and projected " +
+        "equirectangularly. The flags are drawn from compact geometric specifications written for this project; no " +
+        "flag image is bundled or hot-linked, and where a flag carries an intricate coat of arms the device is drawn " +
+        "as a simplified emblem.</p>" +
+        "<p>Cite the Red List as: IUCN 2026. <em>The IUCN Red List of Threatened Species.</em> Version 2026-1. " +
+        "https://www.iucnredlist.org. Its terms of use are published at " +
+        '<a href="https://www.iucnredlist.org/terms/terms-of-use" target="_blank" rel="noopener noreferrer">' +
+        "iucnredlist.org/terms/terms-of-use</a>.</p>" +
       "</section>" +
       ornament() +
 
       '<section class="section--tight wrap wrap--narrow" id="plates">' +
         "<h2>The plates</h2>" +
-        "<p>Most figures in this register are historical natural-history plates whose copyright " +
-        "has expired &mdash; lithographs and engravings from Brehm&rsquo;s <em>Tierleben</em>, " +
-        "Lydekker&rsquo;s handbooks, Gould&rsquo;s monographs, and the work of illustrators such " +
-        "as Joseph Wolf, Joseph Smit and John Gerrard Keulemans. Each is credited under the " +
-        "figure with its artist, its source work, its year and a link to the file.</p>" +
-        "<p>Only works published in " + esc(PLATE_CUTOFF) + " or earlier are used, which is " +
-        "comfortably inside the public domain: copyright in a published work runs 95 years in " +
-        "the United States. A faithful photographic reproduction of a two-dimensional " +
-        "public-domain artwork does not attract a new copyright of its own &mdash; that is the " +
-        "holding in <em>Bridgeman v. Corel</em>, and Article 14 of the EU Copyright Directive " +
-        "says the same &mdash; so the scan is as free as the engraving it reproduces.</p>" +
-        '<div class="note-margin">The Victorians did not draw everything. The saola was ' +
-        "described in 1992, the Tapanuli orangutan in 2017, Rice&rsquo;s whale in 2021. Species " +
-        "that no engraver ever saw keep the drawn study instead, and the caption says so.</div>" +
-        "<p>Provenance for every plate is re-checked each week alongside the species data: " +
+        "<p>Every figure in this register is a finished natural-history portrait in the public " +
+        "domain: lithographs and engravings from works such as Brehm&rsquo;s <em>Tierleben</em>, " +
+        "Lydekker&rsquo;s handbooks and Gould&rsquo;s monographs, by illustrators including Joseph " +
+        "Wolf, Joseph Smit and John Gerrard Keulemans" +
+        (FED ? ", alongside field-guide illustration published by the United States government" : "") +
+        ". Each is credited under the figure with its artist, its source work, its date and a link " +
+        "to the file.</p>" +
+        "<p>Only two routes into the public domain are accepted. The first is age: works published " +
+        "in " + esc(PLATE_CUTOFF) + " or earlier, comfortably inside the 95 years that US copyright " +
+        "in a published work runs. " +
+        (FED ? "The second is statute: illustration made by the United States federal government, " +
+               "such as the US Fish and Wildlife Service and NOAA, which 17 U.S.C. &sect;105 places " +
+               "in the public domain whatever its date. " : "") +
+        "A faithful photographic reproduction of a two-dimensional public-domain artwork does not " +
+        "attract a new copyright of its own &mdash; that is the holding in <em>Bridgeman v. " +
+        "Corel</em>, and Article 14 of the EU Copyright Directive says the same.</p>" +
+        "<p>Every plate is chosen by eye as well as by its metadata. Photographs, anatomical " +
+        "diagrams, faint sketches and scenes in which the animal is lost are turned away, and so " +
+        "are plates that turn out to show the wrong animal &mdash; a scarlet macaw catalogued as a " +
+        "hyacinth macaw, and a lion&ndash;tiger hybrid catalogued as a tiger, were both caught " +
+        "this way.</p>" +
+        '<div class="note-margin">Some species were described too recently for any historical ' +
+        "artist to have seen them &mdash; the Tapanuli orangutan in 2017, Rice&rsquo;s whale in " +
+        "2021." + (NOPORTRAIT ? " Where no public-domain portrait has been located, the plate says " +
+        "so plainly rather than showing a stand-in drawing." : "") + "</div>" +
+        "<p>Provenance for every plate is re-checked alongside the species data whenever the verification script runs: " +
         "publication year against the cutoff, licence, artist, source URL and that the file is " +
         'still where the register says it is. See the <a href="verification.html">verification ' +
         "log</a>.</p>" +
@@ -937,14 +985,14 @@
       '<section class="section--tight wrap" id="plate-list">' +
         "<h2>Plates used</h2>" +
         '<p class="lede" style="margin:1rem 0 1.4rem">' + PLATE_ROWS.length +
-        " historical plates, each out of copyright and credited to its artist and source work.</p>" +
+        " plates, each in the public domain and credited to its artist and source work.</p>" +
         (PLATE_ROWS.length
           ? '<div class="scroll-x"><table class="ledger"><thead><tr><th>Species</th>' +
             "<th>Artist</th><th>Source work and grounds for the public-domain claim</th>" +
-            "<th style=\"text-align:right\">Year</th>" +
+            "<th style=\"text-align:right\">Date</th>" +
             "</tr></thead><tbody>" + PLATE_ROWS.join("") + "</tbody></table></div>"
-          : '<div class="empty"><p class="hand" style="font-size:1.4rem">No historical plates ' +
-            "are registered yet; every figure is a drawn study.</p></div>") +
+          : '<div class="empty"><p class="hand" style="font-size:1.4rem">No portraits ' +
+            "are registered yet.</p></div>") +
       "</section>" +
       ornament() +
 
@@ -977,7 +1025,8 @@
         '<div class="empty" style="margin-top:2rem">' +
         '<p class="hand" style="font-size:1.5rem">No run has been recorded yet.</p>' +
         '<p style="max-width:34rem;margin:1rem auto 0;color:var(--ink-soft)">The checker lives at ' +
-        "<code>scripts/verify.py</code> and is scheduled to run every Monday. Once it has run, this page shows " +
+        "<code>scripts/verify.py</code> and is run by hand, or weekly once this repository is hosted on GitHub. " +
+        "Once it has run, this page shows " +
         "what it found, including anything that failed.</p></div></section>";
       shell("verify", html);
       return;
@@ -1011,7 +1060,7 @@
       "</section>" +
       '<section class="wrap wrap--narrow">' +
         '<p class="eyebrow">Compliance &amp; monitoring</p><h1>Verification&nbsp;Log</h1>' +
-        '<p class="lede" style="margin-top:1.6rem">An automated check runs every Monday over the whole archive: ' +
+        '<p class="lede" style="margin-top:1.6rem">An automated check reads the whole archive: ' +
         "species categories, population figures, range countries, citations and every organisation link. " +
         "This is what the last run found.</p>" +
         '<p style="margin-top:1.4rem"><span class="pill ' + cls + '">' + esc(r.status) + "</span> " +
@@ -1032,15 +1081,22 @@
       "</section>" +
       '<section class="section--tight wrap wrap--narrow">' +
         "<h2>What the checker does</h2>" +
-        "<p>The script is <code>scripts/verify.py</code>; it is scheduled by " +
-        "<code>.github/workflows/weekly-verification.yml</code> and can be run by anyone with a copy of this " +
-        "repository. It validates the shape and internal consistency of every record, confirms that each species " +
+        "<p>The script is <code>scripts/verify.py</code>. The repository includes " +
+        "<code>.github/workflows/weekly-verification.yml</code> to run it weekly once the site is hosted on GitHub; anyone with a copy of this " +
+        "repository can also run it. It validates the shape and internal consistency of every record, confirms that each species " +
         "cites at least one primary assessment, that every named organisation and every range country resolves, " +
         "that population ranges bracket their own point estimate, and that no record has gone stale. With network " +
         "access it also requests every source and organisation URL and reports anything that no longer answers.</p>" +
-        "<p>It cannot re-read the IUCN Red List and re-derive a category on its own &mdash; that requires an API " +
-        "token, and the site holds none. What it does instead is flag every record whose assessment is old enough " +
-        "to be worth a human look, so that staleness is visible rather than silent.</p>" +
+        "<p>Given an IUCN Red List API token &mdash; free for non-commercial use &mdash; it also asks the Red List " +
+        "itself for the current category and published year of every record it can key by name, and reports any " +
+        "disagreement for a human to settle. That API is also how the bird assessments reach this archive: they are " +
+        "compiled by BirdLife International and published through the Red List, whose terms allow this, while " +
+        "BirdLife&rsquo;s own Data Zone does not permit automated access. Without a token the check falls back to " +
+        "flagging every record whose assessment is old enough to be worth a human look, so that staleness is " +
+        "visible rather than silent.</p>" +
+        "<p>The five species the Red List does not assess separately rest on a national or legal listing instead. " +
+        "Each links to that listing, the check requests it alongside every other link, and it asks for the listing " +
+        "to be read again by hand once a year.</p>" +
       "</section>";
     shell("verify", html);
   };

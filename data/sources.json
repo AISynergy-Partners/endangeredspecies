@@ -1,6 +1,6 @@
 {
  "_about": "Bibliography. Every species record cites the sources it draws on by id; this file resolves those ids to full references.",
- "_rights": "This archive reproduces no text, photographs, illustrations or database extracts from any source listed here. Species names, IUCN Red List categories, assessment years and published population estimates are statements of fact, which are not subject to copyright. All descriptive writing on this site is original, and all artwork — the species plates, the world map and the flags — is drawn from scratch for this archive. Sources are credited on every page where their data appears, in line with the IUCN Red List Terms of Use and the attribution requirements of the other bodies listed.",
+ "_rights": "The descriptive writing on this site is original. The species portraits are historical illustrations in the public domain, credited under every plate. Conservation status, trend, range and most population figures restate data from the sources listed below, chiefly the IUCN Red List of Threatened Species, and every species record names the sources it draws on. Those data belong to their publishers and stay subject to their terms: the IUCN Red List Terms and Conditions of Use permit use for conservation, education and research, and forbid commercial use — which they define to include any use by or on behalf of a for-profit entity — without IUCN’s written permission. This archive is non-commercial: it carries no advertising, sells nothing, takes no sponsorship or affiliate revenue, and is published for education and conservation. Anyone reusing the data here is bound by the same terms.",
  "sources": [
   {
    "id": "iucn-redlist",
@@ -8,15 +8,15 @@
    "publisher": "International Union for Conservation of Nature",
    "url": "https://www.iucnredlist.org",
    "type": "primary-assessment",
-   "note": "The backbone of this archive. Every species record here takes its category (CR, EN, VU, NT, EW), assessment year, population trend and range countries from its Red List assessment."
+   "note": "The backbone of this archive. Categories, population trends and range countries come from each taxon's current Red List assessment, and the year shown is the year that assessment was published. Where the IUCN has not assessed a taxon separately, the record says so and names the national or regional list used instead. Cite as: IUCN 2026. The IUCN Red List of Threatened Species. Version 2026-1. https://www.iucnredlist.org. Accessed 14–15 September 2026."
   },
   {
    "id": "birdlife-datazone",
-   "title": "BirdLife Data Zone",
+   "title": "BirdLife International bird assessments",
    "publisher": "BirdLife International",
-   "url": "https://datazone.birdlife.org",
+   "url": "https://www.birdlife.org",
    "type": "primary-assessment",
-   "note": "BirdLife is the Red List Authority for birds. Population estimates for every bird here — usually expressed as mature individuals or breeding pairs — come from its species factsheets."
+   "note": "BirdLife International is the IUCN Red List Authority for birds: it compiles the assessment for every bird species and IUCN publishes it on the Red List. The bird categories, years, trends and population figures in this archive were read from those Red List assessment pages. They were not taken from BirdLife's Data Zone, whose terms do not permit automated access, and nothing here is copied from it."
   },
   {
    "id": "natureserve-explorer",
@@ -232,7 +232,7 @@
    "publisher": "IUCN Species Survival Commission",
    "url": "https://www.asianwildcattle.org",
    "type": "specialist-group",
-   "note": "The volunteer expert network that produces the Red List assessments for wild cattle, buffalo and the saola. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
+   "note": "The volunteer expert network that produces the Red List assessments for wild cattle and buffalo. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
   },
   {
    "id": "iucn-ssc-bear",
@@ -297,14 +297,6 @@
    "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
    "type": "specialist-group",
    "note": "The volunteer expert network that produces the Red List assessments for bats. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
-  },
-  {
-   "id": "iucn-ssc-camel",
-   "title": "IUCN SSC Wild Camel Specialist Group",
-   "publisher": "IUCN Species Survival Commission",
-   "url": "https://www.iucn.org/our-union/commissions/species-survival-commission",
-   "type": "specialist-group",
-   "note": "The volunteer expert network that produces the Red List assessments for the wild Bactrian camel. Population figures attributed to a 'Specialist Group' in this archive come from its published assessments and action plans."
   },
   {
    "id": "iucn-ssc-small-carnivore",
@@ -407,7 +399,7 @@
    "title": "AmphibiaWeb",
    "publisher": "University of California, Berkeley",
    "url": "https://amphibiaweb.org",
-   "type": "primary-assessment",
+   "type": "survey",
    "note": "Species accounts, chytrid fungus distribution and decline records for every amphibian in this archive."
   },
   {
@@ -423,8 +415,144 @@
    "title": "EDGE of Existence species list",
    "publisher": "Zoological Society of London",
    "url": "https://www.edgeofexistence.org",
-   "type": "primary-assessment",
+   "type": "survey",
    "note": "Ranks species by Evolutionary Distinctiveness combined with Global Endangerment. Cited for species with no close living relatives, such as the kagu, aye-aye and Amami rabbit."
+  },
+  {
+   "id": "iucn-2020-saola",
+   "title": "IUCN Red List assessment: Saola (Pseudoryx nghetinhensis)",
+   "publisher": "Timmins, R.J., Hedges, S. & Robichaud, W. 2020. The IUCN Red List of Threatened Species 2020: e.T18597A166485696 (amended version of 2016 assessment)",
+   "url": "https://www.iucnredlist.org/species/18597/166485696",
+   "type": "primary-assessment",
+   "note": "Critically Endangered A2acd+3cd+4acd; C2a(i), assessed 27 November 2015: 25–750 mature individuals, best estimate 50–300. The IUCN annotates the assessment as needing updating. Checked against Red List version 2026-1 on 14 September 2026."
+  },
+  {
+   "id": "iucn-2019-atelopus-zeteki",
+   "title": "IUCN Red List assessment: Panamanian golden frog (Atelopus zeteki)",
+   "publisher": "IUCN SSC Amphibian Specialist Group. 2019. The IUCN Red List of Threatened Species 2019: e.T54563A54341110",
+   "url": "https://www.iucnredlist.org/species/54563/54341110",
+   "type": "primary-assessment",
+   "note": "Critically Endangered (Possibly Extinct in the Wild) A2acde; D, assessed 23 May 2018: 0–49 mature individuals and no known location. Checked against Red List version 2026-1 on 14 September 2026."
+  },
+  {
+   "id": "iucn-2018-akikiki",
+   "title": "IUCN Red List assessment: ʻAkikiki (Oreomystis bairdi)",
+   "publisher": "BirdLife International. 2018. The IUCN Red List of Threatened Species 2018: e.T22720809A130843089",
+   "url": "https://www.iucnredlist.org/species/22720809/130843089",
+   "type": "primary-assessment",
+   "note": "Critically Endangered C2a(ii), assessed 14 August 2018 on a 2012 estimate of 150–610 mature individuals, before the wild population collapsed. Checked against Red List version 2026-1 and the BirdLife Data Zone on 14 September 2026."
+  },
+  {
+   "id": "iucn-2008-south-china-tiger",
+   "title": "IUCN Red List assessment: South China tiger (Panthera tigris ssp. amoyensis)",
+   "publisher": "Nyhus, P. 2008. The IUCN Red List of Threatened Species 2008: e.T15965A5334628",
+   "url": "https://www.iucnredlist.org/species/15965/5334628",
+   "type": "primary-assessment",
+   "note": "Critically Endangered (Possibly Extinct in the Wild) D, assessed 30 June 2008. Still published as the subspecies' own listing, separate from the Endangered listing of the tiger as a species, and annotated by the IUCN as needing updating. Checked against Red List version 2026-1 on 14 September 2026."
+  },
+  {
+   "id": "parc-golden-frog",
+   "title": "Panamanian Golden Frog",
+   "publisher": "Panama Amphibian Rescue and Conservation Project",
+   "url": "https://amphibianrescue.org/panamanian-golden-frog/",
+   "type": "survey",
+   "note": "Source for chytridiomycosis reaching El Valle de Antón in 2006, the last wild record in 2009, the 2010 law making the frog a national symbol, and the captive population of more than 1,000 adults at over 50 US and Canadian institutions."
+  },
+  {
+   "id": "nzcbi-golden-frog-release-2026",
+   "title": "Scientists Trial Reintroductions of Panamanian Golden Frogs",
+   "publisher": "Smithsonian's National Zoo and Conservation Biology Institute, 25 February 2026",
+   "url": "https://nationalzoo.si.edu/news/scientists-trial-reintroductions-panamanian-golden-frogs",
+   "type": "survey",
+   "note": "Reports the trial in which 100 captive-bred golden frogs were held for 12 weeks in soft-release pens in Panama before many of the survivors were fully released."
+  },
+  {
+   "id": "mongabay-golden-frog-release-2026",
+   "title": "Captive-bred Panamanian golden frogs released to the wild",
+   "publisher": "Mongabay, 20 March 2026",
+   "url": "https://news.mongabay.com/short-article/2026/03/captive-bred-panamanian-golden-frogs-released-to-the-wild/",
+   "type": "survey",
+   "note": "Source for about 70% of the frogs in the release trial dying of chytridiomycosis during their 12 weeks in pens."
+  },
+  {
+   "id": "usfws-kauai-forest-birds-2023",
+   "title": "Saving Kauaʻi Forest Birds",
+   "publisher": "U.S. Fish and Wildlife Service, 13 October 2023",
+   "url": "https://www.fws.gov/press-release/2023-10/saving-kauai-forest-birds",
+   "type": "survey",
+   "note": "Reports that Kauaʻi Forest Bird Recovery Project surveys detected only five ʻakikiki remaining in the wild, and that avian malaria spread by the non-native southern house mosquito is the main threat to Hawaiian honeycreepers."
+  },
+  {
+   "id": "kauainow-pakele-2026",
+   "title": "Kauaʻi County Council honors Pakele, the last known wild ʻakikiki on Garden Isle",
+   "publisher": "Kauaʻi Now, 27 August 2026",
+   "url": "https://kauainownews.com/2026/08/27/kauai-county-council-honors-pakele-the-last-known-wild-akikiki-on-garden-isle/",
+   "type": "survey",
+   "note": "Source for the last sighting of the last known wild ʻakikiki, a female named Pakele, on 29 August 2025, and for the species surviving in a conservation breeding flock operated by San Diego Zoo Wildlife Alliance."
+  },
+  {
+   "id": "tilson-2004-south-china-tiger",
+   "title": "Dramatic decline of wild South China tigers Panthera tigris amoyensis: field survey of priority tiger reserves",
+   "publisher": "Tilson, R., Defu, H., Muntifering, J. & Nyhus, P.J. 2004. Oryx 38",
+   "url": "https://digitalcommons.colby.edu/faculty_scholarship/10/",
+   "type": "survey",
+   "note": "Sino-American field surveys in 2001 and 2002 of eight reserves in five provinces, chosen as the habitat most likely to hold tigers, found no evidence of wild South China tigers and few prey species."
+  },
+  {
+   "id": "wang-2023-south-china-tiger",
+   "title": "Population genomic analysis provides evidence of the past success and future potential of South China tiger captive conservation",
+   "publisher": "Wang, C., Wu, D.-D., Yuan, Y.-H. et al. 2023. BMC Biology 21",
+   "url": "https://doi.org/10.1186/s12915-023-01552-y",
+   "type": "survey",
+   "note": "Source for the South China tiger surviving only in zoos, with every living animal descended from two male and four female wild-caught tigers."
+  },
+  {
+   "id": "mongabay-saola-search-2025",
+   "title": "To track a unicorn: Laos team goes all out to find the last saolas",
+   "publisher": "Mongabay, 30 September 2025",
+   "url": "https://news.mongabay.com/2025/09/to-track-a-unicorn-laos-team-goes-all-out-to-find-the-last-saolas/",
+   "type": "survey",
+   "note": "Source for the Saola Foundation's search of 300 km² of Bolikhamxay province, Laos, with detection dogs and rapid DNA testing from April 2025, and for a 2013 camera-trap photograph in central Vietnam being the last confirmed record."
+  },
+  {
+   "id": "dlnr-forest-birds-2024",
+   "title": "Year of the Forest Birds marked changes for birds, hope for the future",
+   "publisher": "Hawaiʻi Department of Land and Natural Resources, 19 December 2024",
+   "url": "https://dlnr.hawaii.gov/blog/2024/12/19/nr24-167/",
+   "type": "survey",
+   "note": "Source for the ʻakikiki being considered functionally extinct in the wild at the end of 2024, with five or fewer wild birds remaining."
+  },
+  {
+   "id": "iucn-ssc-saola-2021",
+   "title": "IUCN SSC experts urge immediate action to find Saola before it's too late",
+   "publisher": "International Union for Conservation of Nature, 20 August 2021",
+   "url": "https://iucn.org/news/species-survival-commission/202108/iucn-ssc-experts-urge-immediate-action-find-saola-its-too-late",
+   "type": "specialist-group",
+   "note": "Source for the saola's discovery by Western science in 1992, snaring as a major threat, no conclusive detection since 2013, and expert estimates of fewer than 100 individuals."
+  },
+  {
+   "id": "mongolian-red-list-mammals-2006",
+   "title": "Mongolian Red List of Mammals",
+   "publisher": "Clark, E.L., Munkhbat, J., Dulamtseren, S., Baillie, J.E.M., Batsaikhan, N., Samiya, R. & Stubbe, M. (compilers) 2006. Regional Red List Series Vol. 1, Zoological Society of London",
+   "url": "https://www.nationalredlist.org/publications/nrld-12",
+   "type": "national-listing",
+   "note": "Regional assessment using IUCN categories and criteria. Lists the Gobi bear (Ursus arctos gobiensis) as Critically Endangered under criterion D. Checked on nationalredlist.org on 15 September 2026."
+  },
+  {
+   "id": "italian-red-list-vertebrates",
+   "title": "Lista Rossa IUCN dei vertebrati italiani",
+   "publisher": "Comitato Italiano IUCN and Ministero dell’Ambiente e della Sicurezza Energetica",
+   "url": "https://www.iucn.it/scheda.php?id=539974414",
+   "type": "national-listing",
+   "note": "National assessment using IUCN categories and criteria. Lists the Marsican brown bear (Ursus arctos marsicanus) as Critically Endangered, C2a(i,ii); D. Checked on iucn.it on 15 September 2026."
+  },
+  {
+   "id": "mongabay-rafetus-2025",
+   "title": "Can a new DNA test save the world’s rarest turtle?",
+   "publisher": "Mongabay, February 2025",
+   "url": "https://news.mongabay.com/2025/02/can-a-new-dna-test-un-extinct-the-worlds-rarest-turtle/",
+   "type": "survey",
+   "note": "Reports that two or three Yangtze giant softshell turtles are known (Suzhou Zoo, Xuan Khanh lake and possibly Dong Mo lake) after the last known female died at Dong Mo in April 2023."
   }
  ]
 }

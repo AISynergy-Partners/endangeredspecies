@@ -1,50 +1,50 @@
 {
- "generatedAt": "2026-09-10T16:05:40Z",
+ "generatedAt": "2026-10-04T01:35:19Z",
  "status": "warn",
- "mode": "structural checks only (--offline)",
- "iucnTokenPresent": false,
+ "mode": "structural checks plus 218 live link checks and a Red List API re-read",
+ "iucnTokenPresent": true,
  "totals": {
-  "species": 280,
-  "organizations": 157,
-  "sources": 53,
+  "species": 278,
+  "organizations": 145,
+  "sources": 69,
   "countries": 206,
   "errors": 0,
-  "warnings": 87
+  "warnings": 67
  },
  "checks": [
   {
    "name": "Record shape",
    "description": "Required fields present and correctly typed on every species record",
-   "checked": 280,
+   "checked": 278,
    "warned": 0,
    "failed": 0
   },
   {
    "name": "Cross-references",
-   "description": "Organisation ids, source ids, country codes and plate keys all resolve",
-   "checked": 280,
+   "description": "Organisation ids, source ids and country codes all resolve",
+   "checked": 278,
    "warned": 0,
    "failed": 0
   },
   {
    "name": "Population figures",
    "description": "Ranges bracket their estimate; every figure carries a unit, survey and date",
-   "checked": 280,
+   "checked": 278,
    "warned": 0,
    "failed": 0
   },
   {
    "name": "Citations",
    "description": "Every species rests on at least one primary assessment or national register",
-   "checked": 280,
+   "checked": 278,
    "warned": 0,
    "failed": 0
   },
   {
    "name": "Staleness",
-   "description": "Assessments over 12 years old and counts over 8 years old are surfaced",
-   "checked": 280,
-   "warned": 86,
+   "description": "Assessments over 12 years old, counts over 8 years old and national listings unconfirmed for 365 days are surfaced",
+   "checked": 278,
+   "warned": 65,
    "failed": 0
   },
   {
@@ -57,14 +57,28 @@
   {
    "name": "Organisations",
    "description": "Every organisation has an https link and a described role; species name three",
-   "checked": 157,
+   "checked": 145,
    "warned": 0,
    "failed": 0
   },
   {
    "name": "Plate provenance",
-   "description": "Historical plates carry artist, work, year, licence and source; 170 species use a plate, 110 the drawn study",
-   "checked": 170,
+   "description": "Historical plates carry artist, work, year, licence and source; 205 species have a portrait, 73 have none located",
+   "checked": 205,
+   "warned": 0,
+   "failed": 0
+  },
+  {
+   "name": "Link liveness",
+   "description": "Every organisation and source URL still answers",
+   "checked": 218,
+   "warned": 1,
+   "failed": 0
+  },
+  {
+   "name": "Red List categories",
+   "description": "Every category and published year re-read from the IUCN Red List API",
+   "checked": 273,
    "warned": 0,
    "failed": 0
   }
@@ -92,7 +106,7 @@
    "level": "warning",
    "check": "Staleness",
    "record": "west-african-lion",
-   "message": "population figure dates from 2015; check for a newer survey"
+   "message": "population figure dates from 2014; check for a newer survey"
   },
   {
    "level": "warning",
@@ -163,8 +177,8 @@
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "madagascar-fish-eagle",
-   "message": "population figure dates from 2016; check for a newer survey"
+   "record": "radiated-tortoise",
+   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
   },
   {
    "level": "warning",
@@ -205,24 +219,6 @@
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "slender-snouted-crocodile",
-   "message": "last assessed in 2013, 13 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "slender-snouted-crocodile",
-   "message": "population figure dates from 2013; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "egyptian-tortoise",
-   "message": "last assessed in 2003, 23 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
    "record": "egyptian-tortoise",
    "message": "population figure dates from 2003; check for a newer survey"
   },
@@ -231,6 +227,12 @@
    "check": "Staleness",
    "record": "sumatran-elephant",
    "message": "last assessed in 2011, 15 years ago — worth re-checking against the current Red List entry"
+  },
+  {
+   "level": "warning",
+   "check": "Staleness",
+   "record": "south-china-tiger",
+   "message": "population figure dates from 2002; check for a newer survey"
   },
   {
    "level": "warning",
@@ -261,24 +263,6 @@
    "check": "Staleness",
    "record": "bornean-orangutan",
    "message": "population figure dates from 2016; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "wild-bactrian-camel",
-   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "wild-bactrian-camel",
-   "message": "population figure dates from 2008; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "przewalskis-horse",
-   "message": "last assessed in 2011, 15 years ago — worth re-checking against the current Red List entry"
   },
   {
    "level": "warning",
@@ -320,18 +304,12 @@
    "level": "warning",
    "check": "Staleness",
    "record": "yangtze-finless-porpoise",
-   "message": "last assessed in 2012, 14 years ago — worth re-checking against the current Red List entry"
+   "message": "last assessed in 2013, 13 years ago — worth re-checking against the current Red List entry"
   },
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "philippine-eagle",
-   "message": "population figure dates from 2016; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "spoon-billed-sandpiper",
+   "record": "chinese-alligator",
    "message": "population figure dates from 2017; check for a newer survey"
   },
   {
@@ -355,38 +333,14 @@
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "chinese-giant-salamander",
-   "message": "last assessed in 2004, 22 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
    "record": "mekong-giant-catfish",
    "message": "last assessed in 2011, 15 years ago — worth re-checking against the current Red List entry"
   },
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "great-bustard",
-   "message": "population figure dates from 2017; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "aquatic-warbler",
-   "message": "population figure dates from 2017; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "freshwater-pearl-mussel",
-   "message": "last assessed in 2011, 15 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "olm",
-   "message": "last assessed in 2009, 17 years ago — worth re-checking against the current Red List entry"
+   "record": "balkan-lynx",
+   "message": "population figure dates from 2015; check for a newer survey"
   },
   {
    "level": "warning",
@@ -403,43 +357,13 @@
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "kemps-ridley-turtle",
-   "message": "last assessed in 1996, 30 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "cuban-crocodile",
-   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "cuban-crocodile",
-   "message": "population figure dates from 2008; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "smalltooth-sawfish",
-   "message": "last assessed in 2013, 13 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
    "record": "andean-bear",
-   "message": "population figure dates from 2017; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "huemul",
    "message": "population figure dates from 2016; check for a newer survey"
   },
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "andean-cat",
+   "record": "huemul",
    "message": "population figure dates from 2016; check for a newer survey"
   },
   {
@@ -487,26 +411,8 @@
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "numbat",
-   "message": "population figure dates from 2016; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "wollemi-pine",
-   "message": "last assessed in 2011, 15 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "wollemi-pine",
-   "message": "population figure dates from 2011; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "kagu",
-   "message": "population figure dates from 2016; check for a newer survey"
+   "record": "tasmanian-devil",
+   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
   },
   {
    "level": "warning",
@@ -529,14 +435,14 @@
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "hawksbill-turtle",
-   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
+   "record": "christmas-island-flying-fox",
+   "message": "national listing has no confirmation date — re-read EPBC Act and record it as 'checked'"
   },
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "green-turtle",
-   "message": "last assessed in 2004, 22 years ago — worth re-checking against the current Red List entry"
+   "record": "hawksbill-turtle",
+   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
   },
   {
    "level": "warning",
@@ -554,31 +460,13 @@
    "level": "warning",
    "check": "Staleness",
    "record": "sperm-whale",
-   "message": "last assessed in 2008, 18 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "sperm-whale",
    "message": "population figure dates from 2008; check for a newer survey"
   },
   {
    "level": "warning",
    "check": "Staleness",
-   "record": "humphead-wrasse",
-   "message": "last assessed in 2004, 22 years ago — worth re-checking against the current Red List entry"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
    "record": "arabian-oryx",
-   "message": "population figure dates from 2017; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "basra-reed-warbler",
-   "message": "population figure dates from 2017; check for a newer survey"
+   "message": "population figure dates from 2016; check for a newer survey"
   },
   {
    "level": "warning",
@@ -589,8 +477,14 @@
   {
    "level": "warning",
    "check": "Coverage",
-   "record": "LI, SM, VA",
-   "message": "3 countries have no species recorded and will render the empty state"
+   "record": "LI, PS, SM, VA",
+   "message": "4 countries have no species recorded and will render the empty state"
+  },
+  {
+   "level": "warning",
+   "check": "Link liveness",
+   "record": "source epbc-act",
+   "message": "https://www.dcceew.gov.au/environment/biodiversity/threatened could not be reached from this runner (timeout: The read operation timed out); not confirmed dead"
   }
  ]
 }

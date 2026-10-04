@@ -444,6 +444,21 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   filter: sepia(.18) saturate(.9) contrast(1.02);
   mix-blend-mode: multiply;
 }
+/* No public-domain portrait located: said plainly, in the register's own type,
+   rather than filled with a stand-in drawing. */
+.plate__frame--empty {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: .3rem; text-align: center; aspect-ratio: 4 / 3; padding: 1.2rem 1rem;
+  background:
+    repeating-linear-gradient(135deg, transparent 0 9px, rgba(47, 42, 33, .035) 9px 10px),
+    var(--paper-card);
+}
+.plate__empty-name { font-family: var(--display); font-style: italic; font-weight: 300;
+                     font-size: 1.35rem; line-height: 1.15; color: var(--ink-soft); }
+.plate__empty-sci  { font-family: var(--body); font-style: italic; font-size: .88rem; color: var(--ink-faint); }
+.plate__empty-rule { width: 2.4rem; height: 1px; background: var(--rule); margin: .4rem 0 .3rem; }
+.plate__empty-note { font-family: var(--body); font-size: .74rem; line-height: 1.45;
+                     color: var(--ink-faint); max-width: 15rem; }
 .plate__caption {
   font-family: var(--hand);
   font-size: 1.14rem;

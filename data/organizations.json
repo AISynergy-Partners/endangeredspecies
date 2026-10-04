@@ -27,7 +27,7 @@
    "regions": [
     "global"
    ],
-   "role": "The world's oldest international conservation organisation (founded 1903). Works almost entirely through local partners rather than its own field staff."
+   "role": "Founded in 1903 as the Society for the Preservation of the Wild Fauna of the Empire; works mainly through local partner organisations."
   },
   {
    "id": "wcs",
@@ -55,7 +55,7 @@
    "regions": [
     "global"
    ],
-   "role": "The largest conservation NGO by budget; works on policy, protected areas and species recovery, and co-manages several national census programmes."
+   "role": "Global conservation organisation working on protected areas, wildlife trade policy and species recovery programmes."
   },
   {
    "id": "zsl",
@@ -86,20 +86,6 @@
    "role": "Specialises in the rescue of species reduced to very small populations, particularly island endemics; pioneered captive breeding for release."
   },
   {
-   "id": "conservation-international",
-   "name": "Conservation International",
-   "url": "https://www.conservation.org",
-   "hq": "US",
-   "scope": "global",
-   "focus": [
-    "all"
-   ],
-   "regions": [
-    "global"
-   ],
-   "role": "Works on biodiversity hotspots and ecosystem finance, with a strong science programme on irreplaceable sites."
-  },
-  {
    "id": "african-parks",
    "name": "African Parks",
    "url": "https://www.africanparks.org",
@@ -125,7 +111,7 @@
    "regions": [
     "global"
    ],
-   "role": "Passes ~100% of designated donations through to vetted field conservationists; hosts the Elephant, Lion, Pangolin and Rhino Crisis Funds."
+   "role": "Sends 100% of donations designated for its partner programmes to the field; hosts the Elephant Crisis Fund, Lion Recovery Fund, Pangolin Crisis Fund and Rhino Recovery Fund."
   },
   {
    "id": "mbz-fund",
@@ -139,65 +125,7 @@
    "regions": [
     "global"
    ],
-   "role": "Small-grant fund aimed squarely at species-level conservation, including many taxa too obscure to attract large donors."
-  },
-  {
-   "id": "iucn-sos",
-   "name": "IUCN Save Our Species",
-   "url": "https://www.saveourspecies.org",
-   "hq": "CH",
-   "scope": "global",
-   "focus": [
-    "all"
-   ],
-   "regions": [
-    "global"
-   ],
-   "role": "IUCN's own grant mechanism, funding civil-society projects for threatened species listed on the Red List."
-  },
-  {
-   "id": "synchronicity-earth",
-   "name": "Synchronicity Earth",
-   "url": "https://www.synchronicityearth.org",
-   "hq": "GB",
-   "scope": "global",
-   "focus": [
-    "amphibian",
-    "freshwater",
-    "invertebrate"
-   ],
-   "regions": [
-    "global"
-   ],
-   "role": "Deliberately funds the neglected: amphibians, freshwater species and Congo Basin work that mainstream donors overlook."
-  },
-  {
-   "id": "whitley-fund",
-   "name": "Whitley Fund for Nature",
-   "url": "https://whitleyaward.org",
-   "hq": "GB",
-   "scope": "global",
-   "focus": [
-    "all"
-   ],
-   "regions": [
-    "global"
-   ],
-   "role": "Funds and profiles conservation leaders based in the countries where they work."
-  },
-  {
-   "id": "rufford",
-   "name": "The Rufford Foundation",
-   "url": "https://www.rufford.org",
-   "hq": "GB",
-   "scope": "global",
-   "focus": [
-    "all"
-   ],
-   "regions": [
-    "global"
-   ],
-   "role": "Small grants for nature conservation projects in developing countries; often the first funder a young field biologist gets."
+   "role": "Small grants for species-level conservation, including many little-known plants, invertebrates and amphibians."
   },
   {
    "id": "world-land-trust",
@@ -253,7 +181,7 @@
    "regions": [
     "global"
    ],
-   "role": "The wildlife trade monitoring network; supplies the trade data that underpins CITES listings and enforcement."
+   "role": "Wildlife trade monitoring organisation whose trade research informs CITES decisions and enforcement."
   },
   {
    "id": "wildaid",
@@ -309,7 +237,7 @@
    "regions": [
     "global"
    ],
-   "role": "The only organisation devoted exclusively to the world's wild cat species; runs anti-poaching, corridor and monitoring programmes."
+   "role": "Conservation organisation devoted to wild cats; runs anti-poaching, corridor and monitoring programmes."
   },
   {
    "id": "birdlife",
@@ -380,7 +308,7 @@
    "regions": [
     "global"
    ],
-   "role": "The coordinating body for global amphibian conservation, responding to chytrid fungus and habitat loss."
+   "role": "Global partnership of organisations working on amphibian conservation, including the response to chytrid fungus and habitat loss."
   },
   {
    "id": "amphibian-ark",
@@ -436,7 +364,7 @@
    "regions": [
     "global"
    ],
-   "role": "The oldest sea turtle research and conservation group; nesting beach protection and satellite tracking."
+   "role": "Founded in 1959; nesting beach protection and satellite tracking."
   },
   {
    "id": "oceana",
@@ -548,7 +476,7 @@
    "regions": [
     "global"
    ],
-   "role": "The leading invertebrate conservation organisation: pollinators, freshwater mussels and other overlooked taxa."
+   "role": "Invertebrate conservation organisation working on pollinators, freshwater mussels and other overlooked animals."
   },
   {
    "id": "bat-conservation-international",
@@ -591,21 +519,7 @@
    "regions": [
     "global"
    ],
-   "role": "Focused entirely on freshwater species, the most threatened and least funded major group."
-  },
-  {
-   "id": "edge",
-   "name": "EDGE of Existence",
-   "url": "https://www.edgeofexistence.org",
-   "hq": "GB",
-   "scope": "global",
-   "focus": [
-    "all"
-   ],
-   "regions": [
-    "global"
-   ],
-   "role": "ZSL programme supporting early-career conservationists working on evolutionarily distinct species with no one else advocating for them."
+   "role": "Works only on freshwater species, a group that attracts a small share of conservation funding."
   },
   {
    "id": "save-the-elephants",
@@ -619,7 +533,7 @@
    "regions": [
     "africa"
    ],
-   "role": "Long-term elephant research in Samburu plus the tracking data behind much of Africa's anti-poaching work."
+   "role": "Long-term elephant research and GPS tracking in Samburu, Kenya; co-founder of the Elephant Crisis Fund."
   },
   {
    "id": "elephant-crisis-fund",
@@ -680,21 +594,6 @@
    "role": "Grants to rhino field programmes in Africa and Asia, with detailed public reporting on where money lands."
   },
   {
-   "id": "rhino-recovery-fund",
-   "name": "Rhino Recovery Fund",
-   "url": "https://rhinorecoveryfund.org",
-   "hq": "US",
-   "scope": "global",
-   "focus": [
-    "mammal"
-   ],
-   "regions": [
-    "africa",
-    "asia"
-   ],
-   "role": "WCN fund targeting the poaching economy and rhino population recovery."
-  },
-  {
    "id": "lion-recovery-fund",
    "name": "Lion Recovery Fund",
    "url": "https://lionrecoveryfund.org",
@@ -749,7 +648,7 @@
    "regions": [
     "africa"
    ],
-   "role": "South Africa's main species-focused NGO, running programmes from vultures and cranes to wild dogs and riverine rabbits."
+   "role": "South African conservation NGO running species programmes from vultures and cranes to wild dogs and riverine rabbits."
   },
   {
    "id": "awf",
@@ -777,7 +676,7 @@
    "regions": [
     "africa"
    ],
-   "role": "Daily protection and monitoring of mountain gorillas in Rwanda and Grauer's gorillas in DR Congo — the longest-running great ape study anywhere."
+   "role": "Daily protection and monitoring of mountain gorillas in Rwanda and Grauer's gorillas in DR Congo, continuing the longest-running gorilla field study, begun by Dian Fossey in 1967."
   },
   {
    "id": "gorilla-doctors",
@@ -791,7 +690,7 @@
    "regions": [
     "africa"
    ],
-   "role": "The only group providing veterinary care to wild mountain and Grauer's gorillas; credited with a measurable share of population growth."
+   "role": "Veterinary team treating wild mountain and Grauer's gorillas for snare wounds and disease in Rwanda, Uganda and DR Congo."
   },
   {
    "id": "igcp",
@@ -936,7 +835,7 @@
    "regions": [
     "africa"
    ],
-   "role": "The only organisation dedicated to Saharan and Sahelian wildlife — addax, dama gazelle, scimitar-horned oryx and North African ostrich."
+   "role": "Conservation organisation dedicated to Saharan and Sahelian wildlife — addax, dama gazelle, scimitar-horned oryx and North African ostrich."
   },
   {
    "id": "hirola-conservation",
@@ -978,7 +877,7 @@
    "regions": [
     "africa"
    ],
-   "role": "The only organisation devoted solely to giraffe, which quietly lost most of their numbers while attention was elsewhere."
+   "role": "Organisation dedicated to giraffe conservation and research across Africa, including population surveys and translocations."
   },
   {
    "id": "okapi-conservation",
@@ -1006,7 +905,7 @@
    "regions": [
     "africa"
    ],
-   "role": "Rabies and canine distemper vaccination plus monitoring for the world's rarest canid."
+   "role": "Rabies and canine distemper vaccination and long-term monitoring of the Ethiopian wolf."
   },
   {
    "id": "seychelles-islands-foundation",
@@ -1048,7 +947,7 @@
    "regions": [
     "asia"
    ],
-   "role": "The largest snow leopard organisation; community livestock insurance and long-term collaring studies across five range states."
+   "role": "Snow leopard research and community conservation, including livestock insurance schemes and long-term collaring studies in several range states."
   },
   {
    "id": "snow-leopard-conservancy",
@@ -1105,7 +1004,7 @@
    "regions": [
     "asia"
    ],
-   "role": "India's oldest natural history institution; runs the vulture breeding centres and the Great Indian Bustard recovery science."
+   "role": "Indian natural history society founded in 1883; runs vulture conservation breeding centres with state governments."
   },
   {
    "id": "ncf-india",
@@ -1162,7 +1061,7 @@
    "regions": [
     "asia"
    ],
-   "role": "Runs the world's most successful pangolin rescue and release programme, plus carnivore recovery in Vietnamese parks."
+   "role": "Runs a pangolin rescue, rehabilitation and release programme, plus carnivore conservation in Vietnamese national parks."
   },
   {
    "id": "wildlife-alliance",
@@ -1177,20 +1076,6 @@
     "asia"
    ],
    "role": "Direct forest protection and ranger patrols in Cambodia's Cardamom Rainforest."
-  },
-  {
-   "id": "free-the-bears",
-   "name": "Free the Bears",
-   "url": "https://freethebears.org",
-   "hq": "AU",
-   "scope": "regional",
-   "focus": [
-    "mammal"
-   ],
-   "regions": [
-    "asia"
-   ],
-   "role": "Sanctuaries and bile-farm rescue for sun bears and Asiatic black bears across Southeast Asia."
   },
   {
    "id": "orangutan-foundation-international",
@@ -1260,7 +1145,7 @@
    "regions": [
     "asia"
    ],
-   "role": "Sole organisation for the Philippine eagle: captive breeding, forest guard networks and nest monitoring."
+   "role": "Conservation organisation for the Philippine eagle: captive breeding, forest guard networks and nest monitoring."
   },
   {
    "id": "haribon",
@@ -1274,11 +1159,11 @@
    "regions": [
     "asia"
    ],
-   "role": "The Philippines' oldest environmental organisation; forest restoration and Important Bird Area protection."
+   "role": "Philippine conservation organisation and BirdLife partner; forest restoration and Important Bird Area protection."
   },
   {
    "id": "gharial-ecology",
-   "name": "Gharial Ecology Project",
+   "name": "Gharial Conservation Alliance",
    "url": "https://www.gharialconservationalliance.org",
    "hq": "IN",
    "scope": "regional",
@@ -1288,7 +1173,7 @@
    "regions": [
     "asia"
    ],
-   "role": "Gharial Conservation Alliance: nest protection and monitoring on the Chambal and other north Indian rivers."
+   "role": "Nest protection and monitoring of gharials on the Chambal and other north Indian rivers."
   },
   {
    "id": "turtle-island-restoration",
@@ -1317,7 +1202,7 @@
    "regions": [
     "asia"
    ],
-   "role": "Steppe and Gobi programmes covering saiga, argali and Gobi bear."
+   "role": "Steppe and Gobi programmes covering Mongolian saiga, argali and the wildlife trade."
   },
   {
    "id": "przewalski-itg",
@@ -1345,7 +1230,7 @@
    "regions": [
     "europe"
    ],
-   "role": "Reintroduced the great bustard to Britain after a 150-year absence."
+   "role": "Reintroduced the great bustard to Salisbury Plain, England, after an absence of more than 150 years."
   },
   {
    "id": "rewilding-europe",
@@ -1459,50 +1344,7 @@
    "regions": [
     "europe"
    ],
-   "role": "Europe's largest wildlife conservation charity by membership; reserve management and species recovery in the UK and overseas territories."
-  },
-  {
-   "id": "froglife",
-   "name": "Froglife",
-   "url": "https://www.froglife.org",
-   "hq": "GB",
-   "scope": "regional",
-   "focus": [
-    "amphibian",
-    "reptile"
-   ],
-   "regions": [
-    "europe"
-   ],
-   "role": "UK amphibian and reptile conservation, habitat creation and monitoring."
-  },
-  {
-   "id": "bumblebee-trust",
-   "name": "Bumblebee Conservation Trust",
-   "url": "https://www.bumblebeeconservation.org",
-   "hq": "GB",
-   "scope": "regional",
-   "focus": [
-    "invertebrate"
-   ],
-   "regions": [
-    "europe"
-   ],
-   "role": "Habitat work and monitoring for Europe's declining bumblebee species."
-  },
-  {
-   "id": "butterfly-conservation",
-   "name": "Butterfly Conservation",
-   "url": "https://butterfly-conservation.org",
-   "hq": "GB",
-   "scope": "regional",
-   "focus": [
-    "invertebrate"
-   ],
-   "regions": [
-    "europe"
-   ],
-   "role": "Runs the long-running butterfly and moth monitoring schemes that make UK insect decline measurable."
+   "role": "UK wildlife conservation charity; reserve management and species recovery in the UK and its overseas territories."
   },
   {
    "id": "eaza",
@@ -1657,7 +1499,7 @@
    "regions": [
     "global"
    ],
-   "role": "The only organisation dedicated to porpoises, including vaquita advocacy and research funding."
+   "role": "Organisation dedicated to porpoise conservation, including vaquita advocacy and research funding."
   },
   {
    "id": "pronatura",
@@ -1671,7 +1513,7 @@
    "regions": [
     "north-america"
    ],
-   "role": "Mexico's largest conservation NGO; land protection, wetland restoration and species recovery."
+   "role": "Mexican conservation NGO; land protection, wetland restoration and species recovery."
   },
   {
    "id": "naturalia",
@@ -1743,22 +1585,7 @@
    "regions": [
     "global"
    ],
-   "role": "Removes invasive vertebrates from islands — the single most cost-effective extinction-prevention method on record."
-  },
-  {
-   "id": "jocotoco",
-   "name": "Fundación Jocotoco",
-   "url": "https://www.jocotoco.org",
-   "hq": "EC",
-   "scope": "regional",
-   "focus": [
-    "bird",
-    "all"
-   ],
-   "regions": [
-    "south-america"
-   ],
-   "role": "Buys and manages reserves for Ecuador's most range-restricted birds and amphibians."
+   "role": "Removes invasive vertebrates from islands to prevent the extinction of native species."
   },
   {
    "id": "charles-darwin-foundation",
@@ -1957,7 +1784,7 @@
    "regions": [
     "oceania"
    ],
-   "role": "New Zealand's largest independent conservation organisation; advocacy plus predator control on its own reserves."
+   "role": "Independent New Zealand conservation organisation; advocacy plus predator control on its own reserves."
   },
   {
    "id": "kakapo-recovery",
@@ -2013,7 +1840,7 @@
    "regions": [
     "oceania"
    ],
-   "role": "Owns and manages more than 12 million hectares, with large feral-predator-free fenced areas holding reintroduced mammals."
+   "role": "Runs a network of sanctuaries across Australia, including large feral-predator-free fenced areas holding reintroduced mammals."
   },
   {
    "id": "bush-heritage",
@@ -2074,7 +1901,7 @@
   {
    "id": "wwf-australia",
    "name": "WWF-Australia",
-   "url": "https://www.wwf.org.au",
+   "url": "https://wwf.org.au",
    "hq": "AU",
    "scope": "regional",
    "focus": [
@@ -2139,7 +1966,7 @@
    "regions": [
     "antarctica"
    ],
-   "role": "Runs the Antarctic Site Inventory, the continent-wide penguin population census used by CCAMLR."
+   "role": "Runs the Antarctic Site Inventory, a long-term penguin population monitoring programme on the Antarctic Peninsula."
   },
   {
    "id": "pew-antarctic",
@@ -2211,7 +2038,7 @@
    "regions": [
     "africa"
    ],
-   "role": "Africa's oldest natural history society and Kenya's BirdLife partner; site support groups at Important Bird Areas."
+   "role": "The East Africa Natural History Society, founded in 1909, and Kenya's BirdLife partner; site support groups at Important Bird Areas."
   },
   {
    "id": "monarch-joint-venture",

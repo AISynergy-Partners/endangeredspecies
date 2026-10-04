@@ -1,5 +1,5 @@
 {
- "_about": "Country and continent register. ISO 3166-1 alpha-2 codes with UN geoscheme subregions. Flag imagery is generated at runtime from Unicode regional-indicator sequences, so no third-party flag artwork is bundled or hot-linked.",
+ "_about": "Country and continent register. ISO 3166-1 alpha-2 codes with UN geoscheme subregions. Flags are drawn at runtime by assets/flags.js from a short written specification of each flag's bands and devices, so no third-party flag artwork is bundled or hot-linked.",
  "continents": [
   {
    "id": "africa",
@@ -14,7 +14,7 @@
    "name": "Asia",
    "latin": "Asia",
    "plate": "II",
-   "note": "More Critically Endangered vertebrates than any other landmass. Also more people.",
+   "note": "One of the heaviest concentrations of Critically Endangered vertebrates anywhere. Also the most people.",
    "blurb": "Asia's extinction crisis is concentrated and severe: Sundaland's forests, the Mekong's rivers and the coastal seas of the Coral Triangle each hold species now counted in dozens rather than thousands. Assessments here lean on IUCN Specialist Group surveys, the China Species Red List, and India's national census programmes."
   },
   {
@@ -23,7 +23,7 @@
    "latin": "Europa",
    "plate": "III",
    "note": "A continent that lost its megafauna early — and is, in places, slowly getting some of it back.",
-   "blurb": "Europe's baseline shifted centuries ago, so its red lists read differently: fewer megafauna, far more freshwater fish, molluscs and pollinators. It is also the continent with the best-documented recoveries. Data follow the European Red List regional assessments alongside national red data books."
+   "blurb": "Europe's baseline shifted centuries ago, so its red lists read differently: fewer megafauna, far more freshwater fish, molluscs and pollinators. Its recoveries are among the best documented anywhere. Data follow the European Red List regional assessments alongside national red data books."
   },
   {
    "id": "north-america",
@@ -38,7 +38,7 @@
    "name": "South America",
    "latin": "America Meridionalis",
    "plate": "V",
-   "note": "The richest continent for birds and amphibians, and the least completely assessed.",
+   "note": "The richest continent for birds and amphibians, and the one with the most Data Deficient species.",
    "blurb": "South America contains more described vertebrates than any other continent, and the largest share of Data Deficient ones. Amphibian declines here are the steepest recorded anywhere on Earth. Sources include IUCN assessments, Brazil's ICMBio red book, and Andean national listings."
   },
   {
@@ -47,7 +47,7 @@
    "latin": "Oceania",
    "plate": "VI",
    "note": "Island endemism at its most extreme: the highest extinction rate per unit of land on Earth.",
-   "blurb": "Oceania's species evolved without mammalian predators and, in many cases, without the means to escape them. The region has recorded more bird and mammal extinctions since 1500 than any other. It is also where island eradication and translocation programmes have produced the most dramatic single-species rescues in the historical record."
+   "blurb": "Oceania's species evolved without mammalian predators and, in many cases, without the means to escape them. The region has recorded more bird and mammal extinctions since 1500 than any other. It is also where island eradication and translocation programmes have produced some of the most dramatic single-species rescues on record."
   },
   {
    "id": "antarctica",

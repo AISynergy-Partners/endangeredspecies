@@ -6,7 +6,6 @@
    "common": "Black Rhinoceros",
    "sci": "Diceros bicornis",
    "group": "mammal",
-   "sketch": "rhino",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "inc",
@@ -22,7 +21,7 @@
     "SZ",
     "RW",
     "MZ",
-    "TD"
+    "AO"
    ],
    "habitat": "Savanna, thorn scrub and montane forest, from the Namib's edge to the Kenyan highlands.",
    "note": "A browser, not a grazer: the pointed prehensile upper lip is a hand for stripping twigs. Notoriously short-sighted and quick to charge, which is a poor defence against a rifle. Numbers fell from around 65,000 in 1970 to 2,410 in 1995; every animal alive today descends from that bottleneck.",
@@ -59,16 +58,13 @@
    "common": "Northern White Rhinoceros",
    "sci": "Ceratotherium simum cottoni",
    "group": "mammal",
-   "sketch": "rhino",
    "iucn": "CR",
    "iucnYear": 2020,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "KE",
     "CD",
-    "SS",
-    "UG",
-    "CF"
+    "SS"
    ],
    "habitat": "Formerly the floodplain grasslands of the Nile-Congo watershed; now a single guarded enclosure at Ol Pejeta, Kenya.",
    "note": "Two animals remain — Najin and her daughter Fatu, both female, both unable to carry a calf. The subspecies is functionally extinct. Its only remaining path runs through frozen sperm, harvested oocytes and a southern white surrogate, and no one has yet produced a live rhino this way.",
@@ -97,27 +93,24 @@
    },
    "plateAliases": [
     "Rhinoceros simus"
-   ]
+   ],
+   "possiblyExtinct": "wild"
   },
   {
    "id": "white-rhinoceros",
    "common": "Southern White Rhinoceros",
    "sci": "Ceratotherium simum simum",
    "group": "mammal",
-   "sketch": "rhino",
    "iucn": "NT",
    "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "ZA",
     "NA",
-    "KE",
     "ZW",
     "BW",
     "SZ",
-    "ZM",
-    "MZ",
-    "UG"
+    "MZ"
    ],
    "habitat": "Short-grass savanna; a grazer with a broad square lip built for cropping lawn.",
    "note": "The great conservation success story that is now unravelling. Reduced to perhaps 50 animals in Zululand around 1900, it recovered to over 20,000 by 2012 — then the poaching wave hit. South Africa alone lost more than a thousand rhinos a year for five consecutive years.",
@@ -154,9 +147,8 @@
    "common": "African Forest Elephant",
    "sci": "Loxodonta cyclotis",
    "group": "mammal",
-   "sketch": "elephant",
    "iucn": "CR",
-   "iucnYear": 2021,
+   "iucnYear": 2026,
    "trend": "dec",
    "countries": [
     "GA",
@@ -168,7 +160,19 @@
     "CI",
     "LR",
     "GH",
-    "NG"
+    "NG",
+    "AO",
+    "BJ",
+    "BF",
+    "GN",
+    "GW",
+    "NE",
+    "RW",
+    "SN",
+    "SL",
+    "SS",
+    "TG",
+    "UG"
    ],
    "habitat": "Closed-canopy rainforest of the Congo Basin and the last West African forest blocks.",
    "note": "Smaller, straighter-tusked and darker than its savanna cousin, and recognised as a separate species only in 2021. It disperses the seeds of more than a hundred tree species — some of which germinate almost nowhere else — so its loss quietly rewrites the forest that outlives it.",
@@ -205,9 +209,8 @@
    "common": "African Savanna Elephant",
    "sci": "Loxodonta africana",
    "group": "mammal",
-   "sketch": "elephant",
    "iucn": "EN",
-   "iucnYear": 2021,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "BW",
@@ -227,10 +230,12 @@
     "RW",
     "SS",
     "SO",
-    "BJ",
-    "BF",
-    "NE",
-    "ML"
+    "ML",
+    "CF",
+    "CD",
+    "ER",
+    "NG",
+    "SZ"
    ],
    "habitat": "Savanna, miombo woodland and desert margin, from the Okavango to the Sahel.",
    "note": "The largest land animal alive. Herds are led by the oldest female, who carries in memory the location of water in droughts that come once a generation — which is why poaching the biggest tuskers removes more than ivory.",
@@ -267,18 +272,15 @@
    "common": "Nubian Giraffe",
    "sci": "Giraffa camelopardalis camelopardalis",
    "group": "mammal",
-   "sketch": "giraffe",
    "iucn": "CR",
    "iucnYear": 2018,
-   "trend": "inc",
+   "trend": "dec",
    "countries": [
     "SS",
-    "ET",
-    "KE",
-    "UG"
+    "ET"
    ],
-   "habitat": "Acacia woodland and riverine forest in South Sudan, Ethiopia and the Ugandan Rift.",
-   "note": "Giraffe numbers fell roughly 40% in three decades while almost no one was counting — conservationists call it the silent extinction. The Nubian subspecies is the worst off, though Uganda's population has grown steadily since translocations began.",
+   "habitat": "Acacia woodland and riverine forest in South Sudan and western Ethiopia.",
+   "note": "Giraffe numbers fell roughly 40% in three decades while almost no one was counting — conservationists call it the silent extinction. The Nubian giraffe, as the IUCN Red List defines it, survives only in South Sudan and Ethiopia.",
    "threats": [
     "Poaching for meat and hide",
     "Civil conflict across the South Sudanese range",
@@ -294,12 +296,12 @@
     "gcf-report"
    ],
    "pop": {
-    "est": 2645,
-    "low": 2400,
-    "high": 3000,
-    "unit": "individuals",
+    "est": 455,
+    "low": 455,
+    "high": 455,
+    "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "Giraffe Conservation Foundation subspecies assessment",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
@@ -311,7 +313,6 @@
    "common": "Reticulated Giraffe",
    "sci": "Giraffa reticulata",
    "group": "mammal",
-   "sketch": "giraffe",
    "iucn": "EN",
    "iucnYear": 2018,
    "trend": "dec",
@@ -347,14 +348,14 @@
    },
    "plateAliases": [
     "Camelopardalis giraffa"
-   ]
+   ],
+   "iucnTaxon": "Giraffa camelopardalis reticulata"
   },
   {
    "id": "grevys-zebra",
    "common": "Grévy's Zebra",
    "sci": "Equus grevyi",
    "group": "mammal",
-   "sketch": "zebra",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "stable",
@@ -396,16 +397,14 @@
    "common": "Hirola",
    "sci": "Beatragus hunteri",
    "group": "mammal",
-   "sketch": "antelope",
    "iucn": "CR",
    "iucnYear": 2017,
    "trend": "dec",
    "countries": [
-    "KE",
-    "SO"
+    "KE"
    ],
-   "habitat": "A narrow band of arid grassland on the Kenya-Somalia border, and nowhere else.",
-   "note": "The only living member of its genus — a lineage with no close relatives anywhere, which means its extinction would erase more evolutionary history than that of any other African antelope. It wears white spectacles around the eyes and has never been successfully bred in captivity.",
+   "habitat": "A narrow band of arid grassland in north-eastern Kenya, near the Somali border.",
+   "note": "The only living member of its genus — a lineage with no close relatives anywhere, so its extinction would erase a whole branch of the antelope family tree. It wears white spectacles around the eyes and has never been bred in captivity.",
    "threats": [
     "Rinderpest-driven collapse in the 1980s from which it never recovered",
     "Habitat loss to tree encroachment",
@@ -439,16 +438,12 @@
    "common": "Addax",
    "sci": "Addax nasomaculatus",
    "group": "mammal",
-   "sketch": "oryx",
    "iucn": "CR",
    "iucnYear": 2016,
    "trend": "dec",
    "countries": [
     "NE",
-    "TD",
-    "LY",
-    "ML",
-    "MR"
+    "TD"
    ],
    "habitat": "True desert — the sand seas of the Termit Massif and Tin Toumma, Niger.",
    "note": "An antelope that never needs to drink, extracting all its water from plants and turning its coat from grey-brown to near-white as summer comes. Splayed hooves let it walk on sand. Fewer than a hundred are thought to remain in the wild, nearly all in one Nigerien reserve.",
@@ -485,9 +480,8 @@
    "common": "Dama Gazelle",
    "sci": "Nanger dama",
    "group": "mammal",
-   "sketch": "gazelle",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2026,
    "trend": "dec",
    "countries": [
     "TD",
@@ -529,16 +523,14 @@
    "common": "Scimitar-horned Oryx",
    "sci": "Oryx dammah",
    "group": "mammal",
-   "sketch": "oryx",
    "iucn": "EN",
    "iucnYear": 2023,
    "trend": "inc",
    "countries": [
-    "TD",
-    "NE"
+    "TD"
    ],
    "habitat": "Sahelian grassland and desert steppe; reintroduced to the Ouadi Rimé-Ouadi Achim Reserve in Chad.",
-   "note": "Declared Extinct in the Wild in 2000. Between 2016 and 2023 more than 250 captive-bred animals were flown from Abu Dhabi to Chad, released, and left to it — they bred, and in 2023 the IUCN downlisted the species to Endangered. It is the only large mammal to have made that particular journey back.",
+   "note": "Declared Extinct in the Wild in 2000. Between 2016 and 2023 more than 250 captive-bred animals were flown from Abu Dhabi to Chad, released, and left to it — they bred, and in 2023 the IUCN downlisted the species to Endangered. It is one of the few large mammals to have come back from Extinct in the Wild.",
    "threats": [
     "Historic hunting to extinction in the wild",
     "Drought",
@@ -572,9 +564,8 @@
    "common": "Mountain Bongo",
    "sci": "Tragelaphus eurycerus isaaci",
    "group": "mammal",
-   "sketch": "bongo",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2017,
    "trend": "dec",
    "countries": [
     "KE"
@@ -614,18 +605,15 @@
    "common": "Somali Wild Ass",
    "sci": "Equus africanus somaliensis",
    "group": "mammal",
-   "sketch": "wild-ass",
    "iucn": "CR",
    "iucnYear": 2015,
    "trend": "dec",
    "countries": [
     "ER",
-    "ET",
-    "SO",
-    "DJ"
+    "ET"
    ],
    "habitat": "Stony desert and arid grassland in the Danakil and the Ethiopian-Eritrean borderlands.",
-   "note": "The ancestor of every domestic donkey on Earth, still running wild in one of the hottest inhabited places there is. Grey with zebra-striped legs, it survives on thorn and coarse grass and can lose a third of its body water without harm.",
+   "note": "Its species is the ancestor of the domestic donkey, and this is the surviving Somali subspecies, still running wild in one of the hottest inhabited places there is. Grey with zebra-striped legs, it survives on thorn and coarse grass and can lose a third of its body water without harm.",
    "threats": [
     "Hunting for meat and traditional medicine",
     "Interbreeding with domestic donkeys",
@@ -652,14 +640,14 @@
    "plateAliases": [
     "Asinus somalicus",
     "Equus asinus"
-   ]
+   ],
+   "iucnTaxon": "Equus africanus"
   },
   {
    "id": "ethiopian-wolf",
    "common": "Ethiopian Wolf",
    "sci": "Canis simensis",
    "group": "mammal",
-   "sketch": "wolf",
    "iucn": "EN",
    "iucnYear": 2011,
    "trend": "dec",
@@ -667,7 +655,7 @@
     "ET"
    ],
    "habitat": "Afroalpine heath and grassland above 3,000 m — the Bale Mountains, Simien and five smaller ranges.",
-   "note": "The rarest canid on Earth and Africa's only true wolf. It looks like a long-legged red fox and hunts giant molerats alone, though it sleeps and raises pups communally. Around 500 remain, split across seven mountain islands separated by farmland.",
+   "note": "The rarest canid on Earth, and Africa's most endangered carnivore. It looks like a long-legged red fox and hunts giant molerats alone, though it sleeps and raises pups communally. Around 500 remain, split across seven mountain islands separated by farmland.",
    "threats": [
     "Rabies and canine distemper caught from domestic dogs",
     "Loss of Afroalpine habitat to barley cultivation",
@@ -698,9 +686,8 @@
    "common": "African Wild Dog",
    "sci": "Lycaon pictus",
    "group": "mammal",
-   "sketch": "wild-dog",
    "iucn": "EN",
-   "iucnYear": 2020,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "BW",
@@ -712,15 +699,10 @@
     "NA",
     "KE",
     "AO",
-    "MW",
     "SS",
     "ET",
     "SN",
-    "CF",
-    "TD",
-    "BF",
-    "BJ",
-    "NE"
+    "CF"
    ],
    "habitat": "Savanna, miombo woodland and arid scrub; needs enormous ranges — a single pack may use 1,500 km².",
    "note": "Painted in blotches of black, tan and white, no two alike. Hunts by endurance rather than ambush and succeeds far more often than lions do. Packs regurgitate food for pups, for the old, and for the injured, which is unusual enough to be worth stating plainly.",
@@ -740,12 +722,12 @@
     "iucn-ssc-canid"
    ],
    "pop": {
-    "est": 1409,
-    "low": 1200,
-    "high": 1600,
+    "est": 1676,
+    "low": 1676,
+    "high": 1676,
     "unit": "mature individuals",
-    "asOf": "2020",
-    "basis": "IUCN SSC Canid Specialist Group; total population including young estimated near 6,600",
+    "asOf": "2025",
+    "basis": "IUCN Red List assessment",
     "label": null
    }
   },
@@ -754,9 +736,8 @@
    "common": "Cheetah",
    "sci": "Acinonyx jubatus",
    "group": "mammal",
-   "sketch": "cheetah",
    "iucn": "VU",
-   "iucnYear": 2021,
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "NA",
@@ -769,11 +750,17 @@
     "MZ",
     "AO",
     "ET",
-    "SS",
     "TD",
     "NE",
-    "AF",
-    "IR"
+    "IR",
+    "DZ",
+    "BJ",
+    "BF",
+    "CF",
+    "ML",
+    "UG",
+    "DJ",
+    "LY"
    ],
    "habitat": "Open grassland and arid savanna; ranges enormous distances and largely avoids protected-area cores.",
    "note": "Built entirely around one act: a semi-rigid spine, non-retractable claws and a rudder of a tail, for thirty seconds at 100 km/h. Three-quarters of the world's cheetahs live outside protected areas, which is why fences and livestock matter more to their fate than parks do.",
@@ -812,9 +799,8 @@
    "common": "Saharan Cheetah",
    "sci": "Acinonyx jubatus hecki",
    "group": "mammal",
-   "sketch": "cheetah",
    "iucn": "CR",
-   "iucnYear": 2021,
+   "iucnYear": 2008,
    "trend": "dec",
    "countries": [
     "DZ",
@@ -852,16 +838,24 @@
    },
    "plateAliases": [
     "Cynaelurus jubatus"
-   ]
+   ],
+   "iucnArchived": {
+    "taxon": "Acinonyx jubatus hecki",
+    "status": "CR",
+    "year": 2008,
+    "currentTaxon": "Acinonyx jubatus",
+    "currentStatus": "VU",
+    "currentYear": 2024,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "african-lion",
    "common": "African Lion",
    "sci": "Panthera leo",
    "group": "mammal",
-   "sketch": "lion",
    "iucn": "VU",
-   "iucnYear": 2023,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "TZ",
@@ -879,13 +873,16 @@
     "CF",
     "CD",
     "SN",
-    "NG",
     "BJ",
     "BF",
     "NE",
     "MW",
     "RW",
-    "SO"
+    "SO",
+    "CM",
+    "TD",
+    "SD",
+    "GA"
    ],
    "habitat": "Savanna, open woodland and, in a few places, semi-desert; absent from closed rainforest.",
    "note": "The only social cat. Prides are held together by related females; males come and go on a few years' tenure. Lions have vanished from more than 90% of their historical range, and West Africa's population is now down to a few hundred animals in scattered parks.",
@@ -923,18 +920,15 @@
    "common": "West African Lion",
    "sci": "Panthera leo leo (West African subpopulation)",
    "group": "mammal",
-   "sketch": "lion",
    "iucn": "CR",
-   "iucnYear": 2015,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "SN",
     "NG",
     "BJ",
     "BF",
-    "NE",
-    "CF",
-    "TD"
+    "NE"
    ],
    "habitat": "The W-Arly-Pendjari complex spanning Benin, Burkina Faso and Niger, plus a remnant in Senegal's Niokolo-Koba.",
    "note": "Genetically closer to the lions of India than to those of the Serengeti, and reduced to a few hundred animals in one main population. Smaller, with sparser manes. Insecurity across the Sahel has made even counting them dangerous.",
@@ -953,26 +947,27 @@
     "iucn-ssc-cat"
    ],
    "pop": {
-    "est": 400,
-    "low": 250,
-    "high": 500,
+    "est": 218,
+    "low": 121,
+    "high": 374,
     "unit": "mature individuals",
-    "asOf": "2015",
-    "basis": "IUCN SSC Cat Specialist Group regional assessment",
+    "asOf": "2014",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
     "Felis leo"
-   ]
+   ],
+   "iucnTaxon": "Panthera leo (West Africa subpopulation)",
+   "iucnSis": 68933833
   },
   {
    "id": "african-leopard",
    "common": "African Leopard",
    "sci": "Panthera pardus pardus",
    "group": "mammal",
-   "sketch": "leopard",
    "iucn": "VU",
-   "iucnYear": 2019,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "ZA",
@@ -1004,8 +999,16 @@
     "LR",
     "SL",
     "TD",
-    "MA",
-    "DZ"
+    "BJ",
+    "BF",
+    "DJ",
+    "EG",
+    "GQ",
+    "ER",
+    "SZ",
+    "GW",
+    "NE",
+    "SD"
    ],
    "habitat": "The most adaptable big cat: rainforest, desert margin, mountain, and the outskirts of cities.",
    "note": "Solitary, largely nocturnal, and strong enough to haul a carcass heavier than itself into a tree. Its adaptability disguises the decline — leopards persist at low density across huge areas, which makes losses hard to see until they are severe.",
@@ -1035,7 +1038,9 @@
     "label": "No reliable continental estimate; the 2019 assessment documents loss of 48-67% of historical range."
    },
    "plateAliases": [
-    "Felis pardus"
+    "Felis pardus",
+    "Panthera pardus",
+    "Leopardus pardus"
    ]
   },
   {
@@ -1043,9 +1048,8 @@
    "common": "Mountain Gorilla",
    "sci": "Gorilla beringei beringei",
    "group": "mammal",
-   "sketch": "gorilla",
    "iucn": "EN",
-   "iucnYear": 2018,
+   "iucnYear": 2020,
    "trend": "inc",
    "countries": [
     "RW",
@@ -1087,7 +1091,6 @@
    "common": "Grauer's Gorilla",
    "sci": "Gorilla beringei graueri",
    "group": "mammal",
-   "sketch": "gorilla",
    "iucn": "CR",
    "iucnYear": 2016,
    "trend": "dec",
@@ -1126,7 +1129,6 @@
    "common": "Cross River Gorilla",
    "sci": "Gorilla gorilla diehli",
    "group": "mammal",
-   "sketch": "gorilla",
    "iucn": "CR",
    "iucnYear": 2016,
    "trend": "dec",
@@ -1168,9 +1170,8 @@
    "common": "Western Lowland Gorilla",
    "sci": "Gorilla gorilla gorilla",
    "group": "mammal",
-   "sketch": "gorilla",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2018,
    "trend": "dec",
    "countries": [
     "GA",
@@ -1178,8 +1179,7 @@
     "CM",
     "GQ",
     "CF",
-    "AO",
-    "CD"
+    "AO"
    ],
    "habitat": "Lowland swamp and terra firma rainforest across the western Congo Basin.",
    "note": "By far the most numerous gorilla — several hundred thousand — and still Critically Endangered, because Ebola and hunting have removed roughly 60% in a single generation and the decline has not stopped. Gorillas breed slowly enough that recovery from such a loss takes about seventy-five years.",
@@ -1216,7 +1216,6 @@
    "common": "Bonobo",
    "sci": "Pan paniscus",
    "group": "mammal",
-   "sketch": "bonobo",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -1224,7 +1223,7 @@
     "CD"
    ],
    "habitat": "Lowland rainforest south of the Congo River, and only there — the river has kept them apart from chimpanzees for over a million years.",
-   "note": "Slighter than chimpanzees, with a centre-parted crown of hair. Bonobo society is led by coalitions of females, and conflict is defused with contact rather than violence. They have never been observed to kill one another.",
+   "note": "Slighter than chimpanzees, with a centre-parted crown of hair. Bonobo society is led by coalitions of females, and conflict is defused with contact rather than violence. Lethal aggression between bonobos has never been recorded in the wild.",
    "threats": [
     "Bushmeat hunting",
     "Forest conversion",
@@ -1258,7 +1257,6 @@
    "common": "Western Chimpanzee",
    "sci": "Pan troglodytes verus",
    "group": "mammal",
-   "sketch": "chimp",
    "iucn": "CR",
    "iucnYear": 2016,
    "trend": "dec",
@@ -1307,7 +1305,6 @@
    "common": "Chimpanzee",
    "sci": "Pan troglodytes",
    "group": "mammal",
-   "sketch": "chimp",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -1371,9 +1368,8 @@
    "common": "Drill",
    "sci": "Mandrillus leucophaeus",
    "group": "mammal",
-   "sketch": "drill",
    "iucn": "EN",
-   "iucnYear": 2019,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "NG",
@@ -1411,7 +1407,6 @@
    "common": "Roloway Monkey",
    "sci": "Cercopithecus roloway",
    "group": "mammal",
-   "sketch": "guenon",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
@@ -1451,9 +1446,8 @@
    "common": "Tana River Red Colobus",
    "sci": "Piliocolobus rufomitratus",
    "group": "mammal",
-   "sketch": "colobus",
    "iucn": "CR",
-   "iucnYear": 2019,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "KE"
@@ -1491,7 +1485,6 @@
    "common": "Kipunji",
    "sci": "Rungwecebus kipunji",
    "group": "mammal",
-   "sketch": "monkey",
    "iucn": "EN",
    "iucnYear": 2019,
    "trend": "dec",
@@ -1530,9 +1523,8 @@
    "common": "Zanzibar Red Colobus",
    "sci": "Piliocolobus kirkii",
    "group": "mammal",
-   "sketch": "colobus",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "TZ"
@@ -1569,9 +1561,8 @@
    "common": "Barbary Macaque",
    "sci": "Macaca sylvanus",
    "group": "mammal",
-   "sketch": "macaque",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "MA",
@@ -1609,7 +1600,6 @@
    "common": "Indri",
    "sci": "Indri indri",
    "group": "mammal",
-   "sketch": "indri",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -1653,7 +1643,6 @@
    "common": "Silky Sifaka",
    "sci": "Propithecus candidus",
    "group": "mammal",
-   "sketch": "sifaka",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -1693,7 +1682,6 @@
    "common": "Northern Sportive Lemur",
    "sci": "Lepilemur septentrionalis",
    "group": "mammal",
-   "sketch": "sportive-lemur",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -1733,7 +1721,6 @@
    "common": "Greater Bamboo Lemur",
    "sci": "Prolemur simus",
    "group": "mammal",
-   "sketch": "bamboo-lemur",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -1773,7 +1760,6 @@
    "common": "Ring-tailed Lemur",
    "sci": "Lemur catta",
    "group": "mammal",
-   "sketch": "lemur",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
@@ -1817,7 +1803,6 @@
    "common": "Aye-aye",
    "sci": "Daubentonia madagascariensis",
    "group": "mammal",
-   "sketch": "aye-aye",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
@@ -1860,9 +1845,8 @@
    "common": "Fossa",
    "sci": "Cryptoprocta ferox",
    "group": "mammal",
-   "sketch": "fossa",
    "iucn": "VU",
-   "iucnYear": 2015,
+   "iucnYear": 2016,
    "trend": "dec",
    "countries": [
     "MG"
@@ -1899,7 +1883,6 @@
    "common": "Ploughshare Tortoise",
    "sci": "Astrochelys yniphora",
    "group": "reptile",
-   "sketch": "tortoise",
    "iucn": "CR",
    "iucnYear": 2008,
    "trend": "dec",
@@ -1939,9 +1922,8 @@
    "common": "Radiated Tortoise",
    "sci": "Astrochelys radiata",
    "group": "reptile",
-   "sketch": "tortoise",
    "iucn": "CR",
-   "iucnYear": 2021,
+   "iucnYear": 2008,
    "trend": "dec",
    "countries": [
     "MG"
@@ -1979,10 +1961,9 @@
    "common": "Madagascar Pochard",
    "sci": "Aythya innotata",
    "group": "bird",
-   "sketch": "duck",
    "iucn": "CR",
-   "iucnYear": 2018,
-   "trend": "inc",
+   "iucnYear": 2023,
+   "trend": "stable",
    "countries": [
     "MG"
    ],
@@ -2021,9 +2002,8 @@
    "common": "Madagascar Fish Eagle",
    "sci": "Icthyophaga vociferoides",
    "group": "bird",
-   "sketch": "sea-eagle",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "MG"
@@ -2045,25 +2025,25 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 250,
-    "low": 220,
-    "high": 300,
+    "est": 240,
+    "low": 240,
+    "high": 240,
     "unit": "mature individuals",
-    "asOf": "2016",
-    "basis": "The Peregrine Fund long-term nest monitoring; BirdLife Data Zone",
+    "asOf": "2025",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "MG",
    "plateAliases": [
     "Haliaeetus vociferoides"
-   ]
+   ],
+   "iucnTaxon": "Haliaeetus vociferoides"
   },
   {
    "id": "grandidiers-baobab",
    "common": "Grandidier's Baobab",
    "sci": "Adansonia grandidieri",
    "group": "plant",
-   "sketch": "baobab",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -2102,10 +2082,9 @@
    "common": "Livingstone's Fruit Bat",
    "sci": "Pteropus livingstonii",
    "group": "mammal",
-   "sketch": "fruit-bat",
-   "iucn": "CR",
-   "iucnYear": 2020,
-   "trend": "dec",
+   "iucn": "EN",
+   "iucnYear": 2025,
+   "trend": "stable",
    "countries": [
     "KM"
    ],
@@ -2140,15 +2119,14 @@
    "common": "Mauritius Kestrel",
    "sci": "Falco punctatus",
    "group": "bird",
-   "sketch": "falcon",
    "iucn": "EN",
-   "iucnYear": 2021,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "MU"
    ],
    "habitat": "Native upland forest and gorge country in south-west Mauritius, plus the Bambous mountains.",
-   "note": "In 1974 four birds were known alive, one of them a breeding female — the lowest any bird species has ever been recorded and recovered from. Captive breeding and nest-box provision brought it back to several hundred. It hunts geckos among trees rather than hovering over open ground.",
+   "note": "In 1974 four birds were known alive, one of them a breeding female — one of the lowest points from which any bird has been brought back. Captive breeding and nest-box provision brought it back from the brink, though numbers have fallen again since. It hunts geckos among trees rather than hovering over open ground.",
    "threats": [
     "Introduced macaques and mongooses taking eggs and chicks",
     "Loss of native forest",
@@ -2164,12 +2142,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 400,
-    "low": 350,
-    "high": 450,
+    "est": null,
+    "low": 140,
+    "high": 170,
     "unit": "mature individuals",
-    "asOf": "2021",
-    "basis": "Mauritian Wildlife Foundation nest monitoring; BirdLife Data Zone",
+    "asOf": "2023",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "MU"
@@ -2179,7 +2157,6 @@
    "common": "Pink Pigeon",
    "sci": "Nesoenas mayeri",
    "group": "bird",
-   "sketch": "pigeon",
    "iucn": "VU",
    "iucnYear": 2021,
    "trend": "stable",
@@ -2221,9 +2198,8 @@
    "common": "Echo Parakeet",
    "sci": "Alexandrinus eques",
    "group": "bird",
-   "sketch": "parrot",
    "iucn": "VU",
-   "iucnYear": 2021,
+   "iucnYear": 2019,
    "trend": "inc",
    "countries": [
     "MU"
@@ -2264,10 +2240,9 @@
    "common": "Seychelles Magpie-robin",
    "sci": "Copsychus sechellarum",
    "group": "bird",
-   "sketch": "robin",
    "iucn": "EN",
    "iucnYear": 2021,
-   "trend": "stable",
+   "trend": "inc",
    "countries": [
     "SC"
    ],
@@ -2303,10 +2278,9 @@
    "common": "Aldabra Giant Tortoise",
    "sci": "Aldabrachelys gigantea",
    "group": "reptile",
-   "sketch": "giant-tortoise",
    "iucn": "VU",
    "iucnYear": 1996,
-   "trend": "stable",
+   "trend": "unknown",
    "countries": [
     "SC"
    ],
@@ -2339,23 +2313,24 @@
    "plateAliases": [
     "Testudo gigantea",
     "Testudo elephantina"
-   ]
+   ],
+   "iucnTaxon": "Geochelone gigantea"
   },
   {
    "id": "african-penguin",
    "common": "African Penguin",
    "sci": "Spheniscus demersus",
    "group": "bird",
-   "sketch": "penguin",
    "iucn": "CR",
    "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "ZA",
-    "NA"
+    "NA",
+    "AO"
    ],
    "habitat": "Offshore islands and two mainland colonies along the Benguela current, from Namibia to Algoa Bay.",
-   "note": "Africa's only penguin, and the fastest-collapsing seabird on the continent — uplisted to Critically Endangered in 2024. Colonies once numbered over a million pairs; fewer than nine thousand remain. Pairs bray like donkeys, which is where the old name came from.",
+   "note": "Africa's only penguin, uplisted to Critically Endangered in 2024 after a century of decline. Colonies once numbered over a million pairs; fewer than nine thousand remain. Pairs bray like donkeys, which is where the old name came from.",
    "threats": [
     "Collapse of sardine and anchovy stocks near colonies",
     "Historic removal of the guano they burrowed into",
@@ -2390,15 +2365,15 @@
    "common": "Northern Bald Ibis",
    "sci": "Geronticus eremita",
    "group": "bird",
-   "sketch": "ibis",
    "iucn": "EN",
    "iucnYear": 2018,
-   "trend": "inc",
+   "trend": "stable",
    "countries": [
     "MA",
-    "DZ",
     "SY",
-    "TR"
+    "TR",
+    "YE",
+    "ER"
    ],
    "habitat": "Semi-arid coastal steppe and cliff ledges at Souss-Massa and Tamri, Morocco.",
    "note": "Black with an oily green sheen, a bare red head and a shaggy ruff — a bird that appears in Egyptian hieroglyphs and then almost vanished. Careful protection of the Moroccan colonies took it from Critically Endangered to Endangered in 2018. The eastern population is effectively gone.",
@@ -2418,12 +2393,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 700,
-    "low": 600,
-    "high": 800,
+    "est": null,
+    "low": 200,
+    "high": 249,
     "unit": "mature individuals",
-    "asOf": "2021",
-    "basis": "BirdLife Data Zone; Moroccan colony counts at Souss-Massa National Park",
+    "asOf": "2018",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -2436,9 +2411,8 @@
    "common": "Hooded Vulture",
    "sci": "Necrosyrtes monachus",
    "group": "bird",
-   "sketch": "vulture",
    "iucn": "CR",
-   "iucnYear": 2021,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "SN",
@@ -2464,7 +2438,22 @@
     "SS",
     "AO",
     "BW",
-    "NA"
+    "NA",
+    "BI",
+    "CF",
+    "TD",
+    "CD",
+    "DJ",
+    "ER",
+    "SZ",
+    "GW",
+    "LR",
+    "NE",
+    "RW",
+    "SL",
+    "SO",
+    "SD",
+    "MR"
    ],
    "habitat": "Savanna, open woodland and — unusually for a vulture — the edges of towns and abattoirs.",
    "note": "The small, scruffy, thin-billed vulture that scavenges around West African market towns. It has declined by more than 80% in three generations, largely because it is deliberately poisoned or taken for belief-based use.",
@@ -2484,12 +2473,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 197000,
+    "est": 131000,
     "low": 131000,
-    "high": 263000,
-    "unit": "individuals",
+    "high": 131000,
+    "unit": "mature individuals",
     "asOf": "2021",
-    "basis": "BirdLife Data Zone estimate; declines exceed 80% over three generations",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -2498,7 +2487,6 @@
    "common": "White-backed Vulture",
    "sci": "Gyps africanus",
    "group": "bird",
-   "sketch": "vulture",
    "iucn": "CR",
    "iucnYear": 2021,
    "trend": "dec",
@@ -2523,7 +2511,23 @@
     "TD",
     "CF",
     "NG",
-    "CM"
+    "CM",
+    "BJ",
+    "BI",
+    "CD",
+    "CI",
+    "ER",
+    "SZ",
+    "GM",
+    "GH",
+    "GN",
+    "GW",
+    "MR",
+    "RW",
+    "SL",
+    "SO",
+    "SD",
+    "TG"
    ],
    "habitat": "Open savanna and woodland across sub-Saharan Africa; nests colonially in tall trees.",
    "note": "Once the most abundant large raptor in Africa. A single poisoned elephant carcass can kill several hundred at once — poachers do this deliberately, because circling vultures show rangers where the carcass is.",
@@ -2549,7 +2553,7 @@
     "high": 300000,
     "unit": "individuals",
     "asOf": "2021",
-    "basis": "BirdLife Data Zone; the species has declined more than 90% in West Africa",
+    "basis": "BirdLife International assessment for the IUCN Red List; the species has declined by more than 90% in West Africa",
     "label": null
    },
    "plateAliases": [
@@ -2562,9 +2566,8 @@
    "common": "Rüppell's Vulture",
    "sci": "Gyps rueppelli",
    "group": "bird",
-   "sketch": "vulture",
    "iucn": "CR",
-   "iucnYear": 2020,
+   "iucnYear": 2021,
    "trend": "dec",
    "countries": [
     "TZ",
@@ -2582,7 +2585,21 @@
     "BF",
     "SD",
     "GM",
-    "MR"
+    "MR",
+    "DZ",
+    "BJ",
+    "BI",
+    "CM",
+    "CI",
+    "DJ",
+    "ER",
+    "GH",
+    "GW",
+    "RW",
+    "SO",
+    "TG",
+    "PT",
+    "ES"
    ],
    "habitat": "Sahel and East African savanna, nesting on cliffs and escarpments.",
    "note": "The highest-flying bird ever recorded — one was struck by an airliner at 11,300 m over Côte d'Ivoire. It forages up to 150 km from the nest, which means a poisoned carcass anywhere in that radius reaches the colony.",
@@ -2603,11 +2620,11 @@
    ],
    "pop": {
     "est": 22000,
-    "low": 18000,
-    "high": 26000,
-    "unit": "individuals",
-    "asOf": "2020",
-    "basis": "BirdLife Data Zone range-wide estimate",
+    "low": 22000,
+    "high": 22000,
+    "unit": "mature individuals",
+    "asOf": "2021",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -2616,9 +2633,8 @@
    "common": "Grey Crowned Crane",
    "sci": "Balearica regulorum",
    "group": "bird",
-   "sketch": "crane",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "UG",
@@ -2635,11 +2651,10 @@
     "BW",
     "NA",
     "AO",
-    "SS",
-    "ET"
+    "SS"
    ],
    "habitat": "Seasonal wetland, wet grassland and adjacent farmland in eastern and southern Africa.",
-   "note": "Uganda's national bird, crowned with a halo of stiff golden bristles. It is the only crane that roosts in trees. Chicks are taken from the wild for private collections at a scale that alone would explain much of the decline.",
+   "note": "Uganda's national bird, crowned with a halo of stiff golden bristles. It is one of only two cranes that roost in trees, both of them African crowned cranes. Chicks are taken from the wild for private collections at a scale that alone would explain much of the decline.",
    "threats": [
     "Drainage and conversion of wetlands",
     "Illegal removal of chicks and eggs for trade",
@@ -2655,12 +2670,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 20000,
-    "low": 17700,
-    "high": 22300,
+    "est": null,
+    "low": 20100,
+    "high": 24600,
     "unit": "mature individuals",
-    "asOf": "2019",
-    "basis": "BirdLife and International Crane Foundation range-wide estimate",
+    "asOf": "2024",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -2669,7 +2684,6 @@
    "common": "Shoebill",
    "sci": "Balaeniceps rex",
    "group": "bird",
-   "sketch": "shoebill",
    "iucn": "VU",
    "iucnYear": 2018,
    "trend": "dec",
@@ -2680,10 +2694,8 @@
     "CD",
     "TZ",
     "RW",
-    "BI",
     "CF",
-    "ET",
-    "KE"
+    "SD"
    ],
    "habitat": "Papyrus swamp and seasonally flooded marsh in the Nile and Congo basins.",
    "note": "A metre-and-a-half-tall grey bird with a bill shaped like a wooden clog, which it uses to seize lungfish. It stands motionless for hours and then strikes with its whole body. Its nearest relatives are pelicans, which is not obvious.",
@@ -2703,12 +2715,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 4300,
+    "est": null,
     "low": 3300,
     "high": 5300,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "BirdLife Data Zone range-wide estimate",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -2720,15 +2732,14 @@
    "common": "Taita Apalis",
    "sci": "Apalis fuscigularis",
    "group": "bird",
-   "sketch": "warbler",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2021,
    "trend": "dec",
    "countries": [
     "KE"
    ],
    "habitat": "Three tiny remnant patches of cloud forest on the Taita Hills, southern Kenya — around 400 hectares in total.",
-   "note": "A small grey warbler with a black throat, confined to forest fragments that together would fit inside a mid-sized farm. Around 150 birds remain, and the population has been falling by roughly a fifth each decade.",
+   "note": "A small grey warbler with a black throat, confined to forest fragments that together would fit inside a mid-sized farm. Fewer than 250 mature birds remain.",
    "threats": [
     "Almost total clearance of Taita cloud forest",
     "Invasive plants degrading the understorey",
@@ -2744,12 +2755,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 150,
-    "low": 130,
-    "high": 170,
+    "est": null,
+    "low": 50,
+    "high": 249,
     "unit": "mature individuals",
-    "asOf": "2018",
-    "basis": "BirdLife Data Zone; repeated territory mapping in the three surviving forest patches",
+    "asOf": "2020",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "KE"
@@ -2759,10 +2770,9 @@
    "common": "Cape Parrot",
    "sci": "Poicephalus robustus",
    "group": "bird",
-   "sketch": "parrot",
    "iucn": "VU",
    "iucnYear": 2021,
-   "trend": "dec",
+   "trend": "stable",
    "countries": [
     "ZA"
    ],
@@ -2799,7 +2809,6 @@
    "common": "Riverine Rabbit",
    "sci": "Bunolagus monticularis",
    "group": "mammal",
-   "sketch": "rabbit",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
@@ -2838,7 +2847,6 @@
    "common": "Geometric Tortoise",
    "sci": "Psammobates geometricus",
    "group": "reptile",
-   "sketch": "tortoise",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -2878,10 +2886,9 @@
    "common": "Walia Ibex",
    "sci": "Capra walie",
    "group": "mammal",
-   "sketch": "ibex",
-   "iucn": "EN",
-   "iucnYear": 2020,
-   "trend": "inc",
+   "iucn": "CR",
+   "iucnYear": 2026,
+   "trend": "dec",
    "countries": [
     "ET"
    ],
@@ -2920,7 +2927,6 @@
    "common": "Mountain Nyala",
    "sci": "Tragelaphus buxtoni",
    "group": "mammal",
-   "sketch": "nyala",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -2959,10 +2965,9 @@
    "common": "Cuvier's Gazelle",
    "sci": "Gazella cuvieri",
    "group": "mammal",
-   "sketch": "gazelle",
-   "iucn": "EN",
+   "iucn": "VU",
    "iucnYear": 2016,
-   "trend": "inc",
+   "trend": "dec",
    "countries": [
     "MA",
     "DZ",
@@ -2999,7 +3004,6 @@
    "common": "Temminck's Pangolin",
    "sci": "Smutsia temminckii",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "VU",
    "iucnYear": 2019,
    "trend": "dec",
@@ -3020,7 +3024,9 @@
     "MW",
     "SD",
     "ET",
-    "SO"
+    "BI",
+    "RW",
+    "CD"
    ],
    "habitat": "Savanna and arid scrub across eastern and southern Africa; shelters in aardvark burrows by day.",
    "note": "The only pangolin of the African savanna, and the one most often walking on its hind legs with its tail out as a counterweight. Pangolins are the most trafficked wild mammals on Earth — over a million are estimated to have been taken in a decade.",
@@ -3058,7 +3064,6 @@
    "common": "White-bellied Pangolin",
    "sci": "Phataginus tricuspis",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "EN",
    "iucnYear": 2019,
    "trend": "dec",
@@ -3081,7 +3086,11 @@
     "KE",
     "BJ",
     "TG",
-    "GW"
+    "GW",
+    "BI",
+    "RW",
+    "SS",
+    "ZM"
    ],
    "habitat": "Lowland rainforest and forest-farm mosaic across West and Central Africa; climbs readily.",
    "note": "The most commonly trafficked of the four African pangolins, and the one most often found in West African bushmeat markets. It has three-pointed scales, a prehensile tail, and no teeth at all — insects are ground in a muscular stomach filled with swallowed grit.",
@@ -3118,7 +3127,6 @@
    "common": "Giant Pangolin",
    "sci": "Smutsia gigantea",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "EN",
    "iucnYear": 2019,
    "trend": "dec",
@@ -3137,7 +3145,10 @@
     "SL",
     "GN",
     "TZ",
-    "AO"
+    "GW",
+    "RW",
+    "SN",
+    "SS"
    ],
    "habitat": "Rainforest and moist savanna of Central and West Africa, from Senegal to western Uganda.",
    "note": "The largest pangolin, reaching 1.8 m and 35 kg. It walks on its knuckles with its foreclaws curled inwards to keep them sharp for opening termite mounds, and it is rarely seen — most records are from camera traps or from seizures.",
@@ -3174,7 +3185,6 @@
    "common": "Okapi",
    "sci": "Okapia johnstoni",
    "group": "mammal",
-   "sketch": "okapi",
    "iucn": "EN",
    "iucnYear": 2015,
    "trend": "dec",
@@ -3216,10 +3226,9 @@
    "common": "West Indian Ocean Coelacanth",
    "sci": "Latimeria chalumnae",
    "group": "fish",
-   "sketch": "coelacanth",
    "iucn": "CR",
    "iucnYear": 2000,
-   "trend": "dec",
+   "trend": "unknown",
    "countries": [
     "KM",
     "ZA",
@@ -3262,27 +3271,19 @@
    "common": "Mediterranean Monk Seal",
    "sci": "Monachus monachus",
    "group": "mammal",
-   "sketch": "seal",
-   "iucn": "EN",
+   "iucn": "VU",
    "iucnYear": 2023,
    "trend": "inc",
    "countries": [
     "GR",
     "TR",
     "CY",
-    "MA",
     "MR",
     "PT",
-    "HR",
-    "AL",
-    "LY",
-    "EG",
-    "DZ",
-    "TN",
-    "IT"
+    "AL"
    ],
    "habitat": "Sea caves with underwater entrances along rocky Mediterranean and north-west African coasts.",
-   "note": "One of the rarest seals on Earth, and a species that has retreated entirely into caves — it once hauled out on open beaches, and abandoned the habit under human pressure. Careful protection in Greece and Madeira lifted it from Critically Endangered to Endangered in 2023.",
+   "note": "One of the rarest seals on Earth, and a species that has retreated entirely into caves — it once hauled out on open beaches, and abandoned the habit under human pressure. Conservation work in Greece and Madeira helped move it from Endangered to Vulnerable in 2023.",
    "threats": [
     "Deliberate killing by fishermen",
     "Disturbance and loss of cave habitat to coastal development",
@@ -3299,12 +3300,12 @@
     "iucn-ssc-pinniped"
    ],
    "pop": {
-    "est": 800,
-    "low": 700,
-    "high": 900,
-    "unit": "individuals",
+    "est": null,
+    "low": 444,
+    "high": 600,
+    "unit": "mature individuals",
     "asOf": "2023",
-    "basis": "IUCN 2023 reassessment collating Greek, Turkish, Madeiran and Cabo Blanco counts",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
@@ -3318,25 +3319,18 @@
    "common": "West African Slender-snouted Crocodile",
    "sci": "Mecistops cataphractus",
    "group": "reptile",
-   "sketch": "crocodile",
    "iucn": "CR",
-   "iucnYear": 2013,
+   "iucnYear": 2014,
    "trend": "dec",
    "countries": [
     "CI",
     "LR",
     "GH",
-    "GN",
     "SL",
-    "SN",
-    "GW",
-    "TG",
-    "BJ",
-    "NG",
-    "CM"
+    "GM"
    ],
    "habitat": "Forested rivers, lagoons and swamp creeks across the Upper Guinean forest belt.",
-   "note": "A narrow-jawed fish specialist, recognised as a species distinct from its Central African relative only in 2018. Fewer than 500 are thought to survive in the wild, split across rivers that are increasingly fished with nets.",
+   "note": "A narrow-jawed fish specialist, recognised as a species distinct from its Central African relative only in 2018. It survives in scattered rivers that are increasingly fished with nets.",
    "threats": [
     "Hunting for meat and skins",
     "Net entanglement",
@@ -3353,28 +3347,26 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 500,
-    "low": 200,
-    "high": 600,
+    "est": null,
+    "low": null,
+    "high": null,
     "unit": "mature individuals",
-    "asOf": "2013",
-    "basis": "IUCN SSC Crocodile Specialist Group regional survey",
-    "label": null
-   }
+    "asOf": null,
+    "basis": null,
+    "label": "No separate count exists for the West African species since the 2018 split; the IUCN assessment published in 2014, made before it, estimated 1,000–20,000 mature individuals across West and Central Africa together."
+   },
+   "iucnTaxon": "Mecistops cataphractus"
   },
   {
    "id": "egyptian-tortoise",
    "common": "Egyptian Tortoise",
    "sci": "Testudo kleinmanni",
    "group": "reptile",
-   "sketch": "tortoise",
    "iucn": "CR",
-   "iucnYear": 2003,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
-    "LY",
-    "EG",
-    "IL"
+    "LY"
    ],
    "habitat": "Coastal desert, sandy gravel plain and salt marsh scrub along the south-eastern Mediterranean.",
    "note": "One of the smallest tortoises in the world — an adult female fits in a hand. It is functionally extinct in Egypt, where it once gave the species its name, and survives mainly in eastern Libya, from which it continues to be collected.",
@@ -3408,15 +3400,14 @@
    "common": "Javan Rhinoceros",
    "sci": "Rhinoceros sondaicus",
    "group": "mammal",
-   "sketch": "rhino",
    "iucn": "CR",
-   "iucnYear": 2019,
-   "trend": "dec",
+   "iucnYear": 2020,
+   "trend": "stable",
    "countries": [
     "ID"
    ],
    "habitat": "Lowland rainforest and swamp on the Ujung Kulon peninsula, western Java — the entire world range.",
-   "note": "The rarest large mammal on Earth, confined to one peninsula that sits in the shadow of an active volcano. Females are usually hornless. The last rhino outside Java was killed in Vietnam in 2010, which ended the species everywhere but here.",
+   "note": "One of the rarest large mammals on Earth, confined to one peninsula that sits in the shadow of an active volcano. Females are usually hornless. The last rhino outside Java was killed in Vietnam in 2010, which ended the species everywhere but here.",
    "threats": [
     "A single population exposed to tsunami and eruption",
     "Poaching — a 2024 investigation implicated an organised ring",
@@ -3453,9 +3444,8 @@
    "common": "Sumatran Rhinoceros",
    "sci": "Dicerorhinus sumatrensis",
    "group": "mammal",
-   "sketch": "rhino",
    "iucn": "CR",
-   "iucnYear": 2019,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "ID"
@@ -3497,9 +3487,8 @@
    "common": "Greater One-horned Rhinoceros",
    "sci": "Rhinoceros unicornis",
    "group": "mammal",
-   "sketch": "rhino",
    "iucn": "VU",
-   "iucnYear": 2018,
+   "iucnYear": 2019,
    "trend": "inc",
    "countries": [
     "IN",
@@ -3541,9 +3530,8 @@
    "common": "Asian Elephant",
    "sci": "Elephas maximus",
    "group": "mammal",
-   "sketch": "elephant",
    "iucn": "EN",
-   "iucnYear": 2019,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "IN",
@@ -3603,7 +3591,6 @@
    "common": "Sumatran Elephant",
    "sci": "Elephas maximus sumatranus",
    "group": "mammal",
-   "sketch": "elephant",
    "iucn": "CR",
    "iucnYear": 2011,
    "trend": "dec",
@@ -3645,10 +3632,9 @@
    "common": "Tiger",
    "sci": "Panthera tigris",
    "group": "mammal",
-   "sketch": "tiger",
    "iucn": "EN",
    "iucnYear": 2022,
-   "trend": "inc",
+   "trend": "dec",
    "countries": [
     "IN",
     "RU",
@@ -3659,9 +3645,7 @@
     "BT",
     "BD",
     "MM",
-    "CN",
-    "LA",
-    "KP"
+    "CN"
    ],
    "habitat": "Mangrove, dry deciduous forest, rainforest and snow-covered taiga — the widest habitat range of any big cat.",
    "note": "Wild numbers reached a low of about 3,200 in 2010 and have since climbed past 5,500, almost entirely because of gains in India, Nepal and Bhutan. Southeast Asia moved the other way: tigers are now gone from Cambodia, Laos and Vietnam.",
@@ -3717,9 +3701,8 @@
    "common": "Sumatran Tiger",
    "sci": "Panthera tigris sondaica",
    "group": "mammal",
-   "sketch": "tiger",
    "iucn": "CR",
-   "iucnYear": 2022,
+   "iucnYear": 2008,
    "trend": "dec",
    "countries": [
     "ID"
@@ -3753,20 +3736,28 @@
    "endemic": "ID",
    "plateAliases": [
     "Felis tigris"
-   ]
+   ],
+   "iucnTaxon": "Panthera tigris sumatrae",
+   "iucnArchived": {
+    "taxon": "Panthera tigris sumatrae",
+    "status": "CR",
+    "year": 2008,
+    "currentTaxon": "Panthera tigris",
+    "currentStatus": "EN",
+    "currentYear": 2022,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "malayan-tiger",
    "common": "Malayan Tiger",
    "sci": "Panthera tigris jacksoni",
    "group": "mammal",
-   "sketch": "tiger",
    "iucn": "CR",
-   "iucnYear": 2022,
+   "iucnYear": 2015,
    "trend": "dec",
    "countries": [
-    "MY",
-    "TH"
+    "MY"
    ],
    "habitat": "Dipterocarp rainforest of Peninsular Malaysia, chiefly Taman Negara and the Belum-Temengor complex.",
    "note": "Down from around 3,000 in the 1950s to fewer than 150 today — one of the steepest declines of any big cat population. Snares set by cross-border poaching crews are the immediate cause; patrol teams pull thousands out of the forest each year.",
@@ -3796,21 +3787,28 @@
    },
    "plateAliases": [
     "Felis tigris"
-   ]
+   ],
+   "iucnArchived": {
+    "taxon": "Panthera tigris jacksoni",
+    "status": "CR",
+    "year": 2015,
+    "currentTaxon": "Panthera tigris",
+    "currentStatus": "EN",
+    "currentYear": 2022,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "amur-tiger",
    "common": "Amur Tiger",
    "sci": "Panthera tigris tigris (Amur population)",
    "group": "mammal",
-   "sketch": "tiger",
    "iucn": "EN",
-   "iucnYear": 2022,
-   "trend": "inc",
+   "iucnYear": 2011,
+   "trend": "stable",
    "countries": [
     "RU",
-    "CN",
-    "KP"
+    "CN"
    ],
    "habitat": "Korean pine and Mongolian oak forest of the Russian Far East and north-east China, deep in snow for much of the year.",
    "note": "The largest cat alive, and the only one that routinely hunts in snow at -30 °C. Reduced to perhaps forty animals in the 1940s, it recovered under strict protection and now numbers around 600, with a growing population re-establishing across the Chinese border.",
@@ -3841,26 +3839,36 @@
    },
    "plateAliases": [
     "Felis tigris"
-   ]
+   ],
+   "iucnTaxon": "Panthera tigris altaica",
+   "iucnArchived": {
+    "taxon": "Panthera tigris altaica",
+    "status": "EN",
+    "year": 2011,
+    "currentTaxon": "Panthera tigris",
+    "currentStatus": "EN",
+    "currentYear": 2022,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "south-china-tiger",
    "common": "South China Tiger",
-   "sci": "Panthera tigris tigris (South China population)",
+   "sci": "Panthera tigris amoyensis",
    "group": "mammal",
-   "sketch": "tiger",
    "iucn": "CR",
-   "iucnYear": 2022,
+   "iucnYear": 2008,
    "trend": "unknown",
    "countries": [
     "CN"
    ],
-   "habitat": "Formerly the subtropical forests of southern and central China; no confirmed wild individual since the 1980s.",
-   "note": "Functionally extinct in the wild. Around 200 animals survive in Chinese breeding centres, all descended from six founders, and a small group has been raised in South Africa in the hope of one day rewilding them. No wild sighting has been verified for four decades.",
+   "habitat": "Formerly the mountain forests of southern China; the IUCN range lists Jiangxi, Fujian, Guangdong and Hunan, each as possibly extinct.",
+   "note": "Field surveys in 2001 and 2002 of eight reserves in five provinces, chosen as the places most likely to still hold tigers, found no evidence of one and concluded that no viable wild population remains. The subspecies survives only in zoos, and every living South China tiger descends from two male and four female wild-caught founders.",
    "threats": [
-    "Systematic extermination campaigns in the mid-20th century",
-    "Prey loss",
-    "Inbreeding across the entire captive founder line"
+    "Reserves of about 100 km², too small to hold even a few tigers",
+    "Forest converted to commercial tree farms",
+    "Few remaining prey species",
+    "A captive population descended from only six founders"
    ],
    "orgs": [
     "panthera",
@@ -3868,33 +3876,42 @@
     "kfbg"
    ],
    "sources": [
-    "iucn-redlist",
-    "iucn-ssc-cat",
-    "cites-appendices"
+    "iucn-2008-south-china-tiger",
+    "tilson-2004-south-china-tiger",
+    "wang-2023-south-china-tiger"
    ],
    "pop": {
     "est": 0,
-    "low": 0,
-    "high": 0,
-    "unit": "individuals in the wild",
-    "asOf": "2024",
-    "basis": "No verified wild record since the 1980s; roughly 200 animals remain in captive breeding centres",
-    "label": null
+    "low": null,
+    "high": null,
+    "unit": "confirmed in the wild",
+    "asOf": "2002",
+    "basis": "Sino-American field survey of eight priority reserves",
+    "label": "The subspecies survives only in zoos."
    },
-   "possiblyExtinct": true,
+   "endemic": "CN",
+   "possiblyExtinct": "wild",
    "plateAliases": [
     "Felis tigris"
-   ]
+   ],
+   "iucnArchived": {
+    "taxon": "Panthera tigris amoyensis",
+    "status": "CR",
+    "year": 2008,
+    "currentTaxon": "Panthera tigris",
+    "currentStatus": "EN",
+    "currentYear": 2022,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "amur-leopard",
    "common": "Amur Leopard",
    "sci": "Panthera pardus orientalis",
    "group": "mammal",
-   "sketch": "leopard",
    "iucn": "CR",
-   "iucnYear": 2020,
-   "trend": "inc",
+   "iucnYear": 2008,
+   "trend": "dec",
    "countries": [
     "RU",
     "CN"
@@ -3928,16 +3945,24 @@
    },
    "plateAliases": [
     "Felis pardus"
-   ]
+   ],
+   "iucnArchived": {
+    "taxon": "Panthera pardus orientalis",
+    "status": "CR",
+    "year": 2008,
+    "currentTaxon": "Panthera pardus",
+    "currentStatus": "VU",
+    "currentYear": 2025,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "javan-leopard",
    "common": "Javan Leopard",
    "sci": "Panthera pardus melas",
    "group": "mammal",
-   "sketch": "leopard",
-   "iucn": "CR",
-   "iucnYear": 2021,
+   "iucn": "EN",
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "ID"
@@ -3960,12 +3985,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 350,
-    "low": 190,
-    "high": 570,
+    "est": 324,
+    "low": 324,
+    "high": 324,
     "unit": "mature individuals",
-    "asOf": "2021",
-    "basis": "IUCN SSC Cat Specialist Group island-wide modelling",
+    "asOf": "2024",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "endemic": "ID",
@@ -3978,18 +4003,15 @@
    "common": "Arabian Leopard",
    "sci": "Panthera pardus nimr",
    "group": "mammal",
-   "sketch": "leopard",
    "iucn": "CR",
-   "iucnYear": 2023,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "OM",
-    "YE",
-    "SA",
-    "AE"
+    "YE"
    ],
    "habitat": "Rugged arid mountains and wadis of the southern Arabian Peninsula, chiefly Oman's Dhofar.",
-   "note": "The smallest and palest leopard, and the last big predator of Arabia. Perhaps 120 remain across the whole peninsula, with the only confirmed breeding population in Oman's Jabal Samhan reserve.",
+   "note": "The smallest and palest leopard, and the last big predator of Arabia. Its 2022 assessment counted no more than 84 mature animals, in Oman and Yemen; the best-studied population lives in Oman's Dhofar mountains.",
    "threats": [
     "Killing in defence of livestock",
     "Prey depletion by hunting of ibex and gazelle",
@@ -4006,12 +4028,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 120,
-    "low": 100,
-    "high": 200,
+    "est": null,
+    "low": 70,
+    "high": 84,
     "unit": "mature individuals",
-    "asOf": "2023",
-    "basis": "IUCN SSC Cat Specialist Group regional assessment; Omani camera-trap monitoring",
+    "asOf": "2022",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
@@ -4023,10 +4045,9 @@
    "common": "Asiatic Lion",
    "sci": "Panthera leo persica",
    "group": "mammal",
-   "sketch": "lion",
    "iucn": "EN",
-   "iucnYear": 2023,
-   "trend": "inc",
+   "iucnYear": 2024,
+   "trend": "stable",
    "countries": [
     "IN"
    ],
@@ -4060,18 +4081,22 @@
    "endemic": "IN",
    "plateAliases": [
     "Felis leo persica",
-    "Felis leo"
-   ]
+    "Felis leo",
+    "Felis leo persicus",
+    "Leo persicus",
+    "Panthera leo persica"
+   ],
+   "iucnTaxon": "Panthera leo (Asiatic subpopulation)",
+   "iucnSis": 247279613
   },
   {
    "id": "asiatic-cheetah",
    "common": "Asiatic Cheetah",
    "sci": "Acinonyx jubatus venaticus",
    "group": "mammal",
-   "sketch": "cheetah",
    "iucn": "CR",
-   "iucnYear": 2021,
-   "trend": "dec",
+   "iucnYear": 2008,
+   "trend": "stable",
    "countries": [
     "IR"
    ],
@@ -4105,14 +4130,22 @@
    "endemic": "IR",
    "plateAliases": [
     "Cynaelurus jubatus"
-   ]
+   ],
+   "iucnArchived": {
+    "taxon": "Acinonyx jubatus venaticus",
+    "status": "CR",
+    "year": 2008,
+    "currentTaxon": "Acinonyx jubatus",
+    "currentStatus": "VU",
+    "currentYear": 2024,
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "snow-leopard",
    "common": "Snow Leopard",
    "sci": "Panthera uncia",
    "group": "mammal",
-   "sketch": "snow-leopard",
    "iucn": "VU",
    "iucnYear": 2017,
    "trend": "dec",
@@ -4128,8 +4161,7 @@
     "TJ",
     "KZ",
     "UZ",
-    "RU",
-    "MM"
+    "RU"
    ],
    "habitat": "Alpine and subalpine rock above the treeline, from 3,000 to 5,500 m across twelve range countries.",
    "note": "A cat built for cliffs: a tail nearly as long as its body for balance, paws like snowshoes, and a nasal cavity that warms thin freezing air. It cannot roar. More than half the range lies in China, and much of it has never been surveyed properly.",
@@ -4186,9 +4218,8 @@
    "common": "Fishing Cat",
    "sci": "Prionailurus viverrinus",
    "group": "mammal",
-   "sketch": "small-cat",
    "iucn": "VU",
-   "iucnYear": 2016,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "IN",
@@ -4198,12 +4229,10 @@
     "TH",
     "KH",
     "MM",
-    "ID",
-    "PK",
-    "VN"
+    "PK"
    ],
    "habitat": "Mangrove, reedbed, marsh and tidal creek — wetlands rather than forest.",
-   "note": "A stocky, olive-grey cat with partly webbed feet that dives for fish and taps the water surface to imitate falling insects. It depends almost entirely on wetlands, which are the most rapidly converted habitat in South Asia.",
+   "note": "A stocky, olive-grey cat with partly webbed feet that dives for fish and taps the water surface to imitate falling insects. It depends almost entirely on wetlands, which are being drained and built over across South Asia.",
    "threats": [
     "Drainage and conversion of wetlands to aquaculture",
     "Persecution near fish farms",
@@ -4238,18 +4267,16 @@
    "common": "Flat-headed Cat",
    "sci": "Prionailurus planiceps",
    "group": "mammal",
-   "sketch": "small-cat",
    "iucn": "EN",
    "iucnYear": 2015,
    "trend": "dec",
    "countries": [
     "ID",
     "MY",
-    "TH",
     "BN"
    ],
    "habitat": "Peat swamp forest and riverbank vegetation in Sundaland — almost never far from water.",
-   "note": "A small, oddly proportioned cat with a flattened skull, forward-set eyes and teeth adapted for gripping fish. It is tied to lowland peat swamp, which is the single most heavily drained and burned habitat in Southeast Asia.",
+   "note": "A small, oddly proportioned cat with a flattened skull, forward-set eyes and teeth adapted for gripping fish. It is tied to lowland peat swamp, which is drained and burned for plantations across Southeast Asia.",
    "threats": [
     "Drainage and burning of peat swamp forest",
     "Conversion to oil palm",
@@ -4282,9 +4309,8 @@
    "common": "Tapanuli Orangutan",
    "sci": "Pongo tapanuliensis",
    "group": "mammal",
-   "sketch": "orangutan",
    "iucn": "CR",
-   "iucnYear": 2017,
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "ID"
@@ -4323,15 +4349,14 @@
    "common": "Sumatran Orangutan",
    "sci": "Pongo abelii",
    "group": "mammal",
-   "sketch": "orangutan",
    "iucn": "CR",
-   "iucnYear": 2017,
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "ID"
    ],
    "habitat": "Lowland and hill rainforest of northern Sumatra, overwhelmingly within the Leuser Ecosystem.",
-   "note": "Slimmer-faced and more sociable than the Bornean species, with longer beards on both sexes. Females give birth about once every nine years — the slowest reproduction of any mammal — so every adult female killed removes decades of potential recovery.",
+   "note": "Slimmer-faced and more sociable than the Bornean species, with longer beards on both sexes. Females give birth about once every nine years — among the longest birth intervals of any mammal — so every adult female killed removes decades of potential recovery.",
    "threats": [
     "Forest conversion to oil palm",
     "Road building through Leuser",
@@ -4368,14 +4393,12 @@
    "common": "Bornean Orangutan",
    "sci": "Pongo pygmaeus",
    "group": "mammal",
-   "sketch": "orangutan",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "ID",
-    "MY",
-    "BN"
+    "MY"
    ],
    "habitat": "Lowland dipterocarp, peat swamp and hill forest across Borneo.",
    "note": "Around 104,700 remain — a large number that hides the shape of the problem: more than 100,000 were lost between 1999 and 2015, and the species is projected to fall by nearly 90% across three generations. Males develop broad cheek flanges only if they achieve dominance.",
@@ -4414,10 +4437,9 @@
    "common": "Hainan Gibbon",
    "sci": "Nomascus hainanus",
    "group": "mammal",
-   "sketch": "gibbon",
    "iucn": "CR",
    "iucnYear": 2020,
-   "trend": "inc",
+   "trend": "stable",
    "countries": [
     "CN"
    ],
@@ -4455,10 +4477,9 @@
    "common": "Cao Vit Gibbon",
    "sci": "Nomascus nasutus",
    "group": "mammal",
-   "sketch": "gibbon",
    "iucn": "CR",
    "iucnYear": 2020,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "VN",
     "CN"
@@ -4495,7 +4516,6 @@
    "common": "Tonkin Snub-nosed Monkey",
    "sci": "Rhinopithecus avunculus",
    "group": "mammal",
-   "sketch": "snub-nosed",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -4535,7 +4555,6 @@
    "common": "Cat Ba Langur",
    "sci": "Trachypithecus poliocephalus",
    "group": "mammal",
-   "sketch": "langur",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "inc",
@@ -4575,7 +4594,6 @@
    "common": "Delacour's Langur",
    "sci": "Trachypithecus delacouri",
    "group": "mammal",
-   "sketch": "langur",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -4615,7 +4633,6 @@
    "common": "Yunnan Snub-nosed Monkey",
    "sci": "Rhinopithecus bieti",
    "group": "mammal",
-   "sketch": "snub-nosed",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "stable",
@@ -4654,7 +4671,6 @@
    "common": "Lion-tailed Macaque",
    "sci": "Macaca silenus",
    "group": "mammal",
-   "sketch": "macaque",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
@@ -4694,7 +4710,6 @@
    "common": "Javan Slow Loris",
    "sci": "Nycticebus javanicus",
    "group": "mammal",
-   "sketch": "loris",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -4735,57 +4750,56 @@
    "common": "Saola",
    "sci": "Pseudoryx nghetinhensis",
    "group": "mammal",
-   "sketch": "saola",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "VN",
     "LA"
    ],
-   "habitat": "Wet evergreen forest in the Annamite Mountains along the Vietnam-Laos border.",
-   "note": "Found by science only in 1992 — the first large mammal discovered in fifty years — and photographed alive in the wild just five times since. It has two long straight horns and white facial markings like brushstrokes. No saola has been seen since a camera trap fired in September 2013.",
+   "habitat": "Forest in the Annamite Mountains of Vietnam and Laos.",
+   "note": "Discovered by Western science only in 1992, in the Annamite Mountains between Vietnam and Laos, and never counted. The last confirmed record is a camera-trap photograph taken in central Vietnam in 2013, and the IUCN marks its own assessment as needing an update. Since April 2025 a team with detection dogs and a rapid DNA test has been searching 300 km² of Bolikhamxay province in Laos for survivors.",
    "threats": [
-    "Indiscriminate wire snaring set for other species",
-    "Hunting with dogs",
-    "Forest fragmentation",
-    "Possibly no viable population left"
+    "Wire snares",
+    "Logging",
+    "Road, power-line and dam construction",
+    "Conversion of forest to crops and plantations"
    ],
    "orgs": [
-    "wcs",
+    "wwf",
     "wcs",
     "rewild"
    ],
    "sources": [
-    "iucn-redlist",
-    "iucn-ssc-asian-wild-cattle"
+    "iucn-2020-saola",
+    "iucn-ssc-saola-2021",
+    "iucn-ssc-asian-wild-cattle",
+    "mongabay-saola-search-2025"
    ],
    "pop": {
     "est": null,
     "low": null,
     "high": null,
-    "unit": "individuals",
+    "unit": "mature individuals",
     "asOf": null,
     "basis": null,
-    "label": "No confirmed sighting since 2013. Fewer than 100 believed to survive, and possibly none."
-   },
-   "possiblyExtinct": true
+    "label": "The IUCN's 2015 assessment allows 25–750 mature individuals, most likely 50–300; in 2021 IUCN experts put realistic numbers below 100. None has been confirmed since 2013."
+   }
   },
   {
    "id": "wild-bactrian-camel",
    "common": "Wild Bactrian Camel",
    "sci": "Camelus ferus",
    "group": "mammal",
-   "sketch": "camel",
-   "iucn": "CR",
-   "iucnYear": 2008,
+   "iucn": "EN",
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "CN",
     "MN"
    ],
    "habitat": "Gobi desert gravel plain and salt pan in the Lop Nur and Great Gobi 'A' reserves.",
-   "note": "A separate species from the domestic Bactrian, not merely a feral form. It drinks salt slush too saline for any other mammal and survived decades of nuclear weapons testing at Lop Nur. Around 950 remain.",
+   "note": "A separate species from the domestic Bactrian, not merely a feral form. It can drink salt water, and the Lop Nur population persisted through decades of nuclear weapons testing there. Fewer than 1,400 mature animals remain, in China and Mongolia.",
    "threats": [
     "Hunting for meat",
     "Competition with domestic camels and interbreeding",
@@ -4798,16 +4812,15 @@
     "mbz-fund"
    ],
    "sources": [
-    "iucn-redlist",
-    "iucn-ssc-camel"
+    "iucn-redlist"
    ],
    "pop": {
-    "est": 950,
-    "low": 800,
-    "high": 1000,
+    "est": null,
+    "low": 780,
+    "high": 1380,
     "unit": "mature individuals",
-    "asOf": "2008",
-    "basis": "IUCN Red List assessment; Mongolian Great Gobi 'A' and Chinese Lop Nur reserve counts",
+    "asOf": "2025",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
@@ -4819,17 +4832,14 @@
    "common": "Przewalski's Horse",
    "sci": "Equus ferus przewalskii",
    "group": "mammal",
-   "sketch": "wild-horse",
    "iucn": "EN",
-   "iucnYear": 2011,
+   "iucnYear": 2015,
    "trend": "inc",
    "countries": [
     "MN",
-    "CN",
-    "KZ",
-    "RU"
+    "CN"
    ],
-   "habitat": "Semi-desert steppe and grassland in Mongolia, Xinjiang, Kazakhstan and the Chernobyl exclusion zone.",
+   "habitat": "Semi-desert steppe and grassland in Mongolia and Xinjiang, China; reintroduced herds also roam in Kazakhstan, and a free-living herd has settled in the Chernobyl exclusion zone.",
    "note": "The last wild horse — never domesticated, and with 66 chromosomes rather than the domestic horse's 64. It went extinct in the wild in the 1960s and every animal alive descends from twelve founders. Reintroduction began in 1992 and there are now free-ranging herds again in Mongolia.",
    "threats": [
     "An entire species descended from twelve founders",
@@ -4856,15 +4866,18 @@
     "label": null
    },
    "plateAliases": [
-    "Equus przewalskii"
-   ]
+    "Equus przewalskii",
+    "Equus caballus przewalskii",
+    "Equus ferus przewalskii",
+    "Przewalski's horse"
+   ],
+   "iucnTaxon": "Equus ferus"
   },
   {
    "id": "saiga-antelope",
    "common": "Saiga Antelope",
    "sci": "Saiga tatarica",
    "group": "mammal",
-   "sketch": "saiga",
    "iucn": "NT",
    "iucnYear": 2023,
    "trend": "inc",
@@ -4876,7 +4889,7 @@
     "TM"
    ],
    "habitat": "Open steppe and semi-desert in Kazakhstan, Kalmykia and western Mongolia.",
-   "note": "A Pleistocene survivor with an inflatable, drooping nose that filters dust and warms winter air. In 2015 a bacterial outbreak killed more than 200,000 in three weeks. And yet: Kazakhstan's herd has since grown past two million, and in 2023 the IUCN moved it from Critically Endangered to Near Threatened — the largest single improvement ever recorded for a mammal.",
+   "note": "A Pleistocene survivor with an inflatable, drooping nose that filters dust and warms winter air. In 2015 a bacterial outbreak killed more than 200,000 in three weeks. And yet: Kazakhstan's herd has since grown past two million, and in 2023 the IUCN moved it from Critically Endangered to Near Threatened — one of the largest recoveries ever recorded for a mammal.",
    "threats": [
     "Mass die-offs from Pasteurella outbreaks in hot, humid conditions",
     "Poaching of males for horn",
@@ -4911,10 +4924,9 @@
    "common": "Hangul",
    "sci": "Cervus hanglu hanglu",
    "group": "mammal",
-   "sketch": "deer",
    "iucn": "CR",
    "iucnYear": 2017,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "IN"
    ],
@@ -4951,10 +4963,9 @@
    "common": "Tamaraw",
    "sci": "Bubalus mindorensis",
    "group": "mammal",
-   "sketch": "buffalo",
    "iucn": "CR",
    "iucnYear": 2016,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "PH"
    ],
@@ -4994,7 +5005,6 @@
    "common": "Wild Water Buffalo",
    "sci": "Bubalus arnee",
    "group": "mammal",
-   "sketch": "buffalo",
    "iucn": "EN",
    "iucnYear": 2019,
    "trend": "dec",
@@ -5042,9 +5052,8 @@
    "common": "Banteng",
    "sci": "Bos javanicus",
    "group": "mammal",
-   "sketch": "wild-cattle",
-   "iucn": "EN",
-   "iucnYear": 2016,
+   "iucn": "CR",
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "ID",
@@ -5053,7 +5062,7 @@
     "KH",
     "MM",
     "LA",
-    "BN"
+    "VN"
    ],
    "habitat": "Open dry forest, bamboo and forest clearings across Southeast Asia and Java.",
    "note": "A wild ox with a white rump patch and white stockings; bulls are blue-black, cows chestnut. Numbers have fallen by more than 80% and it is now gone from most of Indochina, brought down mainly by snaring rather than habitat loss.",
@@ -5090,7 +5099,6 @@
    "common": "Malayan Tapir",
    "sci": "Tapirus indicus",
    "group": "mammal",
-   "sketch": "tapir",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -5135,7 +5143,6 @@
    "common": "Dhole",
    "sci": "Cuon alpinus",
    "group": "mammal",
-   "sketch": "dhole",
    "iucn": "EN",
    "iucnYear": 2015,
    "trend": "dec",
@@ -5146,12 +5153,10 @@
     "CN",
     "TH",
     "LA",
-    "VN",
     "KH",
     "MM",
     "ID",
     "MY",
-    "RU",
     "BD"
    ],
    "habitat": "Dry and moist deciduous forest, alpine steppe and rainforest, from India to Java.",
@@ -5186,7 +5191,6 @@
    "common": "Red Panda",
    "sci": "Ailurus fulgens",
    "group": "mammal",
-   "sketch": "red-panda",
    "iucn": "EN",
    "iucnYear": 2015,
    "trend": "dec",
@@ -5232,7 +5236,6 @@
    "common": "Giant Panda",
    "sci": "Ailuropoda melanoleuca",
    "group": "mammal",
-   "sketch": "panda",
    "iucn": "VU",
    "iucnYear": 2016,
    "trend": "inc",
@@ -5240,7 +5243,7 @@
     "CN"
    ],
    "habitat": "Montane conifer forest with dense bamboo understorey in Sichuan, Shaanxi and Gansu.",
-   "note": "A bear that gave up meat for a plant it digests badly, and so must eat for fourteen hours a day. China's reserve network and reforestation lifted the wild population past 1,800 and earned a downlisting from Endangered in 2016 — the most-cited proof that sustained state investment works.",
+   "note": "A bear that gave up meat for a plant it digests badly, and so must eat for fourteen hours a day. China's reserve network and reforestation lifted the wild population past 1,800 and earned a downlisting from Endangered in 2016 — the most-cited example of what sustained state investment can do.",
    "threats": [
     "Fragmentation of bamboo forest by roads and settlement",
     "Periodic mass die-back of bamboo",
@@ -5275,9 +5278,8 @@
    "common": "Gobi Bear",
    "sci": "Ursus arctos gobiensis",
    "group": "mammal",
-   "sketch": "bear",
    "iucn": "CR",
-   "iucnYear": 2017,
+   "iucnYear": null,
    "trend": "stable",
    "countries": [
     "MN"
@@ -5296,6 +5298,7 @@
     "mbz-fund"
    ],
    "sources": [
+    "mongolian-red-list-mammals-2006",
     "iucn-redlist",
     "iucn-ssc-bear"
    ],
@@ -5308,14 +5311,22 @@
     "basis": "Mongolian Gobi Bear Project DNA hair-snare census",
     "label": null
    },
-   "endemic": "MN"
+   "endemic": "MN",
+   "statusSource": {
+    "scheme": "Mongolian Red List of Mammals",
+    "status": "Critically Endangered",
+    "source": "mongolian-red-list-mammals-2006",
+    "text": "Listed as Critically Endangered in the Mongolian Red List of Mammals (2006) under criterion D, fewer than 50 mature individuals.",
+    "iucnNote": "the IUCN Red List assesses the brown bear as a whole, as Least Concern",
+    "url": "https://www.nationalredlist.org/publications/nrld-12",
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "chinese-pangolin",
    "common": "Chinese Pangolin",
    "sci": "Manis pentadactyla",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
@@ -5364,7 +5375,6 @@
    "common": "Sunda Pangolin",
    "sci": "Manis javanica",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
@@ -5411,7 +5421,6 @@
    "common": "Indian Pangolin",
    "sci": "Manis crassicaudata",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "EN",
    "iucnYear": 2019,
    "trend": "dec",
@@ -5455,7 +5464,6 @@
    "common": "Philippine Pangolin",
    "sci": "Manis culionensis",
    "group": "mammal",
-   "sketch": "pangolin",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
@@ -5495,10 +5503,9 @@
    "common": "Yangtze Finless Porpoise",
    "sci": "Neophocaena asiaeorientalis asiaeorientalis",
    "group": "mammal",
-   "sketch": "porpoise",
    "iucn": "CR",
-   "iucnYear": 2012,
-   "trend": "inc",
+   "iucnYear": 2013,
+   "trend": "dec",
    "countries": [
     "CN"
    ],
@@ -5539,7 +5546,6 @@
    "common": "Irrawaddy Dolphin",
    "sci": "Orcaella brevirostris",
    "group": "mammal",
-   "sketch": "dolphin",
    "iucn": "EN",
    "iucnYear": 2017,
    "trend": "dec",
@@ -5554,7 +5560,8 @@
     "IN",
     "BD",
     "PH",
-    "BN"
+    "BN",
+    "SG"
    ],
    "habitat": "Coastal brackish water, estuaries and three great rivers — the Mekong, Mahakam and Ayeyarwady.",
    "note": "Round-headed, with no beak and a permanently amiable expression. In Myanmar, dolphins and fishermen have cooperated for generations: the dolphins herd fish into the nets and take their share. The Mekong subpopulation is down to about ninety animals.",
@@ -5593,17 +5600,16 @@
    "common": "Ganges River Dolphin",
    "sci": "Platanista gangetica",
    "group": "mammal",
-   "sketch": "river-dolphin",
    "iucn": "EN",
-   "iucnYear": 2021,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "IN",
     "BD",
     "NP"
    ],
-   "habitat": "The Ganges, Brahmaputra, Meghna and Karnaphuli-Sangu river systems.",
-   "note": "Functionally blind — it has no lens — and swims on its side, trailing one flipper along the riverbed and navigating entirely by sonar. India's first nationwide survey, published in 2024, counted 6,327 animals and gave the species its first real baseline.",
+   "habitat": "Rivers of the Ganges–Brahmaputra–Meghna basin and the Karnaphuli–Sangu system, in India, Nepal and Bangladesh.",
+   "note": "Functionally blind — it has no lens — and swims on its side, trailing one flipper along the riverbed and navigating entirely by sonar. India's first nationwide survey, published in 2025, counted 6,324 of them and gave the species its first real baseline.",
    "threats": [
     "Entanglement in gillnets",
     "Dams and barrages fragmenting the river",
@@ -5621,13 +5627,13 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 6327,
-    "low": 6000,
-    "high": 6700,
+    "est": 6324,
+    "low": null,
+    "high": null,
     "unit": "individuals",
-    "asOf": "2024",
+    "asOf": "2025",
     "basis": "Government of India first national river dolphin survey, Wildlife Institute of India",
-    "label": null
+    "label": "The survey counted 6,327 river dolphins across the Ganga basin: 6,324 Ganges river dolphins and three Indus river dolphins in the Beas."
    },
    "plateAliases": [
     "Platanista gangetica"
@@ -5638,9 +5644,8 @@
    "common": "Indus River Dolphin",
    "sci": "Platanista minor",
    "group": "mammal",
-   "sketch": "river-dolphin",
    "iucn": "EN",
-   "iucnYear": 2021,
+   "iucnYear": 2022,
    "trend": "inc",
    "countries": [
     "PK",
@@ -5682,9 +5687,8 @@
    "common": "Dugong",
    "sci": "Dugong dugon",
    "group": "mammal",
-   "sketch": "dugong",
    "iucn": "VU",
-   "iucnYear": 2015,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "AU",
@@ -5694,7 +5698,6 @@
     "TH",
     "IN",
     "LK",
-    "MM",
     "PG",
     "MZ",
     "KE",
@@ -5702,7 +5705,6 @@
     "MG",
     "AE",
     "SA",
-    "OM",
     "QA",
     "BH",
     "EG",
@@ -5713,10 +5715,22 @@
     "SB",
     "TL",
     "PW",
-    "JP"
+    "JP",
+    "BN",
+    "KH",
+    "CN",
+    "KM",
+    "DJ",
+    "JO",
+    "MU",
+    "SC",
+    "SG",
+    "SO",
+    "VN",
+    "YE"
    ],
    "habitat": "Shallow coastal seagrass meadows, from East Africa to Vanuatu.",
-   "note": "The only strictly herbivorous marine mammal, and the origin of the mermaid story. It eats seagrass whole, roots included, leaving winding furrows on the seabed. Australia holds most of the world's dugongs; several other subpopulations are down to a few dozen.",
+   "note": "The only herbivorous mammal that lives entirely at sea, and the origin of the mermaid story. It eats seagrass whole, roots included, leaving winding furrows on the seabed. Australia holds most of the world's dugongs; several other subpopulations are down to a few dozen.",
    "threats": [
     "Loss of seagrass to coastal development and runoff",
     "Gillnet and shark-net entanglement",
@@ -5753,9 +5767,8 @@
    "common": "Philippine Eagle",
    "sci": "Pithecophaga jefferyi",
    "group": "bird",
-   "sketch": "eagle",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "PH"
@@ -5779,12 +5792,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 400,
-    "low": 180,
-    "high": 500,
+    "est": null,
+    "low": 128,
+    "high": 924,
     "unit": "mature individuals",
-    "asOf": "2016",
-    "basis": "BirdLife Data Zone; Philippine Eagle Foundation nest monitoring",
+    "asOf": "2025",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "PH",
@@ -5797,7 +5810,6 @@
    "common": "Great Indian Bustard",
    "sci": "Ardeotis nigriceps",
    "group": "bird",
-   "sketch": "bustard",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -5842,7 +5854,6 @@
    "common": "Bengal Florican",
    "sci": "Houbaropsis bengalensis",
    "group": "bird",
-   "sketch": "bustard",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -5869,12 +5880,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 1000,
-    "low": 500,
-    "high": 1000,
+    "est": null,
+    "low": 250,
+    "high": 999,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "BirdLife Data Zone; Tonle Sap and Terai lek counts",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -5883,9 +5894,8 @@
    "common": "Spoon-billed Sandpiper",
    "sci": "Calidris pygmaea",
    "group": "bird",
-   "sketch": "sandpiper",
    "iucn": "CR",
-   "iucnYear": 2017,
+   "iucnYear": 2021,
    "trend": "dec",
    "countries": [
     "RU",
@@ -5894,10 +5904,9 @@
     "BD",
     "TH",
     "VN",
-    "KP",
-    "KR",
-    "JP",
-    "IN"
+    "IN",
+    "MY",
+    "LK"
    ],
    "habitat": "Breeds on coastal tundra in Chukotka; winters on intertidal mudflats from the Yellow Sea to Myanmar.",
    "note": "A wader the size of a sparrow with a bill flattened into a small spatula, which it sweeps sideways through wet mud. It flies 8,000 km each way between Arctic Russia and the Bay of Bengal, and the mudflats it depends on halfway are being reclaimed.",
@@ -5917,12 +5926,12 @@
     "eaaf"
    ],
    "pop": {
-    "est": 700,
-    "low": 490,
-    "high": 1000,
+    "est": 490,
+    "low": 240,
+    "high": 620,
     "unit": "mature individuals",
-    "asOf": "2017",
-    "basis": "BirdLife Data Zone; breeding-ground counts in Chukotka and Myanmar winter surveys",
+    "asOf": "2021",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -5934,10 +5943,9 @@
    "common": "White-rumped Vulture",
    "sci": "Gyps bengalensis",
    "group": "bird",
-   "sketch": "vulture",
    "iucn": "CR",
    "iucnYear": 2021,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "IN",
     "NP",
@@ -5945,11 +5953,10 @@
     "BD",
     "MM",
     "KH",
-    "LA",
-    "VN"
+    "BT"
    ],
    "habitat": "Open country, villages and dry forest across the Indian subcontinent and mainland Southeast Asia.",
-   "note": "In 1985 this was plausibly the most abundant large raptor on Earth. Within fifteen years, 99.9% were gone — killed by diclofenac, a veterinary painkiller given to cattle that causes renal failure in any vulture that feeds on the carcass. The drug was banned in 2006 and numbers have finally stopped falling.",
+   "note": "In 1985 this was plausibly the most abundant large raptor on Earth. Within fifteen years, 99.9% were gone — killed by diclofenac, a veterinary painkiller given to cattle that causes renal failure in any vulture that feeds on the carcass. India banned its veterinary use in 2006, and the decline has since slowed.",
    "threats": [
     "Residual veterinary diclofenac and other toxic NSAIDs in cattle carcasses",
     "Loss of nesting trees",
@@ -5966,12 +5973,12 @@
     "save-vultures"
    ],
    "pop": {
-    "est": 6000,
-    "low": 2500,
-    "high": 9999,
+    "est": null,
+    "low": 4000,
+    "high": 6000,
     "unit": "mature individuals",
     "asOf": "2021",
-    "basis": "BirdLife Data Zone; Bombay Natural History Society road-transect surveys in India",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -5983,14 +5990,12 @@
    "common": "Indian Vulture",
    "sci": "Gyps indicus",
    "group": "bird",
-   "sketch": "vulture",
    "iucn": "CR",
    "iucnYear": 2021,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "IN",
-    "PK",
-    "NP"
+    "PK"
    ],
    "habitat": "Cliffs, ruins and old buildings in the drier parts of peninsular India and Pakistan.",
    "note": "The long-billed vulture, hit by the same diclofenac collapse that took the white-rumped: a fall of more than 97% in a decade. India's captive breeding centres now hold a genetic reserve, and releases into 'vulture safe zones' have begun.",
@@ -6010,12 +6015,12 @@
     "save-vultures"
    ],
    "pop": {
-    "est": 30000,
-    "low": 20000,
-    "high": 40000,
-    "unit": "individuals",
+    "est": null,
+    "low": 5000,
+    "high": 15000,
+    "unit": "mature individuals",
     "asOf": "2021",
-    "basis": "BirdLife Data Zone; SAVE consortium road-transect monitoring",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -6024,14 +6029,11 @@
    "common": "Crested Ibis",
    "sci": "Nipponia nippon",
    "group": "bird",
-   "sketch": "ibis",
    "iucn": "EN",
    "iucnYear": 2018,
    "trend": "inc",
    "countries": [
-    "CN",
-    "JP",
-    "KR"
+    "CN"
    ],
    "habitat": "Wooded hills beside rice paddy and shallow marsh in Shaanxi, China, and reintroduction sites on Sado Island, Japan.",
    "note": "In 1981 seven birds were found in one Chinese valley — the entire species. Every crested ibis alive descends from them. Careful nest guarding, paddy management and reintroduction to Japan and Korea have taken the population past seven thousand.",
@@ -6069,21 +6071,14 @@
    "common": "Siberian Crane",
    "sci": "Leucogeranus leucogeranus",
    "group": "bird",
-   "sketch": "crane",
    "iucn": "CR",
-   "iucnYear": 2020,
-   "trend": "stable",
+   "iucnYear": 2018,
+   "trend": "dec",
    "countries": [
     "RU",
     "CN",
-    "IN",
     "IR",
-    "KZ",
-    "MN",
-    "UZ",
-    "TM",
-    "AF",
-    "PK"
+    "MN"
    ],
    "habitat": "Breeds on Arctic tundra bog in Yakutia; winters on the shallow margins of Poyang Lake, China.",
    "note": "Pure white with black primaries and a bare crimson face, and the most water-dependent of all cranes — it feeds, nests and roosts in shallow water. The western population is down to a handful of birds; almost the entire species now winters on one Chinese lake.",
@@ -6107,10 +6102,10 @@
     "est": 3750,
     "low": 3500,
     "high": 4000,
-    "unit": "mature individuals",
-    "asOf": "2020",
-    "basis": "International Crane Foundation and BirdLife; Poyang Lake winter counts",
-    "label": null
+    "unit": "individuals",
+    "asOf": "2018",
+    "basis": "IUCN Red List assessment by BirdLife International",
+    "label": "The assessment rests on a count of 3,750 at Poyang Lake in 2008 and 3,400 at Momoge in 2011."
    },
    "plateAliases": [
     "Grus leucogeranus"
@@ -6121,7 +6116,6 @@
    "common": "Red-crowned Crane",
    "sci": "Grus japonensis",
    "group": "bird",
-   "sketch": "crane",
    "iucn": "VU",
    "iucnYear": 2021,
    "trend": "dec",
@@ -6165,10 +6159,9 @@
    "common": "Bali Myna",
    "sci": "Leucopsar rothschildi",
    "group": "bird",
-   "sketch": "myna",
    "iucn": "CR",
-   "iucnYear": 2020,
-   "trend": "inc",
+   "iucnYear": 2021,
+   "trend": "dec",
    "countries": [
     "ID"
    ],
@@ -6205,9 +6198,8 @@
    "common": "Helmeted Hornbill",
    "sci": "Rhinoplax vigil",
    "group": "bird",
-   "sketch": "hornbill",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "ID",
@@ -6248,9 +6240,8 @@
    "common": "Baer's Pochard",
    "sci": "Aythya baeri",
    "group": "bird",
-   "sketch": "duck",
    "iucn": "CR",
-   "iucnYear": 2020,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "CN",
@@ -6260,9 +6251,12 @@
     "IN",
     "TH",
     "JP",
-    "KR",
     "KP",
-    "VN"
+    "VN",
+    "MN",
+    "LA",
+    "NP",
+    "TW"
    ],
    "habitat": "Breeds on wooded lakes in the Amur basin; winters on lakes and reservoirs in eastern and southern China.",
    "note": "A diving duck with a green-glossed black head that has vanished from most of its range within a single human generation. Perhaps a few hundred remain, and the breeding grounds that once held it now have almost none.",
@@ -6282,12 +6276,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 400,
+    "est": null,
     "low": 150,
     "high": 700,
     "unit": "mature individuals",
-    "asOf": "2020",
-    "basis": "BirdLife Data Zone; coordinated Chinese winter waterbird counts",
+    "asOf": "2019",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -6299,13 +6293,13 @@
    "common": "Gharial",
    "sci": "Gavialis gangeticus",
    "group": "reptile",
-   "sketch": "gharial",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "inc",
    "countries": [
     "IN",
-    "NP"
+    "NP",
+    "BD"
    ],
    "habitat": "Deep, fast-flowing stretches of the Chambal, Girwa, Gandak and Rapti rivers with sandbanks for nesting.",
    "note": "A crocodilian with a jaw like a pair of tongs, holding more than a hundred interlocking teeth, used for catching fish and nothing else. Males grow a bulbous nasal 'ghara'. It fell to under 200 adults in the 1970s; the Chambal now holds most of the world's population.",
@@ -6344,15 +6338,14 @@
    "common": "Chinese Alligator",
    "sci": "Alligator sinensis",
    "group": "reptile",
-   "sketch": "alligator",
    "iucn": "CR",
    "iucnYear": 2018,
-   "trend": "inc",
+   "trend": "stable",
    "countries": [
     "CN"
    ],
    "habitat": "Ponds, ditches and marsh in the lower Yangtze basin of Anhui and Zhejiang — now largely in reserves.",
-   "note": "One of only two alligator species, and by far the rarer. It hibernates in burrows through cold Chinese winters. Perhaps 150 survive in the wild in fragments of farmland ditch, though captive numbers run to many thousands and releases are underway.",
+   "note": "One of only two alligator species, and by far the rarer. It hibernates in burrows through cold Chinese winters. Fewer than a hundred mature animals survive in the wild, in fragments of farmland ditch, though captive numbers run to many thousands and releases are underway.",
    "threats": [
     "Near-total conversion of its wetland habitat to rice paddy",
     "Killing as a perceived threat to fish ponds",
@@ -6369,12 +6362,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 150,
-    "low": 100,
-    "high": 200,
+    "est": null,
+    "low": 68,
+    "high": 86,
     "unit": "mature individuals",
-    "asOf": "2018",
-    "basis": "IUCN SSC Crocodile Specialist Group; Anhui reserve surveys",
+    "asOf": "2017",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "endemic": "CN",
@@ -6387,17 +6380,15 @@
    "common": "Siamese Crocodile",
    "sci": "Crocodylus siamensis",
    "group": "reptile",
-   "sketch": "crocodile",
    "iucn": "CR",
    "iucnYear": 2012,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "KH",
     "LA",
     "TH",
     "VN",
-    "ID",
-    "MM"
+    "ID"
    ],
    "habitat": "Slow-moving freshwater — marsh, oxbow lake and forest stream, chiefly in Cambodia's Cardamom Mountains.",
    "note": "Declared effectively extinct in the wild in the 1990s, then rediscovered in the Cardamoms in 2000. Fewer than a thousand mature animals remain, while hundreds of thousands of hybrids live on commercial farms — which makes finding genetically pure wild stock its own conservation problem.",
@@ -6432,10 +6423,9 @@
    "common": "Philippine Crocodile",
    "sci": "Crocodylus mindorensis",
    "group": "reptile",
-   "sketch": "crocodile",
    "iucn": "CR",
    "iucnYear": 2016,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "PH"
    ],
@@ -6472,10 +6462,9 @@
    "common": "Komodo Dragon",
    "sci": "Varanus komodoensis",
    "group": "reptile",
-   "sketch": "monitor",
    "iucn": "EN",
    "iucnYear": 2021,
-   "trend": "dec",
+   "trend": "stable",
    "countries": [
     "ID"
    ],
@@ -6515,16 +6504,14 @@
    "common": "Yangtze Giant Softshell Turtle",
    "sci": "Rafetus swinhoei",
    "group": "reptile",
-   "sketch": "softshell-turtle",
    "iucn": "CR",
    "iucnYear": 2021,
    "trend": "dec",
    "countries": [
-    "CN",
     "VN"
    ],
    "habitat": "Large lowland rivers and lakes of the lower Yangtze and the Red River basin.",
-   "note": "The largest freshwater turtle in the world and, by most counts, the rarest animal on the planet. One known male lives in a Chinese zoo; at least one animal survives in Vietnam's Dong Mo lake. The last confirmed female died in 2019 after an attempted artificial insemination.",
+   "note": "One of the largest freshwater turtles in the world and, by most counts, the rarest. Only two or three are known: a male in China's Suzhou Zoo, one animal in Xuan Khanh lake near Hanoi, and possibly another in Dong Mo lake, where the last known female was found dead in April 2023.",
    "threats": [
     "Historic hunting for meat and shell",
     "Loss of sandbank nesting sites",
@@ -6539,15 +6526,16 @@
    "sources": [
     "iucn-redlist",
     "iucn-ssc-tortoise",
-    "cites-appendices"
+    "cites-appendices",
+    "mongabay-rafetus-2025"
    ],
    "pop": {
-    "est": 2,
-    "low": 1,
+    "est": null,
+    "low": 2,
     "high": 3,
     "unit": "known individuals",
-    "asOf": "2024",
-    "basis": "Turtle Survival Alliance and Asian Turtle Program; every known animal is individually documented",
+    "asOf": "2025",
+    "basis": "Asian Turtle Program field surveys, as reported by Mongabay",
     "label": null
    },
    "plateAliases": [
@@ -6560,9 +6548,8 @@
    "common": "Chinese Giant Salamander",
    "sci": "Andrias davidianus",
    "group": "amphibian",
-   "sketch": "salamander",
    "iucn": "CR",
-   "iucnYear": 2004,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "CN"
@@ -6606,7 +6593,6 @@
    "common": "Mekong Giant Catfish",
    "sci": "Pangasianodon gigas",
    "group": "fish",
-   "sketch": "catfish",
    "iucn": "CR",
    "iucnYear": 2011,
    "trend": "dec",
@@ -6614,9 +6600,7 @@
     "TH",
     "LA",
     "KH",
-    "VN",
-    "CN",
-    "MM"
+    "VN"
    ],
    "habitat": "The main channel of the Mekong and its deep dry-season pools, from Yunnan to the Tonle Sap.",
    "note": "One of the largest freshwater fish in the world — three metres, 300 kg — and toothless as an adult, grazing algae from rocks. It migrates hundreds of kilometres upstream to spawn, which dams make impossible.",
@@ -6654,7 +6638,6 @@
    "common": "Chinese Sturgeon",
    "sci": "Acipenser sinensis",
    "group": "fish",
-   "sketch": "sturgeon",
    "iucn": "CR",
    "iucnYear": 2022,
    "trend": "dec",
@@ -6697,10 +6680,9 @@
    "common": "Amami Rabbit",
    "sci": "Pentalagus furnessi",
    "group": "mammal",
-   "sketch": "rabbit",
    "iucn": "EN",
-   "iucnYear": 2019,
-   "trend": "inc",
+   "iucnYear": 2016,
+   "trend": "dec",
    "countries": [
     "JP"
    ],
@@ -6737,7 +6719,6 @@
    "common": "Iberian Lynx",
    "sci": "Lynx pardinus",
    "group": "mammal",
-   "sketch": "lynx",
    "iucn": "VU",
    "iucnYear": 2024,
    "trend": "inc",
@@ -6746,7 +6727,7 @@
     "PT"
    ],
    "habitat": "Mediterranean scrub and open cork-oak woodland (dehesa) in Andalusia, Castilla-La Mancha and the Portuguese Guadiana.",
-   "note": "In 2002 there were 94 animals in two isolated populations and it was the most endangered cat in the world. Captive breeding, rabbit restoration and 400 km of wildlife-crossing infrastructure took it past 2,000, and in 2024 the IUCN moved it from Endangered to Vulnerable — the most successful cat recovery ever documented.",
+   "note": "In 2002 there were 94 animals in two isolated populations and it was the most endangered cat in the world. Captive breeding, rabbit restoration and 400 km of wildlife-crossing infrastructure took it past 2,000, and in 2024 the IUCN moved it from Endangered to Vulnerable — the largest recovery yet recorded for a wild cat.",
    "threats": [
     "Collapse of its almost exclusive prey, the European rabbit, from viral disease",
     "Road collisions, still the leading cause of death",
@@ -6788,7 +6769,6 @@
    "common": "European Mink",
    "sci": "Mustela lutreola",
    "group": "mammal",
-   "sketch": "mustelid",
    "iucn": "CR",
    "iucnYear": 2016,
    "trend": "dec",
@@ -6836,7 +6816,6 @@
    "common": "European Bison",
    "sci": "Bison bonasus",
    "group": "mammal",
-   "sketch": "bison",
    "iucn": "NT",
    "iucnYear": 2020,
    "trend": "inc",
@@ -6849,13 +6828,8 @@
     "SK",
     "LT",
     "DE",
-    "CZ",
     "BG",
-    "NL",
-    "ES",
-    "SI",
-    "LV",
-    "MD"
+    "LV"
    ],
    "habitat": "Mixed deciduous woodland with open glades — chiefly Białowieża, the Carpathians and reintroduction sites west of them.",
    "note": "Europe's largest land mammal, extinct in the wild by 1927. Every animal alive descends from twelve captive founders. Reintroduction from studbook stock has taken it past 6,800 free-ranging animals and earned a downlisting from Vulnerable to Near Threatened in 2020.",
@@ -6894,7 +6868,6 @@
    "common": "Saimaa Ringed Seal",
    "sci": "Pusa hispida saimensis",
    "group": "mammal",
-   "sketch": "seal",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "inc",
@@ -6902,7 +6875,7 @@
     "FI"
    ],
    "habitat": "Lake Saimaa in south-eastern Finland — a single freshwater lake, and nowhere else on Earth.",
-   "note": "Cut off from the sea when the land rose after the last ice age, it has been landlocked for about 9,500 years. It pups in snowdrifts against the lakeshore, so mild winters are an existential problem: volunteers now shovel artificial drifts each February.",
+   "note": "Stranded when the land lifted after the ice sheets melted, it has been landlocked for about 9,500 years. It pups in snowdrifts against the lakeshore, so mild winters are an existential problem: volunteers now shovel artificial drifts each February.",
    "threats": [
     "Warm winters leaving too little snow for birth lairs",
     "Drowning in gillnets, especially of pups",
@@ -6938,7 +6911,6 @@
    "common": "European Hamster",
    "sci": "Cricetus cricetus",
    "group": "mammal",
-   "sketch": "hamster",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -6957,7 +6929,11 @@
     "BY",
     "BG",
     "MD",
-    "AT"
+    "AT",
+    "KZ",
+    "RS",
+    "SI",
+    "CH"
    ],
    "habitat": "Deep loess and loam soils under cereal fields and steppe grassland across central and eastern Europe.",
    "note": "Within living memory this was an agricultural pest trapped by the million for its fur. It is now Critically Endangered — litter sizes have fallen from around twenty young a year to five or six, and no one is entirely sure why. Monoculture, light pollution and diet are all implicated.",
@@ -6992,18 +6968,16 @@
    "common": "Balkan Lynx",
    "sci": "Lynx lynx balcanicus",
    "group": "mammal",
-   "sketch": "lynx",
    "iucn": "CR",
    "iucnYear": 2015,
    "trend": "stable",
    "countries": [
     "MK",
     "AL",
-    "XK",
-    "ME"
+    "XK"
    ],
    "habitat": "Rugged montane forest of the Mavrovo, Munella and Shebenik ranges in the western Balkans.",
-   "note": "The most threatened lynx population in Europe, and possibly a distinct subspecies. Around forty animals remain across the Albanian-Macedonian border. Every known breeding female is camera-trapped and tracked.",
+   "note": "The most threatened lynx population in Europe, and possibly a distinct subspecies. Its 2015 assessment estimated fewer than forty mature animals, in the mountains where Albania, North Macedonia and Kosovo meet.",
    "threats": [
     "Poaching and prey depletion",
     "Hydropower development inside core habitat",
@@ -7021,12 +6995,12 @@
     "eu-red-list"
    ],
    "pop": {
-    "est": 40,
-    "low": 27,
-    "high": 61,
+    "est": null,
+    "low": 20,
+    "high": 39,
     "unit": "mature individuals",
-    "asOf": "2020",
-    "basis": "Balkan Lynx Recovery Programme camera-trap monitoring",
+    "asOf": "2015",
+    "basis": "IUCN Red List assessment",
     "label": null
    }
   },
@@ -7035,9 +7009,8 @@
    "common": "Iberian Desman",
    "sci": "Galemys pyrenaicus",
    "group": "mammal",
-   "sketch": "desman",
-   "iucn": "VU",
-   "iucnYear": 2021,
+   "iucn": "EN",
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "ES",
@@ -7078,9 +7051,8 @@
    "common": "Marsican Brown Bear",
    "sci": "Ursus arctos marsicanus",
    "group": "mammal",
-   "sketch": "bear",
    "iucn": "CR",
-   "iucnYear": 2019,
+   "iucnYear": null,
    "trend": "stable",
    "countries": [
     "IT"
@@ -7099,6 +7071,7 @@
     "frankfurt-zoological"
    ],
    "sources": [
+    "italian-red-list-vertebrates",
     "iucn-redlist",
     "eu-red-list",
     "habitats-directive"
@@ -7112,21 +7085,28 @@
     "basis": "Parco Nazionale d'Abruzzo genetic and camera-trap monitoring",
     "label": null
    },
-   "endemic": "IT"
+   "endemic": "IT",
+   "statusSource": {
+    "scheme": "Italian Red List of vertebrates",
+    "status": "Critically Endangered",
+    "source": "italian-red-list-vertebrates",
+    "text": "Listed as Critically Endangered in the Italian Red List of vertebrates compiled by IUCN's Italian Committee.",
+    "iucnNote": "the IUCN Red List assesses the brown bear as a whole, as Least Concern",
+    "url": "https://www.iucn.it/scheda.php?id=539974414",
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "spanish-imperial-eagle",
    "common": "Spanish Imperial Eagle",
    "sci": "Aquila adalberti",
    "group": "bird",
-   "sketch": "eagle",
    "iucn": "VU",
    "iucnYear": 2021,
    "trend": "inc",
    "countries": [
     "ES",
-    "PT",
-    "MA"
+    "PT"
    ],
    "habitat": "Cork-oak and holm-oak dehesa and Mediterranean scrub of central and southern Iberia.",
    "note": "Dark brown with brilliant white shoulder flashes, and dependent on rabbits in the same way the Iberian lynx is. Reduced to about 50 pairs in the 1960s, it has recovered past 800 breeding pairs through nest guarding, supplementary feeding and the retro-fitting of thousands of power pylons.",
@@ -7161,7 +7141,6 @@
    "common": "Bearded Vulture",
    "sci": "Gypaetus barbatus",
    "group": "bird",
-   "sketch": "vulture",
    "iucn": "NT",
    "iucnYear": 2021,
    "trend": "dec",
@@ -7173,8 +7152,6 @@
     "AT",
     "GR",
     "TR",
-    "BG",
-    "ME",
     "MA",
     "ET",
     "ZA",
@@ -7187,7 +7164,26 @@
     "KG",
     "GE",
     "AM",
-    "AZ"
+    "AZ",
+    "AF",
+    "AD",
+    "BT",
+    "EG",
+    "ER",
+    "IR",
+    "IQ",
+    "KZ",
+    "KE",
+    "MN",
+    "RU",
+    "SD",
+    "TZ",
+    "TM",
+    "UG",
+    "UZ",
+    "YE",
+    "DZ",
+    "DJ"
    ],
    "habitat": "High mountain cliffs and alpine pasture, from the Pyrenees to the Himalaya and the Drakensberg.",
    "note": "The only vertebrate whose diet is mostly bone. It drops large ones from height onto rock slabs to shatter them, and its stomach acid dissolves the fragments. It bathes in iron-rich mud to stain its white breast rust-orange, apparently as a signal of status.",
@@ -7209,12 +7205,12 @@
    ],
    "pop": {
     "est": null,
-    "low": null,
-    "high": null,
+    "low": 1675,
+    "high": 6700,
     "unit": "mature individuals",
-    "asOf": null,
-    "basis": null,
-    "label": "Global total around 1,300-6,700 mature birds; the reintroduced Alpine population has passed 300 and is the clearest success."
+    "asOf": "2021",
+    "basis": "IUCN Red List assessment by BirdLife International",
+    "label": null
    }
   },
   {
@@ -7222,7 +7218,6 @@
    "common": "Balearic Shearwater",
    "sci": "Puffinus mauretanicus",
    "group": "bird",
-   "sketch": "shearwater",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -7232,10 +7227,12 @@
     "PT",
     "GB",
     "IE",
-    "MA"
+    "MA",
+    "IT",
+    "DZ"
    ],
    "habitat": "Breeds only on cliffs and islets of the Balearic Islands; disperses into the Bay of Biscay after breeding.",
-   "note": "Europe's most endangered seabird. Around 3,200 mature birds remain, and modelling suggests a mean time to extinction of decades rather than centuries unless bycatch and rat predation are stopped.",
+   "note": "Europe's most endangered seabird. It breeds only in the Balearic Islands, and modelling suggests a mean time to extinction of decades rather than centuries unless bycatch and rat predation are stopped.",
    "threats": [
     "Bycatch on longlines and in trawls",
     "Rats and cats at breeding colonies",
@@ -7253,12 +7250,12 @@
     "eu-red-list"
    ],
    "pop": {
-    "est": 3200,
-    "low": 3000,
-    "high": 3500,
+    "est": 19000,
+    "low": 19000,
+    "high": 19000,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "BirdLife Data Zone; Balearic colony counts and at-sea surveys",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -7267,7 +7264,6 @@
    "common": "Zino's Petrel",
    "sci": "Pterodroma madeira",
    "group": "bird",
-   "sketch": "petrel",
    "iucn": "EN",
    "iucnYear": 2018,
    "trend": "stable",
@@ -7275,7 +7271,7 @@
     "PT"
    ],
    "habitat": "Six high ledges in the central massif of Madeira, above 1,600 m — the entire breeding range.",
-   "note": "Europe's rarest breeding seabird, known only from bones until a colony was found in 1969. Around 160 to 200 birds nest in burrows on ledges reachable by rope. A 2010 wildfire killed two-thirds of that year's chicks.",
+   "note": "Europe's rarest breeding seabird, known only from bones until a colony was found in 1969. Around 160 mature birds nest in burrows on ledges reachable only by rope. A 2010 wildfire killed two-thirds of that year's chicks.",
    "threats": [
     "Predation by introduced rats and cats",
     "Wildfire on the breeding ledges",
@@ -7293,12 +7289,12 @@
     "eu-red-list"
    ],
    "pop": {
-    "est": 180,
+    "est": 160,
     "low": 160,
-    "high": 200,
+    "high": 160,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "Freira Conservation Project annual burrow monitoring, Madeira",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "PT"
@@ -7308,9 +7304,8 @@
    "common": "Great Bustard",
    "sci": "Otis tarda",
    "group": "bird",
-   "sketch": "bustard",
-   "iucn": "VU",
-   "iucnYear": 2017,
+   "iucn": "EN",
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "ES",
@@ -7326,11 +7321,14 @@
     "MA",
     "RS",
     "RO",
-    "BG",
     "SK",
     "IR",
     "KZ",
-    "GB"
+    "CZ",
+    "KG",
+    "TM",
+    "UZ",
+    "IQ"
    ],
    "habitat": "Open steppe, cereal plain and fallow grassland across Iberia, Central Europe and the Asian steppe.",
    "note": "The heaviest bird capable of flight — big males exceed 16 kg. In spring they invert their plumage into a mass of white feathers and vibrate, a display visible across kilometres of flat ground. Iberia holds about 70% of the world's population.",
@@ -7351,12 +7349,12 @@
     "eu-red-list"
    ],
    "pop": {
-    "est": 32000,
-    "low": 29800,
+    "est": null,
+    "low": 29600,
     "high": 33000,
-    "unit": "individuals",
-    "asOf": "2017",
-    "basis": "BirdLife Data Zone; Spanish national census plus range-state estimates",
+    "unit": "mature individuals",
+    "asOf": "2023",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -7368,24 +7366,22 @@
    "common": "Aquatic Warbler",
    "sci": "Acrocephalus paludicola",
    "group": "bird",
-   "sketch": "warbler",
    "iucn": "VU",
-   "iucnYear": 2017,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "BY",
     "UA",
     "PL",
     "LT",
-    "HU",
     "DE",
     "SN",
-    "ML",
-    "MR",
-    "RU"
+    "LV",
+    "GH",
+    "HR"
    ],
    "habitat": "Open sedge fen — shallow, permanently wet, unwooded mire; winters in West African floodplains.",
-   "note": "Europe's rarest migratory songbird, and one tied to a habitat that has been drained almost everywhere. Belarus and Ukraine hold most of what is left. Males sing from sedge tussocks and take no part in raising the young.",
+   "note": "The only globally threatened migratory songbird in mainland Europe, tied to fen mire that has been drained almost everywhere. Belarus and Ukraine hold most of what is left. Males sing from sedge tussocks and take no part in raising the young.",
    "threats": [
     "Drainage of sedge fen for peat and agriculture",
     "Succession to scrub where mowing has stopped",
@@ -7402,12 +7398,12 @@
     "eu-red-list"
    ],
    "pop": {
-    "est": 13000,
-    "low": 11000,
-    "high": 16000,
-    "unit": "singing males",
-    "asOf": "2017",
-    "basis": "BirdLife Data Zone; coordinated counts across Belarusian, Ukrainian and Polish fens",
+    "est": null,
+    "low": 18000,
+    "high": 29000,
+    "unit": "mature individuals",
+    "asOf": "2022",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -7416,10 +7412,9 @@
    "common": "Azores Bullfinch",
    "sci": "Pyrrhula murina",
    "group": "bird",
-   "sketch": "finch",
-   "iucn": "EN",
+   "iucn": "VU",
    "iucnYear": 2021,
-   "trend": "inc",
+   "trend": "stable",
    "countries": [
     "PT"
    ],
@@ -7456,7 +7451,6 @@
    "common": "European Eel",
    "sci": "Anguilla anguilla",
    "group": "fish",
-   "sketch": "eel",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -7489,7 +7483,30 @@
     "LT",
     "AL",
     "ME",
-    "SI"
+    "SI",
+    "DZ",
+    "AT",
+    "BY",
+    "BA",
+    "CY",
+    "CZ",
+    "GE",
+    "HU",
+    "IS",
+    "IL",
+    "LB",
+    "LY",
+    "LU",
+    "MT",
+    "MR",
+    "MD",
+    "MC",
+    "MK",
+    "RU",
+    "RS",
+    "SK",
+    "CH",
+    "SY"
    ],
    "habitat": "Rivers, lakes and estuaries across Europe and North Africa; spawns, so far as anyone knows, in the Sargasso Sea.",
    "note": "Every European eel is born in the middle of the Atlantic, drifts for a year or more as a transparent leaf, enters fresh water as a glass eel, lives up to twenty years, then swims 5,000 km back to spawn and die. Recruitment of young eels is down more than 90% since the 1980s.",
@@ -7529,7 +7546,6 @@
    "common": "Beluga Sturgeon",
    "sci": "Huso huso",
    "group": "fish",
-   "sketch": "sturgeon",
    "iucn": "CR",
    "iucnYear": 2022,
    "trend": "dec",
@@ -7537,21 +7553,20 @@
     "RU",
     "RO",
     "BG",
-    "UA",
     "TR",
     "AZ",
     "KZ",
     "IR",
     "RS",
     "GE",
-    "TM"
+    "MD"
    ],
    "habitat": "The Caspian and Black Seas, spawning far up the Volga, Ural and Danube.",
-   "note": "The largest freshwater fish in the world — historical records describe animals over seven metres and a tonne — and the source of beluga caviar. Females do not spawn until fifteen or twenty years old, which is why a fishery can empty a river before anyone notices.",
+   "note": "Among the largest bony fish ever recorded — historical records describe animals over seven metres and a tonne — and the source of beluga caviar. Females do not spawn until fifteen or twenty years old, which is why a fishery can empty a river before anyone notices.",
    "threats": [
     "Overfishing for caviar, legal and illegal",
     "Dams blocking every major spawning river",
-    "Pollution of the Caspian and Black Sea basins",
+    "Pollution in the Caspian and Black Sea catchments",
     "Extremely late maturity"
    ],
    "orgs": [
@@ -7583,13 +7598,11 @@
    "common": "Angelshark",
    "sci": "Squatina squatina",
    "group": "fish",
-   "sketch": "angelshark",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "ES",
-    "PT",
     "FR",
     "GB",
     "IE",
@@ -7597,12 +7610,13 @@
     "GR",
     "HR",
     "TR",
-    "MA",
-    "TN",
     "DZ",
     "MT",
     "CY",
-    "LY"
+    "LY",
+    "DK",
+    "IL",
+    "SI"
    ],
    "habitat": "Sandy and muddy seabed from the shallows to 150 m; once common across the whole north-east Atlantic and Mediterranean.",
    "note": "A flattened, ambush-hunting shark that buries itself in sand and waits. Once abundant enough to be a nuisance in trawl nets, it has been eliminated from most of its range. The Canary Islands are now its global stronghold.",
@@ -7642,9 +7656,8 @@
    "common": "Freshwater Pearl Mussel",
    "sci": "Margaritifera margaritifera",
    "group": "invertebrate",
-   "sketch": "mussel",
    "iucn": "EN",
-   "iucnYear": 2011,
+   "iucnYear": 2017,
    "trend": "dec",
    "countries": [
     "GB",
@@ -7662,9 +7675,12 @@
     "EE",
     "LV",
     "LT",
-    "PL",
-    "BY",
-    "LU"
+    "LU",
+    "BE",
+    "CA",
+    "DK",
+    "SK",
+    "US"
    ],
    "habitat": "Clean, cool, fast-flowing rivers with stable gravel beds and a healthy salmon or trout population.",
    "note": "It can live for more than 130 years, and its larvae must spend months attached to the gills of a salmon or trout to survive. Many European rivers now hold only elderly mussels — populations that look present but have not reproduced in decades.",
@@ -7699,7 +7715,6 @@
    "common": "Montseny Brook Newt",
    "sci": "Calotriton arnoldi",
    "group": "amphibian",
-   "sketch": "newt",
    "iucn": "CR",
    "iucnYear": 2022,
    "trend": "dec",
@@ -7740,15 +7755,13 @@
    "common": "Olm",
    "sci": "Proteus anguinus",
    "group": "amphibian",
-   "sketch": "olm",
    "iucn": "VU",
-   "iucnYear": 2009,
+   "iucnYear": 2024,
    "trend": "dec",
    "countries": [
     "SI",
     "HR",
-    "BA",
-    "IT"
+    "BA"
    ],
    "habitat": "Flooded limestone cave systems of the Dinaric karst, in total darkness.",
    "note": "A blind, unpigmented salamander that never leaves the larval form, can live over a century, and has been recorded going ten years without food. Slovenian villagers once believed they were baby dragons washed out of the rock by floods.",
@@ -7788,9 +7801,8 @@
    "common": "Emperor Penguin",
    "sci": "Aptenodytes forsteri",
    "group": "bird",
-   "sketch": "emperor-penguin",
    "iucn": "NT",
-   "iucnYear": 2018,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "AQ"
@@ -7830,12 +7842,17 @@
    "common": "Antarctic Blue Whale",
    "sci": "Balaenoptera musculus intermedia",
    "group": "mammal",
-   "sketch": "whale",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "inc",
    "countries": [
-    "AQ"
+    "AQ",
+    "AU",
+    "CL",
+    "FK",
+    "AO",
+    "NA",
+    "ZA"
    ],
    "habitat": "Open Southern Ocean, feeding along the Antarctic convergence in summer.",
    "note": "The largest animal that has ever lived — up to 33 m and 190 tonnes. Whaling removed roughly 99.7% of them: from about 239,000 before exploitation to a few hundred by 1973. Numbers are rising, but from a base so low that the subspecies remains Critically Endangered.",
@@ -7874,12 +7891,10 @@
    "common": "Sei Whale",
    "sci": "Balaenoptera borealis",
    "group": "mammal",
-   "sketch": "whale",
    "iucn": "EN",
    "iucnYear": 2018,
    "trend": "inc",
    "countries": [
-    "AQ",
     "IS",
     "NO",
     "CL",
@@ -7890,7 +7905,30 @@
     "JP",
     "US",
     "PT",
-    "ES"
+    "ES",
+    "AO",
+    "BS",
+    "BR",
+    "CV",
+    "CA",
+    "DO",
+    "FK",
+    "GL",
+    "GU",
+    "IE",
+    "KP",
+    "KR",
+    "MG",
+    "MR",
+    "MX",
+    "MA",
+    "NA",
+    "PE",
+    "RU",
+    "RE",
+    "GB",
+    "UY",
+    "ID"
    ],
    "habitat": "Deep open ocean in all major basins, moving to polar feeding grounds in summer.",
    "note": "The third-largest whale and the fastest — it can hold 50 km/h in short bursts. Whalers turned to it after blue and fin whales were exhausted, taking more than 300,000 in the Southern Hemisphere alone during the twentieth century.",
@@ -7929,7 +7967,6 @@
    "common": "Fin Whale",
    "sci": "Balaenoptera physalus",
    "group": "mammal",
-   "sketch": "whale",
    "iucn": "VU",
    "iucnYear": 2018,
    "trend": "inc",
@@ -7953,7 +7990,50 @@
     "MX",
     "IE",
     "GB",
-    "FR"
+    "FR",
+    "DZ",
+    "AO",
+    "BE",
+    "BR",
+    "CV",
+    "CN",
+    "HR",
+    "CY",
+    "DK",
+    "EC",
+    "EG",
+    "FK",
+    "FJ",
+    "DE",
+    "IL",
+    "KP",
+    "KR",
+    "LB",
+    "LY",
+    "MG",
+    "MT",
+    "MU",
+    "MC",
+    "MA",
+    "MZ",
+    "NA",
+    "NL",
+    "NC",
+    "PE",
+    "RU",
+    "RE",
+    "SA",
+    "SC",
+    "SI",
+    "SE",
+    "SY",
+    "TN",
+    "TR",
+    "CG",
+    "CD",
+    "GA",
+    "MY",
+    "PH"
    ],
    "habitat": "Deep water in every ocean; the Mediterranean holds a resident subpopulation of its own.",
    "note": "The second-largest animal on Earth, asymmetrically coloured — white on the right side of the jaw, dark on the left — which is thought to help it herd fish while circling. Its 20 Hz pulses carry for hundreds of kilometres.",
@@ -7993,7 +8073,6 @@
    "common": "Wandering Albatross",
    "sci": "Diomedea exulans",
    "group": "bird",
-   "sketch": "albatross",
    "iucn": "VU",
    "iucnYear": 2018,
    "trend": "dec",
@@ -8007,7 +8086,9 @@
     "UY",
     "BR",
     "NA",
-    "FK"
+    "FK",
+    "MG",
+    "MZ"
    ],
    "habitat": "The open Southern Ocean; breeds on subantarctic islands including South Georgia, Crozet and Macquarie.",
    "note": "The largest wingspan of any living bird, up to 3.5 m, and a body built to travel — it can circle Antarctica in 46 days and glide for hours without a wingbeat. Pairs bond for life and raise one chick every two years.",
@@ -8029,11 +8110,11 @@
    ],
    "pop": {
     "est": 20100,
-    "low": 19000,
-    "high": 21000,
+    "low": 20100,
+    "high": 20100,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "BirdLife Data Zone; colony counts at South Georgia, Crozet, Kerguelen and Macquarie",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -8045,7 +8126,6 @@
    "common": "Macaroni Penguin",
    "sci": "Eudyptes chrysolophus",
    "group": "bird",
-   "sketch": "crested-penguin",
    "iucn": "VU",
    "iucnYear": 2020,
    "trend": "dec",
@@ -8054,9 +8134,7 @@
     "ZA",
     "CL",
     "AR",
-    "AU",
-    "FK",
-    "NZ"
+    "FK"
    ],
    "habitat": "Subantarctic islands and the Antarctic Peninsula; forages far offshore for krill and lanternfish.",
    "note": "The most numerous penguin in the world and still Vulnerable — its population has fallen by more than half since the 1970s. Named by 18th-century sailors after the flamboyant 'macaroni' fashion for its drooping orange crest.",
@@ -8076,13 +8154,13 @@
     "ccamlr"
    ],
    "pop": {
-    "est": 6300000,
-    "low": 5400000,
-    "high": 6600000,
+    "est": 12600000,
+    "low": null,
+    "high": null,
     "unit": "mature individuals",
     "asOf": "2020",
-    "basis": "BirdLife Data Zone; colony counts across the subantarctic",
-    "label": null
+    "basis": "IUCN Red List assessment by BirdLife International",
+    "label": "The assessment counts about 6.3 million breeding pairs in some 258 colonies."
    }
   },
   {
@@ -8090,7 +8168,6 @@
    "common": "Southern Rockhopper Penguin",
    "sci": "Eudyptes chrysocome",
    "group": "bird",
-   "sketch": "crested-penguin",
    "iucn": "VU",
    "iucnYear": 2020,
    "trend": "dec",
@@ -8122,11 +8199,11 @@
    ],
    "pop": {
     "est": 2500000,
-    "low": 2000000,
-    "high": 3000000,
+    "low": 2500000,
+    "high": 2500000,
     "unit": "mature individuals",
     "asOf": "2020",
-    "basis": "BirdLife Data Zone; Falkland Islands and Chilean colony censuses",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -8135,9 +8212,8 @@
    "common": "Vaquita",
    "sci": "Phocoena sinus",
    "group": "mammal",
-   "sketch": "porpoise",
    "iucn": "CR",
-   "iucnYear": 2017,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "MX"
@@ -8186,13 +8262,18 @@
    "common": "North Atlantic Right Whale",
    "sci": "Eubalaena glacialis",
    "group": "mammal",
-   "sketch": "right-whale",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "US",
-    "CA"
+    "CA",
+    "GL",
+    "IS",
+    "NO",
+    "PT",
+    "ES",
+    "GB"
    ],
    "habitat": "Coastal and shelf waters from Florida's calving grounds to the Gulf of St Lawrence.",
    "note": "Named because whalers considered it the 'right' whale to kill: slow, coastal, and it floats when dead. Around 370 remain, every one individually known from the callosity pattern on its head. No calf has been born to most females in years, because entanglement injuries suppress reproduction.",
@@ -8243,7 +8324,6 @@
    "common": "Rice's Whale",
    "sci": "Balaenoptera ricei",
    "group": "mammal",
-   "sketch": "whale",
    "iucn": "CR",
    "iucnYear": 2022,
    "trend": "dec",
@@ -8291,7 +8371,6 @@
    "common": "California Condor",
    "sci": "Gymnogyps californianus",
    "group": "bird",
-   "sketch": "condor",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "inc",
@@ -8348,14 +8427,12 @@
    "common": "Whooping Crane",
    "sci": "Grus americana",
    "group": "bird",
-   "sketch": "crane",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "inc",
    "countries": [
     "US",
-    "CA",
-    "MX"
+    "CA"
    ],
    "habitat": "Breeds in the muskeg of Wood Buffalo National Park, Canada; winters on the Texas coast at Aransas.",
    "note": "North America's tallest bird at over 1.5 m. It fell to fifteen birds in 1941 — a single flock. The wild Aransas-Wood Buffalo population is now over 500, still using the same 4,000 km migration route their ancestors flew, learned by each generation from the last.",
@@ -8405,7 +8482,6 @@
    "common": "Red Wolf",
    "sci": "Canis rufus",
    "group": "mammal",
-   "sketch": "wolf",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -8413,7 +8489,7 @@
     "US"
    ],
    "habitat": "Pine savanna, farmland and coastal marsh of the Albemarle Peninsula, eastern North Carolina.",
-   "note": "Declared extinct in the wild in 1980; fourteen animals were captured to found a breeding programme and released back in 1987. The wild population peaked near 130 and has since fallen to under two dozen. Most known deaths are gunshots.",
+   "note": "Pronounced extinct in the wild in 1980; fourteen animals were captured to found a breeding programme and released back in 1987. The wild population peaked near 130 and has since fallen to under two dozen. Most known deaths are gunshots.",
    "threats": [
     "Gunshot mortality, the leading known cause of death",
     "Hybridisation with coyotes",
@@ -8457,9 +8533,8 @@
    "common": "Mexican Wolf",
    "sci": "Canis lupus baileyi",
    "group": "mammal",
-   "sketch": "wolf",
    "iucn": "EN",
-   "iucnYear": 2018,
+   "iucnYear": null,
    "trend": "inc",
    "countries": [
     "US",
@@ -8503,6 +8578,15 @@
      "scheme": "NOM-059-SEMARNAT",
      "status": "En peligro de extinción"
     }
+   },
+   "statusSource": {
+    "scheme": "US Endangered Species Act",
+    "status": "Endangered",
+    "source": "usfws-ecos",
+    "text": "Listed as Endangered under the US Endangered Species Act.",
+    "iucnNote": "the IUCN Red List assesses the grey wolf as a whole",
+    "url": "https://www.fws.gov/species/mexican-wolf-canis-lupus-baileyi",
+    "checked": "2026-09-24"
    }
   },
   {
@@ -8510,14 +8594,11 @@
    "common": "Black-footed Ferret",
    "sci": "Mustela nigripes",
    "group": "mammal",
-   "sketch": "ferret",
    "iucn": "EN",
    "iucnYear": 2015,
-   "trend": "inc",
+   "trend": "dec",
    "countries": [
-    "US",
-    "MX",
-    "CA"
+    "US"
    ],
    "habitat": "Shortgrass and mixed-grass prairie, entirely dependent on prairie dog colonies for food and burrows.",
    "note": "Declared extinct twice. In 1981 a ranch dog in Wyoming brought a dead one home, leading to the discovery of the last colony; eighteen animals were taken in and seven bred. North America's most endangered mammal now numbers around 300 in the wild, all requiring plague vaccination.",
@@ -8562,9 +8643,8 @@
    "common": "Florida Panther",
    "sci": "Puma concolor coryi",
    "group": "mammal",
-   "sketch": "puma",
    "iucn": "EN",
-   "iucnYear": 2015,
+   "iucnYear": null,
    "trend": "stable",
    "countries": [
     "US"
@@ -8606,22 +8686,30 @@
    },
    "plateAliases": [
     "Felis concolor"
-   ]
+   ],
+   "statusSource": {
+    "scheme": "US Endangered Species Act",
+    "status": "Endangered",
+    "source": "usfws-ecos",
+    "text": "Listed as Endangered under the US Endangered Species Act since 1967.",
+    "iucnNote": "the IUCN Red List assesses the puma as a whole, as Least Concern",
+    "url": "https://www.fws.gov/species/florida-panther-puma-concolor-coryi",
+    "checked": "2026-09-24"
+   }
   },
   {
    "id": "hawaiian-monk-seal",
    "common": "Hawaiian Monk Seal",
    "sci": "Neomonachus schauinslandi",
    "group": "mammal",
-   "sketch": "seal",
-   "iucn": "EN",
-   "iucnYear": 2015,
+   "iucn": "VU",
+   "iucnYear": 2025,
    "trend": "inc",
    "countries": [
     "US"
    ],
    "habitat": "Beaches, atolls and shallow reefs of the Northwestern Hawaiian Islands, plus a growing group in the main islands.",
-   "note": "One of the most endangered seals on Earth and one of only two tropical seal species left — the third, the Caribbean monk seal, was declared extinct in 2008. Around 1,600 remain, and the population has grown slowly for over a decade.",
+   "note": "One of the rarest seals on Earth and one of only two tropical seal species left — the third, the Caribbean monk seal, was declared extinct in 2008. Around 1,600 remain, and the population has grown slowly for over a decade.",
    "threats": [
     "Entanglement in derelict fishing gear",
     "Predation on pups by Galapagos sharks at French Frigate Shoals",
@@ -8664,10 +8752,9 @@
    "common": "Sea Otter",
    "sci": "Enhydra lutris",
    "group": "mammal",
-   "sketch": "otter",
    "iucn": "EN",
    "iucnYear": 2021,
-   "trend": "inc",
+   "trend": "dec",
    "countries": [
     "US",
     "CA",
@@ -8719,10 +8806,9 @@
    "common": "Polar Bear",
    "sci": "Ursus maritimus",
    "group": "mammal",
-   "sketch": "polar-bear",
    "iucn": "VU",
    "iucnYear": 2015,
-   "trend": "dec",
+   "trend": "unknown",
    "countries": [
     "CA",
     "US",
@@ -8777,10 +8863,9 @@
    "common": "Vancouver Island Marmot",
    "sci": "Marmota vancouverensis",
    "group": "mammal",
-   "sketch": "marmot",
-   "iucn": "EN",
-   "iucnYear": 2016,
-   "trend": "inc",
+   "iucn": "CR",
+   "iucnYear": 2017,
+   "trend": "dec",
    "countries": [
     "CA"
    ],
@@ -8825,62 +8910,60 @@
    "common": "ʻAkikiki",
    "sci": "Oreomystis bairdi",
    "group": "bird",
-   "sketch": "honeycreeper",
    "iucn": "CR",
-   "iucnYear": 2023,
+   "iucnYear": 2018,
    "trend": "dec",
    "countries": [
     "US"
    ],
-   "habitat": "Wet ʻōhiʻa forest on the Alakaʻi Plateau of Kauaʻi, above the historical mosquito line.",
-   "note": "A small grey honeycreeper that creeps along branches like a nuthatch. Avian malaria, carried by introduced mosquitoes, has moved uphill as the climate warmed until it covered the bird's entire remaining range. By 2023 fewer than five were left in the wild; the species now survives chiefly in a conservation breeding facility.",
+   "habitat": "High-elevation ʻōhiʻa and koa–ʻōhiʻa forest on Kauaʻi; its last stronghold was the Alakaʻi, at 1,000–1,600 m.",
+   "note": "A honeycreeper found only on Kauaʻi, estimated at 6,832 birds in 1968–73 and 468 in 2012. Avian malaria, spread by introduced mosquitoes that now survive higher up the mountains as temperatures rise, then took hold across its range. By the end of 2024 Hawaiʻi's Department of Land and Natural Resources considered it functionally extinct in the wild, and the last known wild bird, a female named Pakele, was last seen on 29 August 2025. The species survives in a conservation breeding flock run by San Diego Zoo Wildlife Alliance.",
    "threats": [
-    "Avian malaria spread by introduced mosquitoes moving upslope",
-    "Loss of cool high-elevation refuge",
-    "Predation by rats and cats",
-    "Hurricane damage to forest"
+    "Avian malaria and pox spread by introduced mosquitoes",
+    "Warming that lets mosquitoes survive at higher elevations",
+    "Hurricanes that push birds downslope into malarial forest",
+    "Forest degradation by feral pigs and invasive plants"
    ],
    "orgs": [
     "kauai-forest-birds",
     "abc-birds",
-    "island-conservation"
+    "nature-conservancy"
    ],
    "sources": [
-    "iucn-redlist",
+    "iucn-2018-akikiki",
     "birdlife-datazone",
     "usfws-ecos",
-    "natureserve-explorer"
+    "dlnr-forest-birds-2024",
+    "usfws-kauai-forest-birds-2023",
+    "kauainow-pakele-2026"
    ],
    "pop": {
     "est": 0,
-    "low": 0,
-    "high": 5,
-    "unit": "individuals in the wild",
-    "asOf": "2024",
-    "basis": "Kauaʻi Forest Bird Recovery Project surveys; roughly 50 birds are held in captive breeding",
-    "label": null
+    "low": null,
+    "high": null,
+    "unit": "known in the wild",
+    "asOf": "2026",
+    "basis": "Kauaʻi Forest Bird Recovery Project monitoring",
+    "label": "The last known wild bird was last seen on 29 August 2025. The IUCN's 2018 estimate of 150–610 mature individuals predates the collapse."
    },
    "endemic": "US",
+   "plateAliases": [
+    "Oreomyza bairdi"
+   ],
    "national": {
     "US": {
      "scheme": "US Endangered Species Act",
-     "status": "Endangered",
-     "rank": "G1"
+     "status": "Endangered"
     }
-   },
-   "possiblyExtinct": true,
-   "plateAliases": [
-    "Oreomyza bairdi"
-   ]
+   }
   },
   {
    "id": "kiwikiu",
    "common": "Kiwikiu",
    "sci": "Pseudonestor xanthophrys",
    "group": "bird",
-   "sketch": "honeycreeper",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "US"
@@ -8927,9 +9010,8 @@
    "common": "Palila",
    "sci": "Loxioides bailleui",
    "group": "bird",
-   "sketch": "honeycreeper",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "US"
@@ -8979,9 +9061,8 @@
    "common": "Axolotl",
    "sci": "Ambystoma mexicanum",
    "group": "amphibian",
-   "sketch": "axolotl",
    "iucn": "CR",
-   "iucnYear": 2019,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "MX"
@@ -9030,7 +9111,6 @@
    "common": "Volcano Rabbit",
    "sci": "Romerolagus diazi",
    "group": "mammal",
-   "sketch": "rabbit",
    "iucn": "EN",
    "iucnYear": 2019,
    "trend": "dec",
@@ -9076,9 +9156,8 @@
    "common": "Baird's Tapir",
    "sci": "Tapirus bairdii",
    "group": "mammal",
-   "sketch": "tapir",
    "iucn": "EN",
-   "iucnYear": 2014,
+   "iucnYear": 2016,
    "trend": "dec",
    "countries": [
     "MX",
@@ -9091,7 +9170,7 @@
     "CO"
    ],
    "habitat": "Lowland and montane rainforest, swamp and cloud forest from southern Mexico to northern Colombia.",
-   "note": "The largest land mammal in Central America, and a walking seed disperser — it moves large seeds further than any other animal in these forests. Belize made it the national animal; the region has lost most of its population anyway.",
+   "note": "The largest land mammal in Central America, and a walking seed disperser — it carries large seeds far from the trees that dropped them. Belize made it the national animal; the region has lost most of its population anyway.",
    "threats": [
     "Hunting for meat",
     "Fragmentation of forest by cattle ranching",
@@ -9125,10 +9204,9 @@
    "common": "Kemp's Ridley Sea Turtle",
    "sci": "Lepidochelys kempii",
    "group": "reptile",
-   "sketch": "sea-turtle",
    "iucn": "CR",
-   "iucnYear": 1996,
-   "trend": "dec",
+   "iucnYear": 2019,
+   "trend": "unknown",
    "countries": [
     "MX",
     "US"
@@ -9178,9 +9256,8 @@
    "common": "Jamaican Iguana",
    "sci": "Cyclura collei",
    "group": "reptile",
-   "sketch": "iguana",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2021,
    "trend": "inc",
    "countries": [
     "JM"
@@ -9219,7 +9296,6 @@
    "common": "Ridgway's Hawk",
    "sci": "Buteo ridgwayi",
    "group": "bird",
-   "sketch": "hawk",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "inc",
@@ -9245,12 +9321,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 500,
-    "low": 400,
-    "high": 600,
+    "est": 322,
+    "low": 322,
+    "high": 322,
     "unit": "mature individuals",
     "asOf": "2020",
-    "basis": "The Peregrine Fund Ridgway's Hawk Project nest monitoring, Los Haitises",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -9259,15 +9335,14 @@
    "common": "Bahama Oriole",
    "sci": "Icterus northropi",
    "group": "bird",
-   "sketch": "oriole",
-   "iucn": "CR",
-   "iucnYear": 2018,
-   "trend": "stable",
+   "iucn": "EN",
+   "iucnYear": 2021,
+   "trend": "dec",
    "countries": [
     "BS"
    ],
    "habitat": "Pine forest and coppice with understorey palms on Andros Island, Bahamas.",
-   "note": "Split as a full species in 2010 and confined to Andros — it disappeared from Abaco decades earlier. Fewer than 300 remain. Its nests are built in the fronds of understorey thatch palm, a habitat only recently discovered by researchers.",
+   "note": "Split as a full species in 2010 and confined to Andros — it disappeared from Abaco decades earlier. Its nests are built in the fronds of understorey thatch palm, a habitat only recently discovered by researchers.",
    "threats": [
     "Lethal yellowing disease killing the coconut palms it nested in",
     "Nest parasitism by shiny cowbirds",
@@ -9284,12 +9359,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 300,
-    "low": 250,
-    "high": 350,
+    "est": null,
+    "low": 2400,
+    "high": 8400,
     "unit": "mature individuals",
-    "asOf": "2018",
-    "basis": "BirdLife Data Zone; University of Maryland and Bahamas National Trust Andros surveys",
+    "asOf": "2021",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "BS"
@@ -9299,15 +9374,14 @@
    "common": "Cuban Crocodile",
    "sci": "Crocodylus rhombifer",
    "group": "reptile",
-   "sketch": "crocodile",
    "iucn": "CR",
-   "iucnYear": 2008,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "CU"
    ],
    "habitat": "Freshwater swamp — the Zapata Swamp and the Lanier Swamp on Isla de la Juventud, and nowhere else.",
-   "note": "The most terrestrial and probably the most intelligent crocodilian, with strong legs, a short snout and a habit of leaping from the water. It has the smallest natural range of any crocodile, and hybridisation with American crocodiles is steadily eroding what is genetically distinct about it.",
+   "note": "The most terrestrial crocodilian, with strong legs, a short snout and a habit of leaping from the water. It has the smallest natural range of any crocodile, and hybridisation with American crocodiles is steadily eroding what is genetically distinct about it.",
    "threats": [
     "Hybridisation with the American crocodile",
     "Illegal hunting for meat",
@@ -9325,12 +9399,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 3000,
-    "low": 2000,
-    "high": 4000,
+    "est": 2400,
+    "low": 2400,
+    "high": 2400,
     "unit": "mature individuals",
-    "asOf": "2008",
-    "basis": "IUCN SSC Crocodile Specialist Group; Zapata Swamp surveys",
+    "asOf": "2022",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "endemic": "CU"
@@ -9340,20 +9414,19 @@
    "common": "Panamanian Golden Frog",
    "sci": "Atelopus zeteki",
    "group": "amphibian",
-   "sketch": "frog",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "PA"
    ],
-   "habitat": "Fast montane streams in the cloud forest of central Panama, chiefly around El Valle and Campana.",
-   "note": "A national symbol of Panama, bright yellow with black blotches, and one that semaphores with its forelimbs to communicate over the noise of streams. Chytrid fungus swept through its range around 2006. No verified wild individual has been seen since 2009.",
+   "habitat": "Forest streams of Panama between 335 and 1,315 m, including El Valle de Antón.",
+   "note": "Made a national symbol of Panama by law in 2010, with 14 August as National Golden Frog Day. Chytridiomycosis reached El Valle de Antón in 2006, and no golden frog has been recorded in the wild since 2009. More than 1,000 adults live at over 50 institutions in the United States and Canada. In a trial reported in 2026, 100 captive-bred frogs spent 12 weeks in soft-release pens in Panama; about 70% died of the same disease, and many of the survivors were then released.",
    "threats": [
-    "Chytridiomycosis (Batrachochytrium dendrobatidis)",
-    "Collection for the pet trade before the collapse",
-    "Habitat loss",
-    "Possibly no surviving wild population"
+    "Chytridiomycosis, a fungal disease",
+    "Collection for the pet trade",
+    "Housing, tourism and farming development",
+    "Water pollution"
    ],
    "orgs": [
     "amphibian-ark",
@@ -9361,28 +9434,28 @@
     "rewild"
    ],
    "sources": [
-    "iucn-redlist",
-    "amphibiaweb",
-    "cites-appendices"
+    "iucn-2019-atelopus-zeteki",
+    "parc-golden-frog",
+    "nzcbi-golden-frog-release-2026",
+    "mongabay-golden-frog-release-2026"
    ],
    "pop": {
     "est": 0,
     "low": 0,
-    "high": 0,
-    "unit": "individuals in the wild",
-    "asOf": "2024",
-    "basis": "No verified wild sighting since 2009; several hundred are held in the Panama Amphibian Rescue and Conservation Project",
+    "high": 49,
+    "unit": "mature individuals known in the wild",
+    "asOf": "2018",
+    "basis": "IUCN SSC Amphibian Specialist Group assessment, which records no known wild location",
     "label": null
    },
    "endemic": "PA",
-   "possiblyExtinct": true
+   "possiblyExtinct": "wild"
   },
   {
    "id": "rusty-patched-bumble-bee",
    "common": "Rusty Patched Bumble Bee",
    "sci": "Bombus affinis",
    "group": "invertebrate",
-   "sketch": "bumblebee",
    "iucn": "CR",
    "iucnYear": 2015,
    "trend": "dec",
@@ -9430,14 +9503,15 @@
    "common": "Monarch Butterfly (migratory)",
    "sci": "Danaus plexippus plexippus",
    "group": "invertebrate",
-   "sketch": "butterfly",
    "iucn": "VU",
    "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "US",
     "CA",
-    "MX"
+    "MX",
+    "AU",
+    "NZ"
    ],
    "habitat": "Breeds across North America on milkweed; overwinters in Mexican oyamel fir forest and coastal California groves.",
    "note": "The eastern population makes a 4,000 km migration that takes several generations to complete, navigating to fir groves none of them have ever seen. It was assessed as Endangered in 2022 and reassessed as Vulnerable in 2023 after the methodology was revised; the western population has separately fallen by more than 95%.",
@@ -9475,10 +9549,9 @@
    "common": "Devils Hole Pupfish",
    "sci": "Cyprinodon diabolis",
    "group": "fish",
-   "sketch": "pupfish",
    "iucn": "CR",
    "iucnYear": 2014,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "US"
    ],
@@ -9523,25 +9596,19 @@
    "common": "Smalltooth Sawfish",
    "sci": "Pristis pectinata",
    "group": "fish",
-   "sketch": "sawfish",
    "iucn": "CR",
-   "iucnYear": 2013,
-   "trend": "stable",
+   "iucnYear": 2022,
+   "trend": "dec",
    "countries": [
     "US",
     "BS",
     "CU",
     "MX",
-    "BZ",
-    "HN",
-    "NI",
-    "CO",
-    "VE",
-    "BR",
     "SL",
-    "GN",
     "GW",
-    "SN"
+    "SN",
+    "GM",
+    "LR"
    ],
    "habitat": "Shallow coastal water, estuaries and mangrove shoreline; young stay in mangrove nurseries for years.",
    "note": "A ray, not a shark, with a flattened rostrum edged in tooth-like scales that it swipes sideways through schools of fish. The saw catches in nets so reliably that the species was eliminated from most of its range. The United States now holds one of the last viable populations, in south-west Florida.",
@@ -9587,7 +9654,6 @@
    "common": "Elkhorn Coral",
    "sci": "Acropora palmata",
    "group": "invertebrate",
-   "sketch": "coral",
    "iucn": "CR",
    "iucnYear": 2022,
    "trend": "dec",
@@ -9614,7 +9680,8 @@
     "GD",
     "KN",
     "LC",
-    "VC"
+    "VC",
+    "GT"
    ],
    "habitat": "Shallow, high-energy reef crest of the Caribbean, from the surface to about 5 m.",
    "note": "The reef-builder that made Caribbean reef crests — broad, flattened branches like antlers, growing up to 10 cm a year. White band disease removed roughly 97% of it from the 1980s onward, and stony coral tissue loss disease has since arrived on top of that.",
@@ -9660,10 +9727,9 @@
    "common": "Golden Lion Tamarin",
    "sci": "Leontopithecus rosalia",
    "group": "mammal",
-   "sketch": "tamarin",
    "iucn": "EN",
-   "iucnYear": 2019,
-   "trend": "inc",
+   "iucnYear": 2021,
+   "trend": "dec",
    "countries": [
     "BR"
    ],
@@ -9707,7 +9773,6 @@
    "common": "Cotton-top Tamarin",
    "sci": "Saguinus oedipus",
    "group": "mammal",
-   "sketch": "tamarin",
    "iucn": "CR",
    "iucnYear": 2021,
    "trend": "dec",
@@ -9741,14 +9806,14 @@
     "basis": "Proyecto Tití range-wide population and habitat modelling",
     "label": null
    },
-   "endemic": "CO"
+   "endemic": "CO",
+   "iucnTaxon": "Oedipomidas oedipus"
   },
   {
    "id": "northern-muriqui",
    "common": "Northern Muriqui",
    "sci": "Brachyteles hypoxanthus",
    "group": "mammal",
-   "sketch": "muriqui",
    "iucn": "CR",
    "iucnYear": 2021,
    "trend": "dec",
@@ -9796,7 +9861,6 @@
    "common": "Yellow-tailed Woolly Monkey",
    "sci": "Lagothrix flavicauda",
    "group": "mammal",
-   "sketch": "woolly-monkey",
    "iucn": "CR",
    "iucnYear": 2021,
    "trend": "dec",
@@ -9837,7 +9901,6 @@
    "common": "Brown Spider Monkey",
    "sci": "Ateles hybridus",
    "group": "mammal",
-   "sketch": "spider-monkey",
    "iucn": "CR",
    "iucnYear": 2020,
    "trend": "dec",
@@ -9874,66 +9937,13 @@
    }
   },
   {
-   "id": "spixs-macaw",
-   "common": "Spix's Macaw",
-   "sci": "Cyanopsitta spixii",
-   "group": "bird",
-   "sketch": "macaw",
-   "iucn": "EW",
-   "iucnYear": 2019,
-   "trend": "inc",
-   "countries": [
-    "BR"
-   ],
-   "habitat": "Caraibeira gallery woodland along seasonal creeks in the Caatinga of Bahia, north-eastern Brazil.",
-   "note": "The blue macaw of the film Rio, and Extinct in the Wild since 2000, when the last known bird disappeared. A captive population rebuilt from a handful of birds was returned to Bahia from 2022, and free-flying pairs have since nested — the first wild Spix's macaw chicks in over two decades.",
-   "threats": [
-    "Trapping for the international bird trade, which removed the wild population entirely",
-    "Loss of caraibeira gallery woodland",
-    "A tiny founder base",
-    "Dependence on continued releases"
-   ],
-   "orgs": [
-    "birdlife",
-    "rewild",
-    "world-land-trust"
-   ],
-   "sources": [
-    "iucn-redlist",
-    "birdlife-datazone",
-    "icmbio",
-    "cites-appendices"
-   ],
-   "pop": {
-    "est": 0,
-    "low": 0,
-    "high": 0,
-    "unit": "individuals in the wild at listing",
-    "asOf": "2019",
-    "basis": "IUCN 2019 reclassification as Extinct in the Wild; releases into Bahia began in June 2022 and are not yet reassessed",
-    "label": null
-   },
-   "endemic": "BR",
-   "national": {
-    "BR": {
-     "scheme": "ICMBio Lista Vermelha",
-     "status": "Extinta na Natureza"
-    }
-   },
-   "plateAliases": [
-    "Sittace spixi",
-    "Ara spixi"
-   ]
-  },
-  {
    "id": "blue-throated-macaw",
    "common": "Blue-throated Macaw",
    "sci": "Ara glaucogularis",
    "group": "bird",
-   "sketch": "macaw",
    "iucn": "CR",
-   "iucnYear": 2020,
-   "trend": "inc",
+   "iucnYear": 2021,
+   "trend": "stable",
    "countries": [
     "BO"
    ],
@@ -9956,12 +9966,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 350,
-    "low": 300,
-    "high": 450,
+    "est": null,
+    "low": 208,
+    "high": 303,
     "unit": "mature individuals",
-    "asOf": "2022",
-    "basis": "Asociación Armonía Barba Azul and Laney Rickman reserve monitoring",
+    "asOf": "2021",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "BO"
@@ -9971,9 +9981,8 @@
    "common": "Lear's Macaw",
    "sci": "Anodorhynchus leari",
    "group": "bird",
-   "sketch": "macaw",
    "iucn": "EN",
-   "iucnYear": 2021,
+   "iucnYear": 2020,
    "trend": "inc",
    "countries": [
     "BR"
@@ -10013,10 +10022,9 @@
    "common": "Hyacinth Macaw",
    "sci": "Anodorhynchus hyacinthinus",
    "group": "bird",
-   "sketch": "macaw",
    "iucn": "VU",
-   "iucnYear": 2021,
-   "trend": "inc",
+   "iucnYear": 2025,
+   "trend": "stable",
    "countries": [
     "BR",
     "BO",
@@ -10042,12 +10050,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 4300,
-    "low": 4000,
-    "high": 6500,
+    "est": null,
+    "low": 4700,
+    "high": 11000,
     "unit": "mature individuals",
-    "asOf": "2021",
-    "basis": "Instituto Arara Azul Pantanal nest and roost monitoring",
+    "asOf": "2025",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "plateAliases": [
@@ -10059,10 +10067,9 @@
    "common": "Hooded Grebe",
    "sci": "Podiceps gallardoi",
    "group": "bird",
-   "sketch": "grebe",
    "iucn": "CR",
-   "iucnYear": 2020,
-   "trend": "dec",
+   "iucnYear": 2019,
+   "trend": "stable",
    "countries": [
     "AR",
     "CL"
@@ -10099,16 +10106,16 @@
    "common": "Brazilian Merganser",
    "sci": "Mergus octosetaceus",
    "group": "bird",
-   "sketch": "merganser",
    "iucn": "CR",
-   "iucnYear": 2020,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "BR",
-    "AR"
+    "AR",
+    "PY"
    ],
    "habitat": "Fast, exceptionally clear rivers in the Cerrado, chiefly the Serra da Canastra region of Minas Gerais.",
-   "note": "One of the rarest waterfowl in the world — perhaps 250 birds. It needs water clear enough to hunt fish by sight, so any siltation of a river removes it permanently. Pairs hold long stretches of river and stay together year-round.",
+   "note": "One of the rarest waterfowl in the world, with fewer than 250 mature birds. It needs water clear enough to hunt fish by sight, so any siltation of a river removes it permanently. Pairs hold long stretches of river and stay together year-round.",
    "threats": [
     "Siltation from agriculture, mining and road building",
     "Small hydropower dams",
@@ -10126,12 +10133,12 @@
     "icmbio"
    ],
    "pop": {
-    "est": 250,
-    "low": 150,
-    "high": 300,
+    "est": null,
+    "low": 50,
+    "high": 249,
     "unit": "mature individuals",
-    "asOf": "2020",
-    "basis": "BirdLife Data Zone; Serra da Canastra river transect counts",
+    "asOf": "2019",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "national": {
@@ -10146,7 +10153,6 @@
    "common": "Araripe Manakin",
    "sci": "Antilophia bokermanni",
    "group": "bird",
-   "sketch": "manakin",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -10154,7 +10160,7 @@
     "BR"
    ],
    "habitat": "Humid forest along spring-fed streams at the foot of the Araripe plateau, Ceará, Brazil — about 30 km².",
-   "note": "Described in 1998, and confined to a strip of moist forest at the base of one escarpment where springs emerge. Males are white with a scarlet crown and crest; females are olive. Around 800 birds remain.",
+   "note": "Described in 1998, and confined to a strip of moist forest at the base of one escarpment where springs emerge. Males are white with a scarlet crown and crest; females are olive. Fewer than 700 mature birds remain.",
    "threats": [
     "Diversion of springs for water parks and irrigation",
     "Clearance of streamside forest for banana and sugarcane",
@@ -10171,12 +10177,12 @@
     "icmbio"
    ],
    "pop": {
-    "est": 800,
-    "low": 700,
-    "high": 900,
+    "est": null,
+    "low": 150,
+    "high": 700,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "Aquasis territory mapping across the Araripe plateau springs",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "BR"
@@ -10186,15 +10192,14 @@
    "common": "Junín Grebe",
    "sci": "Podiceps taczanowskii",
    "group": "bird",
-   "sketch": "grebe",
-   "iucn": "CR",
+   "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "PE"
    ],
    "habitat": "Lake Junín, a high Andean lake at 4,100 m in central Peru — its entire world range.",
-   "note": "Flightless, and found on one lake. Mine tailings from the Cerro de Pasco district have contaminated the lake for a century, and water level is manipulated for hydropower, which strands nests. Fewer than 300 birds remain.",
+   "note": "Flightless, and found on one lake. Mine tailings from the Cerro de Pasco district have contaminated the lake for a century, and water level is manipulated for hydropower, which strands nests. Only a few hundred birds remain.",
    "threats": [
     "Heavy metal contamination from mine drainage",
     "Water level manipulation for hydroelectricity stranding nests",
@@ -10211,12 +10216,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 250,
-    "low": 150,
-    "high": 300,
+    "est": null,
+    "low": 140,
+    "high": 320,
     "unit": "mature individuals",
     "asOf": "2020",
-    "basis": "BirdLife Data Zone; annual Lake Junín shoreline counts",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "PE"
@@ -10226,7 +10231,6 @@
    "common": "Andean Condor",
    "sci": "Vultur gryphus",
    "group": "bird",
-   "sketch": "condor",
    "iucn": "VU",
    "iucnYear": 2020,
    "trend": "dec",
@@ -10236,10 +10240,9 @@
     "PE",
     "BO",
     "EC",
-    "CO",
-    "VE"
+    "CO"
    ],
-   "habitat": "The Andes from Venezuela to Tierra del Fuego, and Pacific coastal cliffs where cold currents produce updraughts.",
+   "habitat": "The Andes from Colombia to Tierra del Fuego, and Pacific coastal cliffs where cold currents produce updraughts.",
    "note": "The largest flying bird in the world by combined wingspan and weight. A tracking study found one bird flew 172 km without a single wingbeat. It lays one egg every two or three years, so poisoning of a few adults can empty a valley for a generation.",
    "threats": [
     "Poisoned bait set for pumas and foxes",
@@ -10259,11 +10262,11 @@
    ],
    "pop": {
     "est": 6700,
-    "low": 6000,
-    "high": 7500,
+    "low": 6700,
+    "high": 6700,
     "unit": "mature individuals",
     "asOf": "2020",
-    "basis": "BirdLife Data Zone range-wide estimate",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -10272,9 +10275,8 @@
    "common": "Española Giant Tortoise",
    "sci": "Chelonoidis hoodensis",
    "group": "reptile",
-   "sketch": "giant-tortoise",
    "iucn": "CR",
-   "iucnYear": 2016,
+   "iucnYear": 2017,
    "trend": "inc",
    "countries": [
     "EC"
@@ -10316,7 +10318,6 @@
    "common": "Galápagos Penguin",
    "sci": "Spheniscus mendiculus",
    "group": "bird",
-   "sketch": "penguin",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
@@ -10324,7 +10325,7 @@
     "EC"
    ],
    "habitat": "Rocky lava shorelines of Fernandina and western Isabela, cooled by the Cromwell upwelling.",
-   "note": "The only penguin found north of the equator, kept alive by a cold current in the tropics. It pants and holds its flippers out to shed heat. Strong El Niño events cut off the upwelling, and in 1982-83 roughly three-quarters of the population starved.",
+   "note": "The one penguin whose range reaches north of the equator, kept alive by a cold current in the tropics. It pants and holds its flippers out to shed heat. Strong El Niño events cut off the upwelling, and in 1982-83 roughly three-quarters of the population starved.",
    "threats": [
     "El Niño events removing the food supply",
     "Introduced rats and cats at nest sites",
@@ -10359,8 +10360,7 @@
    "common": "Floreana Mockingbird",
    "sci": "Mimus trifasciatus",
    "group": "bird",
-   "sketch": "mockingbird",
-   "iucn": "CR",
+   "iucn": "EN",
    "iucnYear": 2018,
    "trend": "stable",
    "countries": [
@@ -10399,9 +10399,8 @@
    "common": "Giant Otter",
    "sci": "Pteronura brasiliensis",
    "group": "mammal",
-   "sketch": "otter",
    "iucn": "EN",
-   "iucnYear": 2021,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "BR",
@@ -10413,8 +10412,7 @@
     "SR",
     "GF",
     "EC",
-    "PY",
-    "AR"
+    "PY"
    ],
    "habitat": "Slow rivers, oxbow lakes and flooded forest of the Amazon, Orinoco and Pantanal basins.",
    "note": "Up to 1.8 m long — the longest otter in the world. Family groups are noisy and cooperative, and each animal has a unique white throat pattern that works as a name badge. The fur trade took an estimated 20,000 skins a year in the 1960s.",
@@ -10451,7 +10449,6 @@
    "common": "Amazon River Dolphin",
    "sci": "Inia geoffrensis",
    "group": "mammal",
-   "sketch": "river-dolphin",
    "iucn": "EN",
    "iucnYear": 2018,
    "trend": "dec",
@@ -10500,7 +10497,6 @@
    "common": "Andean Bear",
    "sci": "Tremarctos ornatus",
    "group": "mammal",
-   "sketch": "bear",
    "iucn": "VU",
    "iucnYear": 2017,
    "trend": "dec",
@@ -10509,10 +10505,9 @@
     "CO",
     "EC",
     "PE",
-    "BO",
-    "AR"
+    "BO"
    ],
-   "habitat": "Cloud forest, páramo and dry forest along the Andes from Venezuela to northern Argentina.",
+   "habitat": "Cloud forest, páramo and dry forest along the Andes from Venezuela to Bolivia.",
    "note": "South America's only bear, and the last surviving short-faced bear. Cream markings around the eyes are unique to each animal. It spends much of its life in trees, building platforms of broken branches to feed from and sleep on.",
    "threats": [
     "Fragmentation of Andean forest by agriculture",
@@ -10530,12 +10525,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 18000,
-    "low": 13000,
-    "high": 20000,
+    "est": null,
+    "low": 2500,
+    "high": 10000,
     "unit": "mature individuals",
-    "asOf": "2017",
-    "basis": "IUCN SSC Bear Specialist Group range-wide estimate",
+    "asOf": "2016",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
@@ -10547,7 +10542,6 @@
    "common": "Huemul",
    "sci": "Hippocamelus bisulcus",
    "group": "mammal",
-   "sketch": "deer",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -10588,9 +10582,8 @@
    "common": "Andean Cat",
    "sci": "Leopardus jacobita",
    "group": "mammal",
-   "sketch": "small-cat",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "PE",
@@ -10599,7 +10592,7 @@
     "AR"
    ],
    "habitat": "High Andean rocky steppe and puna above 3,000 m, and the Patagonian steppe in Argentina.",
-   "note": "One of the least-known cats in the world — ash-grey with rust blotches and a thick banded tail nearly as long as its body. It was not photographed alive in the wild until 1998. Fewer than 1,400 mature animals are thought to remain.",
+   "note": "One of the least-known cats in the world — ash-grey with rust blotches and a thick banded tail nearly as long as its body. It was not photographed alive in the wild until 1998. Its 2024 assessment estimated about 2,200 mature animals.",
    "threats": [
     "Killing for traditional ceremonial use and by herding dogs",
     "Decline of its main prey, the mountain viscacha",
@@ -10617,12 +10610,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 1400,
-    "low": 1100,
-    "high": 1700,
+    "est": 2177,
+    "low": 2177,
+    "high": 2177,
     "unit": "mature individuals",
-    "asOf": "2016",
-    "basis": "Alianza Gato Andino and IUCN SSC Cat Specialist Group range-wide modelling",
+    "asOf": "2024",
+    "basis": "IUCN Red List assessment",
     "label": null
    }
   },
@@ -10631,7 +10624,6 @@
    "common": "Darwin's Fox",
    "sci": "Lycalopex fulvipes",
    "group": "mammal",
-   "sketch": "fox",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -10671,7 +10663,6 @@
    "common": "Jaguar",
    "sci": "Panthera onca",
    "group": "mammal",
-   "sketch": "jaguar",
    "iucn": "NT",
    "iucnYear": 2017,
    "trend": "dec",
@@ -10732,17 +10723,15 @@
    "common": "Maned Wolf",
    "sci": "Chrysocyon brachyurus",
    "group": "mammal",
-   "sketch": "maned-wolf",
    "iucn": "NT",
    "iucnYear": 2015,
-   "trend": "dec",
+   "trend": "unknown",
    "countries": [
     "BR",
     "AR",
     "BO",
     "PY",
-    "PE",
-    "UY"
+    "PE"
    ],
    "habitat": "Cerrado grassland, scrub savanna and marsh edge of central South America.",
    "note": "Not a wolf and not a fox — the only member of its genus, built like a red fox on stilts, with legs long enough to see over tall grass. Roughly half its diet is a fruit, the lobeira or wolf apple, whose seeds germinate best after passing through it.",
@@ -10780,9 +10769,8 @@
    "common": "Giant Armadillo",
    "sci": "Priodontes maximus",
    "group": "mammal",
-   "sketch": "armadillo",
    "iucn": "VU",
-   "iucnYear": 2014,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "BR",
@@ -10829,7 +10817,6 @@
    "common": "Lake Titicaca Frog",
    "sci": "Telmatobius culeus",
    "group": "amphibian",
-   "sketch": "frog",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
@@ -10870,7 +10857,6 @@
    "common": "Golden Poison Frog",
    "sci": "Phyllobates terribilis",
    "group": "amphibian",
-   "sketch": "poison-frog",
    "iucn": "EN",
    "iucnYear": 2017,
    "trend": "dec",
@@ -10911,7 +10897,6 @@
    "common": "Monkey Puzzle",
    "sci": "Araucaria araucana",
    "group": "plant",
-   "sketch": "conifer",
    "iucn": "EN",
    "iucnYear": 2013,
    "trend": "dec",
@@ -10952,15 +10937,14 @@
    "common": "Kākāpō",
    "sci": "Strigops habroptilus",
    "group": "bird",
-   "sketch": "kakapo",
    "iucn": "CR",
-   "iucnYear": 2020,
+   "iucnYear": 2018,
    "trend": "inc",
    "countries": [
     "NZ"
    ],
-   "habitat": "Predator-free offshore islands — Whenua Hou, Anchor and Pukenui — after extinction on the mainland.",
-   "note": "The world's only flightless parrot, the heaviest at up to 4 kg, and possibly the longest-lived bird. Males boom from a hollowed bowl in the earth on still nights, a sound that carries five kilometres but is nearly impossible to locate. Every living kākāpō has a name and a transmitter.",
+   "habitat": "Predator-free islands such as Whenua Hou and Anchor Island, after extinction on the unfenced mainland.",
+   "note": "The only parrot that cannot fly, the heaviest at up to 4 kg, and among the longest-lived birds. Males boom from a hollowed bowl in the earth on still nights, a sound that carries five kilometres but is nearly impossible to locate. Every living kākāpō has a name and a transmitter.",
    "threats": [
     "Introduced stoats, rats and cats, which caused the mainland extinction",
     "Breeding tied to rimu masting, which occurs every few years",
@@ -11003,7 +10987,6 @@
    "common": "Takahē",
    "sci": "Porphyrio hochstetteri",
    "group": "bird",
-   "sketch": "takahe",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "inc",
@@ -11054,9 +11037,8 @@
    "common": "Black Robin",
    "sci": "Petroica traversi",
    "group": "bird",
-   "sketch": "robin",
-   "iucn": "EN",
-   "iucnYear": 2016,
+   "iucn": "VU",
+   "iucnYear": 2022,
    "trend": "stable",
    "countries": [
     "NZ"
@@ -11104,14 +11086,13 @@
    "common": "Māui Dolphin",
    "sci": "Cephalorhynchus hectori maui",
    "group": "mammal",
-   "sketch": "dolphin",
    "iucn": "CR",
-   "iucnYear": 2020,
+   "iucnYear": 2023,
    "trend": "dec",
    "countries": [
     "NZ"
    ],
-   "habitat": "A narrow strip of shallow water along the west coast of New Zealand's North Island.",
+   "habitat": "Shallow inshore waters off the west coast of the North Island, New Zealand.",
    "note": "The world's rarest marine dolphin — around 54 animals over a year old. It is small enough to be mistaken for a seal, with a rounded dorsal fin like a Mickey Mouse ear. A single entanglement death per year is more than the population can absorb.",
    "threats": [
     "Entanglement in set nets and trawls",
@@ -11154,7 +11135,6 @@
    "common": "Yellow-eyed Penguin",
    "sci": "Megadyptes antipodes",
    "group": "bird",
-   "sketch": "penguin",
    "iucn": "EN",
    "iucnYear": 2020,
    "trend": "dec",
@@ -11180,12 +11160,12 @@
     "doc-nz"
    ],
    "pop": {
-    "est": 3000,
-    "low": 2528,
-    "high": 3480,
+    "est": null,
+    "low": 2600,
+    "high": 3000,
     "unit": "mature individuals",
     "asOf": "2020",
-    "basis": "BirdLife Data Zone; Department of Conservation mainland and Auckland Islands nest counts",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "NZ",
@@ -11201,7 +11181,6 @@
    "common": "Kea",
    "sci": "Nestor notabilis",
    "group": "bird",
-   "sketch": "kea",
    "iucn": "EN",
    "iucnYear": 2017,
    "trend": "dec",
@@ -11228,11 +11207,11 @@
    ],
    "pop": {
     "est": 4000,
-    "low": 3000,
-    "high": 7000,
+    "low": 4000,
+    "high": 4000,
     "unit": "mature individuals",
     "asOf": "2017",
-    "basis": "BirdLife Data Zone; Kea Conservation Trust and DOC survey synthesis",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "NZ",
@@ -11251,7 +11230,6 @@
    "common": "New Zealand Sea Lion",
    "sci": "Phocarctos hookeri",
    "group": "mammal",
-   "sketch": "sea-lion",
    "iucn": "EN",
    "iucnYear": 2015,
    "trend": "dec",
@@ -11302,10 +11280,9 @@
    "common": "Northern Hairy-nosed Wombat",
    "sci": "Lasiorhinus krefftii",
    "group": "mammal",
-   "sketch": "wombat",
    "iucn": "CR",
    "iucnYear": 2016,
-   "trend": "inc",
+   "trend": "stable",
    "countries": [
     "AU"
    ],
@@ -11352,10 +11329,9 @@
    "common": "Gilbert's Potoroo",
    "sci": "Potorous gilbertii",
    "group": "mammal",
-   "sketch": "potoroo",
    "iucn": "CR",
    "iucnYear": 2016,
-   "trend": "stable",
+   "trend": "dec",
    "countries": [
     "AU"
    ],
@@ -11398,10 +11374,9 @@
    "common": "Numbat",
    "sci": "Myrmecobius fasciatus",
    "group": "mammal",
-   "sketch": "numbat",
-   "iucn": "EN",
-   "iucnYear": 2016,
-   "trend": "inc",
+   "iucn": "NT",
+   "iucnYear": 2026,
+   "trend": "stable",
    "countries": [
     "AU"
    ],
@@ -11423,12 +11398,12 @@
     "epbc-act"
    ],
    "pop": {
-    "est": 1000,
-    "low": 800,
-    "high": 1200,
+    "est": null,
+    "low": 2000,
+    "high": 3000,
     "unit": "mature individuals",
-    "asOf": "2016",
-    "basis": "IUCN Red List assessment; WA Department of Biodiversity and AWC sanctuary counts",
+    "asOf": "2025",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "endemic": "AU",
@@ -11447,9 +11422,8 @@
    "common": "Tasmanian Devil",
    "sci": "Sarcophilus harrisii",
    "group": "mammal",
-   "sketch": "devil",
    "iucn": "EN",
-   "iucnYear": 2019,
+   "iucnYear": 2008,
    "trend": "dec",
    "countries": [
     "AU"
@@ -11497,9 +11471,8 @@
    "common": "Koala",
    "sci": "Phascolarctos cinereus",
    "group": "mammal",
-   "sketch": "koala",
    "iucn": "VU",
-   "iucnYear": 2016,
+   "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "AU"
@@ -11543,10 +11516,9 @@
    "common": "Orange-bellied Parrot",
    "sci": "Neophema chrysogaster",
    "group": "bird",
-   "sketch": "parrot",
    "iucn": "CR",
    "iucnYear": 2018,
-   "trend": "inc",
+   "trend": "dec",
    "countries": [
     "AU"
    ],
@@ -11590,7 +11562,6 @@
    "common": "Regent Honeyeater",
    "sci": "Anthochaera phrygia",
    "group": "bird",
-   "sketch": "honeyeater",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -11616,12 +11587,12 @@
     "epbc-act"
    ],
    "pop": {
-    "est": 300,
-    "low": 250,
+    "est": null,
+    "low": 350,
     "high": 400,
     "unit": "mature individuals",
-    "asOf": "2021",
-    "basis": "BirdLife Australia Regent Honeyeater Recovery Team annual survey",
+    "asOf": "2018",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "AU",
@@ -11637,7 +11608,6 @@
    "common": "Swift Parrot",
    "sci": "Lathamus discolor",
    "group": "bird",
-   "sketch": "parrot",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -11663,12 +11633,12 @@
     "epbc-act"
    ],
    "pop": {
-    "est": 750,
-    "low": 500,
-    "high": 1000,
+    "est": null,
+    "low": 1000,
+    "high": 2499,
     "unit": "mature individuals",
     "asOf": "2018",
-    "basis": "BirdLife Data Zone; Australian National University Tasmanian nest monitoring",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "AU",
@@ -11684,10 +11654,9 @@
    "common": "Night Parrot",
    "sci": "Pezoporus occidentalis",
    "group": "bird",
-   "sketch": "parrot",
-   "iucn": "EN",
-   "iucnYear": 2018,
-   "trend": "unknown",
+   "iucn": "CR",
+   "iucnYear": 2022,
+   "trend": "dec",
    "countries": [
     "AU"
    ],
@@ -11710,13 +11679,13 @@
     "epbc-act"
    ],
    "pop": {
-    "est": null,
-    "low": null,
-    "high": null,
+    "est": 200,
+    "low": 40,
+    "high": 500,
     "unit": "mature individuals",
-    "asOf": null,
-    "basis": null,
-    "label": "Fewer than 250 mature birds are thought to survive; most known sites hold single-figure numbers."
+    "asOf": "2021",
+    "basis": "IUCN Red List assessment by BirdLife International",
+    "label": null
    },
    "endemic": "AU",
    "national": {
@@ -11731,7 +11700,6 @@
    "common": "Southern Corroboree Frog",
    "sci": "Pseudophryne corroboree",
    "group": "amphibian",
-   "sketch": "frog",
    "iucn": "CR",
    "iucnYear": 2022,
    "trend": "dec",
@@ -11778,15 +11746,14 @@
    "common": "Wollemi Pine",
    "sci": "Wollemia nobilis",
    "group": "plant",
-   "sketch": "conifer",
    "iucn": "CR",
-   "iucnYear": 2011,
-   "trend": "stable",
+   "iucnYear": 2024,
+   "trend": "dec",
    "countries": [
     "AU"
    ],
    "habitat": "A few sandstone gorges in Wollemi National Park, New South Wales — the location is kept secret.",
-   "note": "Known only from 200-million-year-old fossils until a park ranger abseiled into a gorge in 1994 and found a stand of living trees. Fewer than 100 adults exist in the wild, in three groves. It was defended by helicopter-borne firefighters during the 2019-20 bushfires.",
+   "note": "Known only from 200-million-year-old fossils until a park ranger abseiled into a gorge in 1994 and found a stand of living trees. Fewer than sixty adult trees survive in the wild. It was defended by helicopter-borne firefighters during the 2019-20 bushfires.",
    "threats": [
     "Fewer than 100 wild adult trees",
     "Phytophthora root disease carried in on boots",
@@ -11804,12 +11771,12 @@
     "epbc-act"
    ],
    "pop": {
-    "est": 80,
-    "low": 46,
-    "high": 100,
-    "unit": "mature trees",
-    "asOf": "2011",
-    "basis": "NSW National Parks and Wildlife Service grove census",
+    "est": 45,
+    "low": 39,
+    "high": 56,
+    "unit": "mature individuals",
+    "asOf": "2024",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "endemic": "AU",
@@ -11825,9 +11792,8 @@
    "common": "Australian Sea Lion",
    "sci": "Neophoca cinerea",
    "group": "mammal",
-   "sketch": "sea-lion",
    "iucn": "EN",
-   "iucnYear": 2020,
+   "iucnYear": 2015,
    "trend": "dec",
    "countries": [
     "AU"
@@ -11876,9 +11842,8 @@
    "common": "Kagu",
    "sci": "Rhynochetos jubatus",
    "group": "bird",
-   "sketch": "kagu",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "NC"
@@ -11902,12 +11867,12 @@
     "edge-list"
    ],
    "pop": {
-    "est": 1200,
-    "low": 1000,
-    "high": 1500,
+    "est": null,
+    "low": 250,
+    "high": 999,
     "unit": "mature individuals",
-    "asOf": "2016",
-    "basis": "BirdLife Data Zone; Parc des Grandes Fougères and Rivière Bleue territory counts",
+    "asOf": "2019",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    },
    "endemic": "NC",
@@ -11920,10 +11885,9 @@
    "common": "Tenkile",
    "sci": "Dendrolagus scottae",
    "group": "mammal",
-   "sketch": "tree-kangaroo",
-   "iucn": "EN",
-   "iucnYear": 2016,
-   "trend": "inc",
+   "iucn": "CR",
+   "iucnYear": 2019,
+   "trend": "stable",
    "countries": [
     "PG"
    ],
@@ -11960,7 +11924,6 @@
    "common": "Matschie's Tree Kangaroo",
    "sci": "Dendrolagus matschiei",
    "group": "mammal",
-   "sketch": "tree-kangaroo",
    "iucn": "EN",
    "iucnYear": 2016,
    "trend": "dec",
@@ -12000,7 +11963,6 @@
    "common": "Guam Rail",
    "sci": "Hypotaenidia owstoni",
    "group": "bird",
-   "sketch": "rail",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "inc",
@@ -12048,9 +12010,8 @@
    "common": "Tahiti Monarch",
    "sci": "Pomarea nigra",
    "group": "bird",
-   "sketch": "monarch-flycatcher",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2020,
    "trend": "inc",
    "countries": [
     "PF"
@@ -12088,7 +12049,6 @@
    "common": "Fiji Crested Iguana",
    "sci": "Brachylophus vitiensis",
    "group": "reptile",
-   "sketch": "iguana",
    "iucn": "CR",
    "iucnYear": 2012,
    "trend": "dec",
@@ -12129,15 +12089,14 @@
    "common": "Christmas Island Flying-fox",
    "sci": "Pteropus natalis",
    "group": "mammal",
-   "sketch": "fruit-bat",
    "iucn": "CR",
-   "iucnYear": 2017,
+   "iucnYear": null,
    "trend": "dec",
    "countries": [
     "AU"
    ],
    "habitat": "Rainforest and coastal terrace of Christmas Island in the Indian Ocean.",
-   "note": "The last native mammal left on Christmas Island — the island's two rats and its pipistrelle bat are all extinct. It pollinates and disperses most of the island's native trees, so its loss would take much of the forest with it.",
+   "note": "The island's other native mammals are gone: two endemic rats and the Christmas Island pipistrelle are extinct, and its shrew has not been recorded since 1985. It pollinates and disperses the seeds of many of the island's native trees.",
    "threats": [
     "An unexplained ongoing decline",
     "Yellow crazy ants disrupting the forest ecosystem",
@@ -12168,6 +12127,13 @@
      "scheme": "EPBC Act",
      "status": "Critically Endangered"
     }
+   },
+   "statusSource": {
+    "scheme": "EPBC Act",
+    "status": "Critically Endangered",
+    "source": "epbc-act",
+    "text": "Listed as Critically Endangered under Australia's Environment Protection and Biodiversity Conservation Act 1999.",
+    "iucnNote": "the IUCN Red List includes it in Blyth's flying fox, Pteropus melanotus, assessed as Vulnerable in 2021"
    }
   },
   {
@@ -12175,9 +12141,8 @@
    "common": "Whale Shark",
    "sci": "Rhincodon typus",
    "group": "fish",
-   "sketch": "whale-shark",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "AU",
@@ -12248,8 +12213,6 @@
     "GY",
     "SR",
     "GF",
-    "UY",
-    "AR",
     "CL",
     "PE",
     "NZ",
@@ -12276,7 +12239,31 @@
     "KM",
     "MU",
     "RE",
-    "SO"
+    "SO",
+    "AG",
+    "BH",
+    "BB",
+    "BN",
+    "KH",
+    "DM",
+    "FR",
+    "GD",
+    "IQ",
+    "IL",
+    "JO",
+    "KR",
+    "KW",
+    "MR",
+    "MA",
+    "PT",
+    "QA",
+    "RU",
+    "KN",
+    "LC",
+    "VC",
+    "SG",
+    "ES",
+    "TL"
    ],
    "habitat": "Warm open ocean and coastal aggregation sites in all tropical seas, feeding at plankton blooms.",
    "note": "The largest fish alive, up to 18 m, and a filter feeder that strains plankton through pads in its throat. The pattern of spots behind the gills is unique to each animal — the identification software used to match them was adapted from an algorithm for mapping star fields.",
@@ -12317,9 +12304,8 @@
    "common": "Oceanic Whitetip Shark",
    "sci": "Carcharhinus longimanus",
    "group": "fish",
-   "sketch": "shark",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "AU",
@@ -12327,7 +12313,6 @@
     "PH",
     "MX",
     "EC",
-    "MZ",
     "TZ",
     "KE",
     "MG",
@@ -12345,7 +12330,6 @@
     "SC",
     "MV",
     "OM",
-    "AE",
     "SA",
     "EG",
     "SD",
@@ -12361,9 +12345,7 @@
     "TO",
     "WS",
     "PW",
-    "FM",
     "MH",
-    "KI",
     "TV",
     "NR",
     "GU",
@@ -12374,7 +12356,6 @@
     "MM",
     "BD",
     "PK",
-    "IR",
     "GT",
     "HN",
     "NI",
@@ -12392,11 +12373,9 @@
     "GF",
     "UY",
     "AR",
-    "CL",
     "PE",
     "NZ",
     "GH",
-    "NG",
     "CI",
     "SN",
     "GM",
@@ -12409,16 +12388,31 @@
     "CM",
     "GA",
     "GQ",
-    "CG",
     "CD",
     "AO",
-    "NA",
     "ST",
     "CV",
     "KM",
     "MU",
     "RE",
-    "SO"
+    "SO",
+    "AG",
+    "BB",
+    "BN",
+    "KH",
+    "DM",
+    "FR",
+    "GD",
+    "IL",
+    "MR",
+    "MA",
+    "PT",
+    "KN",
+    "LC",
+    "VC",
+    "SG",
+    "SI",
+    "ES"
    ],
    "habitat": "The open ocean above 20 °C, usually in the top 150 m and far from land.",
    "note": "Once described as the most abundant large animal on Earth over 45 kg. Long, paddle-shaped white-tipped fins and an unhurried, curious manner. Its population has fallen by an estimated 98% in parts of its range — one of the steepest declines recorded for any large marine animal.",
@@ -12457,9 +12451,8 @@
    "common": "Scalloped Hammerhead",
    "sci": "Sphyrna lewini",
    "group": "fish",
-   "sketch": "hammerhead",
    "iucn": "CR",
-   "iucnYear": 2018,
+   "iucnYear": 2019,
    "trend": "dec",
    "countries": [
     "AU",
@@ -12467,7 +12460,6 @@
     "PH",
     "MX",
     "EC",
-    "MZ",
     "TZ",
     "KE",
     "MG",
@@ -12493,20 +12485,9 @@
     "DJ",
     "YE",
     "PG",
-    "FJ",
     "NC",
     "PF",
     "SB",
-    "VU",
-    "TO",
-    "WS",
-    "PW",
-    "FM",
-    "MH",
-    "KI",
-    "TV",
-    "NR",
-    "GU",
     "JP",
     "CN",
     "TW",
@@ -12531,10 +12512,7 @@
     "SR",
     "GF",
     "UY",
-    "AR",
-    "CL",
     "PE",
-    "NZ",
     "GH",
     "NG",
     "CI",
@@ -12550,7 +12528,6 @@
     "GA",
     "GQ",
     "CG",
-    "CD",
     "AO",
     "NA",
     "ST",
@@ -12558,7 +12535,41 @@
     "KM",
     "MU",
     "RE",
-    "SO"
+    "SO",
+    "AL",
+    "DZ",
+    "AG",
+    "BH",
+    "BB",
+    "BN",
+    "KH",
+    "HR",
+    "DM",
+    "FR",
+    "GR",
+    "GD",
+    "IQ",
+    "IL",
+    "IT",
+    "KR",
+    "KW",
+    "LB",
+    "LY",
+    "MR",
+    "ME",
+    "MA",
+    "PT",
+    "QA",
+    "KN",
+    "LC",
+    "VC",
+    "SG",
+    "SI",
+    "ES",
+    "SY",
+    "TL",
+    "TN",
+    "TR"
    ],
    "habitat": "Coastal and semi-oceanic waters worldwide; forms enormous daytime schools at seamounts.",
    "note": "The wide head is a sensory instrument — it spreads electroreceptors over a broad sweep, letting the shark find rays buried in sand. Juveniles use shallow coastal nurseries, which puts them in exactly the water most heavily fished with gillnets.",
@@ -12599,9 +12610,8 @@
    "common": "Giant Manta Ray",
    "sci": "Mobula birostris",
    "group": "fish",
-   "sketch": "manta",
    "iucn": "EN",
-   "iucnYear": 2019,
+   "iucnYear": 2022,
    "trend": "dec",
    "countries": [
     "AU",
@@ -12652,9 +12662,7 @@
     "JP",
     "CN",
     "TW",
-    "VN",
     "MM",
-    "BD",
     "PK",
     "IR",
     "GT",
@@ -12674,7 +12682,6 @@
     "GF",
     "UY",
     "AR",
-    "CL",
     "PE",
     "NZ",
     "GH",
@@ -12692,7 +12699,6 @@
     "GA",
     "GQ",
     "CG",
-    "CD",
     "AO",
     "NA",
     "ST",
@@ -12700,7 +12706,24 @@
     "KM",
     "MU",
     "RE",
-    "SO"
+    "SO",
+    "AG",
+    "BB",
+    "DM",
+    "GD",
+    "MR",
+    "PT",
+    "KN",
+    "LC",
+    "VC",
+    "ES",
+    "BH",
+    "IQ",
+    "KP",
+    "KR",
+    "KW",
+    "QA",
+    "RU"
    ],
    "habitat": "Open ocean and productive coastal upwellings; visits reef cleaning stations across the tropics.",
    "note": "A wingspan of up to seven metres and the largest brain-to-body ratio of any fish. Mantas recognise themselves in mirrors, which very few non-mammals do. Females give birth to a single pup every two to three years.",
@@ -12742,10 +12765,9 @@
    "common": "Basking Shark",
    "sci": "Cetorhinus maximus",
    "group": "fish",
-   "sketch": "shark",
    "iucn": "EN",
-   "iucnYear": 2018,
-   "trend": "inc",
+   "iucnYear": 2021,
+   "trend": "dec",
    "countries": [
     "GB",
     "IE",
@@ -12776,7 +12798,84 @@
     "BR",
     "CN",
     "KR",
-    "RU"
+    "RU",
+    "AL",
+    "DZ",
+    "AO",
+    "AG",
+    "BS",
+    "BB",
+    "BZ",
+    "BJ",
+    "BA",
+    "CV",
+    "CM",
+    "CO",
+    "CD",
+    "CR",
+    "CU",
+    "CY",
+    "CI",
+    "DM",
+    "DO",
+    "EC",
+    "EG",
+    "SV",
+    "GQ",
+    "FK",
+    "FJ",
+    "GF",
+    "PF",
+    "GA",
+    "GM",
+    "GH",
+    "GU",
+    "GT",
+    "GN",
+    "GW",
+    "GY",
+    "HT",
+    "HN",
+    "ID",
+    "IL",
+    "JM",
+    "KI",
+    "KP",
+    "LB",
+    "LR",
+    "LY",
+    "MH",
+    "MR",
+    "MX",
+    "FM",
+    "MC",
+    "ME",
+    "NA",
+    "NR",
+    "NC",
+    "NI",
+    "NG",
+    "PW",
+    "PA",
+    "PG",
+    "PH",
+    "PR",
+    "WS",
+    "ST",
+    "SN",
+    "SL",
+    "SI",
+    "SB",
+    "SR",
+    "SY",
+    "TW",
+    "TO",
+    "TT",
+    "TN",
+    "TV",
+    "TR",
+    "UY",
+    "VU"
    ],
    "habitat": "Temperate continental shelf waters; follows plankton fronts near the surface in summer.",
    "note": "The second-largest fish, up to 12 m, cruising with its mouth open to filter plankton through gill rakers. Basking sharks were hunted into the 20th century for liver oil — a single large animal could yield 2,000 litres. Some populations are now slowly recovering.",
@@ -12817,7 +12916,6 @@
    "common": "Hawksbill Turtle",
    "sci": "Eretmochelys imbricata",
    "group": "reptile",
-   "sketch": "sea-turtle",
    "iucn": "CR",
    "iucnYear": 2008,
    "trend": "dec",
@@ -12841,7 +12939,6 @@
     "PA",
     "CO",
     "VE",
-    "ZA",
     "SC",
     "MV",
     "OM",
@@ -12850,32 +12947,21 @@
     "EG",
     "SD",
     "ER",
-    "DJ",
     "YE",
     "PG",
     "FJ",
-    "NC",
-    "PF",
     "SB",
     "VU",
-    "TO",
     "WS",
     "PW",
     "FM",
-    "MH",
-    "KI",
-    "TV",
-    "NR",
     "GU",
     "JP",
     "CN",
     "TW",
     "VN",
     "MM",
-    "BD",
-    "PK",
     "IR",
-    "GT",
     "HN",
     "NI",
     "BZ",
@@ -12883,42 +12969,22 @@
     "CU",
     "JM",
     "DO",
-    "HT",
     "BS",
     "TT",
     "PR",
-    "GY",
-    "SR",
-    "GF",
-    "UY",
-    "AR",
-    "CL",
-    "PE",
-    "NZ",
-    "GH",
-    "NG",
-    "CI",
-    "SN",
-    "GM",
-    "GW",
-    "GN",
-    "SL",
-    "LR",
-    "TG",
-    "BJ",
-    "CM",
-    "GA",
     "GQ",
-    "CG",
-    "CD",
-    "AO",
-    "NA",
     "ST",
-    "CV",
     "KM",
     "MU",
-    "RE",
-    "SO"
+    "SO",
+    "AG",
+    "BH",
+    "BB",
+    "KH",
+    "GD",
+    "KW",
+    "QA",
+    "KN"
    ],
    "habitat": "Coral reef and rocky shore across the tropics; nests on small, often remote beaches.",
    "note": "Named for a narrow beak used to extract sponges from reef crevices — it is one of very few animals that eats sponges, and by doing so it keeps them from smothering coral. Its shell is the original tortoiseshell, and the trade in it killed millions of turtles.",
@@ -12954,152 +13020,10 @@
    ]
   },
   {
-   "id": "green-turtle",
-   "common": "Green Turtle",
-   "sci": "Chelonia mydas",
-   "group": "reptile",
-   "sketch": "sea-turtle",
-   "iucn": "EN",
-   "iucnYear": 2004,
-   "trend": "inc",
-   "countries": [
-    "AU",
-    "ID",
-    "PH",
-    "MX",
-    "EC",
-    "MZ",
-    "TZ",
-    "KE",
-    "MG",
-    "IN",
-    "LK",
-    "TH",
-    "MY",
-    "US",
-    "BR",
-    "CR",
-    "PA",
-    "CO",
-    "VE",
-    "ZA",
-    "SC",
-    "MV",
-    "OM",
-    "AE",
-    "SA",
-    "EG",
-    "SD",
-    "ER",
-    "DJ",
-    "YE",
-    "PG",
-    "FJ",
-    "NC",
-    "PF",
-    "SB",
-    "VU",
-    "TO",
-    "WS",
-    "PW",
-    "FM",
-    "MH",
-    "KI",
-    "TV",
-    "NR",
-    "GU",
-    "JP",
-    "CN",
-    "TW",
-    "VN",
-    "MM",
-    "BD",
-    "PK",
-    "IR",
-    "GT",
-    "HN",
-    "NI",
-    "BZ",
-    "SV",
-    "CU",
-    "JM",
-    "DO",
-    "HT",
-    "BS",
-    "TT",
-    "PR",
-    "GY",
-    "SR",
-    "GF",
-    "UY",
-    "AR",
-    "CL",
-    "PE",
-    "NZ",
-    "GH",
-    "NG",
-    "CI",
-    "SN",
-    "GM",
-    "GW",
-    "GN",
-    "SL",
-    "LR",
-    "TG",
-    "BJ",
-    "CM",
-    "GA",
-    "GQ",
-    "CG",
-    "CD",
-    "AO",
-    "NA",
-    "ST",
-    "CV",
-    "KM",
-    "MU",
-    "RE",
-    "SO"
-   ],
-   "habitat": "Seagrass meadows and algal beds throughout the tropics and subtropics; nests on sandy beaches.",
-   "note": "The only sea turtle that is largely herbivorous as an adult — the green refers to the colour of its fat, not its shell. Grazing keeps seagrass meadows cropped and healthy. Several major nesting populations are now increasing after decades of beach protection.",
-   "threats": [
-    "Egg harvest and take of adults for meat",
-    "Loss of nesting beaches to development and sea-level rise",
-    "Bycatch in trawls and gillnets",
-    "Fibropapillomatosis, a tumour disease linked to coastal pollution"
-   ],
-   "orgs": [
-    "sea-turtle-conservancy",
-    "instituto-tamar",
-    "turtle-island-restoration"
-   ],
-   "sources": [
-    "iucn-redlist",
-    "iucn-ssc-turtle",
-    "cites-appendices"
-   ],
-   "pop": {
-    "est": null,
-    "low": null,
-    "high": null,
-    "unit": "nesting females",
-    "asOf": null,
-    "basis": null,
-    "label": "Assessed globally as Endangered, though many individual nesting populations — Florida, Hawaiʻi, Ascension — are now increasing strongly."
-   },
-   "plateAliases": [
-    "Chelone mydas",
-    "Chelonia mydas",
-    "Testudo mydas"
-   ]
-  },
-  {
    "id": "leatherback-turtle",
    "common": "Leatherback Turtle",
    "sci": "Dermochelys coriacea",
    "group": "reptile",
-   "sketch": "leatherback",
    "iucn": "VU",
    "iucnYear": 2013,
    "trend": "dec",
@@ -13125,21 +13049,13 @@
     "VE",
     "ZA",
     "SC",
-    "MV",
-    "OM",
-    "AE",
-    "SA",
     "EG",
-    "SD",
     "ER",
-    "DJ",
-    "YE",
     "PG",
     "FJ",
     "NC",
     "PF",
     "SB",
-    "VU",
     "TO",
     "WS",
     "PW",
@@ -13147,16 +13063,12 @@
     "MH",
     "KI",
     "TV",
-    "NR",
     "GU",
     "JP",
     "CN",
     "TW",
-    "VN",
     "MM",
     "BD",
-    "PK",
-    "IR",
     "GT",
     "HN",
     "NI",
@@ -13196,11 +13108,41 @@
     "AO",
     "NA",
     "ST",
-    "CV",
     "KM",
     "MU",
-    "RE",
-    "SO"
+    "AL",
+    "AG",
+    "BH",
+    "BB",
+    "BA",
+    "BN",
+    "KH",
+    "CA",
+    "HR",
+    "CY",
+    "DM",
+    "FR",
+    "GR",
+    "GD",
+    "IE",
+    "IT",
+    "KP",
+    "KR",
+    "LB",
+    "LY",
+    "MR",
+    "ME",
+    "MA",
+    "PT",
+    "RU",
+    "KN",
+    "LC",
+    "VC",
+    "SI",
+    "ES",
+    "SY",
+    "TN",
+    "GB"
    ],
    "habitat": "The open ocean from the tropics to sub-polar waters — the most widely distributed reptile on Earth.",
    "note": "The largest turtle, up to 900 kg, with no hard shell — a leathery ridged carapace over a layer of oily flesh. It maintains a body temperature well above the surrounding water and dives beyond 1,200 m. It eats almost nothing but jellyfish.",
@@ -13240,7 +13182,6 @@
    "common": "Loggerhead Turtle",
    "sci": "Caretta caretta",
    "group": "reptile",
-   "sketch": "sea-turtle",
    "iucn": "VU",
    "iucnYear": 2017,
    "trend": "dec",
@@ -13254,9 +13195,7 @@
     "TZ",
     "KE",
     "MG",
-    "IN",
     "LK",
-    "TH",
     "MY",
     "US",
     "BR",
@@ -13265,13 +13204,9 @@
     "CO",
     "VE",
     "ZA",
-    "SC",
-    "MV",
     "OM",
     "AE",
-    "SA",
     "EG",
-    "SD",
     "ER",
     "DJ",
     "YE",
@@ -13280,19 +13215,9 @@
     "NC",
     "PF",
     "SB",
-    "VU",
     "TO",
-    "WS",
-    "PW",
-    "FM",
-    "MH",
-    "KI",
-    "TV",
-    "NR",
-    "GU",
     "JP",
     "CN",
-    "TW",
     "VN",
     "MM",
     "BD",
@@ -13302,7 +13227,6 @@
     "HN",
     "NI",
     "BZ",
-    "SV",
     "CU",
     "JM",
     "DO",
@@ -13310,7 +13234,6 @@
     "BS",
     "TT",
     "PR",
-    "GY",
     "SR",
     "GF",
     "UY",
@@ -13318,30 +13241,42 @@
     "CL",
     "PE",
     "NZ",
-    "GH",
-    "NG",
-    "CI",
     "SN",
-    "GM",
-    "GW",
-    "GN",
     "SL",
-    "LR",
-    "TG",
-    "BJ",
-    "CM",
-    "GA",
-    "GQ",
-    "CG",
-    "CD",
     "AO",
     "NA",
-    "ST",
     "CV",
     "KM",
     "MU",
-    "RE",
-    "SO"
+    "SO",
+    "AL",
+    "DZ",
+    "BH",
+    "BB",
+    "HR",
+    "CY",
+    "FR",
+    "GR",
+    "GD",
+    "IL",
+    "IT",
+    "KR",
+    "KW",
+    "LB",
+    "LY",
+    "MT",
+    "ME",
+    "MA",
+    "PT",
+    "QA",
+    "KN",
+    "LC",
+    "VC",
+    "SI",
+    "ES",
+    "SY",
+    "TN",
+    "TR"
    ],
    "habitat": "Temperate and subtropical seas; nests on beaches in the Mediterranean, Florida, Oman, Japan and Australia.",
    "note": "A heavy-headed turtle with jaws strong enough to crush conch and horseshoe crabs. Hatchlings from Japan cross the entire Pacific to Baja California and come back — a round trip of some 20,000 km — navigating by the Earth's magnetic field.",
@@ -13381,7 +13316,6 @@
    "common": "Olive Ridley Turtle",
    "sci": "Lepidochelys olivacea",
    "group": "reptile",
-   "sketch": "sea-turtle",
    "iucn": "VU",
    "iucnYear": 2008,
    "trend": "dec",
@@ -13406,33 +13340,14 @@
     "CO",
     "VE",
     "ZA",
-    "SC",
     "MV",
     "OM",
-    "AE",
-    "SA",
-    "EG",
     "SD",
     "ER",
-    "DJ",
     "YE",
     "PG",
-    "FJ",
-    "NC",
-    "PF",
-    "SB",
-    "VU",
-    "TO",
-    "WS",
-    "PW",
     "FM",
-    "MH",
-    "KI",
-    "TV",
-    "NR",
-    "GU",
     "JP",
-    "CN",
     "TW",
     "VN",
     "MM",
@@ -13442,23 +13357,18 @@
     "GT",
     "HN",
     "NI",
-    "BZ",
     "SV",
     "CU",
     "JM",
     "DO",
-    "HT",
-    "BS",
     "TT",
     "PR",
     "GY",
     "SR",
     "GF",
     "UY",
-    "AR",
     "CL",
     "PE",
-    "NZ",
     "GH",
     "NG",
     "CI",
@@ -13474,15 +13384,16 @@
     "GA",
     "GQ",
     "CG",
-    "CD",
     "AO",
     "NA",
     "ST",
     "CV",
-    "KM",
-    "MU",
-    "RE",
-    "SO"
+    "SO",
+    "AG",
+    "BN",
+    "KH",
+    "MR",
+    "MA"
    ],
    "habitat": "Tropical open ocean and coastal waters; nests in mass arrivals on a few beaches in India, Costa Rica and Mexico.",
    "note": "The most abundant sea turtle, and still declining. It nests in arribadas — hundreds of thousands of females coming ashore over a few nights on the same stretch of sand, at Odisha, Ostional and Escobilla. So much of the species is concentrated in so few places that a single bad event matters enormously.",
@@ -13521,9 +13432,8 @@
    "common": "Sperm Whale",
    "sci": "Physeter macrocephalus",
    "group": "mammal",
-   "sketch": "sperm-whale",
    "iucn": "VU",
-   "iucnYear": 2008,
+   "iucnYear": 2025,
    "trend": "unknown",
    "countries": [
     "US",
@@ -13558,8 +13468,102 @@
     "OM",
     "YE",
     "KI",
-    "PF",
-    "NC"
+    "AL",
+    "DZ",
+    "AO",
+    "AG",
+    "AR",
+    "BS",
+    "BD",
+    "BB",
+    "BE",
+    "BZ",
+    "BJ",
+    "BN",
+    "CV",
+    "CM",
+    "CN",
+    "CO",
+    "KM",
+    "CR",
+    "HR",
+    "CU",
+    "CY",
+    "DK",
+    "DJ",
+    "DM",
+    "EG",
+    "SV",
+    "GQ",
+    "FK",
+    "FJ",
+    "GA",
+    "GM",
+    "GH",
+    "GD",
+    "GT",
+    "GN",
+    "GW",
+    "GY",
+    "HT",
+    "HN",
+    "IN",
+    "IR",
+    "IL",
+    "JM",
+    "JO",
+    "KE",
+    "KP",
+    "KR",
+    "LB",
+    "LR",
+    "LY",
+    "MY",
+    "MT",
+    "MH",
+    "MR",
+    "FM",
+    "MC",
+    "MA",
+    "MZ",
+    "NA",
+    "NR",
+    "NL",
+    "NI",
+    "NG",
+    "PK",
+    "PW",
+    "PA",
+    "PG",
+    "RU",
+    "KN",
+    "LC",
+    "VC",
+    "WS",
+    "ST",
+    "SN",
+    "SC",
+    "SL",
+    "SG",
+    "SI",
+    "SB",
+    "SO",
+    "SR",
+    "SY",
+    "TW",
+    "TZ",
+    "TH",
+    "TL",
+    "TG",
+    "TO",
+    "TT",
+    "TN",
+    "TV",
+    "TR",
+    "UY",
+    "VU",
+    "VE",
+    "VN"
    ],
    "habitat": "Deep ocean worldwide, diving to 2,000 m and beyond in search of squid.",
    "note": "The largest toothed predator on Earth, with the biggest brain of any animal. It dives for over an hour at a time and hunts in total darkness by echolocation, producing clicks loud enough to be the loudest sound made by any animal. Family groups have distinct dialects of coded clicks.",
@@ -13599,9 +13603,8 @@
    "common": "Humphead Wrasse",
    "sci": "Cheilinus undulatus",
    "group": "fish",
-   "sketch": "wrasse",
    "iucn": "EN",
-   "iucnYear": 2004,
+   "iucnYear": 2025,
    "trend": "dec",
    "countries": [
     "AU",
@@ -13621,10 +13624,8 @@
     "LK",
     "IN",
     "TH",
-    "VN",
     "JP",
     "TW",
-    "CN",
     "KI",
     "TO",
     "WS",
@@ -13637,14 +13638,21 @@
     "EG",
     "SD",
     "SA",
-    "AE",
-    "OM",
     "YE",
     "BN",
     "TL",
     "NR",
     "TV",
-    "GU"
+    "GU",
+    "KM",
+    "DJ",
+    "ER",
+    "IL",
+    "JO",
+    "MM",
+    "RE",
+    "SG",
+    "SO"
    ],
    "habitat": "Steep outer reef slopes and lagoons across the Indo-Pacific.",
    "note": "Up to two metres and 180 kg, with thick lips and a bulbous forehead that grows with age. All are born female; the largest become male. It is one of the few predators that eats crown-of-thorns starfish, and it is prized alive in the luxury live reef fish trade.",
@@ -13681,7 +13689,6 @@
    "common": "Nassau Grouper",
    "sci": "Epinephelus striatus",
    "group": "fish",
-   "sketch": "grouper",
    "iucn": "CR",
    "iucnYear": 2018,
    "trend": "dec",
@@ -13708,7 +13715,8 @@
     "GD",
     "KN",
     "LC",
-    "VC"
+    "VC",
+    "GT"
    ],
    "habitat": "Coral reef throughout the Caribbean and the western Atlantic to Bermuda.",
    "note": "It gathers to spawn in the same places at the same full moons every year, in aggregations that once numbered tens of thousands. Fishers learned the dates. Most known aggregation sites are now gone, and the species has been lost from much of its range.",
@@ -13746,7 +13754,6 @@
    "common": "Southern Bluefin Tuna",
    "sci": "Thunnus maccoyii",
    "group": "fish",
-   "sketch": "tuna",
    "iucn": "EN",
    "iucnYear": 2021,
    "trend": "inc",
@@ -13755,17 +13762,11 @@
     "NZ",
     "ZA",
     "ID",
-    "JP",
     "MG",
-    "MU",
     "NA",
     "AR",
     "UY",
-    "BR",
-    "CL",
-    "MZ",
-    "LK",
-    "MV"
+    "BR"
    ],
    "habitat": "The temperate Southern Ocean between 30° and 50° S; spawns only in the Indian Ocean south of Java.",
    "note": "Warm-blooded, capable of 70 km/h, and spawning in one place on Earth. Sustained overfishing cut the spawning stock to around 5% of its original size. A rebuilding plan agreed in 2011 has produced a genuine recovery, and in 2021 the IUCN downlisted it from Critically Endangered to Endangered.",
@@ -13803,7 +13804,6 @@
    "common": "Arabian Oryx",
    "sci": "Oryx leucoryx",
    "group": "mammal",
-   "sketch": "oryx",
    "iucn": "VU",
    "iucnYear": 2017,
    "trend": "stable",
@@ -13812,9 +13812,7 @@
     "SA",
     "AE",
     "JO",
-    "IL",
-    "QA",
-    "YE"
+    "IL"
    ],
    "habitat": "Gravel desert and sand plain of the Arabian Peninsula, where it can go weeks without drinking.",
    "note": "Extinct in the wild in 1972, when the last animal was shot in Oman. Nine survivors formed the 'World Herd' in Phoenix, and reintroduction began in 1982. In 2011 it became the first species ever to move from Extinct in the Wild all the way back to Vulnerable.",
@@ -13835,12 +13833,12 @@
     "cites-appendices"
    ],
    "pop": {
-    "est": 1220,
-    "low": 1000,
-    "high": 1500,
+    "est": 850,
+    "low": 850,
+    "high": 850,
     "unit": "mature individuals",
-    "asOf": "2017",
-    "basis": "IUCN SSC Antelope Specialist Group; reintroduced populations in Oman, Saudi Arabia, the UAE, Israel and Jordan",
+    "asOf": "2016",
+    "basis": "IUCN Red List assessment",
     "label": null
    },
    "plateAliases": [
@@ -13852,20 +13850,18 @@
    "common": "Nubian Ibex",
    "sci": "Capra nubiana",
    "group": "mammal",
-   "sketch": "ibex",
    "iucn": "VU",
    "iucnYear": 2020,
    "trend": "dec",
    "countries": [
     "IL",
     "JO",
-    "PS",
     "SA",
     "OM",
     "YE",
     "EG",
     "SD",
-    "ER"
+    "SY"
    ],
    "habitat": "Steep desert escarpment and rocky wadi from the Negev and Sinai down the Red Sea coast to Yemen.",
    "note": "A small desert ibex, pale sand-coloured, with long swept-back ridged horns on males. It descends cliffs that look vertical to reach water at dawn, and it can tolerate body temperatures that would kill most mammals before it needs to drink.",
@@ -13902,23 +13898,18 @@
    "common": "Basra Reed Warbler",
    "sci": "Acrocephalus griseldis",
    "group": "bird",
-   "sketch": "warbler",
    "iucn": "EN",
-   "iucnYear": 2017,
-   "trend": "dec",
+   "iucnYear": 2022,
+   "trend": "stable",
    "countries": [
     "IQ",
     "IR",
     "KW",
     "IL",
-    "JO",
-    "PS",
-    "SA",
     "KE",
     "TZ",
     "MZ",
     "MW",
-    "ZM",
     "SD",
     "ET",
     "SO"
@@ -13941,12 +13932,12 @@
     "birdlife-datazone"
    ],
    "pop": {
-    "est": 3000,
+    "est": null,
     "low": 1500,
     "high": 7000,
     "unit": "mature individuals",
-    "asOf": "2017",
-    "basis": "BirdLife Data Zone; Nature Iraq marsh survey estimates",
+    "asOf": "2022",
+    "basis": "IUCN Red List assessment by BirdLife International",
     "label": null
    }
   },
@@ -13955,9 +13946,8 @@
    "common": "Euphrates Softshell Turtle",
    "sci": "Rafetus euphraticus",
    "group": "reptile",
-   "sketch": "softshell-turtle",
    "iucn": "EN",
-   "iucnYear": 2016,
+   "iucnYear": 2017,
    "trend": "dec",
    "countries": [
     "IQ",
@@ -14001,14 +13991,14 @@
    "common": "Cedar of Lebanon",
    "sci": "Cedrus libani",
    "group": "plant",
-   "sketch": "conifer",
    "iucn": "VU",
    "iucnYear": 2013,
    "trend": "dec",
    "countries": [
     "LB",
     "SY",
-    "TR"
+    "TR",
+    "CY"
    ],
    "habitat": "Mountain forest between 1,300 and 2,000 m in Lebanon, western Syria and the Turkish Taurus.",
    "note": "The tree of the Phoenician fleet, Solomon's temple and the Lebanese flag. Exploited for five thousand years, it now survives in Lebanon as a dozen scattered groves; the largest remaining forests are in Turkey. Individual trees can exceed a thousand years.",
@@ -14042,7 +14032,6 @@
    "common": "Noble Pen Shell",
    "sci": "Pinna nobilis",
    "group": "invertebrate",
-   "sketch": "mussel",
    "iucn": "CR",
    "iucnYear": 2019,
    "trend": "dec",
@@ -14064,7 +14053,10 @@
     "MA",
     "LY",
     "EG",
-    "IL"
+    "IL",
+    "BA",
+    "LB",
+    "SY"
    ],
    "habitat": "Seagrass meadows and sandy seabed across the Mediterranean, anchored upright in the sediment.",
    "note": "The largest bivalve in the Mediterranean, up to 1.2 m tall, standing point-down in seagrass like a buried fan. It filters several thousand litres a day. From 2016 a parasite swept the basin and killed close to 100% of the population in most areas within three years.",
