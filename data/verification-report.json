@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-04T01:35:19Z",
+ "generatedAt": "2026-11-11T01:56:09Z",
  "status": "warn",
- "mode": "structural checks plus 218 live link checks and a Red List API re-read",
+ "mode": "structural checks only (--offline)",
  "iucnTokenPresent": true,
  "totals": {
   "species": 278,
@@ -9,7 +9,7 @@
   "sources": 69,
   "countries": 206,
   "errors": 0,
-  "warnings": 67
+  "warnings": 66
  },
  "checks": [
   {
@@ -65,20 +65,6 @@
    "name": "Plate provenance",
    "description": "Historical plates carry artist, work, year, licence and source; 205 species have a portrait, 73 have none located",
    "checked": 205,
-   "warned": 0,
-   "failed": 0
-  },
-  {
-   "name": "Link liveness",
-   "description": "Every organisation and source URL still answers",
-   "checked": 218,
-   "warned": 1,
-   "failed": 0
-  },
-  {
-   "name": "Red List categories",
-   "description": "Every category and published year re-read from the IUCN Red List API",
-   "checked": 273,
    "warned": 0,
    "failed": 0
   }
@@ -479,12 +465,6 @@
    "check": "Coverage",
    "record": "LI, PS, SM, VA",
    "message": "4 countries have no species recorded and will render the empty state"
-  },
-  {
-   "level": "warning",
-   "check": "Link liveness",
-   "record": "source epbc-act",
-   "message": "https://www.dcceew.gov.au/environment/biodiversity/threatened could not be reached from this runner (timeout: The read operation timed out); not confirmed dead"
   }
  ]
 }

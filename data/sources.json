@@ -8,7 +8,7 @@
    "publisher": "International Union for Conservation of Nature",
    "url": "https://www.iucnredlist.org",
    "type": "primary-assessment",
-   "note": "The backbone of this archive. Categories, population trends and range countries come from each taxon's current Red List assessment, and the year shown is the year that assessment was published. Where the IUCN has not assessed a taxon separately, the record says so and names the national or regional list used instead. Cite as: IUCN 2026. The IUCN Red List of Threatened Species. Version 2026-1. https://www.iucnredlist.org. Accessed 14–15 September 2026."
+   "note": "The backbone of this archive. Categories, population trends and range countries come from each taxon's current Red List assessment, and the year shown is the year that assessment was published. Where the IUCN has not assessed a taxon separately, the record says so and names the national or regional list used instead. Cite as: IUCN 2026. The IUCN Red List of Threatened Species. Version 2026-1. https://www.iucnredlist.org. Accessed 14–15 September 2026, and every record re-read against the Red List API on 10 November 2026, when all 273 that can be keyed by name still agreed."
   },
   {
    "id": "birdlife-datazone",

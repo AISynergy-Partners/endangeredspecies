@@ -432,13 +432,17 @@ def check_plates(species, f):
             len(plates), f.count(name, "warning"), f.count(name, "error"))
 
 
-def fetch(url):
+def fetch(url, _second_try=False):
     """Return (state, detail) where state is 'ok', 'gone' or 'unverified'.
 
     The distinction matters. A 404 means the page a reader would click has
     genuinely vanished and the entry must be fixed. A timeout or a TLS
     negotiation failure means this runner could not reach it, which is not the
     same claim at all, and is reported as unverified rather than as a death.
+
+    A name that will not resolve is the one failure worth a second attempt: a
+    resolver hiccup and a domain that has really gone both look like this, and
+    only one of them repeats a moment later.
     """
     ctx = ssl.create_default_context()
     soft = None
@@ -478,8 +482,14 @@ def fetch(url):
     if code is not None and code >= 400:
         return "gone", "HTTP %d" % code
     detail = soft or note or "no response"
-    if "Name or service not known" in detail or "nodename nor servname" in detail:
-        return "gone", "domain does not resolve"
+    unresolved = ("Name or service not known" in detail or
+                  "nodename nor servname" in detail or
+                  "Temporary failure in name resolution" in detail)
+    if unresolved:
+        if not _second_try:
+            time.sleep(2)
+            return fetch(url, _second_try=True)
+        return "gone", "domain did not resolve on two attempts"
     return "unverified", detail
 
 
