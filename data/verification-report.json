@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T01:56:09Z",
+ "generatedAt": "2026-11-11T02:14:20Z",
  "status": "warn",
  "mode": "structural checks only (--offline)",
  "iucnTokenPresent": true,
@@ -9,7 +9,7 @@
   "sources": 69,
   "countries": 206,
   "errors": 0,
-  "warnings": 66
+  "warnings": 65
  },
  "checks": [
   {
@@ -44,7 +44,7 @@
    "name": "Staleness",
    "description": "Assessments over 12 years old, counts over 8 years old and national listings unconfirmed for 365 days are surfaced",
    "checked": 278,
-   "warned": 65,
+   "warned": 64,
    "failed": 0
   },
   {
@@ -417,12 +417,6 @@
    "check": "Staleness",
    "record": "fiji-crested-iguana",
    "message": "population figure dates from 2012; check for a newer survey"
-  },
-  {
-   "level": "warning",
-   "check": "Staleness",
-   "record": "christmas-island-flying-fox",
-   "message": "national listing has no confirmation date — re-read EPBC Act and record it as 'checked'"
   },
   {
    "level": "warning",
