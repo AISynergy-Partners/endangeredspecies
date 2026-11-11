@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-11-11T02:14:20Z",
+ "generatedAt": "2026-11-11T02:37:12Z",
  "status": "warn",
- "mode": "structural checks only (--offline)",
- "iucnTokenPresent": true,
+ "mode": "structural checks plus 218 live link checks",
+ "iucnTokenPresent": false,
  "totals": {
   "species": 278,
   "organizations": 145,
   "sources": 69,
   "countries": 206,
   "errors": 0,
-  "warnings": 65
+  "warnings": 66
  },
  "checks": [
   {
@@ -66,6 +66,13 @@
    "description": "Historical plates carry artist, work, year, licence and source; 205 species have a portrait, 73 have none located",
    "checked": 205,
    "warned": 0,
+   "failed": 0
+  },
+  {
+   "name": "Link liveness",
+   "description": "Every organisation and source URL still answers",
+   "checked": 218,
+   "warned": 1,
    "failed": 0
   }
  ],
@@ -459,6 +466,12 @@
    "check": "Coverage",
    "record": "LI, PS, SM, VA",
    "message": "4 countries have no species recorded and will render the empty state"
+  },
+  {
+   "level": "warning",
+   "check": "Link liveness",
+   "record": "organisation mauritian-wildlife",
+   "message": "https://www.mauritian-wildlife.org could not be reached from this runner (unreachable: timed out); not confirmed dead"
   }
  ]
 }
