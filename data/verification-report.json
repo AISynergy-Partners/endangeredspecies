@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T15:37:23Z",
+ "generatedAt": "2026-11-23T17:58:30Z",
  "status": "warn",
  "mode": "structural checks plus 218 live link checks",
  "iucnTokenPresent": false,
@@ -9,7 +9,7 @@
   "sources": 69,
   "countries": 206,
   "errors": 0,
-  "warnings": 66
+  "warnings": 67
  },
  "checks": [
   {
@@ -72,7 +72,7 @@
    "name": "Link liveness",
    "description": "Every organisation and source URL still answers",
    "checked": 218,
-   "warned": 1,
+   "warned": 2,
    "failed": 0
   }
  ],
@@ -466,6 +466,12 @@
    "check": "Coverage",
    "record": "LI, PS, SM, VA",
    "message": "4 countries have no species recorded and will render the empty state"
+  },
+  {
+   "level": "warning",
+   "check": "Link liveness",
+   "record": "source icmbio",
+   "message": "https://www.gov.br/icmbio/pt-br could not be reached from this runner (unreachable: [Errno 104] Connection reset by peer); not confirmed dead"
   },
   {
    "level": "warning",
